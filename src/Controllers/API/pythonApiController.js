@@ -13,5 +13,18 @@ const pythonApiController = {
         }
         return res.json(info)
     },
+
+    classData: function(req,res){
+        let data = pythonFunctions.allEntries();
+        let info = {
+            meta: {
+                status : 200,
+                total: data.length,
+                url: 'api/python/class'
+            },
+            data
+        }
+        return res.json(info)
+    },
 }
 module.exports = pythonApiController
