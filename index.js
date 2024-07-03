@@ -13,9 +13,10 @@ app.use(express.json()); // Required for processing POST method information
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './src/views'));
 
-app.get("/", (req,res)=>{
-    res.send("Home page")
-});
+//Set Routes
+const mainRouter = require("./src/Routes/indexRoutes");
+
+app.get("/", mainRouter);
 
 app.listen(port, ()=>{console.log("\n------------------------------------\nLevantando servidor en puerto " + port +  ": \nhttp://localhost:" + port + "\n------------------------------------\n")
 });
