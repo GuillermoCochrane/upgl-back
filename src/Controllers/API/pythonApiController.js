@@ -1,8 +1,8 @@
-const pythonFunctions = require("../../functions/pythonFunctions")
+const functions = require("../../functions/functions")
 
 const pythonApiController = {
     index: function(req,res){
-        let data = pythonFunctions.fullIndex();
+        let data = functions.fullIndex("python");
         let info = {
             meta: {
                 status : 200,
@@ -15,7 +15,7 @@ const pythonApiController = {
     },
 
     allClassesData: function(req,res){
-        let data = pythonFunctions.allEntries();
+        let data = functions.allEntries("python");
         let info = {
             meta: {
                 status : 200,
@@ -28,7 +28,7 @@ const pythonApiController = {
     },
 
     classData: function(req,res){
-        let data = pythonFunctions.filterData(req.params.classID);
+        let data = functions.filterData("python",req.params.classID);
         let info = {
             meta: {
                 status : 200,
@@ -42,7 +42,7 @@ const pythonApiController = {
     },
 
     topicData: function(req,res){
-        let data = pythonFunctions.filterData(req.params.classID,req.params.topicID);
+        let data = functions.filterData("python",req.params.classID,req.params.topicID);
         let info = {
             meta: {
                 status : 200,
