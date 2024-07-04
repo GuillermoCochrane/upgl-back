@@ -6,10 +6,47 @@
     <link rel="stylesheet" href="/css/pico.min.css">
     <link rel="icon" type="image/png" href="/images/icon.png" />
     <title>API UPGL</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul li{
+            list-style-type: none
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">
+    <h1>
         Bienvenido a la API de UPGL
     </h1>
+    <article>
+        <h3>Endpoints disponibles</h3>
+        <ul>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> -
+                </strong>
+                <strong>/API/Python</strong>: Indice de hipervínculos de la clases del curso de Python
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>/API/python/class</strong>: Información de todas las clases del curso de Python
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>/API/python/class/:classID</strong>: Información de una clase del curso de Python
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>/API/python/class/:classID/:topicID</strong>: Información de un tema de una clase del curso de Python
+            </li>
+        </ul>
+    </article>
 </body>
 </html>
