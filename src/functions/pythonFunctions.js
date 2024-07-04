@@ -16,7 +16,6 @@ const pythonFunctions = {
 
     fullIndex: function(){
         let data = this.allEntries();
-        //console.log(data);
         let index = []
         for (const lesson of data){
             let indexdata = {};
@@ -35,7 +34,19 @@ const pythonFunctions = {
             links.push(link);
         }
         return links;
-    }
+    },
+
+    filterData: function(classID, topicID){
+        let allData = this.allEntries();
+        topicsData = allData.filter(lesson => lesson.class == classID)[0];
+        topicID ? topicsData = this.filterTopic(topicsData.classData, topicID) : null;
+        return topicsData;
+    },
+
+    filterTopic: function(info, topicID){
+        let topicData = info.filter(topic => topic.topic == topicID)[0];
+        return topicData;
+    },
 }
 
 module.exports = pythonFunctions
