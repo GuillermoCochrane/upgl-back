@@ -12,7 +12,6 @@ app.use(express.json()); // Required for processing POST method information
 app.use(cors());
 
 //Set Template Engine
-app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './src/views'));
 
 //Set Routes
