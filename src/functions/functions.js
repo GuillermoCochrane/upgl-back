@@ -3,20 +3,30 @@ const path = require('path');
 
 const pythonFunctions = {
 
-    pathDB: path.join(__dirname, '../data/pythonDB.json'),
+    pathPythonDB: path.join(__dirname, '../data/pythonDB.json'),
 
-    allEntries: function()  {
+    pathIADB: path.join(__dirname, '../data/iaDB.json'),
+
+    allEntries: function(course)  {
         let data = [];
-        let readDB = fs.readFileSync(this.pathDB, 'utf-8');
+        let database = "";
+
+        if (course == "python"){
+            database = this.pathPythonDB;
+        } else if (course == "ia"){
+            database = this.pathIADB;
+        };
+
+        let readDB = fs.readFileSync(database, 'utf-8');
         if (readDB != ""){
             data = JSON.parse(readDB);
         };
         return data;
     },
 
-    fullIndex: function(){
-        let data = this.allEntries();
-        let index = []
+    fullIndex: function(course){
+        let data = this.allEntries(course);
+        let index = [];
         for (const lesson of data){
             let indexdata = {};
             indexdata.summary =  lesson.summary;
@@ -36,8 +46,8 @@ const pythonFunctions = {
         return links;
     },
 
-    filterData: function(classID, topicID){
-        let allData = this.allEntries();
+    filterData: function(course,classID, topicID){
+        let allData = this.allEntries(course);
         topicsData = allData.filter(lesson => lesson.class == classID)[0];
         topicID ? topicsData = this.filterTopic(topicsData.classData, topicID) : null;
         return topicsData;
