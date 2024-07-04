@@ -6,7 +6,7 @@ const pythonApiController = {
         let info = {
             meta: {
                 status : 200,
-                total: data.length,
+                total_index: data.length,
                 url: 'api/python'
             },
             data
@@ -14,13 +14,27 @@ const pythonApiController = {
         return res.json(info)
     },
 
-    classData: function(req,res){
+    allClassesData: function(req,res){
         let data = pythonFunctions.allEntries();
         let info = {
             meta: {
                 status : 200,
-                total: data.length,
+                clases: data.length,
                 url: 'api/python/class'
+            },
+            data
+        }
+        return res.json(info)
+    },
+
+    classData: function(req,res){
+        let data = pythonFunctions.filterData(req.params.classID);
+        let info = {
+            meta: {
+                status : 200,
+                class: data.classId,
+                topics: data.topics,
+                url: 'api/python/class/:claasID'
             },
             data
         }
