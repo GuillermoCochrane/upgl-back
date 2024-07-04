@@ -40,5 +40,18 @@ const pythonApiController = {
         }
         return res.json(info)
     },
+
+    topicData: function(req,res){
+        let data = pythonFunctions.filterData(req.params.classID,req.params.topicID);
+        let info = {
+            meta: {
+                status : 200,
+                topic: data.topic,
+                url: 'api/python/class/:claasID/:topicID'
+            },
+            data
+        }
+        return res.json(info)
+    },
 }
 module.exports = pythonApiController
