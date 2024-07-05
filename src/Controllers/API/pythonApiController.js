@@ -1,4 +1,4 @@
-const functions = require("../../functions/functions")
+const functions = require("../../functions/functions");
 
 const pythonApiController = {
     index: function(req,res){
@@ -7,9 +7,9 @@ const pythonApiController = {
             meta: {
                 status : 200,
                 total_index: data.length,
-                url: 'api/python'
+                url: 'api/python',
             },
-            data
+            data,
         }
         return res.json(info)
     },
@@ -20,9 +20,9 @@ const pythonApiController = {
             meta: {
                 status : 200,
                 clases: data.length,
-                url: 'api/python/class'
+                url: 'api/python/class',
             },
-            data
+            data,
         }
         return res.json(info)
     },
@@ -36,9 +36,9 @@ const pythonApiController = {
             meta: {
                 status : 200,
                 class: data.classId,
-                url: 'api/python/class/:classID'
+                url: 'api/python/class/:classID',
             },
-            data
+            data,
         }
         return res.json(info)
         }
@@ -54,9 +54,9 @@ const pythonApiController = {
                 status : 200,
                 class: req.params.classID,
                 topic: req.params.topicID,
-                url: 'api/python/class/:classID/:topicID'
+                url: 'api/python/class/:classID/:topicID',
             },
-            data
+            data,
         }
         return res.json(info)
         }
