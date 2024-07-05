@@ -29,16 +29,20 @@ const pythonApiController = {
 
     classData: function(req,res){
         let data = functions.filterData("python",req.params.classID);
+        if (data.classNotFound){
+            return res.json(data.info)
+        } else {
         let info = {
             meta: {
                 status : 200,
                 class: data.classId,
                 topics: data.topics,
-                url: 'api/python/class/:claasID'
+                url: 'api/python/class/:classID'
             },
             data
         }
         return res.json(info)
+        }
     },
 
     topicData: function(req,res){
