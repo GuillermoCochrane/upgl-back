@@ -50,7 +50,7 @@ const pythonFunctions = {
         let allData = this.allEntries(course);
         topicsData = allData.filter(lesson => lesson.class == classID)[0];
         if (topicsData){
-            topicID ? topicsData = this.filterTopic(topicsData.classData, topicID) : null;
+            topicID ? topicsData = this.filterTopic(topicsData.classData, classID, topicID, course) : null;
         } else {
             topicsData = {
                 classNotFound: true,
@@ -58,8 +58,9 @@ const pythonFunctions = {
                     meta: {
                         status : 404,
                         class: classID,
+                        topic: topicID,
                         found: false,
-                        url: 'api/python/class/:classID'
+                        url:  `api/${course}/class/:classID/:topicID`
                     },
                     data: {
                         classFound: false
@@ -70,7 +71,7 @@ const pythonFunctions = {
         return topicsData;
     },
 
-    filterTopic: function(info, topicID){
+    filterTopic: function(info,classID, topicID, course){
         let topicData = info.filter(topic => topic.topic == topicID)[0];
         if (!topicData){
             topicData = {
@@ -78,9 +79,10 @@ const pythonFunctions = {
                 info: {
                     meta: {
                         status : 404,
+                        class: classID,
                         topic: topicID,
                         found: false,
-                        url: 'api/python/class/:classID/:topicID'
+                        url: `api/${course}/class/:classID/:topicID`
                     },
                     data: {
                         topicFound: false
