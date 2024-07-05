@@ -36,7 +36,6 @@ const pythonApiController = {
             meta: {
                 status : 200,
                 class: data.classId,
-                topics: data.topics,
                 url: 'api/python/class/:classID'
             },
             data
@@ -47,15 +46,20 @@ const pythonApiController = {
 
     topicData: function(req,res){
         let data = functions.filterData("python",req.params.classID,req.params.topicID);
+        if (data.topicNotFound){
+            return res.json(data.info)
+        } else {
         let info = {
             meta: {
                 status : 200,
-                topic: data.topic,
-                url: 'api/python/class/:claasID/:topicID'
+                class: req.params.classID,
+                topic: req.params.topicID,
+                url: 'api/python/class/:classID/:topicID'
             },
             data
         }
         return res.json(info)
+        }
     },
 }
 module.exports = pythonApiController
