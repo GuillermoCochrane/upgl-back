@@ -49,7 +49,24 @@ const pythonFunctions = {
     filterData: function(course,classID, topicID){
         let allData = this.allEntries(course);
         topicsData = allData.filter(lesson => lesson.class == classID)[0];
-        topicID ? topicsData = this.filterTopic(topicsData.classData, topicID) : null;
+        if (topicsData){
+            topicID ? topicsData = this.filterTopic(topicsData.classData, topicID) : null;
+        } else {
+            topicsData = {
+                classNotFound: true,
+                info: {
+                    meta: {
+                        status : 404,
+                        class: classID,
+                        found: false,
+                        url: 'api/python/class/:classID'
+                    },
+                    data: {
+                        classFound: false
+                    }
+                }
+            };
+        }
         return topicsData;
     },
 
