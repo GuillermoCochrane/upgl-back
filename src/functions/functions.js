@@ -72,6 +72,22 @@ const pythonFunctions = {
 
     filterTopic: function(info, topicID){
         let topicData = info.filter(topic => topic.topic == topicID)[0];
+        if (!topicData){
+            topicData = {
+                topicNotFound: true,
+                info: {
+                    meta: {
+                        status : 404,
+                        topic: topicID,
+                        found: false,
+                        url: 'api/python/class/:classID/:topicID'
+                    },
+                    data: {
+                        topicFound: false
+                    }
+                }
+            };
+        }
         return topicData;
     },
 }
