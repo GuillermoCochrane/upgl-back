@@ -30,7 +30,7 @@ const pythonFunctions = {
         for (const lesson of data){
             let indexdata = {};
             indexdata.summary =  lesson.summary;
-            indexdata.classId =  lesson.class;
+            indexdata.classID =  lesson.class;
             indexdata.links = this.classLinks(lesson.classData);
             index.push(indexdata)
         }
@@ -41,6 +41,7 @@ const pythonFunctions = {
         let links = [];
         for (const topic of topics){
             let link = topic.linkData;
+            link.topicID = topic.topic;
             links.push(link);
         }
         return links;
