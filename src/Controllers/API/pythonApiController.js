@@ -14,6 +14,19 @@ const pythonApiController = {
         return res.json(info)
     },
 
+    classIndex: function(req,res){
+        let data = functions.classIndex("python",req.params.indexID);
+        let info = {
+            meta: {
+                status : 200,
+                classIndex: req.params.indexID,
+                url: 'api/python/:indexID',
+            },
+            data,
+        }
+        return res.json(info)
+    },
+
     allClassesData: function(req,res){
         let data = functions.allEntries("python");
         let info = {
