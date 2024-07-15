@@ -41,13 +41,12 @@ const pythonFunctions = {
 
     classIndex: function(course, classID){
         let fullIndex = this.fullIndex(course);
-        let classIndex = fullIndex.filter(index => index.classID == classID)[0];
+        let classIndex = fullIndex.filter(index => index.classID == classID);
         return classIndex;
     },
 
     classLinks: function(topics){
         let links = [];
-        console.log(topics);
         for (const topic of topics){
             
             let link = topic.linkData;
