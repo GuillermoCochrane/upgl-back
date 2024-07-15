@@ -29,17 +29,21 @@ const pythonFunctions = {
         let index = [];
         for (const lesson of data){
             let indexdata = {};
-            indexdata.summary =  lesson.summary;
-            indexdata.classID =  lesson.class;
-            indexdata.links = this.classLinks(lesson.classData);
-            index.push(indexdata)
+            if(lesson.class != "home"){
+                indexdata.summary =  lesson.summary;
+                indexdata.classID =  lesson.class;
+                indexdata.links = this.classLinks(lesson.classData);
+                index.push(indexdata)
+            };
         }
         return index;
     },
 
     classLinks: function(topics){
         let links = [];
+        console.log(topics);
         for (const topic of topics){
+            
             let link = topic.linkData;
             link.topicID = topic.topic;
             links.push(link);
