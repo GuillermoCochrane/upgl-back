@@ -12078,6 +12078,25 @@
        }
       }
      ]
+    },
+    {
+     "topic": 5,
+     "available": true,
+     "linkData": {
+      "title": "Actividades",
+      "link": "/courses/Python/class/11/5"
+     },
+     "topicData": [
+      {
+       "type": "h3",
+       "info": [
+        {
+         "text": "Actividades 💬",
+         "content": "plain"
+        }
+       ]
+      }
+     ]
     }
    ]
   }
