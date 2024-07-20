@@ -11257,6 +11257,25 @@
         }
        }
       ]
+     },
+     {
+      "topic": 3,
+      "available": true,
+      "linkData": {
+       "title": "Actividades",
+       "link": "/courses/Python/class/10/3"
+      },
+      "topicData": [
+       {
+        "type": "h3",
+        "info": [
+         {
+          "text": "Actividades 💬",
+          "content": "plain"
+         }
+        ]
+       }
+      ]
      }
     ]
    }
