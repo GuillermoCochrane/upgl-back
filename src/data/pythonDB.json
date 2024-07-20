@@ -12097,6 +12097,25 @@
        ]
       }
      ]
+    },
+    {
+     "topic": 6,
+     "available": true,
+     "linkData": {
+      "title": "Bonus track",
+      "link": "/courses/Python/class/11/6"
+     },
+     "topicData": [
+      {
+       "type": "h3",
+       "info": [
+        {
+         "text": "Bonus Track: ",
+         "content": "plain"
+        }
+       ]
+      }
+     ]
     }
    ]
   }
