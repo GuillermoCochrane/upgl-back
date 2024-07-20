@@ -10961,1162 +10961,1162 @@
     "topics": 4,
     "summary": "Comprensión de listas",
     "title": {
-     "type": "h2",
-     "info": [
-      {
-       "text": "Comprensiones de listas",
-       "content": "plain"
-      }
-     ]
+      "type": "h2",
+      "info": [
+        {
+          "text": "Comprensiones de listas",
+          "content": "plain"
+        }
+      ]
     },
     "classData": [
-     {
-      "topic": 1,
-      "available": true,
-      "linkData": {
-       "title": "Comprensión de listas",
-       "link": "/courses/Python/class/10/1"
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Comprensión de listas",
+          "link": "/courses/Python/class/10/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "¿Qué son las comprensiones de listas?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Las comprensiones en Python son una forma concisa y eficiente de crear listas, conjuntos y diccionarios. Permiten realizar operaciones de filtrado, mapeo y transformación de elementos en una sola línea de código, lo que facilita la lectura y escritura del código.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restamtes:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/comprensiones.png",
+              "alt": "Comprensiones en Python"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "¿Qué hace en este caso?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Lo que esta haciendo nuestra comprension es generar una lista nueva donde en cada iteracion va comprobando si el alumno no esta en la lista de alumnos_pasados y lo agrega en la nueva lista de alumnos restantes.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Siguiendo este caso, en la primer iteracion agregaria a salvador, en la segunda ",
+                "content": "plain"
+              },
+              {
+                "text": "NO ",
+                "content": "bold"
+              },
+              {
+                "text": "agregaria a brisa (ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Vale aclarar que la lista nueva no se genera hasta que finaliza el ciclo for que nos encontramos en su interior, si nos paramos en la lista con el debbuger no la vamos a ver hasta que termine de ejecutarse la linea de codigo en su totalidad.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
       },
-      "topicData": [
-       {
-        "type": "h3",
-        "info": [
-         {
-          "text": "¿Qué son las comprensiones de listas?",
-          "content": "plain"
-         }
+      {
+        "topic": 2,
+        "available": true,
+        "linkData": {
+          "title": "Filtros con comprensiones",
+          "link": "/courses/Python/class/10/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Filtros con comprensiones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Podemos filtrar los alumnos(en este caso) dependiendo la letra con la que empieza o termina. El metodo a utilizar es ",
+                "content": "plain"
+              },
+              {
+                "text": ".startswith() ",
+                "content": "bold"
+              },
+              {
+                "text": "o ",
+                "content": "plain"
+              },
+              {
+                "text": ".endswith() ",
+                "content": "bold"
+              },
+              {
+                "text": "donde en el parentesis le pasaremos como cadena de texto lo que tiene que buscar adelante o atras de cada iteracion.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Por ejemplo si colocamos ",
+                "content": "plain"
+              },
+              {
+                "text": ".startswith('s')",
+                "content": "bold"
+              },
+              {
+                "text": ", filtrara todos los nombres que empiecen con S",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/filtros_comprensiones.png",
+              "alt": "Filtros con comprensiones"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Tambien podemos filtrar por contenido de una palabra, generando una nueva lista a partir de por ejemplo palabras que contengan tanto la letra \"a\" como la letra \"o\".",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/filtro_comprensiones_ao.png",
+              "alt": "Filtro con comprensiones"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "En este caso tambien podemos agregarle más condiciones ya que trabajamos con la estructura del if",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Podemos filtrar y aplicar una funcion:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/filtro_comprensiones_funcion.png",
+              "alt": "Filtro con comprensiones"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Podemos crear Listas de listas",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/lista_listas.png",
+              "alt": "Listas de listas"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Siendo un if podemos incluir un else: Aunque no es tan común, se puede incluir un bloque else en la comprensión de lista,pero esto suele hacerse más en comprensiones de listas que están aplicando una función o transformación a los elementos.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/lista_listas_else.png",
+              "alt": "Listas de listas, uso de if y else"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Este caso es espectacular, convierte mediante el >= 'g' todas las palabras que comiencen con una letra que alfabeticamente se encuentre despues de la G en mayusculas y el resto en minusculas.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Podemos usar una comprensión de listas con la función range:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/lista_listas_range.png",
+              "alt": "Listas de listas, uso de range"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Otro ejemplo:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Obtener el índice y el elemento de una lista:",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Queremos crear una lista de tuplas donde cada tupla contenga el índice y el elemento de la lista original. Podemos usar la función enumerate:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/enumerate.png",
+              "alt": "Enumerate"
+            }
+          }
         ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Las comprensiones en Python son una forma concisa y eficiente de crear listas, conjuntos y diccionarios. Permiten realizar operaciones de filtrado, mapeo y transformación de elementos en una sola línea de código, lo que facilita la lectura y escritura del código.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restamtes:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/comprensiones.png",
-         "alt": "Comprensiones en Python"
-        }
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "¿Qué hace en este caso?",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Lo que esta haciendo nuestra comprension es generar una lista nueva donde en cada iteracion va comprobando si el alumno no esta en la lista de alumnos_pasados y lo agrega en la nueva lista de alumnos restantes.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Siguiendo este caso, en la primer iteracion agregaria a salvador, en la segunda ",
-          "content": "plain"
-         },
-         {
-          "text": "NO ",
-          "content": "bold"
-         },
-         {
-          "text": "agregaria a brisa (ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Vale aclarar que la lista nueva no se genera hasta que finaliza el ciclo for que nos encontramos en su interior, si nos paramos en la lista con el debbuger no la vamos a ver hasta que termine de ejecutarse la linea de codigo en su totalidad.",
-          "content": "plain"
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "topic": 2,
-      "available": true,
-      "linkData": {
-       "title": "Filtros con comprensiones",
-       "link": "/courses/Python/class/10/2"
       },
-      "topicData": [
-       {
-        "type": "h3",
-        "info": [
-         {
-          "text": "Filtros con comprensiones",
-          "content": "plain"
-         }
+      {
+        "topic": 3,
+        "available": true,
+        "linkData": {
+          "title": "Actividades",
+          "link": "/courses/Python/class/10/3"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Actividades 💬",
+                "content": "plain"
+              }
+            ]
+          }
         ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Podemos filtrar los alumnos(en este caso) dependiendo la letra con la que empieza o termina. El metodo a utilizar es ",
-          "content": "plain"
-         },
-         {
-          "text": ".startswith() ",
-          "content": "bold"
-         },
-         {
-          "text": "o ",
-          "content": "plain"
-         },
-         {
-          "text": ".endswith() ",
-          "content": "bold"
-         },
-         {
-          "text": "donde en el parentesis le pasaremos como cadena de texto lo que tiene que buscar adelante o atras de cada iteracion.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Por ejemplo si colocamos ",
-          "content": "plain"
-         },
-         {
-          "text": ".startswith('s')",
-          "content": "bold"
-         },
-         {
-          "text": ", filtrara todos los nombres que empiecen con S",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/filtros_comprensiones.png",
-         "alt": "Filtros con comprensiones"
-        }
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Tambien podemos filtrar por contenido de una palabra, generando una nueva lista a partir de por ejemplo palabras que contengan tanto la letra \"a\" como la letra \"o\".",
-          "content": "bold"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/filtro_comprensiones_ao.png",
-         "alt": "Filtro con comprensiones"
-        }
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "En este caso tambien podemos agregarle más condiciones ya que trabajamos con la estructura del if",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Podemos filtrar y aplicar una funcion:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/filtro_comprensiones_funcion.png",
-         "alt": "Filtro con comprensiones"
-        }
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Podemos crear Listas de listas",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/lista_listas.png",
-         "alt": "Listas de listas"
-        }
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Siendo un if podemos incluir un else: Aunque no es tan común, se puede incluir un bloque else en la comprensión de lista,pero esto suele hacerse más en comprensiones de listas que están aplicando una función o transformación a los elementos.",
-          "content": "bold"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/lista_listas_else.png",
-         "alt": "Listas de listas, uso de if y else"
-        }
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Este caso es espectacular, convierte mediante el >= 'g' todas las palabras que comiencen con una letra que alfabeticamente se encuentre despues de la G en mayusculas y el resto en minusculas.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Podemos usar una comprensión de listas con la función range:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/lista_listas_range.png",
-         "alt": "Listas de listas, uso de range"
-        }
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Otro ejemplo:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Obtener el índice y el elemento de una lista:",
-          "content": "bold"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Queremos crear una lista de tuplas donde cada tupla contenga el índice y el elemento de la lista original. Podemos usar la función enumerate:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/enumerate.png",
-         "alt": "Enumerate"
-        }
-       }
-      ]
-     },
-     {
-      "topic": 3,
-      "available": true,
-      "linkData": {
-       "title": "Actividades",
-       "link": "/courses/Python/class/10/3"
       },
-      "topicData": [
-       {
-        "type": "h3",
-        "info": [
-         {
-          "text": "Actividades 💬",
-          "content": "plain"
-         }
+      {
+        "topic": 4,
+        "available": true,
+        "linkData": {
+          "title": "Bonus track",
+          "link": "/courses/Python/class/10/4"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Bonus Track: ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Uso de la función pprint (pretty print)",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "La función pprint es un módulo en Python que proporciona una forma de imprimir estructuras de datos complejas (como listas, diccionarios, etc.) de manera más legible y organizada. Al usar pprint, los datos se formatean con saltos de línea y sangrías apropiadas, facilitando su comprensión y análisis visual. Es especialmente útil cuando trabajas con datos anidados o grandes volúmenes de información.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/pprint.png",
+              "alt": "Uso de la función pprint"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Otro ejemplo:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Podemos usar la función pprint para imprimir diccionarios de manera más legible:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class10/pprint_diccionario.png",
+              "alt": "Uso de la función pprint"
+            }
+          }
         ]
-       }
-      ]
-     },
-     {
-      "topic": 4,
-      "available": true,
-      "linkData": {
-       "title": "Bonus track",
-       "link": "/courses/Python/class/10/4"
-      },
-      "topicData": [
-       {
-        "type": "h3",
-        "info": [
-         {
-          "text": "Bonus Track: ",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Uso de la función pprint (pretty print)",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "La función pprint es un módulo en Python que proporciona una forma de imprimir estructuras de datos complejas (como listas, diccionarios, etc.) de manera más legible y organizada. Al usar pprint, los datos se formatean con saltos de línea y sangrías apropiadas, facilitando su comprensión y análisis visual. Es especialmente útil cuando trabajas con datos anidados o grandes volúmenes de información.",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/pprint.png",
-         "alt": "Uso de la función pprint"
-        }
-       },
-       {
-        "type": "h4",
-        "info": [
-         {
-          "text": "Otro ejemplo:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "p",
-        "info": [
-         {
-          "text": "Podemos usar la función pprint para imprimir diccionarios de manera más legible:",
-          "content": "plain"
-         }
-        ]
-       },
-       {
-        "type": "figure",
-        "info": {
-         "img": "/images/Python/class10/pprint_diccionario.png",
-         "alt": "Uso de la función pprint"
-        }
-       }
-      ]
-     }
+      }
     ]
   },
   {
-   "class": 11,
-   "available": true,
-   "topics": 6,
-   "summary": "Generadores de Expresiones",
-   "title": {
-    "type": "h2",
-    "info": [
-     {
-      "text": "Generadores de Expresiones en Python",
-      "content": "plain"
-     }
+    "class": 11,
+    "available": true,
+    "topics": 6,
+    "summary": "Generadores de Expresiones",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Generadores de Expresiones en Python",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Generadores de Expresiones",
+          "link": "/courses/Python/class/11/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "¿Qué son los generadores de expresiones?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Los generadores de expresiones son una característica poderosa y eficiente en Python para crear secuencias de datos de manera concisa. Son similares a las \"comprensiones de lista\", pero con algunas diferencias clave en términos de sintaxis y comportamiento. A diferencia de las listas, que almacenan todos los elementos a la vez, los generadores liberan memoria al generar elementos uno a uno. Esto los hace ideales para trabajar con grandes conjuntos de datos o cuando la memoria es limitada.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Sintaxis Básica",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "La sintaxis de un generador de expresiones es:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generadores_de_expresiones.png",
+              "alt": "Sintaxis Básica de Generadores de Expresiones"
+            }
+          },
+          {
+            "type": "ul",
+            "info": [
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "expresion: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Es el valor que se generará para cada item.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "item: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Variable que toma cada valor del iterable.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "iterable: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Secuencia sobre la que iterará el generador.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "if condicion: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "(Opcional) Condición que debe cumplirse para que el generador genere un valor.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Características Principales",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "info": [
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Paréntesis: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Usan paréntesis ",
+                    "content": "plain"
+                  },
+                  {
+                    "text": " \"(  )\" ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": " en lugar de corchetes ",
+                    "content": "plain"
+                  },
+                  {
+                    "text": " \"[  ]\" ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": ", que se usan en comprensiones de lista.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Evaluación Perezosa: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Los valores se generan solo cuando se solicitan, lo que ahorra memoria.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Uso Único: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Una vez que se han consumido todos los elementos, el generador se agota y no puede reutilizarse.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Eficiencia de Memoria: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Ideal para trabajar con grandes conjuntos de datos o secuencias infinitas.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "linkData": {
+          "title": "Ejemplos",
+          "link": "/courses/Python/class/11/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Ejemplos de Generadores de Expresiones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Ejemplo 1: Detección de Palabras Clave",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/deteccion.png",
+              "alt": "Detección de Palabras Clave"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Ejemplo 2: Generador de Cuadrados",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Definimos el generador de expresiones:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados.png",
+              "alt": "Generador de Cuadrados"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Método 1: ",
+                "content": "bold"
+              },
+              {
+                "text": "Usando un bucle for",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados_for.png",
+              "alt": "Generador de Cuadrados usando bucle for para imprimir"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Nota: ",
+                "content": "bold"
+              },
+              {
+                "text": "El generador se ha agotado después del bucle for anterior. Para los siguientes métodos, necesitamos recrear el generador.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Método 2: ",
+                "content": "bold"
+              },
+              {
+                "text": "Convertir a lista y luego imprimir",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados_lista.png",
+              "alt": "Generador de Cuadrados convertido a lista para imprimir"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Método 3: ",
+                "content": "bold"
+              },
+              {
+                "text": "Usar la función print con desempaquetado",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados_desempaquetado.png",
+              "alt": "Generador de Cuadrados usando print con desempaquetado"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Método 4: ",
+                "content": "bold"
+              },
+              {
+                "text": "Usar comprensión de lista en print (crea una lista temporal)",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados_compresion.png",
+              "alt": "Generador de Cuadrados usando comprensión de lista para imprimir"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Método 5: ",
+                "content": "bold"
+              },
+              {
+                "text": "Usar join con map (para grandes conjuntos de datos)",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_cuadrados_map.png",
+              "alt": "Generador de Cuadrados usando map y join para imprimir"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Ejemplo 3: ",
+                "content": "plain"
+              },
+              {
+                "text": "Generador de Números Pares",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_numeros_pares.png",
+              "alt": "Generador de Números Pares"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Ejemplo : ",
+                "content": "plain"
+              },
+              {
+                "text": "Generador con Filtro",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Este generador filtra los números pares del 0 al 10:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generador_de_numeros_pares_filtrados.png",
+              "alt": "Generador de Números Pares filtrados"
+            }
+          }
+        ]
+      },
+      {
+        "topic": 3,
+        "available": true,
+        "linkData": {
+          "title": "Uso de map y join",
+          "link": "/courses/Python/class/11/3"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Uso de \"map\" y \"join\"",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "map",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "La función ",
+                "content": "plain"
+              },
+              {
+                "text": "map",
+                "content": "bold"
+              },
+              {
+                "text": " toma dos argumentos: una función y un iterable. En este caso, la función ",
+                "content": "plain"
+              },
+              {
+                "text": "str",
+                "content": "bold"
+              },
+              {
+                "text": " convierte cada número al cuadrado en una cadena de texto. El resultado es un nuevo iterable que contiene las cadenas de texto de los cuadrados.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/map.png",
+              "alt": "Conversor a string usando map"
+            }
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "join",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "La función ",
+                "content": "plain"
+              },
+              {
+                "text": "join",
+                "content": "bold"
+              },
+              {
+                "text": " concatena elementos de un iterable en una cadena, separándolos por un delimitador especificado. En este caso, utilizamos ",
+                "content": "plain"
+              },
+              {
+                "text": "\" , \"",
+                "content": "bold"
+              },
+              {
+                "text": " como delimitador para unir las cadenas de texto de los cuadrados.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/join.png",
+              "alt": "Unir strings usando join"
+            }
+          }
+        ]
+      },
+      {
+        "topic": 4,
+        "available": true,
+        "linkData": {
+          "title": "Comprensiones vs Generadores",
+          "link": "/courses/Python/class/11/4"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Comprensiones de Listas vs Generadores de Expresiones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Comprensiones de Listas:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "info": [
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Crean listas: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Su objetivo principal es crear una lista de elementos en memoria.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Sintaxis más concisa: ",
+                    "content": "bold"
+                  },
+                  {
+                    "texte": "Utilizan una sintaxis compacta similar a las listas para definir la lógica de creación.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Eficiencia para conjuntos de datos pequeños: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Adecuadas para conjuntos de datos pequeños que caben en la memoria.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Resultado completo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Almacena la lista completa en la memoria antes de devolverla.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Generadores de Expresiones:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "info": [
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Crean iterables: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Su objetivo principal es generar elementos uno a uno, sin almacenar toda la secuencia.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Sintaxis similar a las comprensiones de listas: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Utilizan una sintaxis similar a las comprensiones de listas, pero con paréntesis en lugar de corchetes o llaves.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Eficiencia para conjuntos de datos grandes: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Ideales para procesar grandes conjuntos de datos de forma iterativa, liberando memoria.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "info": [
+                  {
+                    "text": "Resultado progresivo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "text": "Devuelven un objeto iterable que genera elementos uno a uno, sin almacenar la secuencia completa.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "info": [
+              {
+                "text": "Ejemplo",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Crear una lista de cuadrados de 1 a 110000 para ver la diferencia de tiempo en ejecución:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Comprensión de Lista: ",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/comprensiones_lista.png",
+              "alt": "Comprensión de lista"
+            }
+          },
+          {
+            "type": "p",
+            "info": [
+              {
+                "text": "Generador de Expresión: ",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "info": {
+              "img": "/images/Python/class11/generadores_de_exp.png",
+              "alt": "Generador de expresión"
+            }
+          }
+        ]
+      },
+      {
+        "topic": 5,
+        "available": true,
+        "linkData": {
+          "title": "Actividades",
+          "link": "/courses/Python/class/11/5"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Actividades 💬",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 6,
+        "available": true,
+        "linkData": {
+          "title": "Bonus track",
+          "link": "/courses/Python/class/11/6"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "info": [
+              {
+                "text": "Bonus Track: ",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      }
     ]
-   },
-   "classData": [
-    {
-     "topic": 1,
-     "available": true,
-     "linkData": {
-      "title": "Generadores de Expresiones",
-      "link": "/courses/Python/class/11/1"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "¿Qué son los generadores de expresiones?",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Los generadores de expresiones son una característica poderosa y eficiente en Python para crear secuencias de datos de manera concisa. Son similares a las \"comprensiones de lista\", pero con algunas diferencias clave en términos de sintaxis y comportamiento. A diferencia de las listas, que almacenan todos los elementos a la vez, los generadores liberan memoria al generar elementos uno a uno. Esto los hace ideales para trabajar con grandes conjuntos de datos o cuando la memoria es limitada.",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Sintaxis Básica",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "La sintaxis de un generador de expresiones es:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generadores_de_expresiones.png",
-        "alt": "Sintaxis Básica de Generadores de Expresiones"
-       }
-      },
-      {
-       "type": "ul",
-       "info": [
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "expresion: ",
-           "content": "bold"
-          },
-          {
-           "text": "Es el valor que se generará para cada item.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "item: ",
-           "content": "bold"
-          },
-          {
-           "text": "Variable que toma cada valor del iterable.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "iterable: ",
-           "content": "bold"
-          },
-          {
-           "text": "Secuencia sobre la que iterará el generador.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "if condicion: ",
-           "content": "bold"
-          },
-          {
-           "text": "(Opcional) Condición que debe cumplirse para que el generador genere un valor.",
-           "content": "plain"
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Características Principales",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "ul",
-       "info": [
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Paréntesis: ",
-           "content": "bold"
-          },
-          {
-           "text": "Usan paréntesis ",
-           "content": "plain"
-          },
-          {
-           "text": " \"(  )\" ",
-           "content": "bold"
-          },
-          {
-           "text": " en lugar de corchetes ",
-           "content": "plain"
-          },
-          {
-           "text": " \"[  ]\" ",
-           "content": "bold"
-          },
-          {
-           "text": ", que se usan en comprensiones de lista.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Evaluación Perezosa: ",
-           "content": "bold"
-          },
-          {
-           "text": "Los valores se generan solo cuando se solicitan, lo que ahorra memoria.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Uso Único: ",
-           "content": "bold"
-          },
-          {
-           "text": "Una vez que se han consumido todos los elementos, el generador se agota y no puede reutilizarse.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Eficiencia de Memoria: ",
-           "content": "bold"
-          },
-          {
-           "text": "Ideal para trabajar con grandes conjuntos de datos o secuencias infinitas.",
-           "content": "plain"
-          }
-         ]
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "topic": 2,
-     "available": true,
-     "linkData": {
-      "title": "Ejemplos",
-      "link": "/courses/Python/class/11/2"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "Ejemplos de Generadores de Expresiones",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Ejemplo 1: Detección de Palabras Clave",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/deteccion.png",
-        "alt": "Detección de Palabras Clave"
-       }
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Ejemplo 2: Generador de Cuadrados",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Definimos el generador de expresiones:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados.png",
-        "alt": "Generador de Cuadrados"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Método 1: ",
-         "content": "bold"
-        },
-        {
-         "text": "Usando un bucle for",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados_for.png",
-        "alt": "Generador de Cuadrados usando bucle for para imprimir"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Nota: ",
-         "content": "bold"
-        },
-        {
-         "text": "El generador se ha agotado después del bucle for anterior. Para los siguientes métodos, necesitamos recrear el generador.",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Método 2: ",
-         "content": "bold"
-        },
-        {
-         "text": "Convertir a lista y luego imprimir",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados_lista.png",
-        "alt": "Generador de Cuadrados convertido a lista para imprimir"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Método 3: ",
-         "content": "bold"
-        },
-        {
-         "text": "Usar la función print con desempaquetado",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados_desempaquetado.png",
-        "alt": "Generador de Cuadrados usando print con desempaquetado"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Método 4: ",
-         "content": "bold"
-        },
-        {
-         "text": "Usar comprensión de lista en print (crea una lista temporal)",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados_compresion.png",
-        "alt": "Generador de Cuadrados usando comprensión de lista para imprimir"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Método 5: ",
-         "content": "bold"
-        },
-        {
-         "text": "Usar join con map (para grandes conjuntos de datos)",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_cuadrados_map.png",
-        "alt": "Generador de Cuadrados usando map y join para imprimir"
-       }
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Ejemplo 3: ",
-         "content": "plain"
-        },
-        {
-         "text": "Generador de Números Pares",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_numeros_pares.png",
-        "alt": "Generador de Números Pares"
-       }
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Ejemplo : ",
-         "content": "plain"
-        },
-        {
-         "text": "Generador con Filtro",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Este generador filtra los números pares del 0 al 10:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generador_de_numeros_pares_filtrados.png",
-        "alt": "Generador de Números Pares filtrados"
-       }
-      }
-     ]
-    },
-    {
-     "topic": 3,
-     "available": true,
-     "linkData": {
-      "title": "Uso de map y join",
-      "link": "/courses/Python/class/11/3"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "Uso de \"map\" y \"join\"",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "map",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "La función ",
-         "content": "plain"
-        },
-        {
-         "text": "map",
-         "content": "bold"
-        },
-        {
-         "text": " toma dos argumentos: una función y un iterable. En este caso, la función ",
-         "content": "plain"
-        },
-        {
-         "text": "str",
-         "content": "bold"
-        },
-        {
-         "text": " convierte cada número al cuadrado en una cadena de texto. El resultado es un nuevo iterable que contiene las cadenas de texto de los cuadrados.",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/map.png",
-        "alt": "Conversor a string usando map"
-       }
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "join",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "La función ",
-         "content": "plain"
-        },
-        {
-         "text": "join",
-         "content": "bold"
-        },
-        {
-         "text": " concatena elementos de un iterable en una cadena, separándolos por un delimitador especificado. En este caso, utilizamos ",
-         "content": "plain"
-        },
-        {
-         "text": "\" , \"",
-         "content": "bold"
-        },
-        {
-         "text": " como delimitador para unir las cadenas de texto de los cuadrados.",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/join.png",
-        "alt": "Unir strings usando join"
-       }
-      }
-     ]
-    },
-    {
-     "topic": 4,
-     "available": true,
-     "linkData": {
-      "title": "Comprensiones vs Generadores",
-      "link": "/courses/Python/class/11/4"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "Comprensiones de Listas vs Generadores de Expresiones",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Comprensiones de Listas:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "ul",
-       "info": [
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Crean listas: ",
-           "content": "bold"
-          },
-          {
-           "text": "Su objetivo principal es crear una lista de elementos en memoria.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Sintaxis más concisa: ",
-           "content": "bold"
-          },
-          {
-           "texte": "Utilizan una sintaxis compacta similar a las listas para definir la lógica de creación.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Eficiencia para conjuntos de datos pequeños: ",
-           "content": "bold"
-          },
-          {
-           "text": "Adecuadas para conjuntos de datos pequeños que caben en la memoria.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Resultado completo: ",
-           "content": "bold"
-          },
-          {
-           "text": "Almacena la lista completa en la memoria antes de devolverla.",
-           "content": "plain"
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Generadores de Expresiones:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "ul",
-       "info": [
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Crean iterables: ",
-           "content": "bold"
-          },
-          {
-           "text": "Su objetivo principal es generar elementos uno a uno, sin almacenar toda la secuencia.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Sintaxis similar a las comprensiones de listas: ",
-           "content": "bold"
-          },
-          {
-           "text": "Utilizan una sintaxis similar a las comprensiones de listas, pero con paréntesis en lugar de corchetes o llaves.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Eficiencia para conjuntos de datos grandes: ",
-           "content": "bold"
-          },
-          {
-           "text": "Ideales para procesar grandes conjuntos de datos de forma iterativa, liberando memoria.",
-           "content": "plain"
-          }
-         ]
-        },
-        {
-         "type": "li",
-         "info": [
-          {
-           "text": "Resultado progresivo: ",
-           "content": "bold"
-          },
-          {
-           "text": "Devuelven un objeto iterable que genera elementos uno a uno, sin almacenar la secuencia completa.",
-           "content": "plain"
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "type": "h4",
-       "info": [
-        {
-         "text": "Ejemplo",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Crear una lista de cuadrados de 1 a 110000 para ver la diferencia de tiempo en ejecución:",
-         "content": "plain"
-        }
-       ]
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Comprensión de Lista: ",
-         "content": "bold"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/comprensiones_lista.png",
-        "alt": "Comprensión de lista"
-       }
-      },
-      {
-       "type": "p",
-       "info": [
-        {
-         "text": "Generador de Expresión: ",
-         "content": "bold"
-        }
-       ]
-      },
-      {
-       "type": "figure",
-       "info": {
-        "img": "/images/Python/class11/generadores_de_exp.png",
-        "alt": "Generador de expresión"
-       }
-      }
-     ]
-    },
-    {
-     "topic": 5,
-     "available": true,
-     "linkData": {
-      "title": "Actividades",
-      "link": "/courses/Python/class/11/5"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "Actividades 💬",
-         "content": "plain"
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "topic": 6,
-     "available": true,
-     "linkData": {
-      "title": "Bonus track",
-      "link": "/courses/Python/class/11/6"
-     },
-     "topicData": [
-      {
-       "type": "h3",
-       "info": [
-        {
-         "text": "Bonus Track: ",
-         "content": "plain"
-        }
-       ]
-      }
-     ]
-    }
-   ]
   }
 ]
