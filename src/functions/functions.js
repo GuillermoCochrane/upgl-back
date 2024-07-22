@@ -118,7 +118,29 @@ const pythonFunctions = {
         return newTopicID;
     },
 
-    
+    newClass: function(course, data){
+        let classID = this.newClassID(course);
+        let fullCourse = this.allEntries(course);
+        let newClass = {
+            class: classID,
+            available: true,
+            topics: 0,
+            summary: data  ? data.summary : "",
+            title: {
+                type: "h2",
+                info: [
+                    {
+                        text: data ? data.title : "",
+                        content: "plain"
+                    }
+                ]
+            },
+            classData: []
+        }
+
+        fullCourse.push(newClass);
+        return newClass;
+    },
 }
 
 
