@@ -112,8 +112,8 @@ const pythonFunctions = {
 
     newTopicID : function(course, classID){
         let data = this.allEntries(course);
-        let clasTopics = data.filter(classes => classes.class == classID)[0].classData;
-        let lastTopic = clasTopics.pop();
+        let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
+        let lastTopic = classTopics.pop();
         let newTopicID = lastTopic.topic + 1;
         return newTopicID;
     },
@@ -141,6 +141,30 @@ const pythonFunctions = {
         fullCourse.push(newClass);
         return newClass;
     },
+
+    newTopic: function(course, classID, data){
+        let topicID = this.newTopicID(course, classID);
+        let allClasses= this.allEntries(course);
+        let allTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
+        let newTopic = {
+            topic: topicID,
+            available: true,
+            linkData: {
+                title: data ? data.title : "",
+                link: `/courses/${course}/class/${classID}/${topicID}`
+            },
+            topicData: []
+        };
+
+        allTopics.push(newTopic);
+        for (const lesson of allClasses){
+            if (lesson.class == classID){
+                lesson.classData = allTopics;
+                lesson.topics = allTopics.length;
+            }
+        }
+        return allClasses;
+    }
 }
 
 
