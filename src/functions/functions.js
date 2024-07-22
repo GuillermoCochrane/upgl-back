@@ -56,7 +56,7 @@ const pythonFunctions = {
         return links;
     },
 
-    filterData: function(course,classID, topicID){
+    filterData: function(course, classID, topicID){
         let allData = this.allEntries(course);
         topicsData = allData.filter(lesson => lesson.class == classID)[0];
         if (topicsData){
@@ -81,7 +81,7 @@ const pythonFunctions = {
         return topicsData;
     },
 
-    filterTopic: function(info,classID, topicID, course){
+    filterTopic: function(info, classID, topicID, course){
         let topicData = info.filter(topic => topic.topic == topicID)[0];
         if (!topicData){
             topicData = {
@@ -106,10 +106,20 @@ const pythonFunctions = {
     newClassID : function(course){
         let data = this.allEntries(course);
         let lastClass = data.filter(classes => typeof classes.class == "number").pop();
-        console.log(lastClass);
         let newID = lastClass.class + 1;
         return newID;
     },
+
+    newTopicID : function(course, classID){
+        let data = this.allEntries(course);
+        let clasTopics = data.filter(classes => classes.class == classID)[0].classData;
+        let lastTopic = clasTopics.pop();
+        let newTopicID = lastTopic.topic + 1;
+        return newTopicID;
+    },
+
+    
 }
+
 
 module.exports = pythonFunctions
