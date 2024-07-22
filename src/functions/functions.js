@@ -102,6 +102,14 @@ const pythonFunctions = {
         }
         return topicData;
     },
+
+    newClassID : function(course){
+        let data = this.allEntries(course);
+        let lastClass = data.filter(classes => typeof classes.class == "number").pop();
+        console.log(lastClass);
+        let newID = lastClass.class + 1;
+        return newID;
+    },
 }
 
 module.exports = pythonFunctions
