@@ -1501,12 +1501,15 @@
         "topic": 1,
         "available": true,
         "linkData": {
-          "title": "¿Qué es Python? ",
+          "title": "¿Qué es Python?",
           "link": "/courses/Python/class/2/1"
         },
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "🐍 ¿Que es Python? 🐍",
@@ -1516,6 +1519,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Python es un lenguaje de programación de código abierto, creado por Guido van Rossum en 1991. Se trata de un lenguaje orientado a objetos, fácil de interpretar y con una sintaxis que permite leerlo de manera semejante a como se lee el inglés. Es un lenguaje interpretado, esto significa que el código de programación se convierte en bytecode",
@@ -1525,6 +1531,9 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Pero... ¿QUE ES EL BYTECODE?",
@@ -1534,6 +1543,9 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "El bytecode es un código intermedio entre el código fuente legible por humanos 🧙‍♂️ y el código máquina que las computadoras 💻 entienden directamente: ",
@@ -1543,9 +1555,15 @@
           },
           {
             "type": "ul",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "available": true,
+                "liID": 1,
+                "order": 1,
                 "info": [
                   {
                     "text": "Código fuente: ",
@@ -1559,6 +1577,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 2,
+                "order": 2,
                 "info": [
                   {
                     "text": "Bytecode:  ",
@@ -1572,6 +1593,9 @@
               },
               {
                 "tyoe": "li",
+                "available": true,
+                "liID": 3,
+                "order": 3,
                 "info": [
                   {
                     "text": "Codigo máquina: ",
@@ -1587,6 +1611,9 @@
           },
           {
             "tyoe": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "El bytecode también se conoce como código portable o P-Code.",
@@ -1596,6 +1623,9 @@
           },
           {
             "type": "h3",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "¿Para que sirve?",
@@ -1605,6 +1635,9 @@
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "La respuesta es breve: para todo.",
@@ -1614,6 +1647,9 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": [
               {
                 "text": "Python está en todo, desde programación de instrumentos hasta software de computadoras,desarrollo web y aplicaciones móviles. Incluso, te permite hacer comentarios para que tengas recordatorios para funciones futuras o indicar problemas en una línea de código. Python es genial para casi cualquier necesidad de desarrollo, ya sea programación de servidores, operación de sistemas, software, juegos y mucho más. A continuación, repasamos los usos más comunes:",
@@ -1623,9 +1659,15 @@
           },
           {
             "type": "ul",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "available": true,
+                "liID": 1,
+                "order": 1,
                 "info": [
                   {
                     "text": "Scripting y automatización",
@@ -1635,6 +1677,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 2,
+                "order": 2,
                 "info": [
                   {
                     "text": "Python se utiliza para scripting (secuencias de comandos) y automatización en muchas industrias, desde máquinas de programación en grandes fábricas hasta usos de ocio, como videojuegos. Las maneras en que el scripting y la automatización benefician a las industrias son innumerables, al igual que la variedad de industrias en las que se utiliza.",
@@ -1656,6 +1701,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "💻 Desarrollo de software 💻",
@@ -1665,6 +1713,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Python se implementa en el desarrollo de software desde que se lanzó y continúa siendo muy popular para ese propósito.",
@@ -1674,6 +1725,9 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Se utiliza para crear software en diferentes plataformas porque es compatible con muchos ámbitos de operación",
@@ -1683,6 +1737,9 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "Sistemas operativos para computadoras y dispositivos móviles y en entornos de sistema en tiempo de ejecución.",
@@ -1692,6 +1749,9 @@
           },
           {
             "type": "h3",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "text": "",
@@ -1701,9 +1761,15 @@
           },
           {
             "type": "ul",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "available": true,
+                "liID": 1,
+                "order": 1,
                 "info": [
                   {
                     "text": "Análisis de datos: ",
@@ -1717,6 +1783,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 2,
+                "order": 2,
                 "info": [
                   {
                     "text": "Machine learning e Inteligencia Artificial: ",
@@ -1730,6 +1799,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 3,
+                "order": 3,
                 "info": [
                   {
                     "text": "Ciencias de blockchain: ",
@@ -1743,6 +1815,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 4,
+                "order": 4,
                 "info": [
                   {
                     "text": "¿Qué es blockchain?: ",
@@ -1772,18 +1847,27 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
-                "text": "¿Que veremos en el curso?",
+                "text": "Instalaciones necesarias para empezar a programar en Python",
                 "content": "plain"
               }
             ]
           },
           {
             "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "available": true,
+                "liID": 1,
+                "order": 1,
                 "info": [
                   {
                     "text": "Instalacion de Python: ",
@@ -1805,6 +1889,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 2,
+                "order": 2,
                 "info": [
                   {
                     "text": "Instalacion de Visual Studio Code: ",
@@ -1818,6 +1905,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 3,
+                "order": 3,
                 "info": [
                   {
                     "text": "Instalacion de extensiones de VS Code: ",
@@ -1832,6 +1922,9 @@
                     "info": [
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 1,
+                        "order": 1,
                         "info": [
                           {
                             "text": "Python by Microsoft: ",
@@ -1845,13 +1938,17 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Py_MS.png",
-                              "alt": "Python by Microsoft"
+                              "alt": "Python by Microsoft",
+                              "title": "Python by Microsoft"
                             }
                           }
                         ]
                       },
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 2,
+                        "order": 2,
                         "info": [
                           {
                             "text": "Pylance: ",
@@ -1865,13 +1962,17 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Pylance.png",
-                              "alt": "Pylance by Microsoft"
+                              "alt": "Pylance by Microsoft",
+                              "title": "Pylance by Microsoft"
                             }
                           }
                         ]
                       },
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 3,
+                        "order": 3,
                         "info": [
                           {
                             "text": "Code Runner: ",
@@ -1885,7 +1986,8 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Code_Runner.png",
-                              "alt": "Code Runner"
+                              "alt": "Code Runner",
+                              "title": "Code Runner"
                             }
                           }
                         ]
@@ -1896,6 +1998,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 4,
+                "order": 4,
                 "info": [
                   {
                     "text": "Extensiones para mejorar la productividad: ",
@@ -1906,6 +2011,9 @@
                     "info": [
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 1,
+                        "order": 1,
                         "info": [
                           {
                             "text": "Better Comments: ",
@@ -1919,13 +2027,17 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Better_Comments.png",
-                              "alt": "Better Comments"
+                              "alt": "Better Comments",
+                              "title": "Better Comments"
                             }
                           }
                         ]
                       },
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 2,
+                        "order": 2,
                         "info": [
                           {
                             "text": "ESLint: ",
@@ -1939,13 +2051,17 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_ESLint.png",
-                              "alt": "ESLint"
+                              "alt": "ESLint",
+                              "title": "ESLint"
                             }
                           }
                         ]
                       },
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 3,
+                        "order": 3,
                         "info": [
                           {
                             "text": "Python snippets: ",
@@ -1959,13 +2075,17 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Py_Snippets.png",
-                              "alt": "Python snippets"
+                              "alt": "Python snippets",
+                              "title": "Python snippets"
                             }
                           }
                         ]
                       },
                       {
                         "type": "li",
+                        "available": true,
+                        "liID": 4,
+                        "order": 4,
                         "info": [
                           {
                             "text": "Spanish Language Pack for Visual Studio Code: ",
@@ -1979,7 +2099,8 @@
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Spanish.png",
-                              "alt": "Spanish Language Pack for Visual Studio Code"
+                              "alt": "Spanish Language Pack for Visual Studio Code",
+                              "title": "Spanish Language Pack for Visual Studio Code"
                             }
                           }
                         ]
@@ -2002,6 +2123,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Primer programa: ",
@@ -2011,6 +2135,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Para imprimir un mensaje en Python, usamos la función print(). Por ejemplo, para imprimir la frase: - Hola Mundo - , podemos escribir:",
@@ -2020,13 +2147,20 @@
           },
           {
             "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hola_mundo.png",
-              "alt": "print Hola Mundo"
+              "alt": "print Hola Mundo",
+              "title": "print Hola Mundo"
             }
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "El texto va entre comillas. También podríamos escribir:",
@@ -2036,13 +2170,20 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hola_mundo2.png",
-              "alt": "print Hola Mundo"
+              "alt": "print Hola Mundo",
+              "title": "print Hola Mundo"
             }
           },
           {
             "type": "h3",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "Saludar con python",
@@ -2052,6 +2193,9 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "Escribir un programa que muestre por pantalla la cadena: - ¡Hola Mundo! mi nombre es (su nombre) y este es mi primer programa!!!!🚀 -",
@@ -2061,6 +2205,9 @@
           },
           {
             "type": "answer",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class2/Ejercicio_2_4.png",
@@ -2080,6 +2227,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Veamos el Hello World en distintos lenguajes de programación",
@@ -2089,6 +2239,9 @@
           },
           {
             "type": "youtube",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "link": "https://www.youtube.com/embed/WBdNh8ZVNbc",
@@ -2100,6 +2253,9 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Como ya les habiamos comentado en la clase anterior, existen infinidades de lenguajes de programacion y cada uno de ellos posee una sintaxis y semantica única para resolver el mismo problema ",
@@ -2109,6 +2265,9 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "¡a continuacion les mostraré como se ve el tipico programa que imprime \"Hello World\" en diferentes lenguajes!",
@@ -2118,6 +2277,9 @@
           },
           {
             "type": "h3",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "text": "Python",
@@ -2127,13 +2289,20 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_python.png",
-              "alt": "helloWorld.py"
+              "alt": "helloWorld.py",
+              "title": "helloWorld.py"
             }
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Python:",
@@ -2143,6 +2312,9 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "print(\"Hello, World!\")",
@@ -2164,6 +2336,9 @@
           },
           {
             "type": "h3",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": [
               {
                 "text": "Java",
@@ -2173,13 +2348,20 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_java.png",
-              "alt": "helloWorld.java"
+              "alt": "helloWorld.java",
+              "title": "helloWorld.java"
             }
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Java:",
@@ -2189,6 +2371,9 @@
           },
           {
             "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
             "info": [
               {
                 "text": "public class Hello {",
@@ -2202,6 +2387,9 @@
           },
           {
             "type": "p",
+            "id": 13,
+            "order": 13,
+            "available": true,
             "info": [
               {
                 "text": " public static void main(String[] args) {",
@@ -2239,6 +2427,9 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
             "info": [
               {
                 "text": "System.out.println(\"Hello, World!\");",
@@ -2268,6 +2459,9 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2285,6 +2479,9 @@
           },
           {
             "type": "p",
+            "id": 17,
+            "order": 17,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2302,6 +2499,9 @@
           },
           {
             "type": "h3",
+            "id": 18,
+            "order": 18,
+            "available": true,
             "info": [
               {
                 "text": "PHP",
@@ -2311,13 +2511,20 @@
           },
           {
             "type": "figure",
+            "id": 19,
+            "order": 19,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_php.png",
-              "alt": "HelloWorld.php"
+              "alt": "HelloWorld.php",
+              "title": "HelloWorld.php"
             }
           },
           {
             "type": "h4",
+            "id": 20,
+            "order": 20,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de PHP:",
@@ -2327,6 +2534,9 @@
           },
           {
             "type": "p",
+            "id": 21,
+            "order": 21,
+            "available": true,
             "info": [
               {
                 "text": "<?php",
@@ -2340,6 +2550,9 @@
           },
           {
             "type": "p",
+            "id": 22,
+            "order": 22,
+            "available": true,
             "info": [
               {
                 "text": "echo \"Hello, World!\";",
@@ -2361,6 +2574,9 @@
           },
           {
             "type": "p",
+            "id": 23,
+            "order": 23,
+            "available": true,
             "info": [
               {
                 "text": "?>",
@@ -2374,6 +2590,9 @@
           },
           {
             "type": "h3",
+            "id": 24,
+            "order": 24,
+            "available": true,
             "info": [
               {
                 "text": "JavaScript",
@@ -2383,13 +2602,20 @@
           },
           {
             "type": "figure",
+            "id": 25,
+            "order": 25,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_javascript.png",
-              "alt": "HelloWorld.js"
+              "alt": "HelloWorld.js",
+              "title": "HelloWorld.js"
             }
           },
           {
             "type": "h4",
+            "id": 26,
+            "order": 26,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de JavaScript:",
@@ -2399,6 +2625,9 @@
           },
           {
             "type": "p",
+            "id": 27,
+            "order": 27,
+            "available": true,
             "info": [
               {
                 "text": "console.log()",
@@ -2412,6 +2641,9 @@
           },
           {
             "type": "p",
+            "id": 28,
+            "order": 28,
+            "available": true,
             "info": [
               {
                 "text": "\"Hello, World!\"",
@@ -2425,6 +2657,9 @@
           },
           {
             "type": "h3",
+            "id": 29,
+            "order": 29,
+            "available": true,
             "info": [
               {
                 "text": "C++",
@@ -2434,13 +2669,20 @@
           },
           {
             "type": "figure",
+            "id": 30,
+            "order": 30,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_c++.png",
-              "alt": "HelloWorld.cpp"
+              "alt": "HelloWorld.cpp",
+              "title": "HelloWorld.cpp"
             }
           },
           {
             "type": "h4",
+            "id": 31,
+            "order": 31,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de C++:",
@@ -2450,6 +2692,9 @@
           },
           {
             "type": "p",
+            "id": 32,
+            "order": 32,
+            "available": true,
             "info": [
               {
                 "text": "#include <iostream>",
@@ -2471,6 +2716,9 @@
           },
           {
             "type": "p",
+            "id": 33,
+            "order": 33,
+            "available": true,
             "info": [
               {
                 "text": "int main() {",
@@ -2484,6 +2732,9 @@
           },
           {
             "type": "p",
+            "id": 34,
+            "order": 34,
+            "available": true,
             "info": [
               {
                 "text": "std::cout << \"Hello, World!\" << std::endl;",
@@ -2521,6 +2772,9 @@
           },
           {
             "type": "p",
+            "id": 35,
+            "order": 35,
+            "available": true,
             "info": [
               {
                 "text": "return 0;",
@@ -2534,6 +2788,9 @@
           },
           {
             "type": "p",
+            "id": 36,
+            "order": 36,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2547,6 +2804,9 @@
           },
           {
             "type": "h3",
+            "id": 37,
+            "order": 37,
+            "available": true,
             "info": [
               {
                 "text": "C#",
@@ -2556,13 +2816,20 @@
           },
           {
             "type": "figure",
+            "id": 38,
+            "order": 38,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_cs.png",
-              "alt": "HelloWorld.cs"
+              "alt": "HelloWorld.cs",
+              "title": "HelloWorld.cs"
             }
           },
           {
             "type": "h4",
+            "id": 39,
+            "order": 39,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de C#:",
@@ -2572,6 +2839,9 @@
           },
           {
             "type": "p",
+            "id": 40,
+            "order": 40,
+            "available": true,
             "info": [
               {
                 "text": "using System;",
@@ -2593,6 +2863,9 @@
           },
           {
             "type": "p",
+            "id": 41,
+            "order": 41,
+            "available": true,
             "info": [
               {
                 "text": "class Hello {",
@@ -2610,6 +2883,9 @@
           },
           {
             "type": "p",
+            "id": 42,
+            "order": 42,
+            "available": true,
             "info": [
               {
                 "text": "static void Main(string[] args) {",
@@ -2655,6 +2931,9 @@
           },
           {
             "type": "p",
+            "id": 43,
+            "order": 43,
+            "available": true,
             "info": [
               {
                 "text": "Console.WriteLine(\"Hello, World!\");",
@@ -2684,6 +2963,9 @@
           },
           {
             "type": "p",
+            "id": 44,
+            "order": 44,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2701,6 +2983,9 @@
           },
           {
             "type": "p",
+            "id": 45,
+            "order": 45,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2718,6 +3003,9 @@
           },
           {
             "type": "h3",
+            "id": 46,
+            "order": 46,
+            "available": true,
             "info": [
               {
                 "text": "Ruby",
@@ -2727,13 +3015,20 @@
           },
           {
             "type": "figure",
+            "id": 47,
+            "order": 47,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_ruby.png",
-              "alt": "HelloWorld.rb"
+              "alt": "HelloWorld.rb",
+              "title": "HelloWorld.rb"
             }
           },
           {
             "type": "h4",
+            "id": 48,
+            "order": 48,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Ruby:",
@@ -2743,6 +3038,9 @@
           },
           {
             "type": "p",
+            "id": 49,
+            "order": 49,
+            "available": true,
             "info": [
               {
                 "text": "puts \"Hello, World!\"",
@@ -2764,6 +3062,9 @@
           },
           {
             "type": "h3",
+            "id": 50,
+            "order": 50,
+            "available": true,
             "info": [
               {
                 "text": "Swift",
@@ -2773,13 +3074,20 @@
           },
           {
             "type": "figure",
+            "id": 51,
+            "order": 51,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_swift.png",
-              "alt": "HelloWorld.swift"
+              "alt": "HelloWorld.swift",
+              "title": "HelloWorld.swift"
             }
           },
           {
             "type": "h4",
+            "id": 52,
+            "order": 52,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Swift:",
@@ -2789,6 +3097,9 @@
           },
           {
             "type": "p",
+            "id": 53,
+            "order": 53,
+            "available": true,
             "info": [
               {
                 "text": "print(\"Hello, World!\")",
@@ -2810,6 +3121,9 @@
           },
           {
             "type": "h3",
+            "id": 54,
+            "order": 54,
+            "available": true,
             "info": [
               {
                 "text": "Go",
@@ -2819,13 +3133,20 @@
           },
           {
             "type": "figure",
+            "id": 55,
+            "order": 55,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_go.png",
-              "alt": "HelloWorld.go"
+              "alt": "HelloWorld.go",
+              "title": "HelloWorld.go"
             }
           },
           {
             "type": "h4",
+            "id": 56,
+            "order": 56,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Go:",
@@ -2835,6 +3156,9 @@
           },
           {
             "type": "p",
+            "id": 57,
+            "order": 57,
+            "available": true,
             "info": [
               {
                 "text": "package main",
@@ -2852,6 +3176,9 @@
           },
           {
             "type": "p",
+            "id": 58,
+            "order": 58,
+            "available": true,
             "info": [
               {
                 "text": "import \"fmt\"",
@@ -2877,6 +3204,9 @@
           },
           {
             "type": "p",
+            "id": 59,
+            "order": 59,
+            "available": true,
             "info": [
               {
                 "text": "func main() {",
@@ -2902,6 +3232,9 @@
           },
           {
             "type": "p",
+            "id": 60,
+            "order": 60,
+            "available": true,
             "info": [
               {
                 "text": "fmt.Println(\"Hello, World!\")",
@@ -2931,6 +3264,9 @@
           },
           {
             "type": "p",
+            "id": 61,
+            "order": 61,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -2944,6 +3280,9 @@
           },
           {
             "type": "h3",
+            "id": 62,
+            "order": 62,
+            "available": true,
             "info": [
               {
                 "text": "Rust",
@@ -2953,13 +3292,20 @@
           },
           {
             "type": "figure",
+            "id": 63,
+            "order": 63,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_rust.png",
-              "alt": "HelloWorld.rs"
+              "alt": "HelloWorld.rs",
+              "title": "HelloWorld.rs"
             }
           },
           {
             "type": "h4",
+            "id": 64,
+            "order": 64,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Rust:",
@@ -2969,6 +3315,9 @@
           },
           {
             "type": "p",
+            "id": 65,
+            "order": 65,
+            "available": true,
             "info": [
               {
                 "text": "fn main() {",
@@ -2994,6 +3343,9 @@
           },
           {
             "type": "p",
+            "id": 66,
+            "order": 66,
+            "available": true,
             "info": [
               {
                 "text": "println!(\"Hello, World!\")",
@@ -3015,6 +3367,9 @@
           },
           {
             "type": "p",
+            "id": 67,
+            "order": 67,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -3028,6 +3383,9 @@
           },
           {
             "type": "h3",
+            "id": 68,
+            "order": 68,
+            "available": true,
             "info": [
               {
                 "text": "Scala",
@@ -3037,13 +3395,20 @@
           },
           {
             "type": "figure",
+            "id": 69,
+            "order": 69,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_scala.png",
-              "alt": "HelloWorld.scala"
+              "alt": "HelloWorld.scala",
+              "title": "HelloWorld.scala"
             }
           },
           {
             "type": "h4",
+            "id": 70,
+            "order": 70,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Scala:",
@@ -3053,6 +3418,9 @@
           },
           {
             "type": "p",
+            "id": 71,
+            "order": 71,
+            "available": true,
             "info": [
               {
                 "text": "object Hello {",
@@ -3074,6 +3442,9 @@
           },
           {
             "type": "p",
+            "id": 72,
+            "order": 72,
+            "available": true,
             "info": [
               {
                 "text": "def main(args: Array[String]) {",
@@ -3103,6 +3474,9 @@
           },
           {
             "type": "p",
+            "id": 73,
+            "order": 73,
+            "available": true,
             "info": [
               {
                 "text": "println(\"Hello, World!\")",
@@ -3124,6 +3498,9 @@
           },
           {
             "type": "p",
+            "id": 74,
+            "order": 74,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -3141,6 +3518,9 @@
           },
           {
             "type": "p",
+            "id": 75,
+            "order": 75,
+            "available": true,
             "info": [
               {
                 "text": "}",
@@ -3158,6 +3538,9 @@
           },
           {
             "type": "h3",
+            "id": 76,
+            "order": 76,
+            "available": true,
             "info": [
               {
                 "text": "Ensamblador",
@@ -3167,13 +3550,20 @@
           },
           {
             "type": "figure",
+            "id": 77,
+            "order": 77,
+            "available": true,
             "info": {
               "img": "/images/Python/class2/hello_world_ensamblador.png",
-              "alt": "HelloWorld.asm"
+              "alt": "HelloWorld.asm",
+              "title": "HelloWorld.asm"
             }
           },
           {
             "type": "h4",
+            "id": 78,
+            "order": 78,
+            "available": true,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de ensamblador:",
@@ -3183,6 +3573,9 @@
           },
           {
             "type": "p",
+            "id": 79,
+            "order": 79,
+            "available": true,
             "info": [
               {
                 "text": "section .data",
@@ -3204,6 +3597,9 @@
           },
           {
             "type": "p",
+            "id": 80,
+            "order": 80,
+            "available": true,
             "info": [
               {
                 "text": "hello db \"Hello, World!\",0",
@@ -3233,6 +3629,9 @@
           },
           {
             "type": "p",
+            "id": 81,
+            "order": 81,
+            "available": true,
             "info": [
               {
                 "text": "section .text",
@@ -3254,6 +3653,9 @@
           },
           {
             "type": "p",
+            "id": 82,
+            "order": 82,
+            "available": true,
             "info": [
               {
                 "text": "global _start",
@@ -3275,6 +3677,9 @@
           },
           {
             "type": "p",
+            "id": 83,
+            "order": 83,
+            "available": true,
             "info": [
               {
                 "text": "_start:",
@@ -3288,6 +3693,9 @@
           },
           {
             "type": "h4",
+            "id": 84,
+            "order": 84,
+            "available": true,
             "info": [
               {
                 "text": "Código de impresión:",
@@ -3297,6 +3705,9 @@
           },
           {
             "type": "p",
+            "id": 85,
+            "order": 85,
+            "available": true,
             "info": [
               {
                 "text": "mov eax, 4         ; syscall number for sys_write",
@@ -3314,6 +3725,9 @@
           },
           {
             "type": "p",
+            "id": 86,
+            "order": 86,
+            "available": true,
             "info": [
               {
                 "text": "mov ebx, 1         ; file descriptor 1 (stdout)",
@@ -3331,6 +3745,9 @@
           },
           {
             "type": "p",
+            "id": 87,
+            "order": 87,
+            "available": true,
             "info": [
               {
                 "text": "mov ecx, hello     ; pointer to the message",
@@ -3348,6 +3765,9 @@
           },
           {
             "type": "p",
+            "id": 88,
+            "order": 88,
+            "available": true,
             "info": [
               {
                 "text": "mov edx, 13        ; message length",
@@ -3365,6 +3785,9 @@
           },
           {
             "type": "p",
+            "id": 89,
+            "order": 89,
+            "available": true,
             "info": [
               {
                 "text": "int 0x80           ; invoke syscall",
@@ -3386,6 +3809,9 @@
           },
           {
             "type": "h4",
+            "id": 90,
+            "order": 90,
+            "available": true,
             "info": [
               {
                 "text": "Código de salida:",
@@ -3395,6 +3821,9 @@
           },
           {
             "type": "p",
+            "id": 91,
+            "order": 91,
+            "available": true,
             "info": [
               {
                 "text": "mov eax, 1         ; syscall number for sys_exit",
@@ -3412,6 +3841,9 @@
           },
           {
             "type": "p",
+            "id": 92,
+            "order": 92,
+            "available": true,
             "info": [
               {
                 "text": "xor ebx, ebx       ; exit code 0",
@@ -3433,6 +3865,9 @@
           },
           {
             "type": "p",
+            "id": 93,
+            "order": 93,
+            "available": true,
             "info": [
               {
                 "text": "int 0x80           ; invoke syscall",
@@ -3446,6 +3881,9 @@
           },
           {
             "type": "h3",
+            "id": 94,
+            "order": 94,
+            "available": true,
             "info": [
               {
                 "text": "Resumiendo",
@@ -3455,6 +3893,9 @@
           },
           {
             "type": "p",
+            "id": 95,
+            "order": 95,
+            "available": true,
             "info": [
               {
                 "text": "La impresión de \"Hello World\" en diferentes lenguajes de programación demuestra la ",
@@ -3482,6 +3923,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Bonus track: ¿Cómo ejecutar un programa en Python?",
@@ -3491,6 +3935,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Si tienes una sola línea de código, puedes ejecutarla directamente haciendo clic derecho y seleccionando la opción ",
@@ -3515,6 +3962,9 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Sin embargo, si tienes varias líneas de código, te conviene seleccionar específicamente las líneas que deseas ejecutar.",
@@ -3524,6 +3974,9 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "Recuerda que para usar el ",
@@ -3541,9 +3994,15 @@
           },
           {
             "type": "ul",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "available": true,
+                "liID": 1,
+                "order": 1,
                 "info": [
                   {
                     "text": "La primera es seleccionar ",
@@ -3557,13 +4016,17 @@
                     "type": "figure",
                     "info": {
                       "img": "/images/Python/class2/Bouns_track1.jpg",
-                      "alt": "Run Code"
+                      "alt": "Run Code",
+                      "title": "Run Code"
                     }
                   }
                 ]
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 2,
+                "order": 2,
                 "info": [
                   {
                     "text": "La segunda opción, si tienes la extensión correspondiente instalada, es seleccionar ",
@@ -3589,7 +4052,8 @@
                     "type": "figure",
                     "info": {
                       "img": "/images/Python/class2/Bouns_track2.jpg",
-                      "alt": "Ejecutar el archivo de Python en terminal"
+                      "alt": "Ejecutar el archivo de Python en terminal",
+                      "title": "Ejecutar el archivo de Python en terminal"
                     }
                   },
                   {
@@ -3600,6 +4064,9 @@
               },
               {
                 "type": "li",
+                "available": true,
+                "liID": 3,
+                "order": 3,
                 "info": [
                   {
                     "text": "Las mismas opciones se encuentran en el ícono triangular en la parte superior derecha de la ventana de visual studio code.",
@@ -3609,7 +4076,8 @@
                     "type": "figure",
                     "info": {
                       "img": "/images/Python/class2/Bouns_track3.jpg",
-                      "alt": "Ejecutar el archivo desde el ícono"
+                      "alt": "Ejecutar el archivo desde el ícono",
+                      "title": "Ejecutar el archivo desde el ícono"
                     }
                   }
                 ]
@@ -3618,6 +4086,9 @@
           },
           {
             "type": "h3",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "Bonus track 2: Emojis",
@@ -3627,6 +4098,9 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "Para abrir el menú para insertar Emojis, presionar en Windows la convinación de  teclas ",
