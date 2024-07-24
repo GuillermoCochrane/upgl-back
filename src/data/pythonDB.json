@@ -6485,6 +6485,212 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 5,
+        "available": true,
+        "linkData": {
+          "title": "Bonus track",
+          "link": "/courses/Python/class/4/5"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Bonus track",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Trivia 1",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Dado el siguiente Código, seleccione la opción correcta: ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class4/trivia_1.png",
+              "alt": "Trivia 1",
+              "title": "Trivia 1"
+            }
+          },
+          {
+            "type": "trivia",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 2,
+            "answer": {
+              "correct": "La respuesta es correcta",
+              "incorrect": "La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: \"hola mundo hermosa mañana verdad?hermosa mañana verdad?\""
+            },
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Verdadero",
+                "content": "plain",
+                "name": "trivia1",
+                "correct": false,
+                "value": "1"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Falso",
+                "content": "plain",
+                "name": "trivia1",
+                "correct": true,
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Trivia 2",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Dado el siguiente Código, seleccione la opción correcta: ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            
+            "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class4/trivia_2.png",
+              "alt": "Trivia 2",
+              "title": "Trivia 2"
+            }
+          },
+          {
+            "type": "trivia",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 2,
+            "answer": {
+              "correct": "La respuesta es correcta",
+              "incorrect": "La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas"
+            },
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Verdadero",
+                "content": "plain",
+                "name": "trivia2",
+                "correct": false,
+                "value": "1"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Falso",
+                "content": "plain",
+                "name": "trivia2",
+                "correct": true,
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Editor de codigo online",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En la siguiente página encontrarás un editor de código online que te permite escribir y ejecutar tu código en Python. Puedes usar este editor para resolver los ejercicios de la clase y para practicar tus habilidades en Python.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Editor de código online",
+                "content": "plain",
+                "link": "https://www.online-python.com/"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
