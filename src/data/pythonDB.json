@@ -355,10 +355,11 @@
         },
         "topicData": [
           {
+            "type": "h3",
             "id": 1,
             "order": 1,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "👩‍💻 ¿QUE ES UN PROGRAMADOR? 👨‍💻",
@@ -367,10 +368,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 2,
             "order": 2,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Un programador es un profesional que se dedica a crear y optimizar software informático. Para ello, utilizan lenguajes de programación que son similares a idiomas que permiten comunicarse con la computadora y escribir instrucciones que generan nuevos programas",
@@ -379,10 +381,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 3,
             "order": 3,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "🚀 Tipos de programadores: ",
@@ -391,10 +394,11 @@
             ]
           },
           {
+            "type": "h4",
             "id": 4,
             "order": 4,
             "available": true,
-            "type": "h4",
+            "stubs": 1,
             "info": [
               {
                 "text": "Por especialidad:",
@@ -403,22 +407,30 @@
             ]
           },
           {
+            "type": "ol",
             "id": 5,
             "order": 5,
             "available": true,
-            "type": "ol",
+            "stubs": 7,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador web: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se encarga de crear y mantener sitios web y aplicaciones web.",
                     "content": "plain"
                   }
@@ -429,12 +441,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador móvil: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": " Se encarga de crear aplicaciones para dispositivos móviles como teléfonos inteligentes y tablets.",
                     "content": "plain"
                   }
@@ -445,12 +464,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador de software: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se encarga de crear software para diferentes plataformas, como sistemas operativos, aplicaciones de escritorio y aplicaciones web.",
                     "content": "bold"
                   }
@@ -461,12 +487,19 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador de videojuegos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "se encarga de crear videojuegos para diferentes plataformas.",
                     "content": "plain"
                   }
@@ -477,12 +510,19 @@
                 "available": true,
                 "liID": 5,
                 "order": 5,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Ingeniero de datos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "se encarga de trabajar con grandes conjuntos de datos para extraer información útil.",
                     "content": "plain"
                   }
@@ -493,12 +533,19 @@
                 "available": true,
                 "liID": 6,
                 "order": 6,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Científico de datos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "se encarga de analizar datos y desarrollar modelos para predecir resultados.",
                     "content": "plain"
                   }
@@ -509,12 +556,19 @@
                 "available": true,
                 "liID": 7,
                 "order": 7,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Ingeniero de inteligencia artificial: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "se encarga de desarrollar sistemas que pueden aprender y tomar decisiones de forma autónoma.",
                     "content": "plain"
                   }
@@ -527,6 +581,7 @@
             "order": 6,
             "available": true,
             "type": "h4",
+            "stubs": 1,
             "info": [
               {
                 "text": "Por enfoque:",
@@ -539,18 +594,26 @@
             "order": 7,
             "available": true,
             "type": "ol",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Full Stack: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se encarga de todas las etapas del desarrollo de software, desde el diseño hasta la implementación y el mantenimiento.",
                     "content": "plain"
                   }
@@ -561,12 +624,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Frontend: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se encarga de la parte visual de un sitio web o aplicación web.",
                     "content": "plain"
                   }
@@ -577,12 +647,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Backend: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se encarga de la parte lógica de un sitio web o aplicación web.",
                     "content": "plain"
                   }
@@ -595,6 +672,7 @@
             "order": 8,
             "available": true,
             "type": "h4",
+            "stubs": 1,
             "info": [
               {
                 "text": "Por lenguaje de programación:",
@@ -607,18 +685,26 @@
             "order": 9,
             "available": true,
             "type": "ol",
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador Java: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se especializa en el lenguaje de programación Java.",
                     "content": "plain"
                   }
@@ -629,12 +715,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador Python: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se especializa en el lenguaje de programación Python.",
                     "content": "plain"
                   }
@@ -645,12 +738,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador C++: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se especializa en el lenguaje de programación C++.",
                     "content": "plain"
                   }
@@ -661,12 +761,19 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Desarrollador JavaScript: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se especializa en el lenguaje de programación JavaScript.",
                     "content": "plain"
                   }
@@ -679,6 +786,7 @@
             "order": 10,
             "available": true,
             "type": "h4",
+            "stubs": 1,
             "info": [
               {
                 "text": "Por experiencia:",
@@ -691,18 +799,26 @@
             "order": 11,
             "available": true,
             "type": "ol",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Junior: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Poca experiencia, generalmente recién graduado.",
                     "content": "plain"
                   }
@@ -713,12 +829,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Semi Senior : ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "conocimientos medio del rubro y de la programación.",
                     "content": "plain"
                   }
@@ -729,12 +852,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Senior: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Mucha experiencia y conocimiento en su área de especialización.",
                     "content": "plain"
                   }
