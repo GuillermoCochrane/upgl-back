@@ -4141,6 +4141,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "¿Que es una variable?: ",
@@ -4150,6 +4153,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato.",
@@ -4159,6 +4165,9 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Las variables se identifican con un nombre único y sus valores pueden cambiar.",
@@ -4172,9 +4181,15 @@
           },
           {
             "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
                 "info": [
                   {
                     "text": "Numerico: ",
@@ -4185,6 +4200,9 @@
                     "info": [
                       {
                         "type": "li",
+                        "liID": 1,
+                        "order": 1,
+                        "available": true,
                         "info": [
                           {
                             "text": "Entero(int): ",
@@ -4198,6 +4216,9 @@
                       },
                       {
                         "type": "li",
+                        "liID": 2,
+                        "order": 2,
+                        "available": true,
                         "info": [
                           {
                             "text": "De punto Flotante(float): ",
@@ -4211,6 +4232,9 @@
                       },
                       {
                         "type": "li",
+                        "liID": 3,
+                        "order": 3,
+                        "available": true,
                         "info": [
                           {
                             "text": "Complejos (clompex): ",
@@ -4228,6 +4252,9 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
                     "text": "Texto (string): ",
@@ -4241,6 +4268,9 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
                 "info": [
                   {
                     "text": "Booleanos (bool): ",
@@ -4254,6 +4284,9 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
                 "info": [
                   {
                     "text": "Fecha y Hora.",
@@ -4265,6 +4298,9 @@
           },
           {
             "tyoe": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "text": "Una vez almacenada se puede utilizar para realizar operaciones, mostrar resultados, etc.",
@@ -4274,6 +4310,9 @@
           },
           {
             "type": "h3",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "Veamos un Ejemplo: ",
@@ -4283,13 +4322,20 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/variables.png",
-              "alt": "Variables"
+              "alt": "Variables",
+              "title": "Variables"
             }
           },
           {
             "type": "h3",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "Concatenacion de String y Variables: ",
@@ -4299,13 +4345,20 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/concatenacion.png",
-              "alt": "Concatenacion"
+              "alt": "Concatenacion",
+              "title": "Concatenacion"
             }
           },
           {
             "type": "h3",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": [
               {
                 "text": "Nombres de variables: ",
@@ -4315,6 +4368,9 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
             "info": [
               {
                 "text": "En la mayoría de lenguajes de programación existe el concepto de variables. Las variables permiten asignar nombres coherentes a información para ser reutilizada con facilidad.",
@@ -4334,6 +4390,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Asignaciones en Python",
@@ -4343,6 +4402,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "En Python, las asignaciones se realizan utilizando el operador de asignación (=). El operador de asignación es una simbolo que se utiliza para asignar un valor a una variable.",
@@ -4352,6 +4414,9 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "Tipos de asignaciones (=): ",
@@ -4361,6 +4426,9 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "Simples: ",
@@ -4370,13 +4438,20 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/asignaciones_simples.png",
-              "alt": "Asignaciones Simples"
+              "alt": "Asignaciones Simples",
+              "title": "Asignaciones Simples"
             }
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "Múltiples: ",
@@ -4386,6 +4461,9 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "En las siguientes asignaciones se asignan valores a varias variables a la vez.",
@@ -4395,13 +4473,20 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/asignaciones_multiples.png",
-              "alt": "Asignaciones Multiples"
+              "alt": "Asignaciones Multiples",
+              "title": "Asignaciones Multiples"
             }
           },
           {
             "type": "h3",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": [
               {
                 "text": "Literales y expresiones: ",
@@ -4411,6 +4496,9 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": [
               {
                 "text": "Cuando se hacen asignaciones se pueden utilizar:",
@@ -4420,6 +4508,9 @@
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
             "info": [
               {
                 "text": "Literales: ",
@@ -4429,6 +4520,9 @@
           },
           {
             "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
             "info": [
               {
                 "text": "Son datos descritos directamente en el código. Es información estática, puede ser simple o usar instancias de clases. La definición clave es que se conoce cuál será el valor asignado analizando el código.",
@@ -4438,13 +4532,20 @@
           },
           {
             "type": "figure",
+            "id": 13,
+            "order": 13,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/asignaciones_literales.png",
-              "alt": "Asignaciones Literales"
+              "alt": "Asignaciones Literales",
+              "title": "Asignaciones Literales"
             }
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
             "info": [
               {
                 "text": "Expresiones: ",
@@ -4454,6 +4555,9 @@
           },
           {
             "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
             "info": [
               {
                 "text": "Son datos asignados tras la evaluación de una o varias sentencias. Suelen ser dinámicos y no se conoce el valor final analizando el código.",
@@ -4463,13 +4567,20 @@
           },
           {
             "type": "figure",
+            "id": 16,
+            "order": 16,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/asignaciones_expresiones.png",
-              "alt": "Asignaciones Expresiones"
+              "alt": "Asignaciones Expresiones",
+              "title": "Asignaciones Expresiones"
             }
           },
           {
             "type": "h4",
+            "id": 17,
+            "order": 17,
+            "available": true,
             "info": [
               {
                 "text": "Keywords en Python: ",
@@ -4479,6 +4590,9 @@
           },
           {
             "type": "p",
+            "id": 18,
+            "order": 18,
+            "available": true,
             "info": [
               {
                 "text": "En Python hay algunas palabras reservadas en que no pueden ser utilizadas como identificadores válidos. Se pueden encontrar en keyword.kwlist, y son los siguientes.",
@@ -4488,42 +4602,72 @@
           },
           {
             "type": "table",
+            "id": 19,
+            "order": 19,
+            "available": true,
             "columns": 4,
             "title": ["Keywords en Python"],
             "info": [
               {
+                "rowID": 1,
+                "order": 1,
+                "available": true,
                 "row": ["False", "assert", "return", "None"],
                 "content": "plain"
               },
               {
+                "rowID": 2,
+                "order": 2,
+                "available": true,
                 "row": ["break", "try", "True", "class"],
                 "content": "plain"
               },
               {
+                "rowID": 3,
+                "order": 3,
+                "available": true,
                 "row": ["while", "elif", "continue", "with"],
                 "content": "plain"
               },
               {
+                "rowID": 4,
+                "order": 4,
+                "available": true,
                 "row": ["else", "def", "yield", "except"],
                 "content": "plain"
               },
               {
+                "rowID": 5,
+                "order": 5,
+                "available": true,
                 "row": ["del", "from", "finally", "for"],
                 "content": "plain"
               },
               {
+                "rowID": 6,
+                "order": 6,
+                "available": true,
                 "row": ["global", "if", "import", "in"],
                 "content": "plain"
               },
               {
+                "rowID": 7,
+                "order": 7,
+                "available": true,
                 "row": ["is", "lambda", "nonlocal", "not"],
                 "content": "plain"
               },
               {
+                "rowID": 8,
+                "order": 8,
+                "available": true,
                 "row": ["or", "pass", "raise", "try"],
                 "content": "plain"
               },
               {
+                "rowID": 9,
+                "order": 9,
+                "available": true,
                 "row": ["while", "with", " - ", " - "],
                 "content": "plain"
               }
@@ -4541,6 +4685,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Nombres de variables en Python",
@@ -4550,6 +4697,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Según la PEP 8 (PEP 8 es una guía de estilo para Python que contiene recomendaciones para escribir código más legible y consistente. La guía abarca desde cómo nombrar variables hasta el número máximo de caracteres que debe tener una línea.)",
@@ -4559,6 +4709,9 @@
           },
           {
             "type": "link",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "text": "PEP8 ",
@@ -4569,6 +4722,9 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "Los nombres de las variables de Python deben de escribirse en snake_case. 🐍",
@@ -4578,6 +4734,9 @@
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -4591,6 +4750,9 @@
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "Además en deben de cumplir las siguientes características: ",
@@ -4600,9 +4762,15 @@
           },
           {
             "type": "ul",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
                 "info": [
                   {
                     "text": "Tienen que empezar por una letra o barra baja.",
@@ -4612,6 +4780,9 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
                     "text": "El uso de keywords como nombres está prohibido.",
@@ -4621,6 +4792,9 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
                 "info": [
                   {
                     "text": "Los nombres deben de ser descriptivos.",
@@ -4630,6 +4804,9 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
                 "info": [
                   {
                     "text": "Deben de estar en minúsculas y separando palabras por barras bajas ‘ _ ’.",
@@ -4639,6 +4816,9 @@
               },
               {
                 "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
                 "info": [
                   {
                     "text": "Las constantes se escriben en mayúsculas y SNAKE_CASE.",
@@ -4650,6 +4830,9 @@
           },
           {
             "type": "h3",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "Nombres validos: ✔",
@@ -4659,9 +4842,15 @@
           },
           {
             "type": "ul",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
                 "info": [
                   {
                     "text": "cat_color = 'Brown'",
@@ -4671,6 +4860,9 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
                     "text": "number_of_threads = 8",
@@ -4680,6 +4872,9 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
                 "info": [
                   {
                     "text": "phone_number = 78469334212",
@@ -4689,6 +4884,9 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
                 "info": [
                   {
                     "text": "ISIN_CODE = 8479362",
@@ -4698,6 +4896,9 @@
               },
               {
                 "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
                 "info": [
                   {
                     "text": "CONSTANT_SPEED = 9.8",
@@ -4709,6 +4910,9 @@
           },
           {
             "type": "h3",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": [
               {
                 "text": "Nombres invalidos: ❌",
@@ -4718,9 +4922,15 @@
           },
           {
             "type": "ul",
+            "id": 11,
+            "order": 11,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
                 "info": [
                   {
                     "text": ".cat",
@@ -4730,6 +4940,9 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
                     "text": "0number",
@@ -4739,6 +4952,9 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
                 "info": [
                   {
                     "text": "`car",
@@ -4748,6 +4964,9 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
                 "info": [
                   {
                     "text": "-hello",
@@ -4759,6 +4978,9 @@
           },
           {
             "type": "h3",
+            "id": 12,
+            "order": 12,
+            "available": true,
             "info": [
               {
                 "text": "Posición de memoria",
@@ -4768,6 +4990,9 @@
           },
           {
             "type": "p",
+            "id": 13,
+            "order": 13,
+            "available": true,
             "info": [
               {
                 "text": "(en que posicion de memoria se guarda el valor de la variable)",
@@ -4777,13 +5002,20 @@
           },
           {
             "type": "figure",
+            "id": 14,
+            "order": 14,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/posicion_memoria.png",
-              "alt": "Posición de memoria"
+              "alt": "Posición de memoria",
+              "title": "Posición de memoria"
             }
           },
           {
             "type": "h3",
+            "id": 15,
+            "order": 15,
+            "available": true,
             "info": [
               {
                 "text": "Buenas Practicas con Variables en Python",
@@ -4793,6 +5025,9 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
             "info": [
               {
                 "text": "Cuando hablamos de buenas practicas, nos referimos a aquellas formas de hacer codigo que pueden ayudarnos a escribirlo de manera más limpia y legible ¡a continuacion voy a destacar algunas que pueden ayudarte con las variables!",
@@ -4802,9 +5037,15 @@
           },
           {
             "type": "ol",
+            "id": 17,
+            "order": 17,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
                 "info": [
                   {
                     "text": "Nombres descriptivos: ",
@@ -4825,6 +5066,9 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
                     "text": "Evita nombres reservados: ",
@@ -4845,6 +5089,9 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
                 "info": [
                   {
                     "text": "Convenciones de estilo: ",
@@ -4865,6 +5112,9 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
                 "info": [
                   {
                     "text": "Evita nombres genéricos: ",
@@ -4885,6 +5135,9 @@
               },
               {
                 "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
                 "info": [
                   {
                     "text": "Usa constantes en mayúsculas: ",
@@ -4905,6 +5158,9 @@
               },
               {
                 "type": "li",
+                "liID": 6,
+                "order": 6,
+                "available": true,
                 "info": [
                   {
                     "text": "Inicializa variables cuando sea posible: ",
@@ -4937,6 +5193,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -4946,6 +5205,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "1 )- Escribir un programa que imprima un mensaje en la pantalla.",
@@ -4955,15 +5217,22 @@
           },
           {
             "type": "answer",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_1.png",
-                "alt": "Solución ejercicio 1"
+                "alt": "Solución ejercicio 1",
+                "title": "Solución ejercicio 1"
               }
             ]
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "2 )- Escribir un programa que sume dos números.",
@@ -4973,15 +5242,22 @@
           },
           {
             "type": "answer",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_2.png",
-                "alt": "Solución ejercicio 2"
+                "alt": "Solución ejercicio 2",
+                "title": "Solución ejercicio 2"
               }
             ]
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": [
               {
                 "text": "3 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
@@ -4991,15 +5267,22 @@
           },
           {
             "type": "answer",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_3.png",
-                "alt": "Solución ejercicio 3"
+                "alt": "Solución ejercicio 3",
+                "title": "Solución ejercicio 3"
               }
             ]
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "4 )- Escribe un programa donde una variable llamada contador cambie a lo largo de la ejecucion del programa, que su primer valor sea 0, cambie a 5 y posteriormente a 25 para al finalizar el programa volver a ser 5.",
@@ -5009,10 +5292,14 @@
           },
           {
             "type": "answer",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_4.png",
-                "alt": "Solución ejercicio 4"
+                "alt": "Solución ejercicio 4",
+                "title": "Solución ejercicio 4"
               }
             ]
           }
@@ -5028,6 +5315,9 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
             "info": [
               {
                 "text": "Bonus track 1: Más ejercicios",
@@ -5037,6 +5327,9 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
             "info": [
               {
                 "text": "Escribir un programa que imprima en pantalla la multiplicación y la división de dos variables.",
@@ -5046,15 +5339,22 @@
           },
           {
             "type": "answer",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "img": "/images/Python/class3/bonus_track_1.png",
-                "alt": "Solución ejercicio 1"
+                "alt": "Solución ejercicio 1",
+                "title": "Solución ejercicio 1"
               }
             ]
           },
           {
             "type": "h3",
+            "id": 4,
+            "order": 4,
+            "available": true,
             "info": [
               {
                 "text": "Bonus track 2: Más extensiones para VS Code",
@@ -5064,6 +5364,9 @@
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
             "info": [
               {
                 "text": "Python Development Extensions Pack: ",
@@ -5077,13 +5380,20 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/bonus_track_2.png",
-              "alt": "Python Development Extensions Pack"
+              "alt": "Python Development Extensions Pack",
+              "title": "Python Development Extensions Pack"
             }
           },
           {
             "type": "h3",
+            "id": 7,
+            "order": 7,
+            "available": true,
             "info": [
               {
                 "text": "Bonus track 3: Tip para terminal",
@@ -5093,6 +5403,9 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
             "info": [
               {
                 "text": "Si hacen click derecho en un carpeta y seleccionan la opción ",
@@ -5110,16 +5423,24 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/bonus_track_3_1.png",
-              "alt": "Opción de menú contextual"
+              "alt": "Opción de menú contextual",
+              "title": "Opción de menú contextual"
             }
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
             "info": {
               "img": "/images/Python/class3/bonus_track_3_2.png",
-              "alt": "Consola de terminal"
+              "alt": "Consola de terminal",
+              "title": "Consola de terminal"
             }
           }
         ]
