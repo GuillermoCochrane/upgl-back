@@ -7,6 +7,17 @@ const pythonFunctions = {
 
     pathIADB: path.join(__dirname, '../data/iaDB.json'),
 
+    store: function(data, course){
+        let database ;
+        if (course == "python"){
+            database = this.pathPythonDB;
+        } else if (course == "ia"){
+            database = this.pathIADB;
+        };
+        fs.writeFileSync( database, JSON.stringify(data, null, ' ') );
+        return true;
+    },
+
     allEntries: function(course)  {
         let data = [];
         let database = "";
