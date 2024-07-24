@@ -7,27 +7,25 @@ const pythonFunctions = {
 
     pathIADB: path.join(__dirname, '../data/iaDB.json'),
 
-    store: function(data, course){
+    dBselector: function(course){
         let database ;
         if (course == "python"){
             database = this.pathPythonDB;
         } else if (course == "ia"){
             database = this.pathIADB;
         };
+        return database;
+    },
+
+    store: function(data, course){
+        let database = this.dBselector(course);
         fs.writeFileSync( database, JSON.stringify(data, null, ' ') );
         return true;
     },
 
     allEntries: function(course)  {
         let data = [];
-        let database = "";
-
-        if (course == "python"){
-            database = this.pathPythonDB;
-        } else if (course == "ia"){
-            database = this.pathIADB;
-        };
-
+        let database = this.dBselector(course);
         let readDB = fs.readFileSync(database, 'utf-8');
         if (readDB != ""){
             data = JSON.parse(readDB);
