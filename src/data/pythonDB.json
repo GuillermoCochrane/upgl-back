@@ -5472,6 +5472,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": false,
             "info": [
               {
                 "text": "¿Qué es la función input()?",
@@ -5481,6 +5485,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": false,
             "info": [
               {
                 "text": "La función input() en Python se usa para recibir datos del usuario mientras el programa se está ejecutando.",
@@ -5490,19 +5498,35 @@
           },
           {
             "type": "ul",
+            "id": 3,
+            "order": 3,
+            "available": true,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": true,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "El programa le pide al usuario que ingrese algo: Cuando el programa alcanza la línea de código que contiene ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "input()",
                     "content": "bold"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": ", se detiene y muestra un mensaje (si lo incluye entre comillas dentro de los paréntesis), esperando que el usuario escriba algo.",
                     "content": "plain"
                   }
@@ -5510,24 +5534,43 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": true,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "El usuario ingresa un valor: El usuario escribe lo que quiera y luego presiona la tecla ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Enter",
                     "content": "bold"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": " o ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
                     "text": "Intro",
                     "content": "bold"
                   },
                   {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
                     "text": ".",
                     "content": "plain"
                   }
@@ -5535,6 +5578,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": false,
                 "info": [
                   {
                     "text": "El programa recibe y guarda lo que el usuario escribió: Lo que el usuario escribió se guarda como una cadena de texto (o string) y el programa lo puede utilizar más adelante.",
@@ -5546,6 +5593,10 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": false,
             "info": [
               {
                 "text": "Por ejemplo: ",
@@ -5555,13 +5606,22 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": false,
             "info": {
               "img": "/images/Python/class4/Input_1.png",
-              "alt": "Ejemplo input"
+              "alt": "Ejemplo input",
+              "title": "Ejemplo input"
             }
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": false,
             "info": [
               {
                 "text": "¡No solo se puede usar uno en nuestro codigo, podemos usar y almacenar la cantidad que necesitemos!",
@@ -5571,674 +5631,15 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": false,
             "info": {
               "img": "/images/Python/class4/Input_2.png",
-              "alt": "Ejemplo 2 input "
+              "alt": "Ejemplo 2 input ",
+              "title": "Ejemplo 2 input "
             }
-          }
-        ]
-      },
-      {
-        "topic": 2,
-        "available": true,
-        "linkData": {
-          "title": "Cadenas formateadas con con print( f\" \" )",
-          "link": "/courses/Python/class/4/2"
-        },
-        "topicData": [
-          {
-            "type": "h3",
-            "info": [
-              {
-                "text": "print(f\"\") en Python: Cadenas Formateadas con f ",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "En Python, ",
-                "content": "plain"
-              },
-              {
-                "text": "print()",
-                "content": "bold"
-              },
-              {
-                "text": " es una función que se usa para mostrar información en la consola. El código ",
-                "content": "plain"
-              },
-              {
-                "text": "print(f\"{variable}\")",
-                "content": "bold"
-              },
-              {
-                "text": " utiliza cadenas formateadas con f (f-strings en inglés), una característica poderosa introducida en Python 3.6, para crear cadenas con formato que integran variables sin problemas.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Desglose del código:",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "print()",
-                "content": "bold"
-              },
-              {
-                "text": ": Esta función envía los datos proporcionados a la consola para su visualización.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "f\"...\"",
-                "content": "bold"
-              },
-              {
-                "text": ": Esto indica una cadena formateada con f. La \"f\" precede a la comilla de apertura.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "{...variable}",
-                "content": "bold"
-              },
-              {
-                "text": ": Dentro de las llaves ",
-                "content": "plain"
-              },
-              {
-                "text": "{}",
-                "content": "bold"
-              },
-              {
-                "text": ", se coloca el nombre de la variable cuyo valor desea insertar en la cadena.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/print_f.png",
-              "alt": "Cadenas formateadas con print(f\"\")"
-            }
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Cómo funciona: ",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "ol",
-            "info": [
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Python evalúa la expresión dentro de las llaves (",
-                    "content": "plain"
-                  },
-                  {
-                    "text": "{...variable}",
-                    "content": "bold"
-                  },
-                  {
-                    "text": ") y recupera el valor de la variable.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "El valor de la variable reemplaza la ubicación correspondiente de las llaves dentro de la cadena formateada con f.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "La cadena formateada completa se envía luego a la función ",
-                    "content": "plain"
-                  },
-                  {
-                    "text": "print()",
-                    "content": "bold"
-                  },
-                  {
-                    "text": " para que se muestre en la consola.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Beneficios de las cadenas formateadas con f:",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "ul",
-            "info": [
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Legibilidad: ",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "Mejoran la legibilidad del código al dejar en claro dónde se usan las variables.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Concisión: ",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "Ofrecen una forma compacta de formatear cadenas sin necesidad de concatenación de cadenas o el método ",
-                    "content": "plain"
-                  },
-                  {
-                    "text": ".format()",
-                    "content": "bold"
-                  },
-                  {
-                    "text": ".",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Flexibilidad: ",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "Puede incorporar expresiones y otras opciones de formato dentro de las llaves.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "topic": 3,
-        "available": true,
-        "linkData": {
-          "title": "Repasando variables",
-          "link": "/courses/Python/class/4/3"
-        },
-        "topicData": [
-          {
-            "type": "h3",
-            "info": [
-              {
-                "text": "Repasando variables",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "¿Te acordas que es una variable?",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato. ¡La sintaxis de una variable es muy simple!",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/variables.png",
-              "alt": "Variables"
-            }
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "Recordá: ",
-                "content": "bold"
-              },
-              {
-                "text": "Las variables pueden almacenar cualquier tipo de dato, ya sea:",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "ul",
-            "info": [
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Una cadena de texto(string):",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "mi_variable = \"Hola Mundo\"",
-                    "content": "plain"
-                  },
-                  {
-                    "text": ", recordá que el texto que nuestra variable va a almacenar siempre tiene que estar entre comillas \"TEXTO\".",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Números enteros (Int):",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "mi_variable = 150",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Números decimales (Float):",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "mi_variable = 5.5",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Números imaginarios (Complex):",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "mi_variable = 5j",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Valores Booleanos (Boolean):",
-                    "content": "bold"
-                  },
-                  {
-                    "text": "mi_variable = True",
-                    "content": "plain"
-                  },
-                  {
-                    "text": "o",
-                    "content": "plain"
-                  },
-                  {
-                    "text": "mi_variable = False",
-                    "content": "plain"
-                  },
-                  {
-                    "text": ", recordá que estos valores son Palabras claves de python y deben estar escritos con la primer letra mayuscula, sino python no entenderá que es un booleano.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "¡Podemos usar variables en operaciones matematicas!",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/operaciones_matematicas.png",
-              "alt": "Operaciones matematicas"
-            }
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "¿Y con cadenas de texto?",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "Con cadena de texto se puede usar el simbolo ",
-                "content": "plain"
-              },
-              {
-                "text": "+",
-                "content": "bold"
-              },
-              {
-                "text": " para concatenar palabras y el simbolo ",
-                "content": "plain"
-              },
-              {
-                "text": "*",
-                "content": "bold"
-              },
-              {
-                "text": " nos permité multiplicar el texto.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/cadenas_texto.png",
-              "alt": "Cadenas de texto"
-            }
-          }
-        ]
-      },
-      {
-        "topic": 4,
-        "available": true,
-        "linkData": {
-          "title": "Actividades",
-          "link": "/courses/Python/class/4/4"
-        },
-        "topicData": [
-          {
-            "type": "h3",
-            "info": [
-              {
-                "text": "Actividades: 💬",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Es hora de usar el metodo input para resolver ejercicios!",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "1 )- Escribir un programa que pida al usuario su nombre y lo salude por su nombre.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "answer",
-            "info": [
-              {
-                "img": "/images/Python/class4/Ejercicio_1.png",
-                "alt": "Solución ejercicio 1"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "2 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "ul",
-            "info": [
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Pedirle al usuario que ponga como estuvo su dia (del 1 al 10) y luego mostrar el texto \"Mi dia estuivo de: \" y el valor ingresado",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Pedir al usuario que ingrese su edad y su ciudad de residencia, y luego mostrar estos datos en una frase.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "li",
-                "info": [
-                  {
-                    "text": "Solicitar al usuario que ingrese su comida favorita y su bebida favorita, luego mostrar un mensaje que contenga ambas respuestas.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "answer",
-            "info": [
-              {
-                "img": "/images/Python/class4/Ejercicio_2.png",
-                "alt": "Solución ejercicio 2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "topic": 5,
-        "available": true,
-        "linkData": {
-          "title": "Bonus track",
-          "link": "/courses/Python/class/4/5"
-        },
-        "topicData": [
-          {
-            "type": "h3",
-            "info": [
-              {
-                "text": "Bonus track",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Trivia 1",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "Dado el siguiente Código, seleccione la opción correcta: ",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/trivia_1.png",
-              "alt": "Trivia 1"
-            }
-          },
-          {
-            "type": "trivia",
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: \"hola mundo hermosa mañana verdad?hermosa mañana verdad?\""
-            },
-            "info": [
-              {
-                "text": "Verdadero",
-                "content": "plain",
-                "name": "trivia1",
-                "correct": false,
-                "value": "1"
-              },
-              {
-                "text": "Falso",
-                "content": "plain",
-                "name": "trivia1",
-                "correct": true,
-                "value": "2"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Trivia 2",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "Dado el siguiente Código, seleccione la opción correcta: ",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "figure",
-            "info": {
-              "img": "/images/Python/class4/trivia_2.png",
-              "alt": "Trivia 2"
-            }
-          },
-          {
-            "type": "trivia",
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas"
-            },
-            "info": [
-              {
-                "text": "Verdadero",
-                "content": "plain",
-                "name": "trivia2",
-                "correct": false,
-                "value": "1"
-              },
-              {
-                "text": "Falso",
-                "content": "plain",
-                "name": "trivia2",
-                "correct": true,
-                "value": "2"
-              }
-            ]
-          },
-          {
-            "type": "h4",
-            "info": [
-              {
-                "text": "Editor de codigo online",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "info": [
-              {
-                "text": "En la siguiente página encontrarás un editor de código online que te permite escribir y ejecutar tu código en Python. Puedes usar este editor para resolver los ejercicios de la clase y para practicar tus habilidades en Python.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "info": [
-              {
-                "text": "Editor de código online",
-                "content": "plain",
-                "link": "https://www.online-python.com/"
-              }
-            ]
           }
         ]
       }
