@@ -5475,7 +5475,7 @@
             "id": 1,
             "order": 1,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué es la función input()?",
@@ -5488,7 +5488,7 @@
             "id": 2,
             "order": 2,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": [
               {
                 "text": "La función input() en Python se usa para recibir datos del usuario mientras el programa se está ejecutando.",
@@ -5501,13 +5501,14 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "liID": 1,
                 "order": 1,
                 "available": true,
-                "stubs": true,
+                "stubs": 3,
                 "info": [
                   {
                     "stubID": 1,
@@ -5537,7 +5538,7 @@
                 "liID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": true,
+                "stubs": 5,
                 "info": [
                   {
                     "stubID": 1,
@@ -5581,7 +5582,7 @@
                 "liID": 3,
                 "order": 3,
                 "available": true,
-                "stubs": false,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "El programa recibe y guarda lo que el usuario escribió: Lo que el usuario escribió se guarda como una cadena de texto (o string) y el programa lo puede utilizar más adelante.",
@@ -5596,7 +5597,7 @@
             "id": 4,
             "order": 4,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": [
               {
                 "text": "Por ejemplo: ",
@@ -5609,7 +5610,7 @@
             "id": 5,
             "order": 5,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class4/Input_1.png",
               "alt": "Ejemplo input",
@@ -5621,7 +5622,7 @@
             "id": 6,
             "order": 6,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": [
               {
                 "text": "¡No solo se puede usar uno en nuestro codigo, podemos usar y almacenar la cantidad que necesitemos!",
@@ -5634,12 +5635,387 @@
             "id": 7,
             "order": 7,
             "available": true,
-            "stubs": false,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class4/Input_2.png",
               "alt": "Ejemplo 2 input ",
               "title": "Ejemplo 2 input "
             }
+          }
+        ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "linkData": {
+          "title": "Cadenas formateadas con con print( f\" \" )",
+          "link": "/courses/Python/class/4/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "print(f\"\") en Python: Cadenas Formateadas con f ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En Python, ",
+                "content": "plain"
+              },
+              { 
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "print()",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " es una función que se usa para mostrar información en la consola. El código ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "print(f\"{variable}\")",
+                "content": "bold"
+              },
+              { 
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": " utiliza cadenas formateadas con f (f-strings en inglés), una característica poderosa introducida en Python 3.6, para crear cadenas con formato que integran variables sin problemas.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Desglose del código:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "print()",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": ": Esta función envía los datos proporcionados a la consola para su visualización.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "f\"...\"",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": ": Esto indica una cadena formateada con f. La \"f\" precede a la comilla de apertura.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "{...variable}",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": ": Dentro de las llaves ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "{}",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": ", se coloca el nombre de la variable cuyo valor desea insertar en la cadena.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class4/print_f.png",
+              "alt": "Cadenas formateadas con print(f\"\")",
+              "title": "Cadenas formateadas con print(f\"\")"
+            }
+          },
+          {
+            "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Cómo funciona: ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Python evalúa la expresión dentro de las llaves (",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "{...variable}",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ") y recupera el valor de la variable.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "El valor de la variable reemplaza la ubicación correspondiente de las llaves dentro de la cadena formateada con f.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "La cadena formateada completa se envía luego a la función ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "print()",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " para que se muestre en la consola.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Beneficios de las cadenas formateadas con f:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Legibilidad: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Mejoran la legibilidad del código al dejar en claro dónde se usan las variables.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 4,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Concisión: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ofrecen una forma compacta de formatear cadenas sin necesidad de concatenación de cadenas o el método ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ".format()",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": ".",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Flexibilidad: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Puede incorporar expresiones y otras opciones de formato dentro de las llaves.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
