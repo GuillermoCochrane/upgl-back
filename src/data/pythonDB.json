@@ -6018,6 +6018,335 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 3,
+        "available": true,
+        "linkData": {
+          "title": "Repasando variables",
+          "link": "/courses/Python/class/4/3"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Repasando variables",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "¿Te acordas que es una variable?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato. ¡La sintaxis de una variable es muy simple!",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class4/variables.png",
+              "alt": "Variables",
+              "title": "Variables"
+            }
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Recordá: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Las variables pueden almacenar cualquier tipo de dato, ya sea:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Una cadena de texto(string):",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "mi_variable = \"Hola Mundo\"",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ", recordá que el texto que nuestra variable va a almacenar siempre tiene que estar entre comillas \"TEXTO\".",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Números enteros (Int):",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "mi_variable = 150",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Números decimales (Float):",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "mi_variable = 5.5",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Números imaginarios (Complex):",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "mi_variable = 5j",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 5,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Valores Booleanos (Boolean):",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "mi_variable = True",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "o",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": "mi_variable = False",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
+                    "text": ", recordá que estos valores son Palabras claves de python y deben estar escritos con la primer letra mayuscula, sino python no entenderá que es un booleano.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "¡Podemos usar variables en operaciones matematicas!",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class4/operaciones_matematicas.png",
+              "alt": "Operaciones matematicas",
+              "title": "Operaciones matematicas"
+            }
+          },
+          {
+            "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "¿Y con cadenas de texto?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Con cadena de texto se puede usar el simbolo ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "+",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " para concatenar palabras y el simbolo ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "*",
+                "content": "bold"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,  
+                "text": " nos permité multiplicar el texto.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "info": {
+              "img": "/images/Python/class4/cadenas_texto.png",
+              "alt": "Cadenas de texto",
+              "title": "Cadenas de texto"
+            }
+          }
+        ]
       }
     ]
   },
