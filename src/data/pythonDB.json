@@ -5707,7 +5707,7 @@
             ]
           }
         ]
-      },      
+      },
       {
         "topic": 2,
         "available": true,
@@ -5721,6 +5721,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Asignaciones en Python",
@@ -5733,6 +5734,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En Python, las asignaciones se realizan utilizando el operador de asignación (=). El operador de asignación es una simbolo que se utiliza para asignar un valor a una variable.",
@@ -5745,6 +5747,7 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tipos de asignaciones (=): ",
@@ -5757,6 +5760,7 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Simples: ",
@@ -5769,6 +5773,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/asignaciones_simples.png",
               "alt": "Asignaciones Simples",
@@ -5780,6 +5785,7 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Múltiples: ",
@@ -5792,6 +5798,7 @@
             "id": 7,
             "order": 7,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En las siguientes asignaciones se asignan valores a varias variables a la vez.",
@@ -5804,6 +5811,7 @@
             "id": 8,
             "order": 8,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/asignaciones_multiples.png",
               "alt": "Asignaciones Multiples",
@@ -5815,6 +5823,7 @@
             "id": 9,
             "order": 9,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Literales y expresiones: ",
@@ -5827,6 +5836,7 @@
             "id": 10,
             "order": 10,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Cuando se hacen asignaciones se pueden utilizar:",
@@ -5839,6 +5849,7 @@
             "id": 11,
             "order": 11,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Literales: ",
@@ -5851,6 +5862,7 @@
             "id": 12,
             "order": 12,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Son datos descritos directamente en el código. Es información estática, puede ser simple o usar instancias de clases. La definición clave es que se conoce cuál será el valor asignado analizando el código.",
@@ -5863,6 +5875,7 @@
             "id": 13,
             "order": 13,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/asignaciones_literales.png",
               "alt": "Asignaciones Literales",
@@ -5874,6 +5887,7 @@
             "id": 14,
             "order": 14,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Expresiones: ",
@@ -5886,6 +5900,7 @@
             "id": 15,
             "order": 15,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Son datos asignados tras la evaluación de una o varias sentencias. Suelen ser dinámicos y no se conoce el valor final analizando el código.",
@@ -5898,6 +5913,7 @@
             "id": 16,
             "order": 16,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/asignaciones_expresiones.png",
               "alt": "Asignaciones Expresiones",
@@ -5908,6 +5924,7 @@
             "type": "h4",
             "id": 17,
             "order": 17,
+            "stubs": 1,
             "available": true,
             "info": [
               {
@@ -5921,6 +5938,7 @@
             "id": 18,
             "order": 18,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En Python hay algunas palabras reservadas en que no pueden ser utilizadas como identificadores válidos. Se pueden encontrar en keyword.kwlist, y son los siguientes.",
@@ -5935,6 +5953,7 @@
             "available": true,
             "columns": 4,
             "title": ["Keywords en Python"],
+            "stubs": 9,
             "info": [
               {
                 "rowID": 1,
@@ -6002,7 +6021,7 @@
             ]
           }
         ]
-      },
+      },      
       {
         "topic": 3,
         "available": true,
