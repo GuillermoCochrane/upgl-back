@@ -2078,6 +2078,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "💻 Desarrollo de software 💻",
@@ -2090,6 +2091,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Python se implementa en el desarrollo de software desde que se lanzó y continúa siendo muy popular para ese propósito.",
@@ -2102,6 +2104,7 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se utiliza para crear software en diferentes plataformas porque es compatible con muchos ámbitos de operación",
@@ -2114,6 +2117,7 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Sistemas operativos para computadoras y dispositivos móviles y en entornos de sistema en tiempo de ejecución.",
@@ -2126,6 +2130,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "",
@@ -2138,18 +2143,26 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Análisis de datos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Python es adecuado para el análisis de datos porque funciona bien al crear representaciones visuales efectivas de bloques de datos complejos y al examinar datos. Estos dos aspectos de sus capacidades lo convierten en una herramienta básica en la industria de la ciencia de datos.",
                     "content": "plain"
                   }
@@ -2160,12 +2173,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Machine learning e Inteligencia Artificial: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Los proyectos de machine learning (aprendizaje automático) se basan en la Inteligencia Artificial, que utiliza algoritmos para analizar datos, aprender y tomar mejores decisiones. Por lo que Python se utiliza ampliamente en este sector ya que tiene la potencia y la escalabilidad para manejar cantidades masivas de solicitudes de datos simultáneamente.",
                     "content": "plain"
                   }
@@ -2176,12 +2196,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Ciencias de blockchain: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Esta industria se ha convertido, recientemente, en un usuario importante del lenguaje Python, que ha manejado desde siempre ciencias de blockchain.",
                     "content": "plain"
                   }
@@ -2192,17 +2219,20 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "¿Qué es blockchain?: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Blockchain, o cadena de bloques,es una base de datos compartida o distribuida que almacena datos de cualquier tipo. La información registrada está almacenada en bloques, ligados entre sí criptográficamente y validada de una forma descentralizada a través de un protocolo común. El surgimiento y crecimiento continuo alrededor de tecnologías —como las criptomonedas y NFT— lo han encumbrado dentro de la industria. Su habilidad para manejar todos los aspectos de la tecnología blockchain lo convierte en un elemento primordial.",
-                    "content": "plain"
-                  },
-                  {
-                    "text": "",
                     "content": "plain"
                   }
                 ]
