@@ -2254,6 +2254,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Instalaciones necesarias para empezar a programar en Python",
@@ -2266,26 +2267,40 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 4,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Instalacion de Python: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Para verificar la instalación, abrir una terminal o ventana de comandos y escribe ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": "python --version",
                     "content": "bold"
                   },
                   {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
                     "text": ". Si la instalación fue correcta, debería mostrar la versión de Python que instalaste.",
                     "content": "plain"
                   }
@@ -2296,12 +2311,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Instalacion de Visual Studio Code: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Una vez que tengamos Python instalado, podemos instalar Visual Studio Code (VS Code). VS Code es un editor de código de código abierto muy popular y fácil de usar. Puedes descargarlo desde el sitio oficial: ",
                     "content": "plain"
                   }
@@ -2312,34 +2334,55 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Instalacion de extensiones de VS Code: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Una vez que tengamos VS Code instalado, podemos instalar extensiones adicionales para mejorar nuestra experiencia de programación. Algunas extensiones recomendadas para principiantes son:",
                     "content": "plain"
                   },
                   {
                     "type": "ul",
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "stubs": 3,
                     "info": [
                       {
                         "type": "li",
                         "available": true,
                         "liID": 1,
                         "order": 1,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Python by Microsoft: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión oficial de Microsoft proporciona soporte completo para el lenguaje Python, incluyendo IntelliSense, linting, depuración, formateo de código, refactoring, explorador de variables y mucho más. Es una extensión imprescindible para cualquier desarrollador de Python.",
                             "content": "plain"
                           },
                           {
                             "type": "figure",
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "info": {
                               "img": "/images/Python/class2/Ext_Py_MS.png",
                               "alt": "Python by Microsoft",
@@ -2353,17 +2396,27 @@
                         "available": true,
                         "liID": 2,
                         "order": 2,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Pylance: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión de Microsoft ofrece análisis de código estático avanzado para Python, utilizando el motor de análisis de código pylint. Te ayuda a detectar errores y problemas en tu código antes de ejecutarlo.",
                             "content": "plain"
                           },
                           {
                             "type": "figure",
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "info": {
                               "img": "/images/Python/class2/Ext_Pylance.png",
                               "alt": "Pylance by Microsoft",
@@ -2377,16 +2430,26 @@
                         "available": true,
                         "liID": 3,
                         "order": 3,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Code Runner: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión te permite ejecutar código Python directamente desde el editor de Visual Studio Code, sin necesidad de abrir una terminal o consola separada. Es muy útil para probar y depurar pequeños fragmentos de código rápidamente.",
                             "content": "plain"
                           },
                           {
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Code_Runner.png",
@@ -2405,30 +2468,48 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Extensiones para mejorar la productividad: ",
                     "content": "bold"
                   },
                   {
                     "type": "ul",
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 4,
                     "info": [
                       {
                         "type": "li",
                         "available": true,
                         "liID": 1,
                         "order": 1,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Better Comments: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión te ayuda a escribir comentarios más claros y descriptivos en tu código Python. Ofrece diferentes plantillas de comentarios, resaltado de sintaxis y otras funciones útiles.",
                             "content": "plain"
                           },
                           {
                             "type": "figure",
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "info": {
                               "img": "/images/Python/class2/Ext_Better_Comments.png",
                               "alt": "Better Comments",
@@ -2442,17 +2523,27 @@
                         "available": true,
                         "liID": 2,
                         "order": 2,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "ESLint: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión integra el popular linter ESLint en Visual Studio Code, lo que te permite analizar tu código JavaScript y Python en busca de errores y problemas de estilo.",
                             "content": "plain"
                           },
                           {
                             "type": "figure",
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "info": {
                               "img": "/images/Python/class2/Ext_ESLint.png",
                               "alt": "ESLint",
@@ -2466,17 +2557,27 @@
                         "available": true,
                         "liID": 3,
                         "order": 3,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Python snippets: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Esta extensión te proporciona una gran colección de fragmentos de código predefinidos para Python, que puedes insertar rápidamente en tu código con solo unas pocas pulsaciones de teclas. Te ahorra tiempo y te ayuda a escribir código más eficiente.",
                             "content": "plain"
                           },
                           {
                             "type": "figure",
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "info": {
                               "img": "/images/Python/class2/Ext_Py_Snippets.png",
                               "alt": "Python snippets",
@@ -2490,16 +2591,26 @@
                         "available": true,
                         "liID": 4,
                         "order": 4,
+                        "stubs": 3,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Spanish Language Pack for Visual Studio Code: ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "El paquete de idioma español proporciona una experiencia de UI localizada para VS Code.",
                             "content": "plain"
                           },
                           {
+                            "stubID": 3,
+                            "order": 3,
+                            "available": true,
                             "type": "figure",
                             "info": {
                               "img": "/images/Python/class2/Ext_Spanish.png",
