@@ -2753,6 +2753,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos el Hello World en distintos lenguajes de programación",
@@ -2765,6 +2766,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "link": "https://www.youtube.com/embed/WBdNh8ZVNbc",
@@ -2779,6 +2781,7 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Como ya les habiamos comentado en la clase anterior, existen infinidades de lenguajes de programacion y cada uno de ellos posee una sintaxis y semantica única para resolver el mismo problema ",
@@ -2791,6 +2794,7 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¡a continuacion les mostraré como se ve el tipico programa que imprime \"Hello World\" en diferentes lenguajes!",
@@ -2803,6 +2807,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Python",
@@ -2815,6 +2820,7 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_python.png",
               "alt": "helloWorld.py",
@@ -2826,6 +2832,7 @@
             "id": 7,
             "order": 7,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Python:",
@@ -2838,20 +2845,33 @@
             "id": 8,
             "order": 8,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "print(\"Hello, World!\")",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Imprime \"Hello, World!\" en la consola. La función",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": " print() ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "muestra el texto o el valor pasado como argumento en la consola.",
                 "content": "plain"
               }
@@ -2862,6 +2882,7 @@
             "id": 9,
             "order": 9,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Java",
@@ -2874,6 +2895,7 @@
             "id": 10,
             "order": 10,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_java.png",
               "alt": "helloWorld.java",
@@ -2885,6 +2907,7 @@
             "id": 11,
             "order": 11,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Java:",
@@ -2897,12 +2920,19 @@
             "id": 12,
             "order": 12,
             "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "public class Hello {",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Define una clase llamada Hello, que es pública y accesible desde fuera del paquete. En Java, el nombre del archivo debe coincidir con el nombre de la clase pública.",
                 "content": "plain"
               }
@@ -2913,36 +2943,61 @@
             "id": 13,
             "order": 13,
             "available": true,
+            "stubs": 8,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": " public static void main(String[] args) {",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Define un método principal llamado main, que es estático (puede ser invocado sin crear una instancia de la clase) y no devuelve ningún valor ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "(void) ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": ". Toma un argumento de tipo ",
                 "content": "plain"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": "String[] ",
                 "content": "bold"
               },
               {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
                 "text": ", llamado ",
                 "content": "plain"
               },
               {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
                 "text": "args ",
                 "content": "bold"
               },
               {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
                 "text": ", que representa los argumentos pasados al programa desde la línea de comandos.",
                 "content": "plain"
               }
@@ -2953,30 +3008,79 @@
             "id": 14,
             "order": 14,
             "available": true,
+            "stubs": 6,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "System.out.println(\"Hello, World!\");",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "System.out ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "es un objeto de salida estándar, ",
                 "content": "plain"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": "println() ",
                 "content": "bold"
               },
               {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
                 "text": "muestra el texto o el valor pasado como argumento en la consola.",
                 "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "}",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "- Cierra el método ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "main.",
+                "content": "bold"
               }
             ]
           },
@@ -2985,36 +3089,26 @@
             "id": 16,
             "order": 16,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
-                "text": "- Cierra el método ",
-                "content": "plain"
-              },
-              {
-                "text": "main.",
-                "content": "bold"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 17,
-            "order": 17,
-            "available": true,
-            "info": [
-              {
-                "text": "}",
-                "content": "bold"
-              },
-              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Cierra la clase ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Hello.",
                 "content": "bold"
               }
@@ -3022,9 +3116,10 @@
           },
           {
             "type": "h3",
-            "id": 18,
-            "order": 18,
+            "id": 17,
+            "order": 17,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "PHP",
@@ -3034,9 +3129,10 @@
           },
           {
             "type": "figure",
-            "id": 19,
-            "order": 19,
+            "id": 18,
+            "order": 18,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_php.png",
               "alt": "HelloWorld.php",
@@ -3045,9 +3141,10 @@
           },
           {
             "type": "h4",
-            "id": 20,
-            "order": 20,
+            "id": 19,
+            "order": 19,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de PHP:",
@@ -3057,16 +3154,60 @@
           },
           {
             "type": "p",
-            "id": 21,
-            "order": 21,
+            "id": 20,
+            "order": 20,
             "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "<?php",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Inicia el bloque de código PHP. Indica que lo que sigue es código PHP.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 21,
+            "order": 21,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "echo \"Hello, World!\";",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "- Imprime \"Hello, World!\" en la salida. ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "echo ",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es una instrucción de PHP que imprime texto o variables.",
                 "content": "plain"
               }
             ]
@@ -3076,36 +3217,19 @@
             "id": 22,
             "order": 22,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "echo \"Hello, World!\";",
-                "content": "bold"
-              },
-              {
-                "text": "- Imprime \"Hello, World!\" en la salida. ",
-                "content": "plain"
-              },
-              {
-                "text": "echo ",
-                "content": "bold"
-              },
-              {
-                "text": "es una instrucción de PHP que imprime texto o variables.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 23,
-            "order": 23,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "?>",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Cierra el bloque de código PHP. Indica que el código PHP ha terminado.",
                 "content": "plain"
               }
@@ -3113,9 +3237,10 @@
           },
           {
             "type": "h3",
-            "id": 24,
-            "order": 24,
+            "id": 23,
+            "order": 23,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "JavaScript",
@@ -3125,9 +3250,10 @@
           },
           {
             "type": "figure",
-            "id": 25,
-            "order": 25,
+            "id": 24,
+            "order": 24,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_javascript.png",
               "alt": "HelloWorld.js",
@@ -3136,9 +3262,10 @@
           },
           {
             "type": "h4",
-            "id": 26,
-            "order": 26,
+            "id": 25,
+            "order": 25,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de JavaScript:",
@@ -3148,15 +3275,22 @@
           },
           {
             "type": "p",
-            "id": 27,
-            "order": 27,
+            "id": 26,
+            "order": 26,
             "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "console.log()",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Es una función de JavaScript que muestra mensajes en la consola del navegador o en la consola del entorno de ejecución (como Node.js en un entorno de servidor).",
                 "content": "plain"
               }
@@ -3164,15 +3298,22 @@
           },
           {
             "type": "p",
-            "id": 28,
-            "order": 28,
+            "id": 27,
+            "order": 27,
             "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "\"Hello, World!\"",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Es el mensaje que se mostrará en la consola.",
                 "content": "plain"
               }
@@ -3180,9 +3321,10 @@
           },
           {
             "type": "h3",
-            "id": 29,
-            "order": 29,
+            "id": 28,
+            "order": 28,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "C++",
@@ -3192,9 +3334,10 @@
           },
           {
             "type": "figure",
-            "id": 30,
-            "order": 30,
+            "id": 29,
+            "order": 29,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_c++.png",
               "alt": "HelloWorld.cpp",
@@ -3203,9 +3346,10 @@
           },
           {
             "type": "h4",
-            "id": 31,
-            "order": 31,
+            "id": 30,
+            "order": 30,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de C++:",
@@ -3215,24 +3359,60 @@
           },
           {
             "type": "p",
-            "id": 32,
-            "order": 32,
+            "id": 31,
+            "order": 31,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "#include <iostream>",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Incluye la biblioteca de entrada/salida estándar de C++. Esta biblioteca permite el uso de ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "std::cout ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "para imprimir en la consola.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 32,
+            "order": 32,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "int main() {",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "- Define la función principal del programa. La función main es el punto de entrada de un programa C++.",
                 "content": "plain"
               }
             ]
@@ -3242,13 +3422,62 @@
             "id": 33,
             "order": 33,
             "available": true,
+            "stubs": 8,
             "info": [
               {
-                "text": "int main() {",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "std::cout << \"Hello, World!\" << std::endl;",
                 "content": "bold"
               },
               {
-                "text": "- Define la función principal del programa. La función main es el punto de entrada de un programa C++.",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "- Imprime \"Hello, World!\" en la consola. ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "std::cout ",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es el flujo de salida estándar en C++, ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "<< ",
+                "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "es el operador de inserción y ",
+                "content": "plain"
+              },
+              {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
+                "text": "std::endl ",
+                "content": "bold"
+              },
+              {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
+                "text": "es un manipulador que inserta un carácter de nueva línea y vacía el búfer de salida.",
                 "content": "plain"
               }
             ]
@@ -3258,37 +3487,20 @@
             "id": 34,
             "order": 34,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "std::cout << \"Hello, World!\" << std::endl;",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "return 0;",
                 "content": "bold"
               },
               {
-                "text": "- Imprime \"Hello, World!\" en la consola. ",
-                "content": "plain"
-              },
-              {
-                "text": "std::cout ",
-                "content": "bold"
-              },
-              {
-                "text": "es el flujo de salida estándar en C++, ",
-                "content": "plain"
-              },
-              {
-                "text": "<< ",
-                "content": "bold"
-              },
-              {
-                "text": "es el operador de inserción y ",
-                "content": "plain"
-              },
-              {
-                "text": "std::endl ",
-                "content": "bold"
-              },
-              {
-                "text": "es un manipulador que inserta un carácter de nueva línea y vacía el búfer de salida.",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "- Finaliza la función main y devuelve 0 al sistema operativo, indicando que el programa terminó correctamente.",
                 "content": "plain"
               }
             ]
@@ -3298,28 +3510,19 @@
             "id": 35,
             "order": 35,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "return 0;",
-                "content": "bold"
-              },
-              {
-                "text": "- Finaliza la función main y devuelve 0 al sistema operativo, indicando que el programa terminó correctamente.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 36,
-            "order": 36,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "- Cierra la función main.",
                 "content": "plain"
               }
@@ -3327,9 +3530,10 @@
           },
           {
             "type": "h3",
-            "id": 37,
-            "order": 37,
+            "id": 36,
+            "order": 36,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "C#",
@@ -3339,9 +3543,10 @@
           },
           {
             "type": "figure",
-            "id": 38,
-            "order": 38,
+            "id": 37,
+            "order": 37,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_cs.png",
               "alt": "HelloWorld.cs",
@@ -3350,9 +3555,10 @@
           },
           {
             "type": "h4",
-            "id": 39,
-            "order": 39,
+            "id": 38,
+            "order": 38,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de C#:",
@@ -3362,25 +3568,68 @@
           },
           {
             "type": "p",
-            "id": 40,
-            "order": 40,
+            "id": 39,
+            "order": 39,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "using System;",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Incluye el espacio de nombres ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "System, ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "que contiene clases fundamentales de C#, como Console.",
                 "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 40,
+            "order": 40,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "class Hello {",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define una clase llamada ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "Hello.",
+                "content": "bold"
               }
             ]
           },
@@ -3389,18 +3638,77 @@
             "id": 41,
             "order": 41,
             "available": true,
+            "stubs": 10,
             "info": [
               {
-                "text": "class Hello {",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "static void Main(string[] args) {",
                 "content": "bold"
               },
               {
-                "text": " - Define una clase llamada ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define un método principal llamado ",
                 "content": "plain"
               },
               {
-                "text": "Hello.",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "Main(), ",
                 "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "que es el punto de entrada de un programa C#. Es estático (puede ser invocado sin crear una instancia de la clase), no devuelve ningún valor ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "(void) ",
+                "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "y toma un argumento de tipo ",
+                "content": "plain"
+              },
+              {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
+                "text": "string[]",
+                "content": "bold"
+              },
+              {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
+                "text": ", llamado ",
+                "content": "plain"
+              },
+              {
+                "stubID": 9,
+                "order": 9,
+                "available": true,
+                "text": "args ",
+                "content": "bold"
+              },
+              {
+                "stubID": 10,
+                "order": 10,
+                "available": true,
+                "text": ", que representa los argumentos pasados al programa desde la línea de comandos.",
+                "content": "plain"
               }
             ]
           },
@@ -3409,45 +3717,48 @@
             "id": 42,
             "order": 42,
             "available": true,
+            "stubs": 6,
             "info": [
               {
-                "text": "static void Main(string[] args) {",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Console.WriteLine(\"Hello, World!\");",
                 "content": "bold"
               },
               {
-                "text": " - Define un método principal llamado ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
-                "text": "Main(), ",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "Console ",
                 "content": "bold"
               },
               {
-                "text": "que es el punto de entrada de un programa C#. Es estático (puede ser invocado sin crear una instancia de la clase), no devuelve ningún valor ",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es una clase de la biblioteca System, y ",
                 "content": "plain"
               },
               {
-                "text": "(void) ",
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "WriteLine() ",
                 "content": "bold"
               },
               {
-                "text": "y toma un argumento de tipo ",
-                "content": "plain"
-              },
-              {
-                "text": "string[]",
-                "content": "bold"
-              },
-              {
-                "text": ", llamado ",
-                "content": "plain"
-              },
-              {
-                "text": "args ",
-                "content": "bold"
-              },
-              {
-                "text": ", que representa los argumentos pasados al programa desde la línea de comandos.",
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "es un método que imprime una línea de texto en la consola.",
                 "content": "plain"
               }
             ]
@@ -3457,30 +3768,28 @@
             "id": 43,
             "order": 43,
             "available": true,
+            "stubs": 3,
             "info": [
               {
-                "text": "Console.WriteLine(\"Hello, World!\");",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "}",
                 "content": "bold"
               },
               {
-                "text": " - Imprime \"Hello, World!\" en la consola. ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Cierra el método ",
                 "content": "plain"
               },
               {
-                "text": "Console ",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "Main().",
                 "content": "bold"
-              },
-              {
-                "text": "es una clase de la biblioteca System, y ",
-                "content": "plain"
-              },
-              {
-                "text": "WriteLine() ",
-                "content": "bold"
-              },
-              {
-                "text": "es un método que imprime una línea de texto en la consola.",
-                "content": "plain"
               }
             ]
           },
@@ -3489,36 +3798,26 @@
             "id": 44,
             "order": 44,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
-                "text": " - Cierra el método ",
-                "content": "plain"
-              },
-              {
-                "text": "Main().",
-                "content": "bold"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 45,
-            "order": 45,
-            "available": true,
-            "info": [
-              {
-                "text": "}",
-                "content": "bold"
-              },
-              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Cierra la clase ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Hello.",
                 "content": "bold"
               }
@@ -3526,9 +3825,10 @@
           },
           {
             "type": "h3",
-            "id": 46,
-            "order": 46,
+            "id": 45,
+            "order": 45,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ruby",
@@ -3538,9 +3838,10 @@
           },
           {
             "type": "figure",
-            "id": 47,
-            "order": 47,
+            "id": 46,
+            "order": 46,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_ruby.png",
               "alt": "HelloWorld.rb",
@@ -3549,9 +3850,10 @@
           },
           {
             "type": "h4",
-            "id": 48,
-            "order": 48,
+            "id": 47,
+            "order": 47,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Ruby:",
@@ -3561,23 +3863,36 @@
           },
           {
             "type": "p",
-            "id": 49,
-            "order": 49,
+            "id": 48,
+            "order": 48,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "puts \"Hello, World!\"",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "puts ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "es un método de Ruby que imprime el texto o el valor pasado como argumento en la consola.",
                 "content": "plain"
               }
@@ -3585,9 +3900,10 @@
           },
           {
             "type": "h3",
-            "id": 50,
-            "order": 50,
+            "id": 49,
+            "order": 49,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Swift",
@@ -3597,9 +3913,10 @@
           },
           {
             "type": "figure",
-            "id": 51,
-            "order": 51,
+            "id": 50,
+            "order": 50,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_swift.png",
               "alt": "HelloWorld.swift",
@@ -3608,9 +3925,10 @@
           },
           {
             "type": "h4",
-            "id": 52,
-            "order": 52,
+            "id": 51,
+            "order": 51,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Swift:",
@@ -3620,23 +3938,36 @@
           },
           {
             "type": "p",
-            "id": 53,
-            "order": 53,
+            "id": 52,
+            "order": 52,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "print(\"Hello, World!\")",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "print ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "es una función de Swift que muestra el texto o el valor pasado como argumento en la consola.",
                 "content": "plain"
               }
@@ -3644,9 +3975,10 @@
           },
           {
             "type": "h3",
-            "id": 54,
-            "order": 54,
+            "id": 53,
+            "order": 53,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Go",
@@ -3656,9 +3988,10 @@
           },
           {
             "type": "figure",
-            "id": 55,
-            "order": 55,
+            "id": 54,
+            "order": 54,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_go.png",
               "alt": "HelloWorld.go",
@@ -3667,9 +4000,10 @@
           },
           {
             "type": "h4",
-            "id": 56,
-            "order": 56,
+            "id": 55,
+            "order": 55,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Go:",
@@ -3679,20 +4013,74 @@
           },
           {
             "type": "p",
-            "id": 57,
-            "order": 57,
+            "id": 56,
+            "order": 56,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "package main",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " -  Define el paquete principal del programa. Todos los programas ejecutables en Go deben tener un paquete ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "main.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 57,
+            "order": 57,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "import \"fmt\"",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Importa el paquete ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "fmt",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": ", que incluye funciones de formato de E/S, como ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "Println().",
                 "content": "bold"
               }
             ]
@@ -3702,25 +4090,41 @@
             "id": 58,
             "order": 58,
             "available": true,
+            "stubs": 5,
             "info": [
               {
-                "text": "import \"fmt\"",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "func main() {",
                 "content": "bold"
               },
               {
-                "text": " - Importa el paquete ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define la función principal del programa. ",
                 "content": "plain"
               },
               {
-                "text": "fmt",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "main() ",
                 "content": "bold"
               },
               {
-                "text": ", que incluye funciones de formato de E/S, como ",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es el punto de entrada de un programa. En Go, la ejecución del programa comienza con la función ",
                 "content": "plain"
               },
               {
-                "text": "Println().",
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "main().",
                 "content": "bold"
               }
             ]
@@ -3730,26 +4134,49 @@
             "id": 59,
             "order": 59,
             "available": true,
+            "stubs": 6,
             "info": [
               {
-                "text": "func main() {",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "fmt.Println(\"Hello, World!\")",
                 "content": "bold"
               },
               {
-                "text": " - Define la función principal del programa. ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
-                "text": "main() ",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "fmt.Println() ",
                 "content": "bold"
               },
               {
-                "text": "es el punto de entrada de un programa. En Go, la ejecución del programa comienza con la función ",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es una función del paquete ",
                 "content": "plain"
               },
               {
-                "text": "main().",
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": " fmt ",
                 "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "que imprime una línea de texto en la consola.",
+                "content": "plain"
               }
             ]
           },
@@ -3758,44 +4185,19 @@
             "id": 60,
             "order": 60,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "fmt.Println(\"Hello, World!\")",
-                "content": "bold"
-              },
-              {
-                "text": " - Imprime \"Hello, World!\" en la consola. ",
-                "content": "plain"
-              },
-              {
-                "text": "fmt.Println() ",
-                "content": "bold"
-              },
-              {
-                "text": "es una función del paquete ",
-                "content": "plain"
-              },
-              {
-                "text": " fmt ",
-                "content": "bold"
-              },
-              {
-                "text": "que imprime una línea de texto en la consola.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 61,
-            "order": 61,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Cierra la función main.",
                 "content": "plain"
               }
@@ -3803,9 +4205,10 @@
           },
           {
             "type": "h3",
-            "id": 62,
-            "order": 62,
+            "id": 61,
+            "order": 61,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Rust",
@@ -3815,9 +4218,10 @@
           },
           {
             "type": "figure",
-            "id": 63,
-            "order": 63,
+            "id": 62,
+            "order": 62,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_rust.png",
               "alt": "HelloWorld.rs",
@@ -3826,9 +4230,10 @@
           },
           {
             "type": "h4",
-            "id": 64,
-            "order": 64,
+            "id": 63,
+            "order": 63,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Rust:",
@@ -3838,29 +4243,82 @@
           },
           {
             "type": "p",
-            "id": 65,
-            "order": 65,
+            "id": 64,
+            "order": 64,
             "available": true,
+            "stubs": 5,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "fn main() {",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Define la función principal  ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "main() ",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "que es el punto de entrada de un programa. En Rust, la ejecución del programa comienza con la función ",
                 "content": "plain"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": "main().",
                 "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 65,
+            "order": 65,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "println!(\"Hello, World!\")",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Imprime \"Hello, World!\" en la consola. ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "println! ",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es una macro en Rust que imprime una línea de texto en la consola, incluyendo una nueva línea al final.",
+                "content": "plain"
               }
             ]
           },
@@ -3869,36 +4327,19 @@
             "id": 66,
             "order": 66,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "println!(\"Hello, World!\")",
-                "content": "bold"
-              },
-              {
-                "text": " - Imprime \"Hello, World!\" en la consola. ",
-                "content": "plain"
-              },
-              {
-                "text": "println! ",
-                "content": "bold"
-              },
-              {
-                "text": "es una macro en Rust que imprime una línea de texto en la consola, incluyendo una nueva línea al final.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 67,
-            "order": 67,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Cierra la función main.",
                 "content": "plain"
               }
@@ -3906,9 +4347,10 @@
           },
           {
             "type": "h3",
-            "id": 68,
-            "order": 68,
+            "id": 67,
+            "order": 67,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Scala",
@@ -3918,9 +4360,10 @@
           },
           {
             "type": "figure",
-            "id": 69,
-            "order": 69,
+            "id": 68,
+            "order": 68,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_scala.png",
               "alt": "HelloWorld.scala",
@@ -3929,9 +4372,10 @@
           },
           {
             "type": "h4",
-            "id": 70,
-            "order": 70,
+            "id": 69,
+            "order": 69,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de Scala:",
@@ -3941,24 +4385,88 @@
           },
           {
             "type": "p",
-            "id": 71,
-            "order": 71,
+            "id": 70,
+            "order": 70,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "object Hello {",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Define un objeto singleton llamado ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Hello.",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": " - En Scala, los objetos son una forma de declarar una única instancia de una clase.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 71,
+            "order": 71,
+            "available": true,
+            "stubs": 6,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "def main(args: Array[String]) {",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define un método principal llamado ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "main() ",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "que es el punto de entrada de un programa Scala. Este método toma un argumento, ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "args ",
+                "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": ", que es un arreglo de String.",
                 "content": "plain"
               }
             ]
@@ -3968,29 +4476,34 @@
             "id": 72,
             "order": 72,
             "available": true,
+            "stubs": 4,
             "info": [
               {
-                "text": "def main(args: Array[String]) {",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "println(\"Hello, World!\")",
                 "content": "bold"
               },
               {
-                "text": " - Define un método principal llamado ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
-                "text": "main() ",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "println ",
                 "content": "bold"
               },
               {
-                "text": "que es el punto de entrada de un programa Scala. Este método toma un argumento, ",
-                "content": "plain"
-              },
-              {
-                "text": "args ",
-                "content": "bold"
-              },
-              {
-                "text": ", que es un arreglo de String.",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "es una función de Scala que imprime un mensaje en la consola.",
                 "content": "plain"
               }
             ]
@@ -4000,22 +4513,28 @@
             "id": 73,
             "order": 73,
             "available": true,
+            "stubs": 3,
             "info": [
               {
-                "text": "println(\"Hello, World!\")",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "}",
                 "content": "bold"
               },
               {
-                "text": " - Imprime \"Hello, World!\" en la consola. ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Cierra el método ",
                 "content": "plain"
               },
               {
-                "text": "println ",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "main().",
                 "content": "bold"
-              },
-              {
-                "text": "es una función de Scala que imprime un mensaje en la consola.",
-                "content": "plain"
               }
             ]
           },
@@ -4024,36 +4543,26 @@
             "id": 74,
             "order": 74,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "}",
                 "content": "bold"
               },
               {
-                "text": " - Cierra el método ",
-                "content": "plain"
-              },
-              {
-                "text": "main().",
-                "content": "bold"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 75,
-            "order": 75,
-            "available": true,
-            "info": [
-              {
-                "text": "}",
-                "content": "bold"
-              },
-              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Cierra la clase ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Hello.",
                 "content": "bold"
               }
@@ -4061,9 +4570,10 @@
           },
           {
             "type": "h3",
-            "id": 76,
-            "order": 76,
+            "id": 75,
+            "order": 75,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ensamblador",
@@ -4073,9 +4583,10 @@
           },
           {
             "type": "figure",
-            "id": 77,
-            "order": 77,
+            "id": 76,
+            "order": 76,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hello_world_ensamblador.png",
               "alt": "HelloWorld.asm",
@@ -4084,9 +4595,10 @@
           },
           {
             "type": "h4",
-            "id": 78,
-            "order": 78,
+            "id": 77,
+            "order": 77,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos la sintaxis y semántica de ensamblador:",
@@ -4096,24 +4608,88 @@
           },
           {
             "type": "p",
-            "id": 79,
-            "order": 79,
+            "id": 78,
+            "order": 78,
             "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "section .data",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Define una sección de datos llamada ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": ".data",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": ", donde se declaran las variables y datos constantes. que se utilizan en el programa.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 79,
+            "order": 79,
+            "available": true,
+            "stubs": 6,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "hello db \"Hello, World!\",0",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define una variable llamada ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "hello",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": " de tipo ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "db",
+                "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": " (byte) que almacena el texto \"Hello, World!\"  seguida de un byte nulo (0).",
                 "content": "plain"
               }
             ]
@@ -4123,29 +4699,34 @@
             "id": 80,
             "order": 80,
             "available": true,
+            "stubs": 4,
             "info": [
               {
-                "text": "hello db \"Hello, World!\",0",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "section .text",
                 "content": "bold"
               },
               {
-                "text": " - Define una variable llamada ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define una sección de código llamada ",
                 "content": "plain"
               },
               {
-                "text": "hello",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ".text",
                 "content": "bold"
               },
               {
-                "text": " de tipo ",
-                "content": "plain"
-              },
-              {
-                "text": "db",
-                "content": "bold"
-              },
-              {
-                "text": " (byte) que almacena el texto \"Hello, World!\"  seguida de un byte nulo (0).",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": ", donde se coloca el código ejecutable.",
                 "content": "plain"
               }
             ]
@@ -4155,21 +4736,34 @@
             "id": 81,
             "order": 81,
             "available": true,
+            "stubs": 4,
             "info": [
               {
-                "text": "section .text",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "global _start",
                 "content": "bold"
               },
               {
-                "text": " - Define una sección de código llamada ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Define un label llamado ",
                 "content": "plain"
               },
               {
-                "text": ".text",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "_start",
                 "content": "bold"
               },
               {
-                "text": ", donde se coloca el código ejecutable.",
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": " como una entrada global, indicando el punto de entrada del programa.",
                 "content": "plain"
               }
             ]
@@ -4179,36 +4773,19 @@
             "id": 82,
             "order": 82,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "global _start",
-                "content": "bold"
-              },
-              {
-                "text": " - Define un label llamado ",
-                "content": "plain"
-              },
-              {
-                "text": "_start",
-                "content": "bold"
-              },
-              {
-                "text": " como una entrada global, indicando el punto de entrada del programa.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 83,
-            "order": 83,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "_start:",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Etiqueta que marca el comienzo del código de inicio del programa",
                 "content": "plain"
               }
@@ -4216,9 +4793,10 @@
           },
           {
             "type": "h4",
-            "id": 84,
-            "order": 84,
+            "id": 83,
+            "order": 83,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Código de impresión:",
@@ -4228,20 +4806,60 @@
           },
           {
             "type": "p",
-            "id": 85,
-            "order": 85,
+            "id": 84,
+            "order": 84,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "mov eax, 4         ; syscall number for sys_write",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Coloca el número de syscall para sys_write en el registro ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "eax.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 85,
+            "order": 85,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "mov ebx, 1         ; file descriptor 1 (stdout)",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Coloca el descriptor de archivo 1 (stdout) en el registro ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "ebx.",
                 "content": "bold"
               }
             ]
@@ -4251,17 +4869,27 @@
             "id": 86,
             "order": 86,
             "available": true,
+            "stubs": 3,
             "info": [
               {
-                "text": "mov ebx, 1         ; file descriptor 1 (stdout)",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "mov ecx, hello     ; pointer to the message",
                 "content": "bold"
               },
               {
-                "text": " - Coloca el descriptor de archivo 1 (stdout) en el registro ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Coloca la dirección de la cadena hello en el registro ",
                 "content": "plain"
               },
               {
-                "text": "ebx.",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "ecx.",
                 "content": "bold"
               }
             ]
@@ -4271,17 +4899,27 @@
             "id": 87,
             "order": 87,
             "available": true,
+            "stubs": 3,
             "info": [
               {
-                "text": "mov ecx, hello     ; pointer to the message",
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "mov edx, 13        ; message length",
                 "content": "bold"
               },
               {
-                "text": " - Coloca la dirección de la cadena hello en el registro ",
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Coloca la longitud del mensaje (13 caracteres) en el registro ",
                 "content": "plain"
               },
               {
-                "text": "ecx.",
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "edx.",
                 "content": "bold"
               }
             ]
@@ -4291,40 +4929,33 @@
             "id": 88,
             "order": 88,
             "available": true,
+            "stubs": 4,
             "info": [
               {
-                "text": "mov edx, 13        ; message length",
-                "content": "bold"
-              },
-              {
-                "text": " - Coloca la longitud del mensaje (13 caracteres) en el registro ",
-                "content": "plain"
-              },
-              {
-                "text": "edx.",
-                "content": "bold"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 89,
-            "order": 89,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "int 0x80           ; invoke syscall",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Ejecuta una instrucción de sistema que imprime \"Hello, World!\" en la consola. ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "int 0x80.",
                 "content": "bold"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": " es una instrucción de sistema que invoca un syscall.",
                 "content": "plain"
               }
@@ -4332,9 +4963,10 @@
           },
           {
             "type": "h4",
-            "id": 90,
-            "order": 90,
+            "id": 89,
+            "order": 89,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Código de salida:",
@@ -4344,21 +4976,68 @@
           },
           {
             "type": "p",
-            "id": 91,
-            "order": 91,
+            "id": 90,
+            "order": 90,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "mov eax, 1         ; syscall number for sys_exit",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Coloca el número de syscall para sys_exit en el registro ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "eax.",
                 "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 91,
+            "order": 91,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "xor ebx, ebx       ; exit code 0",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " - Coloca 0 en el registro  ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "ebx.",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "(código de salida 0) usando el operador XOR.",
+                "content": "plain"
               }
             ]
           },
@@ -4367,36 +5046,19 @@
             "id": 92,
             "order": 92,
             "available": true,
+            "stubs": 2,
             "info": [
               {
-                "text": "xor ebx, ebx       ; exit code 0",
-                "content": "bold"
-              },
-              {
-                "text": " - Coloca 0 en el registro  ",
-                "content": "plain"
-              },
-              {
-                "text": "ebx.",
-                "content": "bold"
-              },
-              {
-                "text": "(código de salida 0) usando el operador XOR.",
-                "content": "plain"
-              }
-            ]
-          },
-          {
-            "type": "p",
-            "id": 93,
-            "order": 93,
-            "available": true,
-            "info": [
-              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "int 0x80           ; invoke syscall",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " - Invoca la interrupción del sistema para realizar la llamada al sistema y finalizar el programa.",
                 "content": "plain"
               }
@@ -4404,9 +5066,10 @@
           },
           {
             "type": "h3",
-            "id": 94,
-            "order": 94,
+            "id": 93,
+            "order": 93,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Resumiendo",
@@ -4416,19 +5079,29 @@
           },
           {
             "type": "p",
-            "id": 95,
-            "order": 95,
+            "id": 94,
+            "order": 94,
             "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "La impresión de \"Hello World\" en diferentes lenguajes de programación demuestra la ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "diversidad en la sintaxis y estructura de cada uno. ",
                 "content": "plain"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Desde Python, con su simplicidad, hasta ensamblador, con su complejidad, cada lenguaje tiene su propia forma de expresar el mismo concepto. A través de este ejercicio, queda claro que la elección del lenguaje depende de factores como la tarea a realizar, la eficiencia, la legibilidad y las preferencias personales. Sin embargo, independientemente del lenguaje, el objetivo final es el mismo: comunicar el mensaje \"Hello World\".",
                 "content": "plain"
               }
