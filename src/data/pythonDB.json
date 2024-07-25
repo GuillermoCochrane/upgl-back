@@ -1233,10 +1233,11 @@
         },
         "topicData": [
           {
+            "type": "h3",
             "id": 1,
             "order": 1,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué es la lógica? ",
@@ -1245,10 +1246,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 2,
             "order": 2,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "La lógica se aplica en la programación a través de: - Estructuras de control: Las estructuras de control, como las condicionales y los bucles, permiten a los programadores controlar el flujo de ejecución de un programa.",
@@ -1257,10 +1259,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 3,
             "order": 3,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Por qué se aplica la lógica en la programación?",
@@ -1269,10 +1272,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 4,
             "order": 4,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "La lógica es fundamental en la programación porque permite a los programadores:",
@@ -1281,16 +1285,18 @@
             ]
           },
           {
+            "type": "ul",
             "id": 5,
             "order": 5,
             "available": true,
-            "type": "ul",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Escribir código claro y eficiente.",
@@ -1303,6 +1309,7 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Resolver problemas complejos.",
@@ -1315,6 +1322,7 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Crear programas que sean fáciles de entender y usar.",
@@ -1325,10 +1333,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 6,
             "order": 6,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Cómo se aplica la lógica en la programación?",
@@ -1337,10 +1346,11 @@
             ]
           },
           {
+            "type": "p ",
             "id": 7,
             "order": 7,
             "available": true,
-            "type": "p ",
+            "stubs": 1,
             "info": [
               {
                 "text": "La lógica se aplica en la programación a través de: ",
@@ -1349,22 +1359,30 @@
             ]
           },
           {
+            "type": "ul",
             "id": 8,
             "order": 8,
             "available": true,
-            "type": "ul",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Estructuras de control: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Las estructuras de control, como las condicionales y los bucles, permiten a los programadores controlar el flujo de ejecución de un programa.",
                     "content": "plain"
                   }
@@ -1375,12 +1393,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Funciones: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Las funciones son bloques de código que se pueden reutilizar para realizar tareas específicas.",
                     "content": "plain"
                   }
@@ -1391,12 +1416,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Algoritmos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Los algoritmos son conjuntos de pasos lógicos que se siguen para resolver un problema.",
                     "content": "plain"
                   }
@@ -1405,10 +1437,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 9,
             "order": 9,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "🧠 Ejemplos de lógica en la programación: ",
@@ -1417,22 +1450,30 @@
             ]
           },
           {
+            "type": "ul",
             "id": 10,
             "order": 10,
             "available": true,
-            "type": "ul",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Un programa que calcula el promedio de dos números: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El programa utiliza una estructura condicional para determinar si los dos números son iguales o no.",
                     "content": "plain"
                   }
@@ -1443,12 +1484,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Un programa que busca un elemento en una lista: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El programa utiliza un bucle para recorrer la lista y comparar cada elemento con el elemento que se busca.",
                     "content": "plain"
                   }
@@ -1459,12 +1507,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Un programa que ordena una lista de números: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El programa utiliza un algoritmo para ordenar los números de menor a mayor.",
                     "content": "plain"
                   }
