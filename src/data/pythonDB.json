@@ -1538,10 +1538,11 @@
         },
         "topicData": [
           {
+            "type": "h2",
             "id": 1,
             "order": 1,
             "available": true,
-            "type": "h2",
+            "stubs": 1,
             "info": [
               {
                 "text": "Arrancando con fuerza"
@@ -1549,10 +1550,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 2,
             "order": 2,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Instalación de Python 🐍",
@@ -1561,10 +1563,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 3,
             "order": 3,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Para empezar a programar en Python, necesitamos instalar Python en la computadora. Podes descargar la versión más reciente de Python desde el sitio oficial: ",
@@ -1573,10 +1576,11 @@
             ]
           },
           {
+            "type": "download",
             "id": 4,
             "order": 4,
             "available": true,
-            "type": "download",
+            "stubs": 1,
             "info": [
               {
                 "text": "Descarga Python",
@@ -1586,10 +1590,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 5,
             "order": 5,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Instalación de Visual Studio Code",
@@ -1598,10 +1603,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 6,
             "order": 6,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Una vez que tengamos Python instalado, podemos instalar Visual Studio Code (VS Code). VS Code es un editor de código de código abierto muy popular y fácil de usar. Puedes descargarlo desde el sitio oficial: ",
@@ -1610,10 +1616,11 @@
             ]
           },
           {
+            "type": "download",
             "id": 7,
             "order": 7,
             "available": true,
-            "type": "download",
+            "stubs": 1,
             "info": [
               {
                 "text": "Descarga VS Code",
@@ -1623,10 +1630,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 8,
             "order": 8,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Instalación de extensiones de VS Code",
@@ -1635,10 +1643,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 9,
             "order": 9,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Una vez que tengamos VS Code instalado, podemos instalar extensiones adicionales para mejorar nuestra experiencia de programación. Algunas extensiones recomendadas para principiantes son:",
@@ -1647,22 +1656,30 @@
             ]
           },
           {
+            "type": "ul",
             "id": 10,
             "order": 10,
             "available": true,
-            "type": "ul",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Python Extension Pack: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Esta extensión proporciona herramientas para desarrollar en Python, como autocompletar, depuración y más.",
                     "content": "plain"
                   }
@@ -1673,12 +1690,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Code Runner: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Esta extensión te permite ejecutar tu código Python directamente desde VS Code.",
                     "content": "plain"
                   }
@@ -1689,12 +1713,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Python Debugger: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Esta extensión te permite depurar tu código Python con facilidad.",
                     "content": "plain"
                   }
@@ -1703,10 +1734,10 @@
             ]
           },
           {
+            "type": "h3",
             "id": 11,
             "order": 11,
             "available": true,
-            "type": "h3",
             "info": [
               {
                 "text": "Puedes instalar estas extensiones en VS Code siguiendo estos pasos:",
@@ -1715,16 +1746,18 @@
             ]
           },
           {
+            "type": "ol",
             "id": 12,
             "order": 12,
             "available": true,
-            "type": "ol",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Abre VS Code y ve a Extensions en el menú View.",
@@ -1737,6 +1770,7 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Busca las extensiones mencionadas arriba y haz clic en Instalar.",
@@ -1749,6 +1783,7 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Espera a que se instalen las extensiones.",
@@ -1759,10 +1794,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 13,
             "order": 13,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Configuración de VS Code",
@@ -1771,10 +1807,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 14,
             "order": 14,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Configuración visual del tema.",
