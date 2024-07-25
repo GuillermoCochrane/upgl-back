@@ -5417,6 +5417,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Que es una variable?: ",
@@ -5429,6 +5430,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En programación, una variable es un espacio en la memoria de tu computadora que se utiliza para almacenar información de un determinado tipo de dato.",
@@ -5441,12 +5443,19 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Las variables se identifican con un nombre único y sus valores pueden cambiar.",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Pueden ser un valor:",
                 "content": "plain"
               }
@@ -5457,31 +5466,47 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 2,
             "info": [
               {
                 "type": "li",
                 "liID": 1,
                 "order": 1,
                 "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Numerico: ",
                     "content": "bold"
                   },
                   {
                     "type": "ul",
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 3,
                     "info": [
                       {
                         "type": "li",
                         "liID": 1,
                         "order": 1,
                         "available": true,
+                        "stubs": 2,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Entero(int): ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Números sin decimales, como 1, 2, 3, etc.",
                             "content": "plain"
                           }
@@ -5492,12 +5517,19 @@
                         "liID": 2,
                         "order": 2,
                         "available": true,
+                        "stubs": 2,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "De punto Flotante(float): ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Números con decimales, como 1.5, 2.3123, etc.",
                             "content": "plain"
                           }
@@ -5508,12 +5540,19 @@
                         "liID": 3,
                         "order": 3,
                         "available": true,
+                        "stubs": 2,
                         "info": [
                           {
+                            "stubID": 1,
+                            "order": 1,
+                            "available": true,
                             "text": "Complejos (clompex): ",
                             "content": "bold"
                           },
                           {
+                            "stubID": 2,
+                            "order": 2,
+                            "available": true,
                             "text": "Números con una parte real y una parte imaginaria, como 1+2j, 3-4j, etc.",
                             "content": "plain"
                           }
@@ -5528,6 +5567,7 @@
                 "liID": 2,
                 "order": 2,
                 "available": true,
+                "stubs": 2,
                 "info": [
                   {
                     "text": "Texto (string): ",
@@ -5544,12 +5584,19 @@
                 "liID": 3,
                 "order": 3,
                 "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Booleanos (bool): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Valores que solo pueden ser True o False. (Verdadero y Falso)",
                     "content": "plain"
                   }
@@ -5560,6 +5607,7 @@
                 "liID": 4,
                 "order": 4,
                 "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Fecha y Hora.",
@@ -5574,6 +5622,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Una vez almacenada se puede utilizar para realizar operaciones, mostrar resultados, etc.",
@@ -5586,6 +5635,7 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Veamos un Ejemplo: ",
@@ -5598,6 +5648,7 @@
             "id": 7,
             "order": 7,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/variables.png",
               "alt": "Variables",
@@ -5609,6 +5660,7 @@
             "id": 8,
             "order": 8,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Concatenacion de String y Variables: ",
@@ -5621,6 +5673,7 @@
             "id": 9,
             "order": 9,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class3/concatenacion.png",
               "alt": "Concatenacion",
@@ -5632,6 +5685,7 @@
             "id": 10,
             "order": 10,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Nombres de variables: ",
@@ -5644,6 +5698,7 @@
             "id": 11,
             "order": 11,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En la mayoría de lenguajes de programación existe el concepto de variables. Las variables permiten asignar nombres coherentes a información para ser reutilizada con facilidad.",
@@ -5652,7 +5707,7 @@
             ]
           }
         ]
-      },
+      },      
       {
         "topic": 2,
         "available": true,
