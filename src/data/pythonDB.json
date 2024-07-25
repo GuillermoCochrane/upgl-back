@@ -6646,6 +6646,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -6658,6 +6659,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "1 )- Escribir un programa que imprima un mensaje en la pantalla.",
@@ -6670,6 +6672,7 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_1.png",
@@ -6683,6 +6686,7 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "2 )- Escribir un programa que sume dos números.",
@@ -6695,6 +6699,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_2.png",
@@ -6708,6 +6713,7 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "3 )- Escribir 3 variables para que guarden Apellido y nombre - Email y telefono y mostrarlos en pantalla, con el siguiente mensaje \"Hola, Mi nombre es: ..., te paso mi contacto telefonico: ... y mi email: ...\"",
@@ -6720,6 +6726,7 @@
             "id": 7,
             "order": 7,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_3.png",
@@ -6733,6 +6740,7 @@
             "id": 8,
             "order": 8,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "4 )- Escribe un programa donde una variable llamada contador cambie a lo largo de la ejecucion del programa, que su primer valor sea 0, cambie a 5 y posteriormente a 25 para al finalizar el programa volver a ser 5.",
@@ -6745,6 +6753,7 @@
             "id": 9,
             "order": 9,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class3/Ejercicio_4.png",
