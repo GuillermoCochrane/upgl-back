@@ -577,10 +577,10 @@
             ]
           },
           {
+            "type": "h4",
             "id": 6,
             "order": 6,
             "available": true,
-            "type": "h4",
             "stubs": 1,
             "info": [
               {
@@ -590,10 +590,10 @@
             ]
           },
           {
+            "type": "ol",
             "id": 7,
             "order": 7,
             "available": true,
-            "type": "ol",
             "stubs": 3,
             "info": [
               {
@@ -668,10 +668,10 @@
             ]
           },
           {
+            "type": "h4",
             "id": 8,
             "order": 8,
             "available": true,
-            "type": "h4",
             "stubs": 1,
             "info": [
               {
@@ -681,10 +681,10 @@
             ]
           },
           {
+            "type": "ol",
             "id": 9,
             "order": 9,
             "available": true,
-            "type": "ol",
             "stubs": 4,
             "info": [
               {
@@ -782,10 +782,10 @@
             ]
           },
           {
+            "type": "h4",
             "id": 10,
             "order": 10,
             "available": true,
-            "type": "h4",
             "stubs": 1,
             "info": [
               {
@@ -795,10 +795,10 @@
             ]
           },
           {
+            "type": "ol",
             "id": 11,
             "order": 11,
             "available": true,
-            "type": "ol",
             "stubs": 3,
             "info": [
               {
@@ -883,10 +883,11 @@
         },
         "topicData": [
           {
+            "type": "h3",
             "id": 1,
             "order": 1,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "🧮 ¿QUE ES UN ALGORITMO? 🧮",
@@ -895,10 +896,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 2,
             "order": 2,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Un algoritmo es un conjunto de pasos lógicos y bien definidos que se siguen para realizar una tarea o resolver un problema. Es como una receta que describe cómo se debe preparar un plato.",
@@ -907,10 +909,10 @@
             ]
           },
           {
+            "type": "h3",
             "id": 3,
             "order": 3,
             "available": true,
-            "type": "h3",
             "info": [
               {
                 "text": "Características de un algoritmo:",
@@ -919,22 +921,30 @@
             ]
           },
           {
+            "type": "ul",
             "id": 4,
             "order": 4,
             "available": true,
-            "type": "ul",
+            "stubs": 5,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Precisión: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": " Los pasos del algoritmo deben ser precisos y no ambiguos.",
                     "content": "plain"
                   }
@@ -945,12 +955,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Finito: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El algoritmo debe tener un número finito de pasos.",
                     "content": "plain"
                   }
@@ -961,12 +978,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Entrada: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El algoritmo puede tener una o más entradas.",
                     "content": "plain"
                   }
@@ -977,12 +1001,19 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Salida: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El algoritmo debe tener una o más salidas",
                     "content": "plain"
                   }
@@ -993,12 +1024,19 @@
                 "available": true,
                 "liID": 5,
                 "order": 5,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Generalidad: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "El algoritmo debe ser capaz de resolver un problema para cualquier conjunto de datos de entrada.",
                     "content": "plain"
                   }
@@ -1007,10 +1045,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 5,
             "order": 5,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplos de algoritmos:",
@@ -1019,22 +1058,30 @@
             ]
           },
           {
+            "type": "ul",
             "id": 6,
             "order": 6,
             "available": true,
-            "type": "ul",
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Ordenar una lista de números: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": " Hay varios algoritmos para ordenar una lista de números, como el algoritmo de burbuja o el algoritmo de selección.",
                     "content": "plain"
                   }
@@ -1045,12 +1092,19 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Buscar un elemento en una lista: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": " Hay varios algoritmos para buscar un elemento en una lista, como la búsqueda lineal o la búsqueda binaria.",
                     "content": "plain"
                   }
@@ -1061,12 +1115,19 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Calcular el factorial de un número: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": " El factorial de un número es el producto de todos los números positivos menores o iguales que ese número.",
                     "content": "plain"
                   }
@@ -1075,10 +1136,11 @@
             ]
           },
           {
+            "type": "h3",
             "id": 7,
             "order": 7,
             "available": true,
-            "type": "h3",
+            "stubs": 1,
             "info": [
               {
                 "text": "Importancia de los algoritmos:",
@@ -1087,10 +1149,11 @@
             ]
           },
           {
+            "type": "p",
             "id": 8,
             "order": 8,
             "available": true,
-            "type": "p",
+            "stubs": 1,
             "info": [
               {
                 "text": "Los algoritmos son importantes porque nos permiten:",
@@ -1099,16 +1162,18 @@
             ]
           },
           {
+            "type": "ul",
             "id": 9,
             "order": 9,
             "available": true,
-            "type": "ul",
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
                 "available": true,
                 "liID": 1,
                 "order": 1,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Resolver problemas de forma eficiente",
@@ -1121,6 +1186,7 @@
                 "available": true,
                 "liID": 2,
                 "order": 2,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Automatizar tareas",
@@ -1133,6 +1199,7 @@
                 "available": true,
                 "liID": 3,
                 "order": 3,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Desarrollar software",
@@ -1145,6 +1212,7 @@
                 "available": true,
                 "liID": 4,
                 "order": 4,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Analizar datos",
