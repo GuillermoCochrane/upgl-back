@@ -2641,6 +2641,7 @@
             "id": 1,
             "order": 1,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Primer programa: ",
@@ -2653,6 +2654,7 @@
             "id": 2,
             "order": 2,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Para imprimir un mensaje en Python, usamos la función print(). Por ejemplo, para imprimir la frase: - Hola Mundo - , podemos escribir:",
@@ -2665,6 +2667,7 @@
             "id": 3,
             "order": 3,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hola_mundo.png",
               "alt": "print Hola Mundo",
@@ -2676,6 +2679,7 @@
             "id": 4,
             "order": 4,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El texto va entre comillas. También podríamos escribir:",
@@ -2688,6 +2692,7 @@
             "id": 5,
             "order": 5,
             "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class2/hola_mundo2.png",
               "alt": "print Hola Mundo",
@@ -2699,6 +2704,7 @@
             "id": 6,
             "order": 6,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Saludar con python",
@@ -2711,6 +2717,7 @@
             "id": 7,
             "order": 7,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Escribir un programa que muestre por pantalla la cadena: - ¡Hola Mundo! mi nombre es (su nombre) y este es mi primer programa!!!!🚀 -",
@@ -2723,6 +2730,7 @@
             "id": 8,
             "order": 8,
             "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class2/Ejercicio_2_4.png",
