@@ -9041,6 +9041,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Manejo de cadenas",
@@ -9050,13 +9054,22 @@
           },
           {
             "type": "figure",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/manejo_cadenas.png",
-              "alt": "Manejo de cadenas"
+              "alt": "Manejo de cadenas",
+              "title": "Manejo de cadenas"
             }
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Manejo de cadenas - sumas (contatenación vs suma - Sobre carga de operadores)",
@@ -9066,13 +9079,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/contatenacion_vs_suma.png",
-              "alt": "Contatenación vs Suma"
+              "alt": "Contatenación vs Suma",
+              "title": "Contatenación vs Suma"
             }
           },
           {
             "type": "h3",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Conversión de tipos de datos",
@@ -9082,6 +9104,10 @@
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "String a entero",
@@ -9091,9 +9117,14 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/conversion.png",
-              "alt": "Conversión de tipos de datos"
+              "alt": "Conversión de tipos de datos",
+              "title": "Conversión de tipos de datos"
             }
           }
         ]
