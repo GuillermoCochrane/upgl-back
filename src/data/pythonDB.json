@@ -8884,6 +8884,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplos de errores:",
@@ -8893,12 +8897,22 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Error: ",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "usar un entero para almacenar un precio con decimales",
                 "content": "plain"
               }
@@ -8906,19 +8920,34 @@
           },
           {
             "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/error_entero.png",
-              "alt": "Error: usar un entero para almacenar decimales"
+              "alt": "Error: usar un entero para almacenar decimales",
+              "title": "Error: usar un entero para almacenar decimales"
             }
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Error: ",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "usar una cadena para realizar cálculos matemáticos",
                 "content": "plain"
               }
@@ -8926,13 +8955,22 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/error_cadena.png",
-              "alt": "Error: usar una cadena para realizar cálculos matemáticos"
+              "alt": "Error: usar una cadena para realizar cálculos matemáticos",
+              "title": "Error: usar una cadena para realizar cálculos matemáticos"
             }
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
                 "text": "Error: ",
@@ -8946,19 +8984,34 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/error_booleano.png",
-              "alt": "Error: usar un booleano para almacenar una lista"
+              "alt": "Error: usar un booleano para almacenar una lista",
+              "title": "Error: usar un booleano para almacenar una lista"
             }
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Error: ",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "poner valor booleano en minúscula ",
                 "content": "plain"
               }
@@ -8966,9 +9019,14 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/error_minuscula.png",
-              "alt": "Error: poner valor booleano en minúscula"
+              "alt": "Error: poner valor booleano en minúscula",
+              "title": "Error: poner valor booleano en minúscula"
             }
           }
         ]
