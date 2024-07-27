@@ -9310,6 +9310,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -9319,6 +9323,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -9328,6 +9336,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Objetivo: Pedir al usuario dos números, convertirlos a enteros y mostrar la suma.",
@@ -9337,15 +9349,24 @@
           },
           {
             "type": "answer",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class5/Ejercicio_1.png",
-                "alt": "Solución ejercicio 1"
+                "alt": "Solución ejercicio 1",
+                "title": "Solución ejercicio 1"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -9355,6 +9376,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Pedirle al usuario que ponga como estuvo su dia (del 1 al 10 ) y luego mostrar el texto \"Mi dia estuivo de:\" y el valor ingreseado"
@@ -9363,15 +9388,24 @@
           },
           {
             "type": "answer",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class5/Ejercicio_2.png",
-                "alt": "Solución ejercicio 2"
+                "alt": "Solución ejercicio 2",
+                "title": "Solución ejercicio 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -9381,6 +9415,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita incluir la siguiente informacion acerca de un libro :",
@@ -9390,6 +9428,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Título, autor, número de páginas, año de publicación.",
@@ -9399,6 +9441,10 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Pedir al usuario que ingrese la información solicitada de la siguiente manera: ",
@@ -9408,9 +9454,17 @@
           },
           {
             "type": "ul",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ingrese el Titulo del libro: ",
@@ -9420,6 +9474,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ingrese el Autor: ",
@@ -9429,6 +9487,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ingrese el Numero de Paginas: ",
@@ -9438,6 +9500,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ingrese el Año de publicación: ",
@@ -9449,6 +9515,10 @@
           },
           {
             "type": "h4",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Imprimir:  ",
@@ -9458,40 +9528,71 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 9,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "\"El libro ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "<nombre del libro>",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": " fue escrito por ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "<autor>",
                 "content": "bold"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": " y tiene ",
                 "content": "plain"
               },
               {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
                 "text": "<numero de paginas>",
                 "content": "bold"
               },
               {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
                 "text": " paginas, y fue publicado en el año ",
                 "content": "plain"
               },
               {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
                 "text": "<año de publicacion>",
                 "content": "bold"
               },
               {
+                "stubID": 9,
+                "order": 9,
+                "available": true,
                 "text": ".\"",
                 "content": "plain"
               }
@@ -9499,10 +9600,15 @@
           },
           {
             "type": "answer",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class5/Ejercicio_3.png",
-                "alt": "Solución ejercicio 3"
+                "alt": "Solución ejercicio 3",
+                "title": "Solución ejercicio 3"
               }
             ]
           }
