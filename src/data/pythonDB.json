@@ -9199,6 +9199,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Procesar entrada de datos del usuario",
@@ -9208,6 +9212,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Función Input",
@@ -9217,13 +9225,22 @@
           },
           {
             "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/funcion_input.png",
-              "alt": "Función Input"
+              "alt": "Función Input",
+              "title": "Función Input"
             }
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Convertir los datos",
@@ -9233,6 +9250,10 @@
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ya que la funcion INPUT entrega un string",
@@ -9242,13 +9263,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/convertir_datos.png",
-              "alt": "Convertir los datos"
+              "alt": "Convertir los datos",
+              "title": "Convertir los datos"
             }
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Otra Manera de Hacerlo",
@@ -9258,9 +9288,14 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/otra_manera.png",
-              "alt": "Otra Manera de Hacerlo"
+              "alt": "Otra Manera de Hacerlo",
+              "title": "Otra Manera de Hacerlo"
             }
           }
         ]
