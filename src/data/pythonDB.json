@@ -9139,6 +9139,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tipos de datos Bool (boolean)",
@@ -9148,13 +9152,22 @@
           },
           {
             "type": "figure",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/tipos_boolean.png",
-              "alt": "Tipos de datos Bool (boolean)"
+              "alt": "Tipos de datos Bool (boolean)",
+              "title": "Tipos de datos Bool (boolean)"
             }
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En Python, if y else son dos palabras clave (que veremos más adelante) que se usan para crear sentencias condicionales. Estas permiten ejecutar diferentes bloques de código dependiendo de si una condición se cumple o no. Por ejemplo, Imaginen que queremos saber si un número es mayor que 10.",
@@ -9164,9 +9177,14 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/if_else.png",
-              "alt": "if y else"
+              "alt": "if y else",
+              "title": "if y else"
             }
           }
         ]
