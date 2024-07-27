@@ -8203,6 +8203,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tipos de datos",
@@ -8212,6 +8216,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En Python, los tipos de datos son esenciales para organizar y manipular información. Dominarlos es crucial para escribir código eficiente y preciso. En esta guía, exploraremos los tipos de datos básicos y avanzados, sus características y ejemplos prácticos para ayudarte a dominar este tema fundamental.",
@@ -8221,6 +8229,10 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tipos de datos básicos:",
@@ -8230,6 +8242,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Numéricos:",
@@ -8239,15 +8255,29 @@
           },
           {
             "type": "ul",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Enteros (int): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Números sin decimales, como 1, 2, 3. Ejemplo: edad = 25",
                     "content": "plain"
                   }
@@ -8255,12 +8285,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Punto flotante (float): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Números con decimales, como 3.14, 1.5.",
                     "content": "plain"
                   }
@@ -8268,12 +8308,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Complejos (complex): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Números con parte real e imaginaria, como 1+2j. Ejemplo: z = 1 + 2j",
                     "content": "plain"
                   }
@@ -8283,6 +8333,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de Enteros:",
@@ -8292,13 +8346,22 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/enteros.png",
-              "alt": "Tipos de datos: Enteros"
+              "alt": "Tipos de datos: Enteros",
+              "title": "Tipos de datos: Enteros"
             }
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de Punto flotante:",
@@ -8308,13 +8371,22 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/punto_flotante.png",
-              "alt": "Tipos de datos: Punto flotante"
+              "alt": "Tipos de datos: Punto flotante",
+              "title": "Tipos de datos: Punto flotante"
             }
           },
           {
             "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Cadena",
@@ -8324,15 +8396,29 @@
           },
           {
             "type": "ul",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Cadenas (str): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Secuencias de caracteres, como \"Hola mundo\", \"Python 3\". Ejemplo: nombre = \"Juan Pérez\"",
                     "content": "plain"
                   }
@@ -8342,6 +8428,10 @@
           },
           {
             "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de cadena:",
@@ -8351,13 +8441,22 @@
           },
           {
             "type": "figure",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/cadena.png",
-              "alt": "Tipos de datos: Cadena"
+              "alt": "Tipos de datos: Cadena",
+              "title": "Tipos de datos: Cadena"
             }
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Booleanos",
@@ -8367,15 +8466,29 @@
           },
           {
             "type": "ul",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Booleanos (bool): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Valores True o False que representan condiciones. Ejemplo: esta_activo = True",
                     "content": "plain"
                   }
@@ -8385,6 +8498,10 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de Booleanos:",
@@ -8394,13 +8511,22 @@
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/booleanos.png",
-              "alt": "Tipos de datos: Booleanos"
+              "alt": "Tipos de datos: Booleanos",
+              "title": "Tipos de datos: Booleanos"
             }
           },
           {
             "type": "h3",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tipos de datos avanzados",
@@ -8410,15 +8536,29 @@
           },
           {
             "type": "ul",
+            "id": 19,
+            "order": 19,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Listas (list): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Colecciones ordenadas y mutables de cualquier tipo de dato. Ejemplo: lista_nombres = [\"Ana\", \"Pedro\", \"María\"]",
                     "content": "plain"
                   }
@@ -8426,12 +8566,21 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Tuplas (tuple): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Colecciones ordenadas e inmutables de cualquier tipo de dato. Ejemplo: coordenadas = (10, 20, 30)",
                     "content": "plain"
                   }
@@ -8439,12 +8588,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Diccionarios (dict): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Colecciones no ordenadas que mapean claves a valores. Ejemplo: diccionario_edades = {\"Ana\": 25, \"Pedro\": 30}",
                     "content": "plain"
                   }
@@ -8452,12 +8611,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Conjuntos (set): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Colecciones no ordenadas y sin duplicados de cualquier tipo de dato. Ejemplo: conjunto_colores = {\"azul\", \"verde\", \"rojo\"}",
                     "content": "plain"
                   }
@@ -8467,6 +8636,10 @@
           },
           {
             "type": "p",
+            "id": 20,
+            "order": 20,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Todos los tipos de datos son almacenados en python como objetos. Un objeto es una entidad que contiene datos y métodos. los datos de un objeto se almacenan en atributos, mientras que los metodos son las acciones que el objeto puede realizar",
