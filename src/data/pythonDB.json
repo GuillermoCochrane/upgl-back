@@ -9901,6 +9901,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operadores de Asignación",
@@ -9910,6 +9914,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Los operadores de asignación son los operadores que se usan para asignar un valor a una variable. En Python, los operadores de asignación son los siguientes:",
@@ -9919,6 +9927,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( = ) Asignación (el igual es el operador de asignación)",
@@ -9928,13 +9940,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asignacion.png",
-              "alt": "Asignación"
+              "alt": "Asignación",
+              "title": "Asignación"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( += ) Incremento",
@@ -9944,13 +9965,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/incremento.png",
-              "alt": "Incremento"
+              "alt": "Incremento",
+              "title": "Incremento"
             }
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( -= ) Decremento",
@@ -9960,13 +9990,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/decremento.png",
-              "alt": "Decremento"
+              "alt": "Decremento",
+              "title": "Decremento"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( *= ) Multiplicación",
@@ -9976,13 +10015,22 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asigancion_multiplicacion.png",
-              "alt": "Multiplicación"
+              "alt": "Multiplicación",
+              "title": "Multiplicación"
             }
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( /= ) División",
@@ -9992,13 +10040,22 @@
           },
           {
             "type": "figure",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asignacion_division.png",
-              "alt": "División"
+              "alt": "División",
+              "title": "División"
             }
           },
           {
             "type": "h4",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( %= ) Modulo",
@@ -10008,13 +10065,22 @@
           },
           {
             "type": "figure",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asignacion_modulo.png",
-              "alt": "Modulo"
+              "alt": "Modulo",
+              "title": "Modulo"
             }
           },
           {
             "type": "h4",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( **= ) Exponenciación",
@@ -10024,13 +10090,22 @@
           },
           {
             "type": "figure",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asignacion_exponentacion.png",
-              "alt": "Exponenciación"
+              "alt": "Exponenciación",
+              "title": "Exponenciación"
             }
           },
           {
             "type": "h4",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "( //= ) Division Entera",
@@ -10040,9 +10115,14 @@
           },
           {
             "type": "figure",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/asignacion_division_entera.png",
-              "alt": "Division Entera"
+              "alt": "Division Entera",
+              "title": "Division Entera"
             }
           }
         ]
