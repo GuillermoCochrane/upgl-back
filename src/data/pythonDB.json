@@ -8659,6 +8659,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operando con Datos",
@@ -8668,6 +8672,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "String",
@@ -8677,6 +8685,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mostramos una parte de la variable cadena",
@@ -8686,13 +8698,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/string.png",
-              "alt": "Recorte de string"
+              "alt": "Recorte de string",
+              "title": "Recorte de string"
             }
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mostramos una parte de la variable cadena",
@@ -8702,13 +8723,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/string2.png",
-              "alt": "Recorte de string"
+              "alt": "Recorte de string",
+              "title": "Recorte de string"
             }
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mostramos una parte de la variable cadena",
@@ -8718,13 +8748,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/string3.png",
-              "alt": "Recorte de string"
+              "alt": "Recorte de string",
+              "title": "Recorte de string"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Booleanos",
@@ -8734,6 +8773,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Booleano como interruptor para controlar el flujo",
@@ -8743,13 +8786,22 @@
           },
           {
             "type": "figure",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/boolean.png",
-              "alt": "Booleano para controlar el flujo"
+              "alt": "Booleano para controlar el flujo",
+              "title": "Booleano para controlar el flujo"
             }
           },
           {
             "type": "h4",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Listas",
@@ -8759,6 +8811,10 @@
           },
           {
             "type": "p",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Lista como caja de herramientas para almacenar herramientas",
@@ -8768,13 +8824,22 @@
           },
           {
             "type": "figure",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/lista.png",
-              "alt": "Lista como caja de herramientas"
+              "alt": "Lista como caja de herramientas",
+              "title": "Lista como caja de herramientas"
             }
           },
           {
             "type": "h4",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Diccionario",
@@ -8784,6 +8849,10 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Diccionario como manual de instrucciones para buscar información",
@@ -8793,9 +8862,14 @@
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class5/diccionario.png",
-              "alt": "Diccionario como manual de instrucciones"
+              "alt": "Diccionario como manual de instrucciones",
+              "title": "Diccionario como manual de instrucciones"
             }
           }
         ]
