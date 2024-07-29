@@ -8041,7 +8041,7 @@
             },
             "info": [
               {
-                "stubID": 1,
+                "triviaID": 1,
                 "order": 1,
                 "available": true,
                 "text": "Verdadero",
@@ -8051,7 +8051,7 @@
                 "value": "1"
               },
               {
-                "stubID": 2,
+                "triviaID": 2,
                 "order": 2,
                 "available": true,
                 "text": "Falso",
@@ -8113,7 +8113,7 @@
             },
             "info": [
               {
-                "stubID": 1,
+                "triviaID": 1,
                 "order": 1,
                 "available": true,
                 "text": "Verdadero",
@@ -8123,7 +8123,7 @@
                 "value": "1"
               },
               {
-                "stubID": 2,
+                "triviaID": 2,
                 "order": 2,
                 "available": true,
                 "text": "Falso",
@@ -12879,6 +12879,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Bonus track",
@@ -12888,6 +12892,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia",
@@ -12897,6 +12905,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Dado el siguiente código:",
@@ -12906,19 +12918,31 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/trivia.png",
-              "alt": "Trivia"
+              "alt": "Trivia",
+              "title": "Trivia"
             }
           },
           {
             "type": "trivia",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 2,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Se imprime la variable: mensaje_true",
                 "content": "plain",
                 "name": "trivia1",
@@ -12926,6 +12950,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Se imprime la variable: mensaje_false",
                 "content": "plain",
                 "name": "trivia1",
@@ -12936,6 +12963,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 2: ",
@@ -12945,6 +12976,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Dado el siguiente código, quiero saber si es Verdadero decir que el envío va a ser \"gratis\" si escribo algo distinto a SI o a NO",
@@ -12954,19 +12989,31 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/trivia_2.png",
-              "alt": "Trivia 2"
+              "alt": "Trivia 2",
+              "title": "Trivia 2"
             }
           },
           {
             "type": "trivia",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 2,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Verdadero",
                 "content": "plain",
                 "name": "trivia2",
@@ -12974,6 +13021,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Falso",
                 "content": "plain",
                 "name": "trivia2",
@@ -12984,6 +13034,10 @@
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 3:",
@@ -12993,6 +13047,10 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Cual de los 3 if es correcto?",
@@ -13002,12 +13060,19 @@
           },
           {
             "type": "trivia",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 3,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "if frio >= 3",
                 "content": "plain",
                 "name": "trivia3",
@@ -13015,6 +13080,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "if frio => 3 :",
                 "content": "plain",
                 "name": "trivia3",
@@ -13022,6 +13090,9 @@
                 "value": "2"
               },
               {
+                "triviaID": 3,
+                "order": 3,
+                "available": true,
                 "text": "if frio >= 3:",
                 "content": "plain",
                 "name": "trivia3",
@@ -13032,6 +13103,10 @@
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -13041,6 +13116,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que permita el ingreso de 4 personas con su nombre y apellido, su dirección y la edad y muestre en pantalla cual es la persona(con todos los datos ingresados) ,  con mayor edad (y en que posición se cargo) y la de menor edad y en que posición se cargo (Por ejemplo Diego Markiewicz de 44 años, vive en General Levalle y  fue cargado en el registro número 3 y Robb Stark de 28 años vive en Winterfell y fue cargado en el registro número 1)",
@@ -13050,24 +13129,38 @@
           },
           {
             "type": "answer",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_1_clase_1.png",
-                "alt": "Solución Ejercicio 1, clase 1"
+                "alt": "Solución Ejercicio 1, clase 1",
+                "title": "Solución Ejercicio 1, clase 1"
               }
             ]
           },
           {
             "type": "answer",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_1_clase_2.png",
-                "alt": "Solución Ejercicio 1, clase 2"
+                "alt": "Solución Ejercicio 1, clase 2",
+                "title": "Solución Ejercicio 1, clase 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -13077,6 +13170,10 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que me permita ingresar tres valores, siendo los primeros dos los números a utilizar y el tercero indicará la operación matemática a realizar(S, R, M, D) necesitaría que cuando me imprima el resultado tenga el siguiente formato de salida: ",
@@ -13086,6 +13183,10 @@
           },
           {
             "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operación realizada con éxito, el resultado de (Aquí debe mostrar que operación se realizó) es (aquí debe mostrar el resultado). ",
@@ -13095,6 +13196,10 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tengan en cuenta que no se puede dividir por CERO así que me debería advertir si lo coloco en el segundo número",
@@ -13104,24 +13209,38 @@
           },
           {
             "type": "answer",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_2_clase_1.png",
-                "alt": "Solución Ejercicio 2, clase 1"
+                "alt": "Solución Ejercicio 2, clase 1",
+                "title": "Solución Ejercicio 2, clase 1"
               }
             ]
           },
           {
             "type": "answer",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_2_clase_2.png",
-                "alt": "Solución Ejercicio 2, clase 2"
+                "alt": "Solución Ejercicio 2, clase 2",
+                "title": "Solución Ejercicio 2, clase 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 19,
+            "order": 19,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -13131,6 +13250,10 @@
           },
           {
             "type": "p",
+            "id": 20,
+            "order": 20,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que me diga si el número ingresado es par o impar",
@@ -13140,15 +13263,24 @@
           },
           {
             "type": "answer",
+            "id": 21,
+            "order": 21,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_3.png",
-                "alt": "Solución Ejercicio 3"
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 22,
+            "order": 22,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 4:",
@@ -13158,6 +13290,10 @@
           },
           {
             "type": "p",
+            "id": 23,
+            "order": 23,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un juego donde la computadora seleccione un numero aleatorio del 1 al 10 y nosotros como jugadores tengamos hasta tres oportunidades de adivinar el numero, si ganamos que nos muestre un mensaje felicitándonos y mostrando el numero aleatorio seleccionado. Tener en cuenta que el numero seleccionado por la computadora al inicio es el mismo que deben evaluar en los tres intentos!. El programa deberá mostrar en que numero de intento lo acerte. Tambien deberá mostrar un mensaje como un \"Frio\" cuando estoy mas alla de 3 numeros o \"Caliente\" cuando estoy a menos de 3.",
@@ -13167,24 +13303,38 @@
           },
           {
             "type": "answer",
+            "id": 24,
+            "order": 24,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_4_clase_1.png",
-                "alt": "Solución Ejercicio 4, clase 1"
+                "alt": "Solución Ejercicio 4, clase 1",
+                "title": "Solución Ejercicio 4, clase 1"
               }
             ]
           },
           {
             "type": "answer",
+            "id": 25,
+            "order": 25,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_4_clase_2.png",
-                "alt": "Solución Ejercicio 4, clase 2"
+                "alt": "Solución Ejercicio 4, clase 2",
+                "title": "Solución Ejercicio 4, clase 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 26,
+            "order": 26,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 5:",
@@ -13194,6 +13344,10 @@
           },
           {
             "type": "p",
+            "id": 27,
+            "order": 27,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un juego de piedra, papel y tijera.",
@@ -13203,15 +13357,24 @@
           },
           {
             "type": "answer",
+            "id": 28,
+            "order": 28,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_5.png",
-                "alt": "Solución Ejercicio 5"
+                "alt": "Solución Ejercicio 5",
+                "title": "Solución Ejercicio 5"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 29,
+            "order": 29,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 6:",
@@ -13221,6 +13384,10 @@
           },
           {
             "type": "p",
+            "id": 30,
+            "order": 30,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un juego de Cara o Cruz donde el usuario tenga 2 opciones para elegir, si jugar contra la computadora o un amigo. Si elige la segunda deberíamos preguntarle el nombre a ambos",
@@ -13230,15 +13397,24 @@
           },
           {
             "type": "answer",
+            "id": 31,
+            "order": 31,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio_6.png",
-                "alt": "Solución Ejercicio 6"
+                "alt": "Solución Ejercicio 6",
+                "title": "Solución Ejercicio 6"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 32,
+            "order": 32,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Generador de Arte ASCII",
@@ -13248,6 +13424,10 @@
           },
           {
             "type": "p",
+            "id": 33,
+            "order": 33,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Con esta herramienta, la transformación de texto en arte ASCII nunca ha sido tan simple y rápida. Ya sea para destacar tu perfil en las redes sociales, añadir un toque artístico a tu sitio web o personalizar tus comunicaciones personales, nuestro generador de arte ASCII está siempre disponible para satisfacer tus necesidades. Pruébalo y descubre lo fácil que es dar vida a tus textos con un toque de arte ASCII.",
@@ -13257,6 +13437,10 @@
           },
           {
             "type": "link",
+            "id": 34,
+            "order": 34,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Generador de Arte ASCII",
@@ -13267,6 +13451,10 @@
           },
           {
             "type": "h4",
+            "id": 35,
+            "order": 35,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Atajos de VS Code",
@@ -13276,6 +13464,10 @@
           },
           {
             "type": "youtube",
+            "id": 36,
+            "order": 36,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "link": "https://www.youtube.com/embed/G7p6GwCxXY4",
