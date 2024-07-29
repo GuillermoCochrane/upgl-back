@@ -11276,6 +11276,10 @@
             "type": "h3",
             "info": [
               {
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "text": "Bonus Track: Trivias",
                 "content": "plain"
               }
@@ -11283,6 +11287,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 1:",
@@ -11292,6 +11300,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué hace el siguiente código?",
@@ -11301,19 +11313,31 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/trivia_1.png",
-              "alt": "Trivia 1"
+              "alt": "Trivia 1",
+              "title": "Trivia 1"
             }
           },
           {
             "type": "trivia",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 4,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Comprueba si la temperatura es inferior a 0 grados.",
                 "content": "plain",
                 "name": "trivia1",
@@ -11321,6 +11345,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Invierte el valor de la variable temperatura.",
                 "content": "plain",
                 "name": "trivia1",
@@ -11328,6 +11355,9 @@
                 "value": "2"
               },
               {
+                "triviaID": 3,
+                "order": 3,
+                "available": true,
                 "text": "Imprime un mensaje en la consola dependiendo del valor de temperatura.",
                 "content": "plain",
                 "name": "trivia1",
@@ -11335,6 +11365,9 @@
                 "value": "3"
               },
               {
+                "triviaID": 4,
+                "order": 4,
+                "available": true,
                 "text": "Todas las anteriores",
                 "content": "plain",
                 "name": "trivia1",
@@ -11345,6 +11378,10 @@
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 2:",
@@ -11354,6 +11391,10 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Cuál de estás instrucciones comprobará si a es menor que b?",
@@ -11363,12 +11404,19 @@
           },
           {
             "type": "trivia",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 6,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "if a <= b:",
                 "context": "plain",
                 "name": "trivia2",
@@ -11376,6 +11424,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "if a > b",
                 "context": "plain",
                 "name": "trivia2",
@@ -11383,6 +11434,9 @@
                 "value": "2"
               },
               {
+                "triviaID": 3,
+                "order": 3,
+                "available": true,
                 "text": "if a < b:",
                 "context": "plain",
                 "name": "trivia2",
@@ -11390,6 +11444,9 @@
                 "value": "3"
               },
               {
+                "triviaID": 4,
+                "order": 4,
+                "available": true,
                 "text": "if a < b",
                 "context": "plain",
                 "name": "trivia2",
@@ -11397,6 +11454,9 @@
                 "value": "4"
               },
               {
+                "triviaID": 5,
+                "order": 5,
+                "available": true,
                 "text": "if a >= b",
                 "context": "plain",
                 "name": "trivia2",
@@ -11404,6 +11464,9 @@
                 "value": "5"
               },
               {
+                "triviaID": 6,
+                "order": 6,
+                "available": true,
                 "text": "if (a < b)",
                 "context": "plain",
                 "name": "trivia2",
@@ -11414,6 +11477,10 @@
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 3:",
@@ -11423,6 +11490,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Cuál de estás instrucciones comprobará si a es igual a b?",
@@ -11432,12 +11503,19 @@
           },
           {
             "type": "trivia",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 7,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "if a == b",
                 "context": "plain",
                 "name": "trivia3",
@@ -11445,6 +11523,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "if a = b",
                 "context": "plain",
                 "name": "trivia3",
@@ -11452,6 +11533,9 @@
                 "value": "2"
               },
               {
+                "triviaID": 3,
+                "order": 3,
+                "available": true,
                 "text": "if a equals b:",
                 "context": "plain",
                 "name": "trivia3",
@@ -11459,6 +11543,9 @@
                 "value": "3"
               },
               {
+                "triviaID": 4,
+                "order": 4,
+                "available": true,
                 "text": "if a === b:",
                 "context": "plain",
                 "name": "trivia3",
@@ -11466,6 +11553,9 @@
                 "value": "4"
               },
               {
+                "triviaID": 5,
+                "order": 5,
+                "available": true,
                 "text": "if a === b",
                 "context": "plain",
                 "name": "trivia3",
@@ -11473,6 +11563,9 @@
                 "value": "5"
               },
               {
+                "triviaID": 6,
+                "order": 6,
+                "available": true,
                 "text": "if a == b:",
                 "context": "plain",
                 "name": "trivia3",
@@ -11480,6 +11573,9 @@
                 "value": "6"
               },
               {
+                "triviaID": 7,
+                "order": 7,
+                "available": true,
                 "text": "if a = b:",
                 "context": "plain",
                 "name": "trivia3",
@@ -11490,6 +11586,10 @@
           },
           {
             "type": "h4",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Trivia 4: ",
@@ -11499,6 +11599,10 @@
           },
           {
             "type": "p",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Dado el siguiente Codigo, ¿cuál es la salida que se imprimirá en la consola?",
@@ -11508,19 +11612,31 @@
           },
           {
             "type": "figure",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/trivia_4.png",
-              "alt": "Trivia 4"
+              "alt": "Trivia 4",
+              "title": "Trivia 4"
             }
           },
           {
             "type": "trivia",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 7,
             "answer": {
               "correct": "La respuesta es correcta",
               "incorrect": "La respuesta es incorrecta"
             },
             "info": [
               {
+                "triviaID": 1,
+                "order": 1,
+                "available": true,
                 "text": "B C",
                 "content": "plain",
                 "name": "trivia4",
@@ -11528,6 +11644,9 @@
                 "value": "1"
               },
               {
+                "triviaID": 2,
+                "order": 2,
+                "available": true,
                 "text": "B",
                 "content": "plain",
                 "name": "trivia4",
@@ -11535,6 +11654,9 @@
                 "value": "2"
               },
               {
+                "triviaID": 3,
+                "order": 3,
+                "available": true,
                 "text": "A B C",
                 "content": "plain",
                 "name": "trivia4",
@@ -11542,6 +11664,9 @@
                 "value": "3"
               },
               {
+                "triviaID": 4,
+                "order": 4,
+                "available": true,
                 "text": "A B",
                 "content": "plain",
                 "name": "trivia4",
@@ -11549,6 +11674,9 @@
                 "value": "4"
               },
               {
+                "triviaID": 5,
+                "order": 5,
+                "available": true,
                 "text": "Nada, el código no se ejecuta.",
                 "content": "plain",
                 "name": "trivia4",
@@ -11556,6 +11684,9 @@
                 "value": "5"
               },
               {
+                "triviaID": 6,
+                "order": 6,
+                "available": true,
                 "text": "A C",
                 "content": "plain",
                 "name": "trivia4",
@@ -11563,6 +11694,9 @@
                 "value": "6"
               },
               {
+                "triviaID": 7,
+                "order": 7,
+                "available": true,
                 "text": "A",
                 "content": "plain",
                 "name": "trivia4",
