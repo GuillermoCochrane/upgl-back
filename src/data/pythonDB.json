@@ -11977,6 +11977,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Métodos y Validaciones de datos",
@@ -11986,6 +11990,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Métodos de la clase STR",
@@ -11995,6 +12003,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Estos métodos te permiten manipular el texto de diferentes maneras, como verificar si contiene letras mayúsculas, minúsculas o números, buscar subcadenas, unir cadenas, convertir mayúsculas a minúsculas y viceversa, etc.",
@@ -12004,6 +12016,10 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "La clase str en Python representa cadenas de caracteres. Es uno de los tipos de datos fundamentales del lenguaje y se utiliza para almacenar texto.",
@@ -12013,6 +12029,10 @@
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Solo números:",
@@ -12022,13 +12042,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/numeros.png",
-              "alt": "Solo números"
+              "alt": "Solo números",
+              "title": "Solo números"
             }
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Solo texto:",
@@ -12038,13 +12067,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/texto.png",
-              "alt": "Solo texto"
+              "alt": "Solo texto",
+              "title": "Solo texto"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Algunos ejemplos:",
@@ -12054,10 +12092,17 @@
           },
           {
             "type": "table",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 18,
             "columns": 0,
             "title": ["Método", "Descripción", " Ejemplo"],
             "info": [
               {
+                "rowID": 1,
+                "order": 1,
+                "available": true,
                 "row": [
                   "isalpha()",
                   "Verifica si todos los caracteres son letras.",
@@ -12066,6 +12111,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 2,
+                "order": 2,
+                "available": true,
                 "row": [
                   "isdigit()",
                   "Verifica si todos los caracteres son dígitos (números).",
@@ -12074,6 +12122,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 3,
+                "order": 3,
+                "available": true,
                 "row": [
                   "isalnum()",
                   "Verifica si todos los caracteres son alfanuméricos (letras y números).",
@@ -12081,7 +12132,10 @@
                 ],
                 "content": "plain"
               },
-              {
+              { 
+                "rowID": 4,
+                "order": 4,
+                "available": true,
                 "row": [
                   "islower()",
                   "Verifica si todos los caracteres son minúsculas.",
@@ -12090,6 +12144,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 5,
+                "order": 5,
+                "available": true,
                 "row": [
                   "isupper()",
                   "Verifica si todos los caracteres son mayúsculas.",
@@ -12098,6 +12155,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 6,
+                "order": 6,
+                "available": true,
                 "row": [
                   "isspace()",
                   "Verifica si todos los caracteres son espacios en blanco.",
@@ -12106,6 +12166,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 7,
+                "order": 7,
+                "available": true,
                 "row": [
                   "startswith()",
                   "Verifica si la cadena comienza con una subcadena específica.",
@@ -12114,6 +12177,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 8,
+                "order": 8,
+                "available": true,
                 "row": [
                   "endswith()",
                   "Verifica si la cadena termina con una subcadena específica.",
@@ -12122,6 +12188,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 9,
+                "order": 9,
+                "available": true,
                 "row": [
                   "find()",
                   "Busca la primera aparición de una subcadena dentro de la cadena.",
@@ -12130,6 +12199,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 10,
+                "order": 10,
+                "available": true,
                 "row": [
                   "rfind()",
                   "Busca la última aparición de una subcadena dentro de la cadena.",
@@ -12138,6 +12210,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 11,
+                "order": 11,
+                "available": true,
                 "row": [
                   "count()",
                   "Cuenta el número de apariciones de una subcadena dentro de la cadena.",
@@ -12146,6 +12221,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 12,
+                "order": 12,
+                "available": true,
                 "row": [
                   "replace()",
                   "Reemplaza todas las apariciones de una subcadena por otra subcadena.",
@@ -12154,6 +12232,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 13,
+                "order": 13,
+                "available": true,
                 "row": [
                   "strip()",
                   "Elimina los espacios en blanco al principio y al final de la cadena.",
@@ -12162,6 +12243,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 14,
+                "order": 14,
+                "available": true,
                 "row": [
                   "lstrip()",
                   "Elimina los espacios en blanco al principio de la cadena.",
@@ -12170,6 +12254,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 15,
+                "order": 15,
+                "available": true,
                 "row": [
                   "rstrip()",
                   "Elimina los espacios en blanco al final de la cadena.",
@@ -12178,6 +12265,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 16,
+                "order": 16,
+                "available": true,
                 "row": [
                   "upper()",
                   "Convierte todos los caracteres de la cadena a mayúsculas.",
@@ -12186,6 +12276,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 17,
+                "order": 17,
+                "available": true,
                 "row": [
                   "lower()",
                   "Convierte todos los caracteres de la cadena a minúsculas.",
@@ -12194,6 +12287,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 18,
+                "order": 18,
+                "available": true,
                 "row": [
                   "capitalize()",
                   "Convierte el primer caracter de la cadena a mayúscula y deja el resto en minúsculas.",
@@ -12205,6 +12301,10 @@
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Métodos de la clase INT",
@@ -12214,10 +12314,17 @@
           },
           {
             "type": "table",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 5,
             "columns": 0,
             "title": ["Método", "Descripción", "Ejemplo"],
             "info": [
               {
+                "rowID": 1,
+                "order": 1,
+                "available": true,
                 "row": [
                   "isinstance(valor, int)",
                   "Verifica si el valor es un número entero (int).",
@@ -12226,6 +12333,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 2,
+                "order": 2,
+                "available": true,
                 "row": [
                   "type(valor) is int",
                   "Verifica si el tipo de dato del valor es int.",
@@ -12234,6 +12344,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 3,
+                "order": 3,
+                "available": true,
                 "row": [
                   ".isdigit()",
                   "Verifica si el valor es una cadena que contiene solo dígitos (números).",
@@ -12242,6 +12355,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 4,
+                "order": 4,
+                "available": true,
                 "row": [
                   "int(valor, base)",
                   "Convierte un valor a un número entero (int), especificando la base numérica si es necesario.",
@@ -12250,6 +12366,9 @@
                 "content": "plain"
               },
               {
+                "rowID": 5,
+                "order": 5,
+                "available": true,
                 "row": [
                   "try...except ValueError:",
                   "Intenta convertir un valor a un número entero (int) y maneja el error si no es posible.",
@@ -12261,27 +12380,50 @@
           },
           {
             "type": "ul",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 5,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Las funciones ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "isinstance()",
                     "content": "bold"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": " y ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
                     "text": "type()",
                     "content": "bold"
                   },
                   {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
                     "text": " son más confiables para verificar si un valor es un número entero, ya que no dependen de la representación como cadena.",
                     "content": "plain"
                   }
@@ -12289,16 +12431,29 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "La función ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": ".isdigit()",
                     "content": "bold"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": " es útil para validar cadenas de texto que contienen solo dígitos.",
                     "content": "plain"
                   }
@@ -12306,16 +12461,29 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "La función ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "int()",
                     "content": "bold"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": " se puede usar para convertir valores a números enteros, pero es importante manejar posibles errores de conversión.",
                     "content": "plain"
                   }
@@ -12325,6 +12493,10 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Más ejemplos: ",
@@ -12334,27 +12506,46 @@
           },
           {
             "type": "figure",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/ejemplo_numeros.png",
-              "alt": "Solo números"
+              "alt": "Solo números",
+              "title": "Solo números"
             }
           },
           {
             "type": "figure",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/ejemplo_texto.png",
-              "alt": "Solo texto"
+              "alt": "Solo texto",
+              "title": "Solo texto"
             }
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/metodos.png",
-              "alt": "Métodos de la clase STR"
+              "alt": "Métodos de la clase STR",
+              "title": "Métodos de la clase STR"
             }
           },
           {
             "type": "link",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mas información",
