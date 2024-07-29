@@ -10323,6 +10323,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operadores lógicos",
@@ -10332,6 +10336,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Los operadores lógicos son los operadores que se usan para crear sentencias de control. Nos permiten trabajar con valores booleanos (verdadero o falso) y combinar o negar expresiones lógicas. Aquí tienes los principales operadores:",
@@ -10341,6 +10349,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "AND ( and ): devuelve True si ambos valores son verdaderos",
@@ -10350,13 +10362,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/and.png",
-              "alt": "AND"
+              "alt": "AND",
+              "title": "AND"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "OR ( or ): devuelve True si al menos uno de los valores es verdadero",
@@ -10366,13 +10387,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/or.png",
-              "alt": "OR"
+              "alt": "OR",
+              "title": "OR"
             }
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "NOT ( not ): devuelve True si el valor es falso",
@@ -10382,13 +10412,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/not.png",
-              "alt": "NOT"
+              "alt": "NOT",
+              "title": "NOT"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "XOR ( xor ): devuelve True si solo uno de los valores es verdadero",
@@ -10398,9 +10437,14 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/xor.png",
-              "alt": "XOR"
+              "alt": "XOR",
+              "title": "XOR"
             }
           }
         ]
