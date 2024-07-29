@@ -10658,6 +10658,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -10667,6 +10671,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -10676,6 +10684,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa para mostrar el resultado de la division de dos números enteros",
@@ -10685,15 +10697,24 @@
           },
           {
             "type": "answer",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_1.png",
-                "alt": "Solución Ejercicio 1"
+                "alt": "Solución Ejercicio 1",
+                "title": "Solución Ejercicio 1"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -10703,6 +10724,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa para mostrar el residuo de la division de dos números enteros",
@@ -10712,15 +10737,24 @@
           },
           {
             "type": "answer",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_2.png",
-                "alt": "Solución Ejercicio 2"
+                "alt": "Solución Ejercicio 2",
+                "title": "Solución Ejercicio 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -10730,6 +10764,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa para calcular el area y el perimetro de un rectangulo, para ello debera crear las siguiente variables: ",
@@ -10739,9 +10777,17 @@
           },
           {
             "type": "ul",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Alto (int)",
@@ -10751,6 +10797,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ancho (int)",
@@ -10762,6 +10812,10 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El usuario debera proporcionar los valores de largo y ancho y despues imprimiro el resultado del area y el perimetro:",
@@ -10771,15 +10825,29 @@
           },
           {
             "type": "ul",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Area: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "alto * ancho",
                     "content": "plain"
                   }
@@ -10787,12 +10855,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Perimetro: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "(alto + ancho) * 2",
                     "content": "plain"
                   }
@@ -10802,15 +10880,24 @@
           },
           {
             "type": "answer",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_3.png",
-                "alt": "Solución Ejercicio 3"
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 4:",
@@ -10820,6 +10907,10 @@
           },
           {
             "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa para mostrar si el número ingresado es par o impar (Usando operadores logicos)",
@@ -10829,15 +10920,24 @@
           },
           {
             "type": "answer",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_4.png",
-                "alt": "Solución Ejercicio 4"
+                "alt": "Solución Ejercicio 4",
+                "title": "Solución Ejercicio 4"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 5:",
@@ -10847,6 +10947,10 @@
           },
           {
             "type": "p",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa para mostrar si el numero es positivo o negativo",
@@ -10856,15 +10960,24 @@
           },
           {
             "type": "answer",
+            "id": 19,
+            "order": 19,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_5.png",
-                "alt": "Solución Ejercicio 5"
+                "alt": "Solución Ejercicio 5",
+                "title": "Solución Ejercicio 5"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 20,
+            "order": 20,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 6:",
@@ -10874,6 +10987,10 @@
           },
           {
             "type": "p",
+            "id": 21,
+            "order": 21,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa que pida la edad de una persona y determine si es mayor o menor de edad (18)",
@@ -10883,15 +11000,24 @@
           },
           {
             "type": "answer",
+            "id": 22,
+            "order": 22,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_6.png",
-                "alt": "Solución Ejercicio 6"
+                "alt": "Solución Ejercicio 6",
+                "title": "Solución Ejercicio 6"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 23,
+            "order": 23,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 7:",
@@ -10901,6 +11027,10 @@
           },
           {
             "type": "p",
+            "id": 24,
+            "order": 24,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se solicita realizar un programa que determine si un numero determine si es se encuentra entre 0 y 10",
@@ -10910,15 +11040,24 @@
           },
           {
             "type": "answer",
+            "id": 25,
+            "order": 25,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_7.png",
-                "alt": "Solución Ejercicio 7"
+                "alt": "Solución Ejercicio 7",
+                "title": "Solución Ejercicio 7"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 26,
+            "order": 26,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 8:",
@@ -10928,6 +11067,10 @@
           },
           {
             "type": "p",
+            "id": 27,
+            "order": 27,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear un programa que permita saber si un padre puede ir a ver como juega su hijo dependiendo si es un dia de descanso o si esta de vacaciones (usar operadores logicos) - de lo contrario no puede ir.",
@@ -10937,15 +11080,24 @@
           },
           {
             "type": "answer",
+            "id": 28,
+            "order": 28,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_8.png",
-                "alt": "Solución Ejercicio 8"
+                "alt": "Solución Ejercicio 8",
+                "title": "Solución Ejercicio 8"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 29,
+            "order": 29,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 9:",
@@ -10955,6 +11107,10 @@
           },
           {
             "type": "p",
+            "id": 30,
+            "order": 30,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo NOT (mismo ejercicio pero invierta el resultado)",
@@ -10964,15 +11120,24 @@
           },
           {
             "type": "answer",
+            "id": 31,
+            "order": 31,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_9.png",
-                "alt": "Solución Ejercicio 9"
+                "alt": "Solución Ejercicio 9",
+                "title": "Solución Ejercicio 9"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 32,
+            "order": 32,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 10:",
@@ -10982,6 +11147,10 @@
           },
           {
             "type": "p",
+            "id": 33,
+            "order": 33,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear un programa que permita al usuario ingresar su edad y determine si esta entre los 20 (de 20 a 30 años) y los 40 años(de 40 a 50 años).",
@@ -10991,15 +11160,24 @@
           },
           {
             "type": "answer",
+            "id": 34,
+            "order": 34,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_10.png",
-                "alt": "Solución Ejercicio 10"
+                "alt": "Solución Ejercicio 10",
+                "title": "Solución Ejercicio 10"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 35,
+            "order": 35,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 11:",
@@ -11009,6 +11187,10 @@
           },
           {
             "type": "p",
+            "id": 36,
+            "order": 36,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear un programa que permita que el usuario ingrese dos numeros enteros y nos imprima cual es el mayor de los dos numeros ingresados",
@@ -11018,15 +11200,24 @@
           },
           {
             "type": "answer",
+            "id": 37,
+            "order": 37,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_11.png",
-                "alt": "Solución Ejercicio 11"
+                "alt": "Solución Ejercicio 11",
+                "title": "Solución Ejercicio 11"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 38,
+            "order": 38,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 12:",
@@ -11036,12 +11227,22 @@
           },
           {
             "type": "p",
+            "id": 39,
+            "order": 39,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "TIENDA DE LIBROS: ",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Crear un programa que permita ingresar un libro y su autor, muestre el precio (float) y deje escribir si el envio es gratis(true o false)",
                 "content": "plain"
               }
@@ -11049,10 +11250,15 @@
           },
           {
             "type": "answer",
+            "id": 40,
+            "order": 40,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class6/Ejercicio_12.png",
-                "alt": "Solución Ejercicio 12"
+                "alt": "Solución Ejercicio 12",
+                "title": "Solución Ejercicio 12"
               }
             ]
           }
