@@ -10137,6 +10137,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operadores de comparación",
@@ -10146,6 +10150,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Nos permite saber si los valores son igual o distintos, mayores o menores que otros. Los operadores de comparación son los siguientes:",
@@ -10155,6 +10163,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Igualdad ( == )",
@@ -10164,13 +10176,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/igualdad.png",
-              "alt": "Igualdad"
+              "alt": "Igualdad",
+              "title": "Igualdad"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Desigualdad ( != )",
@@ -10180,13 +10201,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/desigualdad.png",
-              "alt": "Desigualdad"
+              "alt": "Desigualdad",
+              "title": "Desigualdad"
             }
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mayor ( > )",
@@ -10196,13 +10226,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/mayor.png",
-              "alt": "Mayor"
+              "alt": "Mayor",
+              "title": "Mayor"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Menor ( < )",
@@ -10212,13 +10251,22 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/menor.png",
-              "alt": "Menor"
+              "alt": "Menor",
+              "title": "Menor"
             }
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Mayor o igual ( >= )",
@@ -10228,13 +10276,22 @@
           },
           {
             "type": "figure",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/mayor_igual.png",
-              "alt": "Mayor o igual"
+              "alt": "Mayor o igual",
+              "title": "Mayor o igual"
             }
           },
           {
             "type": "h4",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Menor o igual ( <= )",
@@ -10244,9 +10301,14 @@
           },
           {
             "type": "figure",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/menor_igual.png",
-              "alt": "Menor o igual"
+              "alt": "Menor o igual",
+              "title": "Menor o igual"
             }
           }
         ]
