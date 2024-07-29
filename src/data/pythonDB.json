@@ -12736,6 +12736,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -12745,6 +12749,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -12754,6 +12762,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que permita ingresar solo texto",
@@ -12763,15 +12775,24 @@
           },
           {
             "type": "answer",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio1.png",
-                "alt": "Solución Ejercicio 1"
+                "alt": "Solución Ejercicio 1",
+                "title": "Solución Ejercicio 1"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -12781,6 +12802,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que permita ingresar solo texto y los muestre todo en mayuscula",
@@ -12790,15 +12815,24 @@
           },
           {
             "type": "answer",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio2.png",
-                "alt": "Solución Ejercicio 2"
+                "alt": "Solución Ejercicio 2",
+                "title": "Solución Ejercicio 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -12808,6 +12842,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realizar un programa que permita ingresar solo numeros, si no se cumple este requisito, que me de la hasta 2 oportunidades mas y me muestre la cantidad de veces que lo hice mal.",
@@ -12817,10 +12855,15 @@
           },
           {
             "type": "answer",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class7/ejercicio3.png",
-                "alt": "Solución Ejercicio 3"
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
               }
             ]
           }
