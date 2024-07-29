@@ -11394,6 +11394,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Diferencia entre un contador y un acumulador",
@@ -11403,6 +11407,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Contador",
@@ -11412,16 +11420,29 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Se utiliza para ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "contar la cantidad de veces ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "que ocurre un evento específico.",
                 "content": "plain"
               }
@@ -11429,9 +11450,17 @@
           },
           {
             "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Se inicializa a un valor inicial (comúnmente 0).",
@@ -11441,6 +11470,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Se incrementa en 1 cada vez que ocurre el evento que se está contando.",
@@ -11450,6 +11483,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Se utiliza principalmente dentro de bucles.",
@@ -11461,6 +11498,10 @@
           },
           {
             "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -11470,13 +11511,22 @@
           },
           {
             "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/contador.png",
-              "alt": "Contador"
+              "alt": "Contador",
+              "title": "Contador"
             }
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Acumulador",
@@ -11486,16 +11536,29 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Se utiliza para ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "acumular un valor ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "a lo largo de un proceso.",
                 "content": "plain"
               }
@@ -11503,9 +11566,17 @@
           },
           {
             "type": "ul",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Se inicializa a un valor inicial (comúnmente 0).",
@@ -11515,6 +11586,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Se actualiza sumándole un nuevo valor cada vez que se repite el proceso.",
@@ -11526,6 +11601,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -11535,10 +11614,16 @@
           },
           {
             "type": "figure",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/acumulador.png",
-              "alt": "Acumulador"
+              "alt": "Acumulador",
+              "title": "Acumulador"
             }
+
           }
         ]
       },
