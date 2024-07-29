@@ -12566,6 +12566,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Import en Python:",
@@ -12575,6 +12579,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué es import?",
@@ -12584,9 +12592,17 @@
           },
           {
             "type": "ul",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Una palabra clave para incluir código de un módulo en otro. ",
@@ -12596,6 +12612,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Útil para organizar el código y reutilizarlo. ",
@@ -12607,6 +12627,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué es un módulo?",
@@ -12616,9 +12640,17 @@
           },
           {
             "type": "ul",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Un archivo .py que contiene código Python. ",
@@ -12628,6 +12660,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Puede incluir funciones, clases, variables y código ejecutable. ",
@@ -12637,6 +12673,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Sirve para agrupar código relacionado y facilitar la reutilización. ",
@@ -12648,6 +12688,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El módulo random en Python proporciona funciones para generar números aleatorios.",
@@ -12657,6 +12701,10 @@
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -12666,9 +12714,14 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class7/import.png",
-              "alt": "Import en Python"
+              "alt": "Import en Python",
+              "title": "Import en Python"
             }
           }
         ]
