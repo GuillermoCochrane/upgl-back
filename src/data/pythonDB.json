@@ -10520,6 +10520,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comentarios en Python",
@@ -10529,6 +10533,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El codigo comentado en Python es ignorado por el intérprete. Esto es útil para documentar el código y hacerlo más entendible.",
@@ -10538,6 +10546,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Almohadilla ( # )",
@@ -10547,6 +10559,10 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El caracter # en Python se utiliza para comentar el resto de la línea. A partir de la misma el intérprete no procesará el código.",
@@ -10556,6 +10572,10 @@
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Triple Comillas ( \"\"\" )",
@@ -10565,6 +10585,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "En Python podemos usar las triples comillas ( \"\"\" )  para comentar varios renglones. Se debe usar al comienzo y al final del bloque de código que se desea comentar.",
@@ -10574,13 +10598,22 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/comentarios.png",
-              "alt": "Comentarios en Python"
+              "alt": "Comentarios en Python",
+              "style": "info"
             }
           },
           {
             "type": "h3",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Interpolación de cadenas",
@@ -10590,6 +10623,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Poniendo \"f\" antes de la cadena, nos permite concatenar un texto con la variable que se encuentra entre llaves.",
@@ -10599,9 +10636,14 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class6/interpolacion.png",
-              "alt": "Interpolación de cadenas"
+              "alt": "Interpolación de cadenas",
+              "style": "info"
             }
           }
         ]
