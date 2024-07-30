@@ -16371,6 +16371,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Slicing: 🔪",
@@ -16380,6 +16384,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "La operación de slicing en Python es una forma eficiente de extraer elementos de una secuencia, como una lista o una cadena de texto, de acuerdo con una cierta lógica. La sintaxis del slicing es la siguiente: secuencia [inicio : final : paso]",
@@ -16389,6 +16397,10 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplos:",
@@ -16398,6 +16410,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Obtener los primeros dos elementos de la lista \"numeros\"",
@@ -16407,13 +16423,22 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/slice_numeros.png",
-              "alt": "Obtener los primeros dos elementos de la lista \"numeros\""
+              "alt": "Obtener los primeros dos elementos de la lista \"numeros\"",
+              "title": "Obtener los primeros dos elementos de la lista \"numeros\""
             }
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Obtener los últimos tres elementos de la lista \"nombres\"",
@@ -16423,13 +16448,22 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/slice_nombres.png",
-              "alt": "Obtener los últimos tres elementos de la lista \"nombres\""
+              "alt": "Obtener los últimos tres elementos de la lista \"nombres\"",
+              "title": "Obtener los últimos tres elementos de la lista \"nombres\""
             }
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
@@ -16439,9 +16473,14 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/slice_mixta.png",
-              "alt": "Obtener los elementos del 1 al 4 de la lista \"mixta\""
+              "alt": "Obtener los elementos del 1 al 4 de la lista \"mixta\"",
+              "title": "Obtener los elementos del 1 al 4 de la lista \"mixta\""
             }
           }
         ]
