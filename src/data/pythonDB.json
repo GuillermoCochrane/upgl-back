@@ -17025,6 +17025,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué son las comprensiones de listas?",
@@ -17034,6 +17038,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Las comprensiones en Python son una forma concisa y eficiente de crear listas, conjuntos y diccionarios. Permiten realizar operaciones de filtrado, mapeo y transformación de elementos en una sola línea de código, lo que facilita la lectura y escritura del código.",
@@ -17043,6 +17051,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Siguiendo el ejemplo que vimos en clase las podemos observar en la nueva lista llamada alumnos_restamtes:",
@@ -17052,13 +17064,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class10/comprensiones.png",
-              "alt": "Comprensiones en Python"
+              "alt": "Comprensiones en Python",
+              "title": "Comprensiones en Python"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué hace en este caso?",
@@ -17068,6 +17089,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Lo que esta haciendo nuestra comprension es generar una lista nueva donde en cada iteracion va comprobando si el alumno no esta en la lista de alumnos_pasados y lo agrega en la nueva lista de alumnos restantes.",
@@ -17077,16 +17102,29 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Siguiendo este caso, en la primer iteracion agregaria a salvador, en la segunda ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "NO ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "agregaria a brisa (ya que esta en alumnos_pasados) y despues de la tercera agregaria a todos los alumnos hasta finalizar la lista.",
                 "content": "plain"
               }
@@ -17094,6 +17132,10 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Vale aclarar que la lista nueva no se genera hasta que finaliza el ciclo for que nos encontramos en su interior, si nos paramos en la lista con el debbuger no la vamos a ver hasta que termine de ejecutarse la linea de codigo en su totalidad.",
