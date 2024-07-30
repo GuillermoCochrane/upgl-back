@@ -16495,6 +16495,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Listas anidadas: 🧶",
@@ -16504,6 +16508,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se pueden crear listas dentro de otras listas.",
@@ -16513,13 +16521,22 @@
           },
           {
             "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_anidada.png",
-              "alt": "Se pueden crear listas dentro de otras listas."
+              "alt": "Se pueden crear listas dentro de otras listas.",
+              "title": "Se pueden crear listas dentro de otras listas."
             }
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Acceder a un elemento de la lista anidada",
@@ -16529,9 +16546,14 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/acceso_lista_anidada.png",
-              "alt": "Acceder a un elemento de la lista anidada"
+              "alt": "Acceder a un elemento de la lista anidada",
+              "title": "Acceder a un elemento de la lista anidada"
             }
           }
         ]
