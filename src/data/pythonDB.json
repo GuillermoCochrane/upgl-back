@@ -16568,6 +16568,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -16577,6 +16581,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -16586,6 +16594,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista de nombres y luego:",
@@ -16595,9 +16607,17 @@
           },
           {
             "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 5,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Imprimir la longitud de la lista.",
@@ -16607,6 +16627,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Agregar un nuevo nombre al final de la lista.",
@@ -16616,6 +16640,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Eliminar el primer nombre de la lista.",
@@ -16625,6 +16653,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Buscar un nombre en la lista e imprimir si está o no presente.",
@@ -16634,6 +16666,10 @@
               },
               {
                 "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Ordenar la lista alfabéticamente.",
@@ -16645,15 +16681,24 @@
           },
           {
             "type": "answer",
+            "id": 5,
+            "order": 5,
+            "available":  true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class9/ejercicio_1.png",
-                "alt": "Solución Ejercicio 1"
+                "alt": "Solución Ejercicio 1",
+                "title": "Solución Ejercicio 1"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -16663,6 +16708,10 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista de números y luego:",
@@ -16672,9 +16721,17 @@
           },
           {
             "type": "ul",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Calcular la suma de todos los números de la lista.",
@@ -16684,6 +16741,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Encontrar el número máximo y mínimo de la lista.",
@@ -16693,6 +16754,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Multiplicar cada número de la lista por 2.",
@@ -16702,6 +16767,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Imprimir los números pares de la lista.",
@@ -16713,15 +16782,24 @@
           },
           {
             "type": "answer",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class9/ejercicio_2.png",
-                "alt": "Solución Ejercicio 2"
+                "alt": "Solución Ejercicio 2",
+                "title": "Solución Ejercicio 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -16731,6 +16809,10 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista de palabras y luego:",
@@ -16740,9 +16822,17 @@
           },
           {
             "type": "ul",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Contar cuántas veces aparece una palabra específica en la lista.",
@@ -16752,6 +16842,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Invertir el orden de la lista.",
@@ -16761,6 +16855,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Unir dos listas en una sola.",
@@ -16770,6 +16868,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Dividir una lista en dos sublistas.",
@@ -16781,15 +16883,24 @@
           },
           {
             "type": "answer",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class9/ejercicio_3.png",
-                "alt": "Solución Ejercicio 3"
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 4:",
@@ -16799,6 +16910,10 @@
           },
           {
             "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Simular una cesta de la compra:",
@@ -16808,9 +16923,17 @@
           },
           {
             "type": "ul",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Crear una lista con los productos que se van a comprar.",
@@ -16820,6 +16943,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Agregar un nuevo producto a la lista.",
@@ -16829,6 +16956,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Eliminar un producto de la lista.",
@@ -16838,6 +16969,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Imprimir la lista",
@@ -16849,10 +16984,15 @@
           },
           {
             "type": "answer",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class9/ejercicio_4.png",
-                "alt": "Solución Ejercicio 4"
+                "alt": "Solución Ejercicio 4",
+                "title": "Solución Ejercicio 4"
               }
             ]
           }
