@@ -13506,6 +13506,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ciclo While",
@@ -13515,6 +13519,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El ciclo while en programación se utiliza para ejecutar repetidamente un bloque de código mientras una condición específica sea verdadera. Esto es especialmente útil cuando no sabés de antemano cuántas veces necesitas repetir una tarea y quieres seguir ejecutando el código hasta que se cumpla una condición de salida.",
@@ -13524,6 +13532,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "While condicion:",
@@ -13533,6 +13545,10 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Bloque de código a ejecutar mientras la condición sea verdadera",
@@ -13542,6 +13558,10 @@
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Flujo de ejecución:",
@@ -13551,9 +13571,18 @@
           },
           {
             "type": "ul",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 4
+            ,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "La condición se evalúa antes de cada iteración del bucle.",
@@ -13563,6 +13592,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Si la condición es verdadera, el bloque de código dentro del while se ejecuta.",
@@ -13572,6 +13605,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Después de la ejecución del bloque de código, la condición se vuelve a evaluar.",
@@ -13581,6 +13618,10 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Si la condición sigue siendo verdadera, el ciclo se repite; de lo contrario, el programa continúa con la siguiente instrucción después del while.",
@@ -13592,6 +13633,10 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -13601,13 +13646,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class8/while.png",
-              "alt": "Ejemplo while"
+              "alt": "Ejemplo while",
+              "title": "Ejemplo while"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Usos típicos:",
@@ -13617,9 +13671,17 @@
           },
           {
             "type": "ul",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Procesamiento de datos mientras se cumpla cierta condición.",
@@ -13629,6 +13691,10 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Interacción con el usuario hasta que se ingrese un valor específico.",
@@ -13638,6 +13704,10 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
                 "info": [
                   {
                     "text": "Implementación de bucles controlados por eventos.",
@@ -13649,6 +13719,10 @@
           },
           {
             "type": "h3",
+            "id": 11,
+            "order":1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¡¡¡Importante!!!",
@@ -13658,6 +13732,10 @@
           },
           {
             "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Tener cuidado al usar ciclos while para evitar caer en bucles infinitos. Asegúrate de que la condición se modifique en algún punto dentro del bloque de código o de lo contrario, el bucle continuará ejecutándose indefinidamente.",
@@ -13667,9 +13745,14 @@
           },
           {
             "type": "figure",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class8/while_infinite_loop.png",
-              "alt": "Ejemplo ciclo infinito"
+              "alt": "Ejemplo ciclo infinito",
+              "title": "Ejemplo ciclo infinito"
             }
           }
         ]
