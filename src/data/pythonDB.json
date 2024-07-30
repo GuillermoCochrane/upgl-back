@@ -14595,6 +14595,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Bonus Track",
@@ -14604,6 +14608,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de bucles anidados o encapsulados (while dentro de otro while)",
@@ -14613,56 +14621,98 @@
           },
           {
             "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class8/bucles_anidados.png",
               "alt": "Bucles anidados",
+              "title": "Bucles anidados",
               "style": "info"
             }
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 11,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Un ejemplo de la utilización de bucles anidados puede ser un menú con opciones. En este caso, se tiene un bucle principal que se ejecuta mientras la variable ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "desea_volver_a_empezar",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": " sea ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "true",
                 "content": "bold"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": ". Dentro de este bucle, se muestra un menú de opciones para que el usuario elija. Luego, hay otro bucle ",
                 "content": "plain"
               },
               {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
                 "text": "while",
                 "content": "bold"
               },
               {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
                 "text": " que valida la opción seleccionada. Finalmente, se ejecuta la opción seleccionada utilizando una estructura ",
                 "content": "plain"
               },
               {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
                 "text": "if",
                 "content": "bold"
               },
               {
+                "stubID": 9,
+                "order": 9,
+                "available": true,
                 "text": ". Si se elige la opción 3, la variable del primer bucle se cambia a ",
                 "content": "plain"
               },
               {
+                "stubID": 10,
+                "order": 10,
+                "available": true,
                 "text": "false",
                 "content": "bold"
               },
               {
+                "stubID": 11,
+                "order": 11,
+                "available": true,
                 "text": ", lo que termina el programa.",
                 "content": "plain"
               }
@@ -14670,6 +14720,10 @@
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -14679,16 +14733,29 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Escribe un programa que cuente una historia interactiva (del estilo de los libros ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": " \"Elije tu propia aventura\" ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "), en el que el lector vaya leyendo la historia y llegado a cierto punto, tenga que elegir como sigue la historia. Dependiendo de las elecciones tomadas,  tendra diferentes finales. ",
                 "content": "plain"
               }
@@ -14696,6 +14763,10 @@
           },
           {
             "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo: ",
@@ -14705,6 +14776,10 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "El Viaje de Programación en Python",
@@ -14714,6 +14789,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Eres un estudiante de la UBP en General Levalle y te has inscrito en el curso de programación I en Python. Estás emocionado por aprender un nuevo lenguaje de programación y explorar el mundo de la informática.",
@@ -14723,6 +14802,10 @@
           },
           {
             "type": "p",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Capítulo 1: El Comienzo",
@@ -14732,20 +14815,36 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": " Comienzas el curso de programación y te encuentras con dos profesores ntusiastas que te introducen a los conceptos básicos de Python. Te enfrentas a desafíos emocionantes y aprendes a escribir tus primeros programas. ¿Quieres seguir adelante con el curso? ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "(Ve al Capítulo 2 apretando la tecla 2 y Enter ) ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "¿O te sientes abrumado y decides abandonar? ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "(Aprieta la tecla 3 y Enter)",
                 "content": "bold"
               }
@@ -14753,6 +14852,10 @@
           },
           {
             "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Capítulo 2: La Aventura Continúa",
@@ -14762,20 +14865,36 @@
           },
           {
             "type": "p",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Decides continuar con el curso y te sumerges más profundamente en el mundo de Python. Aprendes sobre estructuras de datos, funciones y bucles mientras resuelves problemas cada vez más complejos. Tu entusiasmo por la programación crece a medida que adquieres nuevas habilidades. ¿Quieres seguir adelante con el curso y enfrentar el desafío final del proyecto final? ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "(Aprieta la tecla 4 Enter ) ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "¿O te sientes frustrado y decides renunciar? ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "(Aprieta la tecla 3 y Enter)",
                 "content": "bold"
               }
@@ -14783,6 +14902,10 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Capítulo 3: El Desafío Final",
@@ -14792,6 +14915,10 @@
           },
           {
             "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Llega el momento de enfrentar el proyecto final del curso. Te enfrentas a un problema complicado que requiere todas las habilidades que has aprendido hasta ahora. Trabajas duro y, con determinación, logras completar el proyecto con éxito. Tu confianza en tus habilidades de programación está en su punto más alto y estás listo para enfrentar nuevos desafíos en el futuro. ¡Felicidades, has alcanzado el Final Feliz!",
@@ -14801,6 +14928,10 @@
           },
           {
             "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Capitulo 3: El triste final",
@@ -14810,12 +14941,22 @@
           },
           {
             "type": "p",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 2,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Final Triste: ",
                 "content": "bold"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "Decides abandonar el curso de programación y te sientes desanimado por no haber alcanzado tus metas. Sin embargo, con el tiempo, te das cuenta de que todavía hay oportunidades para aprender y crecer en el mundo de la informática.",
                 "content": "plain"
               }
@@ -14823,10 +14964,15 @@
           },
           {
             "type": "answer",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class8/ejercicio_bonus_1.png",
-                "alt": "Solución del Ejercicio 1"
+                "alt": "Solución del Ejercicio 1",
+                "title": "Solución del Ejercicio 1"
               }
             ]
           }
