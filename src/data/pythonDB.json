@@ -14387,6 +14387,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Actividades 💬",
@@ -14396,6 +14400,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 1:",
@@ -14405,6 +14413,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Realiza el programa para la nasa que cuente regresviamente de 10 a 0 y luego muestre un mensaje de despegue",
@@ -14414,6 +14426,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de salida: ",
@@ -14423,22 +14439,36 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class8/ejemplo_ejercicio_1.png",
-              "alt": "Ejemplo Ejercicio 1"
+              "alt": "Ejemplo Ejercicio 1",
+              "title": "Ejemplo Ejercicio 1"
             }
           },
           {
             "type": "answer",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class8/ejercicio_1.png",
-                "alt": "Solución Ejercicio 1"
+                "alt": "Solución Ejercicio 1",
+                "title": "Solución Ejercicio 1"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 2:",
@@ -14448,6 +14478,10 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "🔮 Adivina el numero: Realizar un programa que adivine un numero con 3 intentos para adivinar el numero secreto entre 1 y 10",
@@ -14457,15 +14491,24 @@
           },
           {
             "type": "answer",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class8/ejercicio_2.png",
-                "alt": "Solución Ejercicio 2"
+                "alt": "Solución Ejercicio 2",
+                "title": "Solución Ejercicio 2"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 3:",
@@ -14475,6 +14518,10 @@
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "💻 SUMADORA: Realizar un programa que permita sumar numeros hasta que se ingrese un 0",
@@ -14484,15 +14531,24 @@
           },
           {
             "type": "answer",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class8/ejercicio_3.png",
-                "alt": "Solución Ejercicio 3"
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
               }
             ]
           },
           {
             "type": "h4",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejercicio 4:",
@@ -14502,6 +14558,10 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "❎ Tabla de Multiplicar: Realizar un programa que muestre la tabla de multiplicar de un número ingresado por el usuario.",
@@ -14511,10 +14571,15 @@
           },
           {
             "type": "answer",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "img": "/images/Python/class8/ejercicio_4.png",
-                "alt": "Solución Ejercicio 4"
+                "alt": "Solución Ejercicio 4",
+                "title": "Solución Ejercicio 4"
               }
             ]
           }
