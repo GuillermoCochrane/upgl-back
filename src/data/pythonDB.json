@@ -17489,6 +17489,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Bonus Track: ",
@@ -17498,6 +17502,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Uso de la función pprint (pretty print)",
@@ -17507,6 +17515,10 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "La función pprint es un módulo en Python que proporciona una forma de imprimir estructuras de datos complejas (como listas, diccionarios, etc.) de manera más legible y organizada. Al usar pprint, los datos se formatean con saltos de línea y sangrías apropiadas, facilitando su comprensión y análisis visual. Es especialmente útil cuando trabajas con datos anidados o grandes volúmenes de información.",
@@ -17516,13 +17528,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class10/pprint.png",
-              "alt": "Uso de la función pprint"
+              "alt": "Uso de la función pprint",
+              "title": "Uso de la función pprint"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Otro ejemplo:",
@@ -17532,6 +17553,10 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Podemos usar la función pprint para imprimir diccionarios de manera más legible:",
@@ -17541,9 +17566,14 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class10/pprint_diccionario.png",
-              "alt": "Uso de la función pprint"
+              "alt": "Uso de la función pprint",
+              "title": "Uso de la función pprint"
             }
           }
         ]
