@@ -15387,6 +15387,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Operadores con listas",
@@ -15396,19 +15400,36 @@
           },
           {
             "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Agregar elementos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se puede agregar un elemento a una lista utilizando usando el método ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": "append()",
                     "content": "bold"
                   }
@@ -15416,16 +15437,29 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Eliminar elementos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se puede eliminar un elemento de una lista utilizando el método  ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": "remove()",
                     "content": "bold"
                   }
@@ -15433,16 +15467,29 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Encontrar elementos: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se puede buscar un elemento en una lista utilizando el operador ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": "in",
                     "content": "bold"
                   }
@@ -15450,16 +15497,29 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 3,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Ordenar la lista: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se puede ordenar la lista utilizando el método ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": "sort()",
                     "content": "bold"
                   }
@@ -15469,6 +15529,10 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo de uso:",
@@ -15478,6 +15542,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista de compras",
@@ -15487,13 +15555,22 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_compras.png",
-              "alt": "Lista de compras"
+              "alt": "Lista de compras",
+              "title": "Lista de compras"
             }
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Agregar un elemento a la lista",
@@ -15503,13 +15580,22 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/agregar_elemento.png",
-              "alt": "Agregar un elemento a la lista"
+              "alt": "Agregar un elemento a la lista",
+              "title": "Agregar un elemento a la lista"
             }
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Eliminar un elemento de la lista",
@@ -15519,13 +15605,22 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/eliminar_elemento.png",
-              "alt": "Eliminar un elemento de la lista"
+              "alt": "Eliminar un elemento de la lista",
+              "title": "Eliminar un elemento de la lista"
             }
           },
           {
             "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Buscar un elemento en la lista",
@@ -15535,13 +15630,22 @@
           },
           {
             "type": "figure",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/buscar_elemento.png",
-              "alt": "Buscar un elemento en la lista"
+              "alt": "Buscar un elemento en la lista",
+              "title": "Buscar un elemento en la lista"
             }
           },
           {
             "type": "h4",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comprobar si un elemento está en la lista (numérica)",
@@ -15551,13 +15655,22 @@
           },
           {
             "type": "figure",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/comprobar_elemento_numeros.png",
-              "alt": "Comprobar si un elemento está en la lista (números)"
+              "alt": "Comprobar si un elemento está en la lista (números)",
+              "title": "Comprobar si un elemento está en la lista (números)"
             }
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comprobar si un elemento está en la lista (palabras)",
@@ -15567,13 +15680,22 @@
           },
           {
             "type": "figure",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/comprobar_elemento_nombres.png",
-              "alt": "Comprobar si un elemento está en la lista (nombres)"
+              "alt": "Comprobar si un elemento está en la lista (nombres)",
+              "title": "Comprobar si un elemento está en la lista (nombres)"
             }
           },
           {
             "type": "h4",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ordenar la lista",
@@ -15583,9 +15705,14 @@
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/ordenar_lista.png",
-              "alt": "Ordenar la lista"
+              "alt": "Ordenar la lista",
+              "title": "Ordenar la lista"
             }
           }
         ]
