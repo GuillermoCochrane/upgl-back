@@ -15727,6 +15727,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Funciones de las listas",
@@ -15736,15 +15740,29 @@
           },
           {
             "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 8,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "len(lista): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelve la longitud de la lista.",
                     "content": "plain"
                   }
@@ -15752,12 +15770,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "list.count(elemento): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelve el número de veces que aparece un elemento en la lista.",
                     "content": "plain"
                   }
@@ -15765,12 +15793,22 @@
               },
               {
                 "type": "li",
-                "info": [
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [ 
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "list.index(elemento): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelve el índice de la primera aparición de un elemento en la lista.",
                     "content": "plain"
                   }
@@ -15778,12 +15816,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "list.reverse(): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Invierte el orden de la lista.",
                     "content": "plain"
                   }
@@ -15791,12 +15839,22 @@
               },
               {
                 "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "list.copy(): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Crea una copia de la lista.",
                     "content": "plain"
                   }
@@ -15804,12 +15862,22 @@
               },
               {
                 "type": "li",
+                "liID": 6,
+                "order": 6,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "sum(lista): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Suma todos los elementos de la lista.",
                     "content": "plain"
                   }
@@ -15817,12 +15885,22 @@
               },
               {
                 "type": "li",
+                "liID": 7,
+                "order": 7,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "max(lista): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelve el elemento máximo de la lista.",
                     "content": "plain"
                   }
@@ -15830,12 +15908,22 @@
               },
               {
                 "type": "li",
+                "liID": 8,
+                "order": 8,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "min(lista): ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelve el elemento mínimo de la lista.",
                     "content": "plain"
                   }
@@ -15845,8 +15933,13 @@
           },
           {
             "type": "h3",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
+                
                 "text": "Ejemplos de Funciones",
                 "content": "plain"
               }
@@ -15854,6 +15947,10 @@
           },
           {
             "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Calcula la longitud de la lista.",
@@ -15863,13 +15960,22 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/len_lista.png",
-              "alt": "Devuelve la longitud de la lista."
+              "alt": "Devuelve la longitud de la lista.",
+              "title": "Devuelve la longitud de la lista."
             }
           },
           {
             "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Calcula el numero de veces que aparece un elemento en la lista.",
@@ -15879,13 +15985,22 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_count.png",
-              "alt": "Devuelve el numero de veces que aparece un elemento en la lista."
+              "alt": "Devuelve el numero de veces que aparece un elemento en la lista.",
+              "title": "Devuelve el numero de veces que aparece un elemento en la lista."
             }
           },
           {
             "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Devuelve el índice de la primera aparición de un elemento en la lista.",
@@ -15895,13 +16010,22 @@
           },
           {
             "type": "figure",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_index.png",
-              "alt": "Devuelve el índice de la primera aparición de un elemento en la lista."
+              "alt": "Devuelve el índice de la primera aparición de un elemento en la lista.",
+              "title": "Devuelve el índice de la primera aparición de un elemento en la lista."
             }
           },
           {
             "type": "h4",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Devuelve la lista con orden inverso",
@@ -15911,13 +16035,22 @@
           },
           {
             "type": "figure",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_reverse.png",
-              "alt": "Devuelve la lista con orden inverso"
+              "alt": "Devuelve la lista con orden inverso",
+              "title": "Devuelve la lista con orden inverso"
             }
           },
           {
             "type": "h4",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crea una copia de la lista.",
@@ -15927,13 +16060,22 @@
           },
           {
             "type": "figure",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_copy.png",
-              "alt": "Crea una copia de la lista."
+              "alt": "Crea una copia de la lista.",
+              "title": "Crea una copia de la lista."
             }
           },
           {
             "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Calcular la suma de todos los números de la lista",
@@ -15943,13 +16085,22 @@
           },
           {
             "type": "figure",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/suma_lista_numeros.png",
-              "alt": "Calcular la suma de todos los números de la lista"
+              "alt": "Calcular la suma de todos los números de la lista",
+              "title": "Calcular la suma de todos los números de la lista"
             }
           },
           {
             "type": "h4",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Encontrar el número máximo y mínimo de la lista",
@@ -15959,9 +16110,14 @@
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/maximo_minimo_lista_numeros.png",
-              "alt": "Encontrar el número máximo y mínimo de la lista"
+              "alt": "Encontrar el número máximo y mínimo de la lista",
+              "title": "Encontrar el número máximo y mínimo de la lista"
             }
           }
         ]
