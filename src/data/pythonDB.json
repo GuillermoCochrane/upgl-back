@@ -15005,6 +15005,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué son las listas?",
@@ -15014,6 +15018,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Las listas en Python son estructuras de datos que se utilizan para almacenar una colección de elementos ordenados, estos elementos pueden ser de cualquier tipo, como números, cadenas de texto, booleanos, etc.",
@@ -15023,6 +15031,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Características de las listas:",
@@ -15032,15 +15044,29 @@
           },
           {
             "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Ordenadas: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Las listas mantienen el orden en el que se agregan los elementos.",
                     "content": "plain"
                   }
@@ -15048,12 +15074,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Mutables: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Los elementos de una lista se pueden modificar, agregar o eliminar.",
                     "content": "plain"
                   }
@@ -15061,12 +15097,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Heterogéneas: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Una lista puede contener elementos de diferentes tipos.",
                     "content": "plain"
                   }
@@ -15074,12 +15120,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": " Anidadas: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Se pueden crear listas dentro de otras listas.",
                     "content": "plain"
                   }
@@ -15089,6 +15145,10 @@
           },
           {
             "type": "h3",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista",
@@ -15098,16 +15158,29 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 3,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "Las listas se pueden crear utilizando corchetes ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "[  ] ",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": "y separando los elementos por comas.",
                 "content": "plain"
               }
@@ -15115,6 +15188,10 @@
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Lista de números",
@@ -15124,13 +15201,22 @@
           },
           {
             "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_numeros.png",
-              "alt": "Lista de números"
+              "alt": "Lista de números",
+              "title": "Lista de números"
             }
           },
           {
             "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Lista de cadenas",
@@ -15140,13 +15226,22 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_cadenas.png",
-              "alt": "Lista de cadenas"
+              "alt": "Lista de cadenas",
+              "title": "Lista de cadenas"
             }
           },
           {
             "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Lista mixta",
@@ -15156,13 +15251,22 @@
           },
           {
             "type": "figure",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/lista_mixta.png",
-              "alt": "Lista mixta"
+              "alt": "Lista mixta",
+              "title": "Lista mixta"
             }
           },
           {
             "type": "h3",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Acceder a elementos",
@@ -15172,6 +15276,10 @@
           },
           {
             "type": "p",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Se puede acceder a un elemento específico de una lista utilizando su índice, el índice comienza en 0 para el primer elemento.",
@@ -15181,6 +15289,10 @@
           },
           {
             "type": "h4",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplos:",
@@ -15190,6 +15302,10 @@
           },
           {
             "type": "h4",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Acceder al segundo elemento de la lista \"numeros\"",
@@ -15199,13 +15315,22 @@
           },
           {
             "type": "figure",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/acceder_lista_numeros.png",
-              "alt": "Acceder al segundo elemento de la lista \"numeros\""
+              "alt": "Acceder al segundo elemento de la lista \"numeros\"",
+              "title": "Acceder al segundo elemento de la lista \"numeros\""
             }
           },
           {
             "type": "h4",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Acceder al último elemento de la lista \"nombres\"",
@@ -15215,13 +15340,22 @@
           },
           {
             "type": "figure",
+            "id": 19,
+            "order": 19,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/acceder_lista_nombres.png",
-              "alt": "Acceder al último elemento de la lista \"nombres\""
+              "alt": "Acceder al último elemento de la lista \"nombres\"",
+              "title": "Acceder al último elemento de la lista \"nombres\""
             }
           },
           {
             "type": "h4",
+            "id": 20,
+            "order": 20,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Cambiar el valor de la lista \"nombres\"",
@@ -15231,9 +15365,14 @@
           },
           {
             "type": "figure",
+            "id": 21,
+            "order": 21,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class9/cambiar_lista_nombres.png",
-              "alt": "Cambiar el valor de la lista \"nombres\""
+              "alt": "Cambiar el valor de la lista \"nombres\"",
+              "title": "Cambiar el valor de la lista \"nombres\""
             }
           }
         ]
