@@ -18288,6 +18288,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Uso de \"map\" y \"join\"",
@@ -18297,6 +18301,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "map",
@@ -18306,24 +18314,43 @@
           },
           {
             "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 5,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "La función ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "map",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": " toma dos argumentos: una función y un iterable. En este caso, la función ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "str",
                 "content": "bold"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": " convierte cada número al cuadrado en una cadena de texto. El resultado es un nuevo iterable que contiene las cadenas de texto de los cuadrados.",
                 "content": "plain"
               }
@@ -18331,13 +18358,22 @@
           },
           {
             "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class11/map.png",
-              "alt": "Conversor a string usando map"
+              "alt": "Conversor a string usando map",
+              "title": "Conversor a string usando map"
             }
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "join",
@@ -18347,24 +18383,43 @@
           },
           {
             "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 5,
             "info": [
               {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
                 "text": "La función ",
                 "content": "plain"
               },
               {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
                 "text": "join",
                 "content": "bold"
               },
               {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
                 "text": " concatena elementos de un iterable en una cadena, separándolos por un delimitador especificado. En este caso, utilizamos ",
                 "content": "plain"
               },
               {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
                 "text": "\" , \"",
                 "content": "bold"
               },
               {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
                 "text": " como delimitador para unir las cadenas de texto de los cuadrados.",
                 "content": "plain"
               }
@@ -18372,9 +18427,14 @@
           },
           {
             "type": "figure",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class11/join.png",
-              "alt": "Unir strings usando join"
+              "alt": "Unir strings usando join",
+              "title": "Unir strings usando join"
             }
           }
         ]
