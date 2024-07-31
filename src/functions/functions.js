@@ -123,7 +123,7 @@ const pythonFunctions = {
         let data = this.allEntries(course);
         let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
         let lastTopic = classTopics.pop();
-        let newTopicID = lastTopic.topic + 1;
+        let newTopicID = lastTopic ? lastTopic.topic + 1 :1;
         return newTopicID;
     },
 
@@ -173,7 +173,8 @@ const pythonFunctions = {
                 lesson.topics = allTopics.length;
             }
         }
-        return allClasses;
+        this.store(allClasses, course);
+        return newTopic;
     }
 }
 
