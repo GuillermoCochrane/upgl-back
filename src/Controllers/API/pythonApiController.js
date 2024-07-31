@@ -74,5 +74,18 @@ const pythonApiController = {
         return res.json(info)
         }
     },
+
+    newClass: function(req,res){
+        let data = functions.newClass("python",req.body);
+        let info = {
+            meta: {
+                status : 200,
+                class: data.classID,
+                url: 'api/python/newClass',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = pythonApiController
