@@ -17605,6 +17605,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "¿Qué son los generadores de expresiones?",
@@ -17614,6 +17618,10 @@
           },
           {
             "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Los generadores de expresiones son una característica poderosa y eficiente en Python para crear secuencias de datos de manera concisa. Son similares a las \"comprensiones de lista\", pero con algunas diferencias clave en términos de sintaxis y comportamiento. A diferencia de las listas, que almacenan todos los elementos a la vez, los generadores liberan memoria al generar elementos uno a uno. Esto los hace ideales para trabajar con grandes conjuntos de datos o cuando la memoria es limitada.",
@@ -17623,6 +17631,10 @@
           },
           {
             "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Sintaxis Básica",
@@ -17632,6 +17644,10 @@
           },
           {
             "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "La sintaxis de un generador de expresiones es:",
@@ -17641,22 +17657,41 @@
           },
           {
             "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class11/generadores_de_expresiones.png",
-              "alt": "Sintaxis Básica de Generadores de Expresiones"
+              "alt": "Sintaxis Básica de Generadores de Expresiones",
+              "title": "Sintaxis Básica de Generadores de Expresiones"
             }
           },
           {
             "type": "ul",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "expresion: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Es el valor que se generará para cada item.",
                     "content": "plain"
                   }
@@ -17664,12 +17699,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "item: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Variable que toma cada valor del iterable.",
                     "content": "plain"
                   }
@@ -17677,12 +17722,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "iterable: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,  
+                    "order": 2,
+                    "available": true,
                     "text": "Secuencia sobre la que iterará el generador.",
                     "content": "plain"
                   }
@@ -17690,12 +17745,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "if condicion: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "(Opcional) Condición que debe cumplirse para que el generador genere un valor.",
                     "content": "plain"
                   }
@@ -17705,6 +17770,10 @@
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Características Principales",
@@ -17714,31 +17783,57 @@
           },
           {
             "type": "ul",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 6,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Paréntesis: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Usan paréntesis ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
                     "text": " \"(  )\" ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
                     "text": " en lugar de corchetes ",
                     "content": "plain"
                   },
                   {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
                     "text": " \"[  ]\" ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 6,
+                    "order": 6,
+                    "available": true,
                     "text": ", que se usan en comprensiones de lista.",
                     "content": "plain"
                   }
@@ -17746,12 +17841,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Evaluación Perezosa: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Los valores se generan solo cuando se solicitan, lo que ahorra memoria.",
                     "content": "plain"
                   }
@@ -17759,12 +17864,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Uso Único: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Una vez que se han consumido todos los elementos, el generador se agota y no puede reutilizarse.",
                     "content": "plain"
                   }
@@ -17772,12 +17887,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Eficiencia de Memoria: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Ideal para trabajar con grandes conjuntos de datos o secuencias infinitas.",
                     "content": "plain"
                   }
