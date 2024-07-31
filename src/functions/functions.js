@@ -19,7 +19,7 @@ const pythonFunctions = {
 
     store: function(data, course){
         let database = this.dBselector(course);
-        fs.writeFileSync( database, JSON.stringify(data, null, ' ') );
+        fs.writeFileSync( database, JSON.stringify(data, null, '  ') );
         return true;
     },
 
@@ -148,6 +148,7 @@ const pythonFunctions = {
         }
 
         fullCourse.push(newClass);
+        this.store(fullCourse, course);
         return newClass;
     },
 
