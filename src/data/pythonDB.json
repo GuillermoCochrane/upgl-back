@@ -18449,6 +18449,10 @@
         "topicData": [
           {
             "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comprensiones de Listas vs Generadores de Expresiones",
@@ -18458,6 +18462,10 @@
           },
           {
             "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comprensiones de Listas:",
@@ -18467,15 +18475,29 @@
           },
           {
             "type": "ul",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,  
+                    "order": 1,
+                    "available": true,
                     "text": "Crean listas: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,  
+                    "order": 2,
+                    "available": true,
                     "text": "Su objetivo principal es crear una lista de elementos en memoria.",
                     "content": "plain"
                   }
@@ -18483,12 +18505,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,  
+                    "order": 1,
+                    "available": true,
                     "text": "Sintaxis más concisa: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "texte": "Utilizan una sintaxis compacta similar a las listas para definir la lógica de creación.",
                     "content": "plain"
                   }
@@ -18496,12 +18528,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Eficiencia para conjuntos de datos pequeños: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Adecuadas para conjuntos de datos pequeños que caben en la memoria.",
                     "content": "plain"
                   }
@@ -18509,12 +18551,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Resultado completo: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Almacena la lista completa en la memoria antes de devolverla.",
                     "content": "plain"
                   }
@@ -18524,6 +18576,10 @@
           },
           {
             "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Generadores de Expresiones:",
@@ -18533,15 +18589,29 @@
           },
           {
             "type": "ul",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 4,
             "info": [
               {
                 "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Crean iterables: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Su objetivo principal es generar elementos uno a uno, sin almacenar toda la secuencia.",
                     "content": "plain"
                   }
@@ -18549,12 +18619,22 @@
               },
               {
                 "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Sintaxis similar a las comprensiones de listas: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Utilizan una sintaxis similar a las comprensiones de listas, pero con paréntesis en lugar de corchetes o llaves.",
                     "content": "plain"
                   }
@@ -18562,12 +18642,22 @@
               },
               {
                 "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Eficiencia para conjuntos de datos grandes: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Ideales para procesar grandes conjuntos de datos de forma iterativa, liberando memoria.",
                     "content": "plain"
                   }
@@ -18575,12 +18665,22 @@
               },
               {
                 "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
                     "text": "Resultado progresivo: ",
                     "content": "bold"
                   },
                   {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
                     "text": "Devuelven un objeto iterable que genera elementos uno a uno, sin almacenar la secuencia completa.",
                     "content": "plain"
                   }
@@ -18590,6 +18690,10 @@
           },
           {
             "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Ejemplo",
@@ -18599,6 +18703,10 @@
           },
           {
             "type": "p",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Crear una lista de cuadrados de 1 a 110000 para ver la diferencia de tiempo en ejecución:",
@@ -18608,6 +18716,10 @@
           },
           {
             "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Comprensión de Lista: ",
@@ -18617,13 +18729,22 @@
           },
           {
             "type": "figure",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class11/comprensiones_lista.png",
-              "alt": "Comprensión de lista"
+              "alt": "Comprensión de lista",
+              "title": "Comprensión de lista"
             }
           },
           {
             "type": "p",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
             "info": [
               {
                 "text": "Generador de Expresión: ",
@@ -18633,9 +18754,14 @@
           },
           {
             "type": "figure",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
             "info": {
               "img": "/images/Python/class11/generadores_de_exp.png",
-              "alt": "Generador de expresión"
+              "alt": "Generador de expresión",
+              "title": "Generador de expresión"
             }
           }
         ]
