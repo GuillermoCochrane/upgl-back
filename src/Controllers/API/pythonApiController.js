@@ -87,5 +87,19 @@ const pythonApiController = {
         }
         return res.json(info)
     },
+
+    newTopic: function(req,res){
+        let data = functions.newTopic("python",req.params.classID,req.body);
+        let info = {
+            meta: {
+                status : 200,
+                class: parseInt(req.params.classID),
+                topic: data.topic,
+                url: 'api/python/newTopic/:classID',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = pythonApiController
