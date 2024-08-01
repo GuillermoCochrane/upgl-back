@@ -14,6 +14,19 @@ const iaApiController = {
         return res.json(info);
     },
 
+    classIndex: function(req,res){
+        let data = functions.classIndex("ia",req.params.indexID);
+        let info = {
+            meta: {
+                status : 200,
+                classIndex: req.params.indexID,
+                url: 'api/ia/:indexID',
+            },
+            data,
+        }
+        return res.json(info)
+    },
+
     allClassesData: function(req,res){
         let data = functions.allEntries("ia");
         let info = {
