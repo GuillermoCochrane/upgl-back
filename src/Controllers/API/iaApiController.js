@@ -87,5 +87,19 @@ const iaApiController = {
         }
         return res.json(info)
     },
+
+    newTopic: function(req,res){
+        let data = functions.newTopic("ia",req.params.classID,req.body);
+        let info = {
+            meta: {
+                status : 200,
+                class: parseInt(req.params.classID),
+                topic: data.topic,
+                url: 'api/ia/newTopic/:classID',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = iaApiController
