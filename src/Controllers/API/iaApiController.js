@@ -74,5 +74,18 @@ const iaApiController = {
         return res.json(info)
         }
     },
+
+    newClass: function(req,res){
+        let data = functions.newClass("ia",req.body);
+        let info = {
+            meta: {
+                status : 200,
+                class: data.classID,
+                url: 'api/ia/newClass',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = iaApiController
