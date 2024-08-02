@@ -127,6 +127,143 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 2,
+            "available": true,
+            "linkData": {
+              "title": "¿Qué es la inteligencia artificial?",
+              "link": "/courses/IA/class/1/2"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "¿Qué es la inteligencia artificial?",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "La Inteligencia Artificial se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, el razonamiento, la percepción, la comprensión del lenguaje natural y la toma de decisiones. En esencia, la IA busca imitar las capacidades cognitivas humanas utilizando algoritmos y datos.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "id": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 4,
+                "info": [
+                  {
+                    "type": "li",
+                    "liID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Aprendizaje Automático (Machine Learning): ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Es una subdisciplina de la IA que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender patrones y tomar decisiones basadas en datos sin una programación explícita.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Redes Neuronales Artificiales: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Inspiradas en la estructura del cerebro humano, las redes neuronales artificiales son modelos computacionales que pueden aprender y realizar tareas complejas como reconocimiento de patrones y procesamiento de lenguaje natural.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 3,
+                    "order": 3,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Procesamiento del Lenguaje Natural (NLP): ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera similar a los seres humanos.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 4,
+                    "order": 4,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Visión por Computadora: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Implica el desarrollo de sistemas que pueden interpretar y comprender el contenido visual, como imágenes y videos",
+                        "content": "plain"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
