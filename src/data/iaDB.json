@@ -264,6 +264,178 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 3,
+            "available": true,
+            "linkData": {
+              "title": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+              "link": "/courses/IA/class/1/3"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "La principal diferencia entre la inteligencia artificial y la inteligencia natural radica en su origen y naturaleza.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "id": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Origen",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "id": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "type": "li",
+                    "liID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Inteligencia Artificial: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Es creada por humanos a través del diseño y la programación de sistemas informáticos.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1, 
+                        "available": true,
+                        "text": "Inteligencia Natural: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Es inherente a los seres vivos, especialmente a los humanos, y se desarrolla a través de procesos biológicos y experiencia.",
+                        "content": "plain"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "h3",
+                "id": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Naturaleza",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "id": 6,
+                "order": 6,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "type": "li",
+                    "liID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Inteligencia Artificial: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Se basa en algoritmos y datos para imitar el comportamiento humano en tareas específicas. A menudo es especializada y puede carecer de comprensión profunda o conciencia.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 2,
+                    "info": [
+                      {
+                        "stubID": 1,
+                        "order": 1,
+                        "available": true,
+                        "text": "Inteligencia Natural: ",
+                        "content": "bold"
+                      },
+                      {
+                        "stubID": 2,
+                        "order": 2,
+                        "available": true,
+                        "text": "Es inherentemente compleja y abarca una amplia gama de habilidades cognitivas, emocionales y sociales. Se desarrolla a lo largo del tiempo a través de la interacción con el entorno y la experiencia.",
+                        "content": "plain"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
