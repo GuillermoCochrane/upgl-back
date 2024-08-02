@@ -1312,6 +1312,59 @@
                 }
               }
             ]
+          },
+          {
+            "topic": 7,
+            "available": true,
+            "linkData": {
+              "title": "Actualidad",
+              "link": "/courses/IA/class/2/7"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Actualidad",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "La década de ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "2020",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " ha sido testigo de una mayor integración de la inteligencia artificial en la sociedad, impulsada por la transformación digital en diversos sectores. Los avances en el procesamiento del lenguaje natural, la visión por computadora y el aprendizaje automático han llevado a la creación de sistemas de IA cada vez más sofisticados y autónomos. Sin embargo, también ha habido un mayor énfasis en la ética y la responsabilidad en el desarrollo y uso de la IA, especialmente en áreas sensibles como la privacidad de los datos, el sesgo algorítmico y la toma de decisiones automatizada.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
