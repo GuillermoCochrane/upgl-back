@@ -1104,6 +1104,59 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 5,
+            "available": true,
+            "linkData": {
+              "title": "Década de 2000",
+              "link": "/courses/IA/class/2/5"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Década de 2000",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En la década de ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "2000",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ", el surgimiento del concepto de \"Big Data\" impulsó el desarrollo de técnicas de IA capaces de manejar y procesar grandes volúmenes de datos. Además, se produjeron avances significativos en el campo del aprendizaje profundo, una rama del aprendizaje automático que utiliza redes neuronales profundas para aprender representaciones de datos de alto nivel. Estos avances permitieron a los sistemas de IA realizar tareas más complejas y sofisticadas, como el reconocimiento de imágenes, la traducción automática y la conducción autónoma.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
