@@ -596,6 +596,140 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 2,
+            "available": true,
+            "linkData": {
+              "title": "Década de 1960-1970",
+              "link": "/courses/IA/class/2/2"
+            },
+            "topicData": [
+              {
+                
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Década de 1960-1970",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1963",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " John McCarthy también creó el «AI Lab» en la Universidad de Stanford.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1966",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " el informe estadounidense ALPAC puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Del mismo modo, en ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1973",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ", el gobierno británico publicó su informe Lighthill en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": "primer invierno(crisis) de la IA.",
+                    "content": "bold"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
