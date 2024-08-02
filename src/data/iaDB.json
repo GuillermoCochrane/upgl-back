@@ -1,1365 +1,1599 @@
 [
-    {
-        "class": 1,
-        "available": true,
-        "topics": 3,
-        "summary": "Conceptos fundamentales de IA",
-        "title": {
-          "type": "h2",
-          "info": [
+  {
+      "class": 1,
+      "available": true,
+      "topics": 3,
+      "summary": "Conceptos fundamentales de IA",
+      "title": {
+        "type": "h2",
+        "info": [
+          {
+            "text": "Inteligencia Artificial, conceptos fundamentales",
+            "content": "plain"
+          }
+        ]
+      },
+      "classData": [
+        {
+          "topic": 1,
+          "available": true,
+          "linkData": {
+            "title": "¿Qué es la inteligencia?",
+            "link": "/courses/IA/class/1/1"
+          },
+          "topicData": [
             {
-              "text": "Inteligencia Artificial, conceptos fundamentales",
-              "content": "plain"
+              "type": "h3",
+              "id": 1,
+              "order": 1,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "¿Qué es la inteligencia?",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "id": 2,
+              "order": 2,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "La inteligencia se ha definido de muchas maneras, incluyendo: la capacidad de lógica, comprensión, autoconciencia, aprendizaje, conocimiento emocional, razonamiento, planificación, creatividad, pensamiento crítico y resolución de problemas. En términos más generales, se puede describir como la capacidad de percibir o inferir información, y retenerla como conocimiento para aplicarlo a comportamientos adaptativos dentro de un entorno o contexto. Algunas definiciones de investigadores de la psicología y el aprendizaje: ",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "ul",
+              "id": 3,
+              "order": 3,
+              "available": true,
+              "stubs": 3,
+              "info": [
+                {
+                  "type": "li",
+                  "available": true,
+                  "liID": 1,
+                  "order": 1,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Ch. Spearman: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Capacidad unitaria para resolver problemas y crear nuevos contenidos.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "available": true,
+                  "liID": 2,
+                  "order": 2,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "L. G. Humphreys: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Conjunto de habilidades para adaptarse al entorno.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "available": true,
+                  "liID": 3,
+                  "order": 3,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "L. S. Gottfredson: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Capacidad mental general que incluye la habilidad de razonar, planificar, resolver problemas, pensar en abstracto, comprender ideas complejas, aprender rápido y aprender de la experiencia, que es más que una destreza académica o del aprendizaje por medio de libros.",
+                      "content": "plain"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
-        "classData": [
-          {
-            "topic": 1,
-            "available": true,
-            "linkData": {
-              "title": "¿Qué es la inteligencia?",
-              "link": "/courses/IA/class/1/1"
+        {
+          "topic": 2,
+          "available": true,
+          "linkData": {
+            "title": "¿Qué es la inteligencia artificial?",
+            "link": "/courses/IA/class/1/2"
+          },
+          "topicData": [
+            {
+              "type": "h3",
+              "id": 1,
+              "order": 1,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "¿Qué es la inteligencia artificial?",
+                  "content": "plain"
+                }
+              ]
             },
-            "topicData": [
+            {
+              "type": "p",
+              "id": 2,
+              "order": 2,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "La Inteligencia Artificial se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, el razonamiento, la percepción, la comprensión del lenguaje natural y la toma de decisiones. En esencia, la IA busca imitar las capacidades cognitivas humanas utilizando algoritmos y datos.",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "ol",
+              "id": 3,
+              "order": 3,
+              "available": true,
+              "stubs": 4,
+              "info": [
+                {
+                  "type": "li",
+                  "liID": 1,
+                  "order": 1,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Aprendizaje Automático (Machine Learning): ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Es una subdisciplina de la IA que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender patrones y tomar decisiones basadas en datos sin una programación explícita.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "liID": 2,
+                  "order": 2,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Redes Neuronales Artificiales: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Inspiradas en la estructura del cerebro humano, las redes neuronales artificiales son modelos computacionales que pueden aprender y realizar tareas complejas como reconocimiento de patrones y procesamiento de lenguaje natural.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "liID": 3,
+                  "order": 3,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Procesamiento del Lenguaje Natural (NLP): ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera similar a los seres humanos.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "liID": 4,
+                  "order": 4,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Visión por Computadora: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Implica el desarrollo de sistemas que pueden interpretar y comprender el contenido visual, como imágenes y videos",
+                      "content": "plain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "topic": 3,
+          "available": true,
+          "linkData": {
+            "title": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+            "link": "/courses/IA/class/1/3"
+          },
+          "topicData": [
+            {
+              "type": "h3",
+              "id": 1,
+              "order": 1,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "id": 2,
+              "order": 2,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "La principal diferencia entre la inteligencia artificial y la inteligencia natural radica en su origen y naturaleza.",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "id": 3,
+              "order": 3,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "Origen",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "ul",
+              "id": 4,
+              "order": 4,
+              "available": true,
+              "stubs": 2,
+              "info": [
+                {
+                  "type": "li",
+                  "liID": 1,
+                  "order": 1,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Inteligencia Artificial: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Es creada por humanos a través del diseño y la programación de sistemas informáticos.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "liID": 2,
+                  "order": 2,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1, 
+                      "available": true,
+                      "text": "Inteligencia Natural: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Es inherente a los seres vivos, especialmente a los humanos, y se desarrolla a través de procesos biológicos y experiencia.",
+                      "content": "plain"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "h3",
+              "id": 5,
+              "order": 5,
+              "available": true,
+              "stubs": 1,
+              "info": [
+                {
+                  "text": "Naturaleza",
+                  "content": "plain"
+                }
+              ]
+            },
+            {
+              "type": "ul",
+              "id": 6,
+              "order": 6,
+              "available": true,
+              "stubs": 2,
+              "info": [
+                {
+                  "type": "li",
+                  "liID": 1,
+                  "order": 1,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Inteligencia Artificial: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Se basa en algoritmos y datos para imitar el comportamiento humano en tareas específicas. A menudo es especializada y puede carecer de comprensión profunda o conciencia.",
+                      "content": "plain"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "liID": 2,
+                  "order": 2,
+                  "available": true,
+                  "stubs": 2,
+                  "info": [
+                    {
+                      "stubID": 1,
+                      "order": 1,
+                      "available": true,
+                      "text": "Inteligencia Natural: ",
+                      "content": "bold"
+                    },
+                    {
+                      "stubID": 2,
+                      "order": 2,
+                      "available": true,
+                      "text": "Es inherentemente compleja y abarca una amplia gama de habilidades cognitivas, emocionales y sociales. Se desarrolla a lo largo del tiempo a través de la interacción con el entorno y la experiencia.",
+                      "content": "plain"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+  },
+  {
+    "class": 2,
+    "available": true,
+    "topics": 7,
+    "summary": "Historia de la inteligencia artificial",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Historia de la inteligencia artificial. Inicio y actualidad Artificial, conceptos fundamentales",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Década de 1950",
+          "link": "/courses/IA/class/2/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
               {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "¿Qué es la inteligencia?",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 2,
-                "order": 2,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "La inteligencia se ha definido de muchas maneras, incluyendo: la capacidad de lógica, comprensión, autoconciencia, aprendizaje, conocimiento emocional, razonamiento, planificación, creatividad, pensamiento crítico y resolución de problemas. En términos más generales, se puede describir como la capacidad de percibir o inferir información, y retenerla como conocimiento para aplicarlo a comportamientos adaptativos dentro de un entorno o contexto. Algunas definiciones de investigadores de la psicología y el aprendizaje: ",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "ul",
-                "id": 3,
-                "order": 3,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "type": "li",
-                    "available": true,
-                    "liID": 1,
-                    "order": 1,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Ch. Spearman: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Capacidad unitaria para resolver problemas y crear nuevos contenidos.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "available": true,
-                    "liID": 2,
-                    "order": 2,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "L. G. Humphreys: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Conjunto de habilidades para adaptarse al entorno.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "available": true,
-                    "liID": 3,
-                    "order": 3,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "L. S. Gottfredson: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Capacidad mental general que incluye la habilidad de razonar, planificar, resolver problemas, pensar en abstracto, comprender ideas complejas, aprender rápido y aprender de la experiencia, que es más que una destreza académica o del aprendizaje por medio de libros.",
-                        "content": "plain"
-                      }
-                    ]
-                  }
-                ]
+                "text": "Decada de 1950",
+                "content": "plain"
               }
             ]
           },
           {
-            "topic": 2,
+            "type": "p",
+            "id": 2,
+            "order": 2,
             "available": true,
-            "linkData": {
-              "title": "¿Qué es la inteligencia artificial?",
-              "link": "/courses/IA/class/1/2"
-            },
-            "topicData": [
+            "stubs": 3,
+            "info": [
               {
-                "type": "h3",
-                "id": 1,
+                "stubID": 1,
                 "order": 1,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "¿Qué es la inteligencia artificial?",
-                    "content": "plain"
-                  }
-                ]
+                "text": "Alan Turing, pionero en ciencias de la computación, propuso en ",
+                "content": "plain"
               },
               {
-                "type": "p",
-                "id": 2,
+                "stubID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "La Inteligencia Artificial se refiere a la capacidad de las máquinas para realizar tareas que normalmente requieren inteligencia humana. Esto incluye el aprendizaje, el razonamiento, la percepción, la comprensión del lenguaje natural y la toma de decisiones. En esencia, la IA busca imitar las capacidades cognitivas humanas utilizando algoritmos y datos.",
-                    "content": "plain"
-                  }
-                ]
+                "text": "1950",
+                "content": "bold"
               },
               {
-                "type": "ol",
-                "id": 3,
+                "stubID": 3,
                 "order": 3,
                 "available": true,
-                "stubs": 4,
-                "info": [
-                  {
-                    "type": "li",
-                    "liID": 1,
-                    "order": 1,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Aprendizaje Automático (Machine Learning): ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Es una subdisciplina de la IA que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender patrones y tomar decisiones basadas en datos sin una programación explícita.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 2,
-                    "order": 2,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Redes Neuronales Artificiales: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Inspiradas en la estructura del cerebro humano, las redes neuronales artificiales son modelos computacionales que pueden aprender y realizar tareas complejas como reconocimiento de patrones y procesamiento de lenguaje natural.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 3,
-                    "order": 3,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Procesamiento del Lenguaje Natural (NLP): ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Se refiere a la capacidad de las computadoras para entender, interpretar y generar lenguaje humano de manera similar a los seres humanos.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 4,
-                    "order": 4,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Visión por Computadora: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Implica el desarrollo de sistemas que pueden interpretar y comprender el contenido visual, como imágenes y videos",
-                        "content": "plain"
-                      }
-                    ]
-                  }
-                ]
+                "text": " una prueba para determinar si una máquina puede exhibir un comportamiento inteligente equivalente al de un ser humano. Esta prueba, conocida como la Prueba de Turing, sigue siendo un concepto fundamental en el campo de la IA y ha estimulado debates sobre la naturaleza de la inteligencia y la capacidad de las máquinas para replicarla.",
+                "content": "plain"
               }
             ]
           },
           {
-            "topic": 3,
+            "type": "p",
+            "id": 3,
+            "order": 3,
             "available": true,
-            "linkData": {
-              "title": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
-              "link": "/courses/IA/class/1/3"
-            },
-            "topicData": [
+            "stubs": 3,
+            "info": [
               {
-                "type": "h3",
-                "id": 1,
+                "stubID": 1,
                 "order": 1,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Diferencias entre Inteligencia Artificial e Inteligencia Natural",
-                    "content": "plain"
-                  }
-                ]
+                "text": "En ",
+                "content": "plain"
               },
               {
-                "type": "p",
-                "id": 2,
+                "stubID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "La principal diferencia entre la inteligencia artificial y la inteligencia natural radica en su origen y naturaleza.",
-                    "content": "plain"
-                  }
-                ]
+                "text": "1952",
+                "content": "bold"
               },
               {
-                "type": "h3",
-                "id": 3,
+                "stubID": 3,
                 "order": 3,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Origen",
-                    "content": "plain"
-                  }
-                ]
+                "text": ", Arthur Samuel creó un software capaz de aprender a jugar al ajedrez de forma autónoma.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "El término \"inteligencia artificial\" fue acuñado por John McCarthy en ",
+                "content": "plain"
               },
               {
-                "type": "ul",
-                "id": 4,
-                "order": 4,
+                "stubID": 2,
+                "order": 2,
                 "available": true,
-                "stubs": 2,
-                "info": [
-                  {
-                    "type": "li",
-                    "liID": 1,
-                    "order": 1,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Inteligencia Artificial: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Es creada por humanos a través del diseño y la programación de sistemas informáticos.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 2,
-                    "order": 2,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1, 
-                        "available": true,
-                        "text": "Inteligencia Natural: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Es inherente a los seres vivos, especialmente a los humanos, y se desarrolla a través de procesos biológicos y experiencia.",
-                        "content": "plain"
-                      }
-                    ]
-                  }
-                ]
+                "text": "1956",
+                "content": "bold"
               },
               {
-                "type": "h3",
-                "id": 5,
-                "order": 5,
+                "stubID": 3,
+                "order": 3,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Naturaleza",
-                    "content": "plain"
-                  }
-                ]
+                "text": " durante una conferencia en Dartmouth College. Este evento marcó el inicio oficial del campo de la IA y reunió a destacados científicos de diversas disciplinas para explorar el potencial de las máquinas para exhibir comportamientos inteligentes.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
               },
               {
-                "type": "ul",
-                "id": 6,
-                "order": 6,
+                "stubID": 2,
+                "order": 2,
                 "available": true,
-                "stubs": 2,
-                "info": [
-                  {
-                    "type": "li",
-                    "liID": 1,
-                    "order": 1,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Inteligencia Artificial: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Se basa en algoritmos y datos para imitar el comportamiento humano en tareas específicas. A menudo es especializada y puede carecer de comprensión profunda o conciencia.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 2,
-                    "order": 2,
-                    "available": true,
-                    "stubs": 2,
-                    "info": [
-                      {
-                        "stubID": 1,
-                        "order": 1,
-                        "available": true,
-                        "text": "Inteligencia Natural: ",
-                        "content": "bold"
-                      },
-                      {
-                        "stubID": 2,
-                        "order": 2,
-                        "available": true,
-                        "text": "Es inherentemente compleja y abarca una amplia gama de habilidades cognitivas, emocionales y sociales. Se desarrolla a lo largo del tiempo a través de la interacción con el entorno y la experiencia.",
-                        "content": "plain"
-                      }
-                    ]
-                  }
-                ]
+                "text": "1959",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " Arthur Samuel acuñó el término Machine Learning mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project.",
+                "content": "plain"
               }
             ]
           }
         ]
       },
       {
-        "class": 2,
+        "topic": 2,
         "available": true,
-        "topics": 7,
-        "summary": "Historia de la inteligencia artificial",
-        "title": {
-          "type": "h2",
-          "info": [
-            {
-              "text": "Historia de la inteligencia artificial. Inicio y actualidad Artificial, conceptos fundamentales",
-              "content": "plain"
-            }
-          ]
+        "linkData": {
+          "title": "Década de 1960-1970",
+          "link": "/courses/IA/class/2/2"
         },
-        "classData": [
+        "topicData": [
           {
-            "topic": 1,
+            
+            "type": "h3",
+            "id": 1,
+            "order": 1,
             "available": true,
-            "linkData": {
-              "title": "Década de 1950",
-              "link": "/courses/IA/class/2/1"
-            },
-            "topicData": [
+            "stubs": 1,
+            "info": [
               {
-                "type": "h3",
-                "id": 1,
+                "text": "Década de 1960-1970",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
                 "order": 1,
                 "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Decada de 1950",
-                    "content": "plain"
-                  }
-                ]
+                "text": "En ",
+                "content": "plain"
               },
               {
-                "type": "p",
-                "id": 2,
+                "stubID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "Alan Turing, pionero en ciencias de la computación, propuso en ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1950",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " una prueba para determinar si una máquina puede exhibir un comportamiento inteligente equivalente al de un ser humano. Esta prueba, conocida como la Prueba de Turing, sigue siendo un concepto fundamental en el campo de la IA y ha estimulado debates sobre la naturaleza de la inteligencia y la capacidad de las máquinas para replicarla.",
-                    "content": "plain"
-                  }
-                ]
+                "text": "1963",
+                "content": "bold"
               },
               {
-                "type": "p",
-                "id": 3,
+                "stubID": 3,
                 "order": 3,
                 "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1952",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", Arthur Samuel creó un software capaz de aprender a jugar al ajedrez de forma autónoma.",
-                    "content": "plain"
-                  }
-                ]
+                "text": " John McCarthy también creó el «AI Lab» en la Universidad de Stanford.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
               },
               {
-                "type": "p",
-                "id": 4,
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1966",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " el informe estadounidense ALPAC puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Del mismo modo, en ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1973",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ", el gobierno británico publicó su informe Lighthill en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
                 "order": 4,
                 "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "El término \"inteligencia artificial\" fue acuñado por John McCarthy en ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1956",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " durante una conferencia en Dartmouth College. Este evento marcó el inicio oficial del campo de la IA y reunió a destacados científicos de diversas disciplinas para explorar el potencial de las máquinas para exhibir comportamientos inteligentes.",
-                    "content": "plain"
-                  }
-                ]
-              },
+                "text": "primer invierno(crisis) de la IA.",
+                "content": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 3,
+        "available": true,
+        "linkData": {
+          "title": "Década de 1980",
+          "link": "/courses/IA/class/2/3"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
               {
-                "type": "p",
-                "id": 5,
-                "order": 5,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1959",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " Arthur Samuel acuñó el término Machine Learning mientras trabajaba en IBM. Por su parte, John McCarthy y Marvin Minsky fundaron el MIT Artificial Intelligence Project.",
-                    "content": "plain"
-                  }
-                ]
+                "text": "Década de 1980",
+                "content": "plain"
               }
             ]
           },
           {
-            "topic": 2,
+            "type": "p",
+            "id": 2,
+            "order": 2,
             "available": true,
-            "linkData": {
-              "title": "Década de 1960-1970",
-              "link": "/courses/IA/class/2/2"
-            },
-            "topicData": [
+            "stubs": 3,
+            "info": [
               {
-                
-                "type": "h3",
-                "id": 1,
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "La década de ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1980",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " presenció un auge en la investigación y aplicación de la IA en áreas como el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Los sistemas expertos, en particular, se convirtieron en una aplicación popular de la IA en campos como la medicina, la ingeniería y la gestión empresarial.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1985",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " se desarrolla el sistema DENDRAL, que utiliza técnicas de inteligencia artificial para identificar estructuras moleculares desconocidas.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1987",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " Martin Fischles y Oscar Firschein describieron los atributos de un agente inteligente. Al intentar describir con un mayor ámbito (no solo la comunicación) los atributos de un agente inteligente, la IA se ha expandido a muchas áreas que han creado ramas de investigación enormes y diferenciadas. Dichos atributos del agente inteligente son:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 12,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
                 "order": 1,
                 "available": true,
                 "stubs": 1,
                 "info": [
                   {
-                    "text": "Década de 1960-1970",
+                    "text": "Tiene actitudes mentales tales como creencias e intenciones.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 2,
+                "type": "li",
+                "liID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": 3,
+                "stubs": 1,
                 "info": [
                   {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1963",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " John McCarthy también creó el «AI Lab» en la Universidad de Stanford.",
+                    "text": "Tiene la capacidad de obtener conocimiento, es decir, aprender.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 3,
+                "type": "li",
+                "liID": 3,
                 "order": 3,
                 "available": true,
-                "stubs": 3,
+                "stubs": 1,
                 "info": [
                   {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1966",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " el informe estadounidense ALPAC puso de manifiesto la falta de avances en la investigación de la traducción automática destinada a traducir simultáneamente la lengua rusa en el contexto de la Guerra Fría.",
+                    "text": "Puede resolver problemas, incluso descomponiendo problemas complejos en otros más simples.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 4,
+                "type": "li",
+                "liID": 4,
                 "order": 4,
                 "available": true,
                 "stubs": 1,
                 "info": [
                   {
-                    "text": "Muchos proyectos financiados por el gobierno estadounidense fueron cancelados.",
+                    "text": "Capaz de realizar operaciones más complejas.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 5,
+                "type": "li",
+                "liID": 5,
                 "order": 5,
                 "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "Del mismo modo, en ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1973",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", el gobierno británico publicó su informe Lighthill en el que destacaba las decepciones de la investigación en IA. Una vez más, los proyectos de investigación fueron reducidos por los recortes presupuestarios. Este periodo de duda duró hasta 1980, y ahora se denomina el ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 4,
-                    "order": 4,
-                    "available": true,
-                    "text": "primer invierno(crisis) de la IA.",
-                    "content": "bold"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "topic": 3,
-            "available": true,
-            "linkData": {
-              "title": "Década de 1980",
-              "link": "/courses/IA/class/2/3"
-            },
-            "topicData": [
-              {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
                 "stubs": 1,
                 "info": [
                   {
-                    "text": "Década de 1980",
+                    "text": "Entiende.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 2,
-                "order": 2,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "La década de ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1980",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " presenció un auge en la investigación y aplicación de la IA en áreas como el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Los sistemas expertos, en particular, se convirtieron en una aplicación popular de la IA en campos como la medicina, la ingeniería y la gestión empresarial.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 3,
-                "order": 3,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1985",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " se desarrolla el sistema DENDRAL, que utiliza técnicas de inteligencia artificial para identificar estructuras moleculares desconocidas.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 4,
-                "order": 4,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1987",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " Martin Fischles y Oscar Firschein describieron los atributos de un agente inteligente. Al intentar describir con un mayor ámbito (no solo la comunicación) los atributos de un agente inteligente, la IA se ha expandido a muchas áreas que han creado ramas de investigación enormes y diferenciadas. Dichos atributos del agente inteligente son:",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "ol",
-                "id": 5,
-                "order": 5,
-                "available": true,
-                "stubs": 12,
-                "info": [
-                  {
-                    "type": "li",
-                    "liID": 1,
-                    "order": 1,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Tiene actitudes mentales tales como creencias e intenciones.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 2,
-                    "order": 2,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Tiene la capacidad de obtener conocimiento, es decir, aprender.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 3,
-                    "order": 3,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede resolver problemas, incluso descomponiendo problemas complejos en otros más simples.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 4,
-                    "order": 4,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Capaz de realizar operaciones más complejas.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 5,
-                    "order": 5,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Entiende.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 6,
-                    "order": 6,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Planifica.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 7,
-                    "order": 7,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Conoce los límites de sus propias habilidades y conocimientos.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 8,
-                    "order": 8,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede distinguir a pesar de la similitud de las situaciones.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 9,
-                    "order": 9,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede ser original, creando incluso nuevos conceptos o ideas, y hasta utilizando analogías.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 10,
-                    "order": 10,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede generalizar.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 11,
-                    "order": 11,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede percibir y modelar el mundo exterior.",
-                        "content": "plain"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "li",
-                    "liID": 12,
-                    "order": 12,
-                    "available": true,
-                    "stubs": 1,
-                    "info": [
-                      {
-                        "text": "Puede entender y utilizar el lenguaje y sus símbolos.",
-                        "content": "plain"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 6,
-                "order": 6,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "Este fue el ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "segundo invierno(crisis) de la IA",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ". Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "topic": 4,
-            "available": true,
-            "linkData": {
-              "title": "Década de 1990",
-              "link": "/courses/IA/class/2/4"
-            },
-            "topicData": [
-              {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Década de 1990",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 2,
-                "order": 2,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 3,
-                "order": 3,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "1997",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "topic": 5,
-            "available": true,
-            "linkData": {
-              "title": "Década de 2000",
-              "link": "/courses/IA/class/2/5"
-            },
-            "topicData": [
-              {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Década de 2000",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 2,
-                "order": 2,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En la década de ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "2000",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", el surgimiento del concepto de \"Big Data\" impulsó el desarrollo de técnicas de IA capaces de manejar y procesar grandes volúmenes de datos. Además, se produjeron avances significativos en el campo del aprendizaje profundo, una rama del aprendizaje automático que utiliza redes neuronales profundas para aprender representaciones de datos de alto nivel. Estos avances permitieron a los sistemas de IA realizar tareas más complejas y sofisticadas, como el reconocimiento de imágenes, la traducción automática y la conducción autónoma.",
-                    "content": "plain"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "topic": 6,
-            "available": true,
-            "linkData": {
-              "title": "Década de 2010",
-              "link": "/courses/IA/class/2/6"
-            },
-            "topicData": [
-              {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
-                "stubs": 1,
-                "info": [
-                  {
-                    "text": "Década de 2010",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 2,
-                "order": 2,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "La década de ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "2010",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", fue testigo de un rápido avance en la adopción de la inteligencia artificial en una variedad de aplicaciones prácticas. Los algoritmos de IA se utilizaron cada vez más en áreas como la atención médica, la banca, el comercio electrónico y la publicidad en línea. Además, hubo avances significativos en el desarrollo de asistentes virtuales y sistemas de reconocimiento de voz, como Siri de Apple, Alexa de Amazon y Google Assistant, que se convirtieron en parte integral de la vida cotidiana de millones de personas en todo el mundo.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 3,
-                "order": 3,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "2012",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", Andrew Ng alimentó una red neuronal con 10 millones de vídeos de YouTube como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 4,
-                "order": 4,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "2014",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": ", un ordenador ha logrado superar con éxito el test de Turing, haciendo creer a un interrogador que es una persona quien responde sus preguntas en un certamen organizado en Londres por la Universidad de Reading.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "p",
-                "id": 5,
-                "order": 5,
-                "available": true,
-                "stubs": 3,
-                "info": [
-                  {
-                    "stubID": 1,
-                    "order": 1,
-                    "available": true,
-                    "text": "En ",
-                    "content": "plain"
-                  },
-                  {
-                    "stubID": 2,
-                    "order": 2,
-                    "available": true,
-                    "text": "2016",
-                    "content": "bold"
-                  },
-                  {
-                    "stubID": 3,
-                    "order": 3,
-                    "available": true,
-                    "text": " un ordenador de Google venció al campeón mundial del juego milenario “Go”. Un programa informático desarrollado por la compañía británica Google DeepMind consiguió vencer, por primera vez, a un campeón profesional del milenario juego de origen oriental Go.",
-                    "content": "plain"
-                  }
-                ]
-              },
-              {
-                "type": "figure",
-                "id": 6,
+                "type": "li",
+                "liID": 6,
                 "order": 6,
                 "available": true,
                 "stubs": 1,
-                "info": {
-                  "img": "/images/IA/timeline.png",
-                  "alt": "Linea de tiempo de la historia de la IA",
-                  "title": "Linea de tiempo de la historia de la IA"
-                }
-              }
-            ]
-          },
-          {
-            "topic": 7,
-            "available": true,
-            "linkData": {
-              "title": "Actualidad",
-              "link": "/courses/IA/class/2/7"
-            },
-            "topicData": [
-              {
-                "type": "h3",
-                "id": 1,
-                "order": 1,
-                "available": true,
-                "stubs": 1,
                 "info": [
                   {
-                    "text": "Actualidad",
+                    "text": "Planifica.",
                     "content": "plain"
                   }
                 ]
               },
               {
-                "type": "p",
-                "id": 2,
+                "type": "li",
+                "liID": 7,
+                "order": 7,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Conoce los límites de sus propias habilidades y conocimientos.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 8,
+                "order": 8,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Puede distinguir a pesar de la similitud de las situaciones.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 9,
+                "order": 9,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Puede ser original, creando incluso nuevos conceptos o ideas, y hasta utilizando analogías.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 10,
+                "order": 10,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Puede generalizar.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 11,
+                "order": 11,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Puede percibir y modelar el mundo exterior.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 12,
+                "order": 12,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Puede entender y utilizar el lenguaje y sus símbolos.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Este fue el ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
                 "order": 2,
                 "available": true,
-                "stubs": 3,
+                "text": "segundo invierno(crisis) de la IA",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ". Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 4,
+        "available": true,
+        "linkData": {
+          "title": "Década de 1990",
+          "link": "/courses/IA/class/2/4"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Década de 1990",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "1997",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 5,
+        "available": true,
+        "linkData": {
+          "title": "Década de 2000",
+          "link": "/courses/IA/class/2/5"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Década de 2000",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En la década de ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2000",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ", el surgimiento del concepto de \"Big Data\" impulsó el desarrollo de técnicas de IA capaces de manejar y procesar grandes volúmenes de datos. Además, se produjeron avances significativos en el campo del aprendizaje profundo, una rama del aprendizaje automático que utiliza redes neuronales profundas para aprender representaciones de datos de alto nivel. Estos avances permitieron a los sistemas de IA realizar tareas más complejas y sofisticadas, como el reconocimiento de imágenes, la traducción automática y la conducción autónoma.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 6,
+        "available": true,
+        "linkData": {
+          "title": "Década de 2010",
+          "link": "/courses/IA/class/2/6"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Década de 2010",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "La década de ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2010",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ", fue testigo de un rápido avance en la adopción de la inteligencia artificial en una variedad de aplicaciones prácticas. Los algoritmos de IA se utilizaron cada vez más en áreas como la atención médica, la banca, el comercio electrónico y la publicidad en línea. Además, hubo avances significativos en el desarrollo de asistentes virtuales y sistemas de reconocimiento de voz, como Siri de Apple, Alexa de Amazon y Google Assistant, que se convirtieron en parte integral de la vida cotidiana de millones de personas en todo el mundo.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2012",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ", Andrew Ng alimentó una red neuronal con 10 millones de vídeos de YouTube como serie de datos de entrenamiento. Gracias al Deep Learning, esta red neuronal aprendió a reconocer un gato sin que se le enseñara lo que es un gato.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2014",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ", un ordenador ha logrado superar con éxito el test de Turing, haciendo creer a un interrogador que es una persona quien responde sus preguntas en un certamen organizado en Londres por la Universidad de Reading.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "En ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2016",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " un ordenador de Google venció al campeón mundial del juego milenario “Go”. Un programa informático desarrollado por la compañía británica Google DeepMind consiguió vencer, por primera vez, a un campeón profesional del milenario juego de origen oriental Go.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/IA/timeline.png",
+              "alt": "Linea de tiempo de la historia de la IA",
+              "title": "Linea de tiempo de la historia de la IA"
+            }
+          }
+        ]
+      },
+      {
+        "topic": 7,
+        "available": true,
+        "linkData": {
+          "title": "Actualidad",
+          "link": "/courses/IA/class/2/7"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Actualidad",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "La década de ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "2020",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " ha sido testigo de una mayor integración de la inteligencia artificial en la sociedad, impulsada por la transformación digital en diversos sectores. Los avances en el procesamiento del lenguaje natural, la visión por computadora y el aprendizaje automático han llevado a la creación de sistemas de IA cada vez más sofisticados y autónomos. Sin embargo, también ha habido un mayor énfasis en la ética y la responsabilidad en el desarrollo y uso de la IA, especialmente en áreas sensibles como la privacidad de los datos, el sesgo algorítmico y la toma de decisiones automatizada.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": 3,
+    "available": true,
+    "topics": 2,
+    "summary": "Machine Learning y Redes Neuronales",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Machine Learning y Redes Neuronales",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "¿Qué es y cómo funciona el Machine Learning?",
+          "link": "/courses/IA/class/3/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "¿Qué es y cómo funciona el Machine Learning?",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "El Machine Learning es una rama de la inteligencia artificial que se enfoca en el desarrollo de algoritmos y modelos que permiten a las computadoras aprender de los datos y tomar decisiones sin ser programadas explícitamente para realizar una tarea específica. En lugar de seguir reglas predefinidas, los algoritmos de Machine Learning utilizan datos para aprender patrones y tomar decisiones informadas.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "El proceso básico de Machine Learning consta de varias etapas:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 7,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
                 "info": [
                   {
                     "stubID": 1,
                     "order": 1,
                     "available": true,
-                    "text": "La década de ",
-                    "content": "plain"
+                    "text": "Adquisición de Datos: ",
+                    "content": "bold"
                   },
                   {
                     "stubID": 2,
                     "order": 2,
                     "available": true,
-                    "text": "2020",
+                    "text": "En esta etapa, se recopilan y preparan los datos necesarios para el entrenamiento del modelo. Estos datos pueden provenir de diversas fuentes, como bases de datos, sensores, archivos CSV, etc.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Preprocesamiento de Datos: ",
                     "content": "bold"
                   },
                   {
-                    "stubID": 3,
-                    "order": 3,
+                    "stubID": 2,
+                    "order": 2,
                     "available": true,
-                    "text": " ha sido testigo de una mayor integración de la inteligencia artificial en la sociedad, impulsada por la transformación digital en diversos sectores. Los avances en el procesamiento del lenguaje natural, la visión por computadora y el aprendizaje automático han llevado a la creación de sistemas de IA cada vez más sofisticados y autónomos. Sin embargo, también ha habido un mayor énfasis en la ética y la responsabilidad en el desarrollo y uso de la IA, especialmente en áreas sensibles como la privacidad de los datos, el sesgo algorítmico y la toma de decisiones automatizada.",
+                    "text": "Los datos se preprocesan para eliminar ruido, manejar valores faltantes y convertirlos en un formato adecuado para el modelo de Machine Learning.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Selección de Características: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Se seleccionan las características relevantes que se utilizarán para entrenar el modelo. Esto puede implicar la extracción de características útiles de los datos brutos.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Entrenamiento del Modelo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "En esta etapa, el modelo de Machine Learning se entrena utilizando un algoritmo específico y los datos de entrenamiento. Durante el entrenamiento, el modelo ajusta sus parámetros para minimizar el error en la predicción.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Validación y Evaluación: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Una vez que el modelo está entrenado, se evalúa su rendimiento utilizando datos de validación o prueba. Se calculan métricas de rendimiento para determinar la precisión y la eficacia del modelo.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 6,
+                "order": 6,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Ajuste del Modelo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Si es necesario, se realizan ajustes adicionales al modelo para mejorar su rendimiento, como la optimización de hiperparámetros o la selección de un algoritmo diferente.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 7,
+                "order": 7,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Despliegue y Uso: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Finalmente, el modelo entrenado se despliega en un entorno de producción y se utiliza para hacer predicciones o tomar decisiones en tiempo real.",
                     "content": "plain"
                   }
                 ]
@@ -1368,4 +1602,6 @@
           }
         ]
       }
+    ]
+  }
 ]
