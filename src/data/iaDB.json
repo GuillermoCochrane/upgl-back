@@ -1038,6 +1038,72 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 4,
+            "available": true,
+            "linkData": {
+              "title": "Década de 1990",
+              "link": "/courses/IA/class/2/4"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Década de 1990",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Durante la década de 1990, el enfoque en el aprendizaje automático y las redes neuronales resurgió con el desarrollo de algoritmos como las máquinas de vectores de soporte (SVM) y las redes neuronales convolucionales (CNN). Estos avances sentaron las bases para una nueva ola de aplicaciones de IA en áreas como la minería de datos, la detección de fraudes y el reconocimiento de patrones. ",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1997",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " la historia de la IA estuvo marcada por un acontecimiento importante. La IA Deep Blue de IBM triunfó sobre el campeón mundial de ajedrez Garry Kasparov. Por primera vez, el hombre fue derrotado por la máquina",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
