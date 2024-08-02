@@ -730,6 +730,314 @@
                 ]
               }
             ]
+          },
+          {
+            "topic": 3,
+            "available": true,
+            "linkData": {
+              "title": "Década de 1980",
+              "link": "/courses/IA/class/2/3"
+            },
+            "topicData": [
+              {
+                "type": "h3",
+                "id": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Década de 1980",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "La década de ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1980",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " presenció un auge en la investigación y aplicación de la IA en áreas como el procesamiento del lenguaje natural, la visión por computadora y los sistemas expertos. Los sistemas expertos, en particular, se convirtieron en una aplicación popular de la IA en campos como la medicina, la ingeniería y la gestión empresarial.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1985",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " se desarrolla el sistema DENDRAL, que utiliza técnicas de inteligencia artificial para identificar estructuras moleculares desconocidas.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "En ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "1987",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " Martin Fischles y Oscar Firschein describieron los atributos de un agente inteligente. Al intentar describir con un mayor ámbito (no solo la comunicación) los atributos de un agente inteligente, la IA se ha expandido a muchas áreas que han creado ramas de investigación enormes y diferenciadas. Dichos atributos del agente inteligente son:",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "ol",
+                "id": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 12,
+                "info": [
+                  {
+                    "type": "li",
+                    "liID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Tiene actitudes mentales tales como creencias e intenciones.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 2,
+                    "order": 2,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Tiene la capacidad de obtener conocimiento, es decir, aprender.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 3,
+                    "order": 3,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede resolver problemas, incluso descomponiendo problemas complejos en otros más simples.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 4,
+                    "order": 4,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Capaz de realizar operaciones más complejas.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 5,
+                    "order": 5,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Entiende.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 6,
+                    "order": 6,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Planifica.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 7,
+                    "order": 7,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Conoce los límites de sus propias habilidades y conocimientos.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 8,
+                    "order": 8,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede distinguir a pesar de la similitud de las situaciones.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 9,
+                    "order": 9,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede ser original, creando incluso nuevos conceptos o ideas, y hasta utilizando analogías.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 10,
+                    "order": 10,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede generalizar.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 11,
+                    "order": 11,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede percibir y modelar el mundo exterior.",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "liID": 12,
+                    "order": 12,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Puede entender y utilizar el lenguaje y sus símbolos.",
+                        "content": "plain"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "id": 6,
+                "order": 6,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Este fue el ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "segundo invierno(crisis) de la IA",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": ". Las empresas perdieron el interés por los sistemas expertos. Los gobiernos de Estados Unidos y Japón abandonaron sus proyectos de investigación y se gastaron miles de millones de dólares para nada.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
