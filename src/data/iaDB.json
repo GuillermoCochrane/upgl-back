@@ -2036,5 +2036,71 @@
         ]
       }
     ]
+  },
+  {
+    "class": 4,
+    "available": true,
+    "topics": 2,
+    "summary": "Origen de ChatGPT y sus versiones",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "ChatGPT. Origen, Evolución y Diferencia entre versiones",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Origen",
+          "link": "/courses/IA/class/4/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Origen",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "El origen de ChatGPT se remonta a los avances en inteligencia artificial, específicamente en el campo del procesamiento del lenguaje natural (PLN) y los modelos de lenguaje generativo. En junio de 2020, OpenAI lanzó la primera versión de ChatGPT, conocida como GPT-3 (Generative Pre-trained Transformer 3), que marcó un hito significativo en el desarrollo de sistemas de conversación basados en IA.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "GPT-3 fue diseñado utilizando la arquitectura Transformer, que utiliza una atención auto-referencial y capas de auto-atención para modelar secuencias de texto. Con 175 mil millones de parámetros, GPT-3 fue el modelo de lenguaje más grande y avanzado hasta ese momento, capaz de generar respuestas coherentes y contextualmente relevantes en una variedad de situaciones.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
