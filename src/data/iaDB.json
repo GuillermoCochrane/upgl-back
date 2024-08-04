@@ -2300,6 +2300,153 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "linkData": {
+          "title": "Componentes de un Prompt",
+          "link": "/courses/IA/class/5/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Componentes de un Prompt",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Instrucciones Claras:  ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Deben ser lo suficientemente claras para comunicar la tarea deseada al modelo de lenguaje.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Contexto Relevante:  ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Proporcionar contexto relevante puede ayudar al modelo a comprender mejor la solicitud y generar una respuesta más precisa.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Palabras Clave:  ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Incluir palabras clave relacionadas con la tarea puede orientar al modelo hacia el tipo de respuesta deseada.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Restricciones:  ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Pueden incluir restricciones específicas sobre el estilo, tono o longitud de la respuesta.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Ejemplos:  ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "A veces, se pueden incluir ejemplos de respuestas deseadas para ayudar al modelo a comprender mejor la tarea.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
