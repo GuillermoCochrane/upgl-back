@@ -2622,5 +2622,58 @@
         ]
       }
     ]
+  },
+  {
+    "class": 6,
+    "available": true,
+    "topics": 3,
+    "summary": "Diseño Efectivo de Prompts",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Diseño Efectivo de Prompts: Creación de Instrucciones claras y precisas.",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Diseño",
+          "link": "/courses/IA/class/6/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Diseño Efectivo de Prompts:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En el campo de la ingeniería de prompt, el diseño efectivo de prompts es fundamental para obtener resultados precisos y relevantes al utilizar modelos de lenguaje como ChatGPT. Crear prompts claros y precisos implica entender la tarea deseada, comunicarla de manera efectiva al modelo y proporcionar la orientación necesaria para obtener la respuesta deseada.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      }
+      ]
   }
 ]
