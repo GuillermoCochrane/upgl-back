@@ -4040,6 +4040,90 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "linkData": {
+          "title": "Cuando no utilizar ChatGPT:",
+          "link": "/courses/IA/class/10/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Malas situaciones donde utilizar ChatGPT:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Matemáticas",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Sin datos de ejemplos",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Actualidad (Finales de 2021)",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Preguntas sesgadas.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
