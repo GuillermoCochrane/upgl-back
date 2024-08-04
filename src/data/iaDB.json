@@ -3928,5 +3928,119 @@
         }
       ]
     }
-  ]
+  ],
+  {
+    "class": 10,
+    "available": true,
+    "topics": 2,
+    "summary": "¿En qué casos usar ChatGPT?",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "¿En qué casos usar ChatGPT?",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "¿En qué casos usar ChatGPT?",
+          "link": "/courses/IA/class/10/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Buenas situaciones donde se puede utilizar ChatGPT:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Generando Texto",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Generando Ideas",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Continuando líneas de pensamiento",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Generando Código",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Actuando como un profesional",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]
