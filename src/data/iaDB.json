@@ -3463,5 +3463,296 @@
         ]
       }
     ]
+  },
+  {
+    "class": 8,
+    "available": true,
+    "topics": 2,
+    "summary": "Formatos de salida",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Formatos de salida",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "linkData": {
+          "title": "Formatos de salida",
+          "link": "/courses/IA/class/8/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Introducción a formatos de salida",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Parte importante de un Prompt es el formato de salida que le solicitamos a ChatGPT ya que a partir de este se nos hará más fácil trabajar con los datos solicitados, a continuación, verás una lista con algunos ejemplos de formatos de salida que puede darte ChatGPT.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 7,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Texto plano: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "La fotosíntesis es el proceso mediante el cual las plantas y otros organismos convierten la luz solar en energía química para alimentarse y crecer.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "HTML: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "<p>El cielo nocturno está lleno de estrellas brillantes que forman constelaciones reconocibles, como la Osa Mayor y Orión.</p>",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "JSON: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "respuesta\": \"¿Sabías que los robots también tienen sueños? Bueno, al menos hasta que se quedan sin batería.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "Markdown: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "La amistad es como una planta; necesita cuidado y atención para crecer y florecer.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "XML: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "<respuesta>En un universo paralelo, los gatos son los gobernantes supremos y los humanos son sus leales siervos que les sirven atún fresco todos los días.</respuesta>",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 6,
+                "order": 6,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "type": "h4",
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "stubs": 1,
+                    "info": [
+                      {
+                        "text": "CSV: ",
+                        "content": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Ejemplo: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "respuesta: \"Imagina un mundo donde todos los problemas se resuelven con abrazos en lugar de discusiones. Sería un lugar mucho más cálido y amoroso, ¿no crees?\"",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 7,
+                "order": 7,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "text": "Salida personalizada, cuanto más contexto mejor!",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
