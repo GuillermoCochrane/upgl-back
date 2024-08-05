@@ -7,13 +7,17 @@ const pythonFunctions = {
 
     pathIADB: path.join(__dirname, '../data/iaDB.json'),
 
+    pathTestDB: path.join(__dirname, '../data/testDB.json'),
+
     dBselector: function(course){
         let database ;
         if (course == "python"){
             database = this.pathPythonDB;
         } else if (course == "ia"){
             database = this.pathIADB;
-        };
+        } else if (course == "test"){
+            database = this.pathTestDB;
+        }
         return database;
     },
 
