@@ -46,7 +46,7 @@ const testApiController = {
     },
 
     topicData: function(req,res){
-        let data = functions.filterData("ia",req.params.classID,req.params.topicID);
+        let data = functions.filterData("test",req.params.classID,req.params.topicID);
         if (data.topicNotFound){
             return res.json(data.info)
         } else {
@@ -55,7 +55,7 @@ const testApiController = {
                 status : 200,
                 class: req.params.classID,
                 topic: req.params.topicID,
-                url: 'api/ia/class/:classID/:topicID',
+                url: 'api/test/class/:classID/:topicID',
             },
             data,
         }
@@ -63,5 +63,17 @@ const testApiController = {
         }
     },
 
+    classIndex: function(req,res){
+        let data = functions.classIndex("test",req.params.indexID);
+        let info = {
+            meta: {
+                status : 200,
+                classIndex: req.params.indexID,
+                url: 'api/test/:indexID',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = testApiController
