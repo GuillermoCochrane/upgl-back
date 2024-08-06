@@ -45,5 +45,23 @@ const testApiController = {
         }
     },
 
+    topicData: function(req,res){
+        let data = functions.filterData("ia",req.params.classID,req.params.topicID);
+        if (data.topicNotFound){
+            return res.json(data.info)
+        } else {
+        let info = {
+            meta: {
+                status : 200,
+                class: req.params.classID,
+                topic: req.params.topicID,
+                url: 'api/ia/class/:classID/:topicID',
+            },
+            data,
+        }
+        return res.json(info)
+        }
+    },
+
 }
 module.exports = testApiController
