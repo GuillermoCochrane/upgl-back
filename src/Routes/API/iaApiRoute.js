@@ -7,7 +7,7 @@ router.get("/class", mainController.allClassesData);
 router.get("/class/:classID", mainController.classData);
 router.get("/class/:classID/:topicID", mainController.topicData);
 router.get("/:indexID", mainController.classIndex);
-router.post("/newClass", mainController.newClass)
-router.post("/newTopic/:classID", mainController.newTopic)
+router.post("/newClass", mainController.newClass);
+router.post("/newTopic/:classID", mainController.newTopic);
 
 module.exports = router;
