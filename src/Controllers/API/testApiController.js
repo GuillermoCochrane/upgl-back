@@ -75,5 +75,18 @@ const testApiController = {
         }
         return res.json(info)
     },
+
+    newClass: function(req,res){
+        let data = functions.newClass("test",req.body);
+        let info = {
+            meta: {
+                status : 200,
+                class: data.classID,
+                url: 'api/test/newClass',
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = testApiController
