@@ -60,7 +60,6 @@ const pythonFunctions = {
 
     classLinks: function(topics){
         let links = [];
-        console.log(typeof topics);
         for (const topic of topics){
             let link = topic.linkData;
             link.topicID = topic.topic;
