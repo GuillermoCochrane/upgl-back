@@ -4,5 +4,6 @@ const mainController = require("../../Controllers/API/testApiController");
 
 router.get("/", mainController.index);
 router.get("/class", mainController.allClassesData);
+router.get("/class/:classID", mainController.classData);
 
 module.exports = router;
