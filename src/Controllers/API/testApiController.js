@@ -80,7 +80,7 @@ const testApiController = {
         let data = functions.newClass("test",req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: data.classID,
                 url: 'api/test/newClass',
             },
@@ -93,7 +93,7 @@ const testApiController = {
         let data = functions.newTopic("test",req.params.classID,req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: parseInt(req.params.classID),
                 topic: data.topic,
                 url: 'api/test/newTopic/:classID',

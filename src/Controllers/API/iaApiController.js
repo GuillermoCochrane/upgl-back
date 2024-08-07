@@ -79,7 +79,7 @@ const iaApiController = {
         let data = functions.newClass("ia",req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: data.classID,
                 url: 'api/ia/newClass',
             },
@@ -92,7 +92,7 @@ const iaApiController = {
         let data = functions.newTopic("ia",req.params.classID,req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: parseInt(req.params.classID),
                 topic: data.topic,
                 url: 'api/ia/newTopic/:classID',
