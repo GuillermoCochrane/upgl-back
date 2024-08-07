@@ -79,7 +79,7 @@ const pythonApiController = {
         let data = functions.newClass("python",req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: data.classID,
                 url: 'api/python/newClass',
             },
@@ -92,7 +92,7 @@ const pythonApiController = {
         let data = functions.newTopic("python",req.params.classID,req.body);
         let info = {
             meta: {
-                status : 200,
+                status : 201,
                 class: parseInt(req.params.classID),
                 topic: data.topic,
                 url: 'api/python/newTopic/:classID',
