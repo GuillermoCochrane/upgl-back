@@ -1,4 +1,5 @@
 const functions = require("../../functions/functions");
+const { validationResult } = require('express-validator');
 
 const testApiController = {
 
@@ -77,16 +78,32 @@ const testApiController = {
     },
 
     newClass: function(req,res){
-        let data = functions.newClass("test",req.body);
-        let info = {
-            meta: {
-                status : 201,
-                class: data.classID,
-                url: 'api/test/newClass',
-            },
-            data,
+        let errors = validationResult(req);
+        if (errors.isEmpty()){
+            let data = functions.newClass("test",req.body);
+            console.log(data);
+            let info = {
+                meta: {
+                    status : 201,
+                    created: true,
+                    class: data.classID,
+                    url: 'api/test/newClass',
+                },
+                data,
+            }
+            return res.json(info)
+        } else {
+            let info = {
+                meta: {
+                    status : 400,
+                    created: false,
+                    url: 'api/test/newClass',
+                },
+                errors: errors.mapped(),
+                oldData: req.body,
+            }
+            return res.json(info)
         }
-        return res.json(info)
     },
 
     newTopic: function(req,res){
