@@ -20,143 +20,105 @@
         Bienvenido a la API de UPGL
     </h1>
     <article>
+
+        <H3>Lista de cursos: (/:courseID)</H3>
+
+        <ul>
+            <li>
+                <strong>
+                    Curso de Python: 
+                </strong>
+                (PYTHON)
+            </li>
+            <li>
+                <strong>
+                    Curso de IA: 
+                </strong>
+                (IA)
+            </li>
+        </ul>
+
+    </article>
+
+    <article>
+
         <h3>Endpoints disponibles</h3>
-        <details>
-            <summary role="button" class="outline"><b>Python</b></summary>
-            <ul>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> -
-                    </strong>
-                    <strong>
-                        /API/python
-                    </strong>
-                    : Índice de hipervínculos de la clases del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/class
-                    </strong>
-                    : Información de todas las clases del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/class/:classID
-                    </strong>
-                    : Información de una clase del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/class/:classID/:topicID
-                    </strong>
-                    : Información de un tema de una clase del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/:indexID
-                    </strong>
-                    : Índice de hipervínculos de una clase del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ POST ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/newClass
-                    </strong>
-                    : Endpoint para la creación de una nueva clase del curso de Python
-                </li>
-                <li>
-                    <strong>
-                        <i>[ POST ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/python/newTopic/:classID
-                    </strong>
-                    : Endpoint para la creación de un nuevo tema de una clase del curso de Python
-                </li>
-            </ul>
-        </details>
-        <details>
-            <summary role="button" class="outline"><b>IA</b></summary>
-            <ul>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> -
-                    </strong>
-                    <strong>
-                        /API/ia
-                    </strong>
-                    : Índice de hipervínculos de la clases del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/class
-                    </strong>
-                    : Información de todas las clases del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/class/:classID
-                    </strong>
-                    : Información de una clase del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/class/:classID/:topicID
-                    </strong>
-                    : Información de un tema de una clase del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ GET ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/:indexID
-                    </strong>
-                    : Índice de hipervínculos de una clase del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ POST ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/newClass
-                    </strong>
-                    : Endpoint para la creación de una nueva clase del curso de IA
-                </li>
-                <li>
-                    <strong>
-                        <i>[ POST ]</i> - 
-                    </strong>
-                    <strong>
-                        /API/ia/newTopic/:classID
-                    </strong>
-                    : Endpoint para la creación de un nuevo tema de una clase del curso de IA
-                </li>
-            </ul>
-        </details>
+
+        <ul>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/index
+                </strong>
+                : : Información de todos los cursos
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> -
+                </strong>
+                <strong>
+                    /API/course/:courseID
+                </strong>
+                : Índice de hipervínculos de la clases del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/class
+                </strong>
+                : Información de todas las clases del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/class/:classID
+                </strong>
+                : Información de una clase del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/class/:classID/:topicID
+                </strong>
+                : Información de un tema de una clase del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ GET ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/:indexID
+                </strong>
+                : Índice de hipervínculos de una clase del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ POST ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/newClass
+                </strong>
+                : Endpoint para la creación de una nueva clase del curso seleccionado
+            </li>
+            <li>
+                <strong>
+                    <i>[ POST ]</i> - 
+                </strong>
+                <strong>
+                    /API/course/:courseID/newTopic/:classID
+                </strong>
+                : Endpoint para la creación de un nuevo tema de una clase del curso seleccionado
+            </li>
+        </ul>
+
     </article>
 </body>
 </html>
