@@ -5,6 +5,8 @@ const controller = require("../../Controllers/API/courseApiController");
 //Middlewares
 const classValidations = require("../../middlewares/validations/classesValidationsMDW");
 
+//Routes
+router.get("/index", controller.coursesIndex);
 router.get("/:courseID", controller.index);
 router.get("/:courseID/class", controller.allClassesData);
 router.get("/:courseID/class/:classID", controller.classData);

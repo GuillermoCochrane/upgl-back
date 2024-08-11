@@ -19,6 +19,20 @@ const courseApiController = {
         return res.json(info);
     },
 
+    coursesIndex: function(req,res){
+        let data = functions.allEntries("courses");
+        let endpoint =  `api/courses/index`;
+        let info = {
+            meta: {
+                status : 200,
+                courses: data.length,
+                url: endpoint,
+            },
+            data
+        }
+        return res.json(info);
+    },
+
     allClassesData: function(req,res){
         let { courseID } = req.params;
         let data = functions.allEntries(courseID);
