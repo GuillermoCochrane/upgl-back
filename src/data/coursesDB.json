@@ -22,5 +22,13 @@
         "title": "Seccion de Pruebas",
         "intro": "Esta sección se utiliza para probar las funcionalidades de la aplicación.",
         "paragraph": "Aqui comprobaremos las distintas funcionalidades que iremos implementando para el panel de control."
+    },
+    {
+        "id": "ControlPanel",
+        "name": "Panel de Control",
+        "link": "/ControlPanel",
+        "title": "Panel de Control",
+        "intro": "Panel del control con las distintas funcionalidades de la aplicación.",
+        "paragraph": ""
     }
 ]
