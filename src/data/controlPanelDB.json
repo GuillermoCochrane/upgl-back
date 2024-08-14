@@ -1,0 +1,20 @@
+{
+    "links": [
+        {
+            "title": "Nueva Clase",
+            "link": "/controlPanel/newClass",
+            "topicID": "newClass"
+        },
+        {
+            "title": "Nuevo Tema",
+            "link": "/controlPanel/newTopic",
+            "topicID": "newTopic"
+
+        },
+        {
+            "title": "Nueva Sección",
+            "link": "/controlPanel/newSection",
+            "topicID": "newSection"
+        }
+    ]
+}
