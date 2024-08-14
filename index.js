@@ -17,10 +17,13 @@ app.set('views', path.join(__dirname, './src/views'));
 //Set Routes
 const mainRouter = require("./src/Routes/indexRoutes");
 const courseApiRouter = require("./src/Routes/API/courseApiRoute");
+const controlPanelApiRouter = require("./src/Routes/API/controlPanelApiRoute");
+
 
 
 app.get("/", mainRouter);
 app.use("/api/course", courseApiRouter);
+app.use("/api/controlPanel", controlPanelApiRouter);
 
 app.listen(port, ()=>{console.log("\n------------------------------------\nLevantando servidor en puerto " + port +  ": \nhttp://localhost:" + port + "\n------------------------------------\n")
 });
