@@ -1,20 +1,28 @@
 {
     "links": [
         {
+            "title": "Nuevo Curso",
+            "link": "/controlPanel/newCourse",
+            "topicID": "newCourse",
+            "icon": "fa-graduation-cap"
+        },
+        {
             "title": "Nueva Clase",
             "link": "/controlPanel/newClass",
-            "topicID": "newClass"
+            "topicID": "newClass",
+            "icon": "fa-book-bookmark"
         },
         {
             "title": "Nuevo Tema",
             "link": "/controlPanel/newTopic",
-            "topicID": "newTopic"
-
+            "topicID": "newTopic",
+            "icon": "fa-file-lines"
         },
         {
             "title": "Nueva Sección",
             "link": "/controlPanel/newSection",
-            "topicID": "newSection"
+            "topicID": "newSection",
+            "icon": "fa-paperclip"
         }
     ]
 }
