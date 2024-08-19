@@ -143,6 +143,7 @@ const courseApiController = {
         let info = {
             meta: {
                 status : 201,
+                created: true,
                 class: parseInt(req.params.classID),
                 topic: data.topic,
                 url: endpoint,
