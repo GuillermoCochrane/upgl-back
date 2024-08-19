@@ -148,6 +148,7 @@ const pythonFunctions = {
         let allTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
         let newTopic = {
             topic: topicID,
+            sections: 0,
             available: true,
             linkData: {
                 title: data ? data.title : "",
