@@ -111,7 +111,6 @@ const courseApiController = {
         let endpoint =  `api/${courseID}/newClass`;
         if (errors.isEmpty()){
             let data = functions.newClass(courseID,req.body);
-
             let info = {
                 meta: {
                     status : 201,
@@ -137,20 +136,34 @@ const courseApiController = {
     },
 
     newTopic: function(req,res){
+        let errors = validationResult(req);
         let { courseID, classID } = req.params;
-        let data = functions.newTopic(courseID,classID,req.body);
         let endpoint =  `api/${courseID}/newTopic/${classID}`;
-        let info = {
-            meta: {
-                status : 201,
-                created: true,
-                class: parseInt(req.params.classID),
-                topic: data.topic,
-                url: endpoint,
-            },
-            data,
+        if (errors.isEmpty()){
+            let data = functions.newTopic(courseID,classID,req.body);
+            let info = {
+                meta: {
+                    status : 201,
+                    created: true,
+                    class: parseInt(req.params.classID),
+                    topic: data.topic,
+                    url: endpoint,
+                },
+                data,
+            }
+            return res.json(info)
+        } else {
+            let info = {
+                meta: {
+                    status : 400,
+                    created: false,
+                    url: endpoint,
+                },
+                errors: errors.mapped(),
+                oldData: req.body,
+            }
+            return res.json(info)
         }
-        return res.json(info)
     },
 }
 module.exports = courseApiController
