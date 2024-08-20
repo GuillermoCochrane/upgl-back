@@ -117,6 +117,23 @@ const pythonFunctions = {
         return newTopicID;
     },
 
+    newCourse: function(data){
+        let allCourses = this.allEntries("courses");
+        let id = data.name.split(" ").join("").toLowerCase();
+        let info = {
+            id: id,
+            name: data.name,
+            link: `/courses/${id}`,
+            title: `Curso de ${data.name}`,
+            intro: data.intro,
+            paragraph: data.paragraph
+        }
+        allCourses.push(info);
+        this.store(allCourses, "courses");
+        this.store([], id);
+        return allCourses;
+    },
+
     newClass: function(course, data){
         let classID = this.newClassID(course);
         let fullCourse = this.allEntries(course);
