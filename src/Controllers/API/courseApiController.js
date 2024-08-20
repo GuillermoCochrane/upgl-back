@@ -105,6 +105,10 @@ const courseApiController = {
         return res.json(info)
     },
 
+    newCourse : function(req,res){
+        return res.send("Courses API - New Course");
+    },
+
     newClass: function(req,res){
         let errors = validationResult(req);
         let { courseID } = req.params;
