@@ -106,7 +106,18 @@ const courseApiController = {
     },
 
     newCourse : function(req,res){
-        return res.send("Courses API - New Course");
+        let data = functions.newCourse(req.body);
+        let endpoint =  `api/newCourse`;
+        let info = {
+            meta: {
+                status : 201,
+                created: true,
+                course: data.name,
+                url: endpoint,
+            },
+            data,
+        }
+        return res.json(info)
     },
 
     newClass: function(req,res){

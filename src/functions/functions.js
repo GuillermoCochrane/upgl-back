@@ -131,7 +131,7 @@ const pythonFunctions = {
         allCourses.push(info);
         this.store(allCourses, "courses");
         this.store([], id);
-        return allCourses;
+        return info;
     },
 
     newClass: function(course, data){
