@@ -2,6 +2,8 @@
 const express = require("express");
 const path = require("path");
 const cors = require('cors');
+const cronJobs = require("./src/functions/cron");
+const endpointCron = "https://api-upgl.onrender.com/api/controlpanel/up"; 
 
 //Settings
 const app = express();
@@ -24,6 +26,8 @@ const controlPanelApiRouter = require("./src/Routes/API/controlPanelApiRoute");
 app.get("/", mainRouter);
 app.use("/api/course", courseApiRouter);
 app.use("/api/controlPanel", controlPanelApiRouter);
+
+cronJobs(endpointCron);
 
 app.listen(port, ()=>{console.log("\n------------------------------------\nLevantando servidor en puerto " + port +  ": \nhttp://localhost:" + port + "\n------------------------------------\n")
 });
