@@ -105,7 +105,7 @@ const pythonFunctions = {
     newClassID : function(course){
         let data = this.allEntries(course);
         let lastClass = data.filter(classes => typeof classes.class == "number").pop();
-        let newID = lastClass.class + 1;
+        let newID = lastClass ? lastClass.class + 1 : 1;
         return newID;
     },
 
