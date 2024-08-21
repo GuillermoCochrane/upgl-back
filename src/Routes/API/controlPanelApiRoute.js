@@ -7,5 +7,7 @@ const controller = require("../../Controllers/API/controlPanelApiController");
 //Routes
 
 router.get("/links", controller.index);
+router.get("/up", controller.up);
+
 
 module.exports = router;

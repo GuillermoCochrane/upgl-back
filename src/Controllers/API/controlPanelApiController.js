@@ -14,6 +14,10 @@ const controlPanelApiController = {
         }
         res.json(info)
     },
+
+    up: function(req,res){
+        return res.send("Api UPGL is working")
+    }
 }
 
 module.exports = controlPanelApiController
