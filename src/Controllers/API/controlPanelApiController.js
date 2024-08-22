@@ -1,8 +1,8 @@
-const functions = require("../../functions/functions");
+const utilities = require("../../utilities/utilities");
 
 const controlPanelApiController = {
     index: function(req,res){
-        const data = functions.allEntries("controlPanel");
+        const data = utilities.allEntries("controlPanel");
         const endpoint =  `api/controlPanel/links`;
         let info = {
             meta: {

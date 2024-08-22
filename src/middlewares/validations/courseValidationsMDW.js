@@ -1,6 +1,6 @@
 const { body } = require('express-validator');
-let functions = require("../../functions/functions");
-// agregar validacion de curso repetido
+let utilities = require("../../utilities/utilities");
+
 const courseValidations = [
     body('name')
         .notEmpty().withMessage('Debes completar el nombre del curso').bail()
@@ -8,7 +8,7 @@ const courseValidations = [
         .isLength({max:15}).withMessage("El nombre del curso debe tener como máximo 15 caracteres").bail()
         .custom((value, {req}) =>{
             let data = value.split(" ").join("");
-            let course = functions.filterCourse(data, "id")[0];
+            let course = utilities.filterCourse(data, "id")[0];
             if (course){
                 throw new Error(`${value} no se encuentra disponible`);
             } else {

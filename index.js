@@ -2,7 +2,7 @@
 const express = require("express");
 const path = require("path");
 const cors = require('cors');
-const cronJobs = require("./src/functions/cron");
+const cronJobs = require("./src/utilities/cron");
 const endpointCron = "https://api-upgl.onrender.com/api/controlpanel/up"; 
 
 //Settings

@@ -1,11 +1,11 @@
-const functions = require("../../functions/functions");
+const utilities = require("../../utilities/utilities");
 const { validationResult } = require('express-validator');
 
 const courseApiController = {
 
     index: function(req,res){
         let { courseID } = req.params;
-        let data = functions.fullIndex(courseID);
+        let data = utilities.fullIndex(courseID);
         let endpoint =  `api/course/${courseID}`;
         let info = {
             meta: {
@@ -21,7 +21,7 @@ const courseApiController = {
 
     courseCheck: function(req,res){
         let request = req.params.course.split(" ").join("").toLowerCase();
-        let data = functions.filterCourse(request, "id")[0];
+        let data = utilities.filterCourse(request, "id")[0];
         let response = true;
         data ? response = true : response = false;
         let info = {
@@ -35,7 +35,7 @@ const courseApiController = {
     },
 
     coursesIndex: function(req,res){
-        let data = functions.allEntries("courses");
+        let data = utilities.allEntries("courses");
         let endpoint =  `api/courses/index`;
         let info = {
             meta: {
@@ -50,7 +50,7 @@ const courseApiController = {
 
     allClassesData: function(req,res){
         let { courseID } = req.params;
-        let data = functions.allEntries(courseID);
+        let data = utilities.allEntries(courseID);
         let endpoint =  `api/course/${courseID}/class`;
         let info = {
             meta: {
@@ -66,7 +66,7 @@ const courseApiController = {
 
     classData: function(req,res){
         let { courseID, classID } = req.params;
-        let data = functions.filterData(courseID,classID);
+        let data = utilities.filterData(courseID,classID);
         let endpoint =  `api/course/${courseID}/class/${classID}`;
         if (data.classNotFound){
             return res.json(data.info)
@@ -86,7 +86,7 @@ const courseApiController = {
 
     topicData: function(req,res){
         let {courseID,classID,topicID} = req.params;
-        let data = functions.filterData(courseID,classID,topicID);
+        let data = utilities.filterData(courseID,classID,topicID);
         endpoint =  `api/course/${courseID}/class/${classID}/topic/${topicID}`;
         if (data.topicNotFound){
             return res.json(data.info)
@@ -107,7 +107,7 @@ const courseApiController = {
 
     classIndex: function(req,res){
         let { courseID, indexID } = req.params;
-        let data = functions.classIndex(courseID,indexID);
+        let data = utilities.classIndex(courseID,indexID);
         let endpoint =  `api/course/${courseID}/classIndex/${indexID}`;
         let info = {
             meta: {
@@ -124,7 +124,7 @@ const courseApiController = {
         let errors = validationResult(req);
         let endpoint =  `api/newCourse`;
         if (errors.isEmpty()){
-            let data = functions.newCourse(req.body);
+            let data = utilities.newCourse(req.body);
             let info = {
                 meta: {
                     status : 201,
@@ -154,7 +154,7 @@ const courseApiController = {
         let { courseID } = req.params;
         let endpoint =  `api/${courseID}/newClass`;
         if (errors.isEmpty()){
-            let data = functions.newClass(courseID,req.body);
+            let data = utilities.newClass(courseID,req.body);
             let info = {
                 meta: {
                     status : 201,
@@ -184,7 +184,7 @@ const courseApiController = {
         let { courseID, classID } = req.params;
         let endpoint =  `api/${courseID}/newTopic/${classID}`;
         if (errors.isEmpty()){
-            let data = functions.newTopic(courseID,classID,req.body);
+            let data = utilities.newTopic(courseID,classID,req.body);
             let info = {
                 meta: {
                     status : 201,
