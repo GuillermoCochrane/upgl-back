@@ -9,6 +9,7 @@ const courseValidations = require("../../middlewares/validations/courseValidatio
 
 //Routes
 router.get("/index", controller.coursesIndex);
+router.get("/check/:course", controller.courseCheck);
 router.get("/:courseID", controller.index);
 router.get("/:courseID/class", controller.allClassesData);
 router.get("/:courseID/class/:classID", controller.classData);

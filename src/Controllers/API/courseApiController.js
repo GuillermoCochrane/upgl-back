@@ -19,6 +19,21 @@ const courseApiController = {
         return res.json(info);
     },
 
+    courseCheck: function(req,res){
+        let request = req.params.course.split(" ").join("").toLowerCase();
+        let data = functions.filterCourse(request, "id")[0];
+        let response = true;
+        data ? response = true : response = false;
+        let info = {
+            meta: {
+                status : 200,
+                url: 'api/courses/check',
+            },
+            inUse: response,
+        }
+        return res.json(info)
+    },
+
     coursesIndex: function(req,res){
         let data = functions.allEntries("courses");
         let endpoint =  `api/courses/index`;
