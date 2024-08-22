@@ -55,6 +55,12 @@ const pythonFunctions = {
         return links;
     },
 
+    filterCourse: function(data,key){
+        // let alldata = this.allUsers();
+        let alldata = this.allEntries("courses");
+        return alldata.filter(user => user[key].toUpperCase() == data.toUpperCase())
+    },
+
     filterData: function(course, classID, topicID){
         let allData = this.allEntries(course);
         topicsData = allData.filter(lesson => lesson.class == classID)[0];
