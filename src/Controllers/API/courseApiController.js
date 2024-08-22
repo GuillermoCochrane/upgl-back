@@ -106,18 +106,32 @@ const courseApiController = {
     },
 
     newCourse : function(req,res){
-        let data = functions.newCourse(req.body);
+        let errors = validationResult(req);
         let endpoint =  `api/newCourse`;
-        let info = {
-            meta: {
-                status : 201,
-                created: true,
-                course: data.name,
-                url: endpoint,
-            },
-            data,
+        if (errors.isEmpty()){
+            let data = functions.newCourse(req.body);
+            let info = {
+                meta: {
+                    status : 201,
+                    created: true,
+                    course: data.name,
+                    url: endpoint,
+                },
+                data,
+            }
+            return res.json(info)
+        } else {
+            let info = {
+                meta: {
+                    status : 400,
+                    created: false,
+                    url: endpoint,
+                },
+                errors: errors.mapped(),
+                oldData: req.body,
+            }
+            return res.json(info)
         }
-        return res.json(info)
     },
 
     newClass: function(req,res){
@@ -130,7 +144,7 @@ const courseApiController = {
                 meta: {
                     status : 201,
                     created: true,
-                    class: data.classID,
+                    class: data.class,
                     url: endpoint,
                 },
                 data,
