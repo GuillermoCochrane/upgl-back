@@ -24,5 +24,51 @@
             "topicID": "newSection",
             "icon": "fa-paperclip"
         }
+    ],
+    "sections": [
+        {
+            "id": "answer",
+            "title": "Respuestas de Ejercicios"
+        },
+        {
+            "id": "figure",
+            "title": "Imagen"
+        },
+        {
+            "id": "h2",
+            "title": "Título de la clase"
+        },
+        {
+            "id": "h3",
+            "title": "Título principal"
+        },
+        {
+            "id": "h4",
+            "title": "Título de sub-sección"	
+        },
+        {
+            "id": "link",
+            "title": "Enlace"
+        },
+        {
+            "id": "OL",
+            "title": "Lista numerada"
+        },
+        {
+            "id": "UL",
+            "title": "Lista"
+        },
+        {
+            "id": "p",
+            "title": "Párrafo"
+        },
+        {
+            "id": "Trivia",
+            "title": "Trivia"
+        },
+        {   
+            "id": "youtube",
+            "title": "Video de Youtube"
+        }
     ]
 }
