@@ -70,5 +70,27 @@
             "id": "youtube",
             "title": "Video de Youtube"
         }
+    ],
+    "styles": [
+        {
+            "id": "plain",
+            "title": "Sin Formato"
+        },
+        {
+            "id": "bold",
+            "title": "Negrita"
+        },
+        {
+            "id": "italic",
+            "title": "Cursiva"
+        },
+        {
+            "id": "underline",
+            "title": "Subrayado"
+        },
+        {
+            "id": "mark",
+            "title": "Resaltado"
+        }
     ]
 }
