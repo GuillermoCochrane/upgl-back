@@ -56,7 +56,6 @@ const pythonFunctions = {
     },
 
     filterCourse: function(data,key){
-        // let alldata = this.allUsers();
         let alldata = this.allEntries("courses");
         return alldata.filter(user => user[key].toUpperCase() == data.toUpperCase())
     },
