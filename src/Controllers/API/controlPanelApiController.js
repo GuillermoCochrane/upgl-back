@@ -1,7 +1,7 @@
 const utilities = require("../../utilities/utilities");
 
 const controlPanelApiController = {
-    index: function(req,res){
+    links: function(req,res){
         const data = utilities.allEntries("controlPanel");
         const endpoint =  `api/controlPanel/links`;
         let info = {
@@ -11,6 +11,20 @@ const controlPanelApiController = {
                 url: endpoint,
             },
             data: data.links
+        }
+        res.json(info)
+    },
+
+    sections: function(req,res){
+        const data = utilities.allEntries("controlPanel");
+        const endpoint =  `api/controlPanel/sections`;
+        let info = {
+            meta: {
+                status : 200,
+                totals_sections: data.sections.length,
+                url: endpoint,
+            },
+            data: data.sections
         }
         res.json(info)
     },
