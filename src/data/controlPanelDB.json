@@ -47,12 +47,16 @@
             "title": "Descarga de Archivo"
         },
         {
-            "id": "UL",
+            "id": "ul",
             "title": "Lista"
         },
         {
-            "id": "OL",
+            "id": "ol",
             "title": "Lista numerada"
+        },
+        {
+            "id": "table",
+            "title": "Tabla"
         },
         {
             "id": "figure",
@@ -63,7 +67,7 @@
             "title": "Respuestas de Ejercicios"
         },
         {
-            "id": "Trivia",
+            "id": "trivia",
             "title": "Trivia"
         },
         {   
