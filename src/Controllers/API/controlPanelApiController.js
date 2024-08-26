@@ -29,6 +29,20 @@ const controlPanelApiController = {
         res.json(info)
     },
 
+    styles: function(req,res){
+        const data = utilities.allEntries("controlPanel");
+        const endpoint =  `api/controlPanel/styles`;
+        let info = {
+            meta: {
+                status : 200,
+                totals_styles: data.styles.length,
+                url: endpoint,
+            },
+            data: data.styles
+        }
+        res.json(info)
+    },
+
     up: function(req,res){
         return res.send("Api UPGL is working")
     }
