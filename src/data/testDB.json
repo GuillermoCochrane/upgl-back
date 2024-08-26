@@ -3287,7 +3287,7 @@
   {
     "class": 3,
     "available": true,
-    "topics": 0,
+    "topics": 1,
     "summary": "otra clase de prueba",
     "title": {
       "type": "h2",
@@ -3298,6 +3298,17 @@
         }
       ]
     },
-    "classData": []
+    "classData": [
+      {
+        "topic": 1,
+        "sections": 0,
+        "available": true,
+        "linkData": {
+          "title": "Tema de prueba",
+          "link": "/courses/Test/class/3/1"
+        },
+        "topicData": []
+      }
+    ]
   }
 ]
