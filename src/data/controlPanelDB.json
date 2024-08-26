@@ -27,14 +27,6 @@
     ],
     "sections": [
         {
-            "id": "answer",
-            "title": "Respuestas de Ejercicios"
-        },
-        {
-            "id": "figure",
-            "title": "Imagen"
-        },
-        {
             "id": "h3",
             "title": "Título principal"
         },
@@ -43,20 +35,32 @@
             "title": "Título de sub-sección"	
         },
         {
+            "id": "p",
+            "title": "Párrafo"
+        },
+        {
             "id": "link",
             "title": "Enlace"
         },
         {
-            "id": "OL",
-            "title": "Lista numerada"
+            "id": "download",
+            "title": "Descarga de Archivo"
         },
         {
             "id": "UL",
             "title": "Lista"
         },
         {
-            "id": "p",
-            "title": "Párrafo"
+            "id": "OL",
+            "title": "Lista numerada"
+        },
+        {
+            "id": "figure",
+            "title": "Imagen"
+        },
+        {
+            "id": "answer",
+            "title": "Respuestas de Ejercicios"
         },
         {
             "id": "Trivia",
