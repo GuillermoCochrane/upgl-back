@@ -1,4 +1,6 @@
+const { info } = require('console');
 const fs = require('fs');
+const { type } = require('os');
 const path = require('path');
 
 const pythonFunctions = {
@@ -189,15 +191,57 @@ const pythonFunctions = {
         };
 
         allTopics.push(newTopic);
+
         for (const lesson of allClasses){
             if (lesson.class == classID){
                 lesson.classData = allTopics;
                 lesson.topics = allTopics.length;
             }
         }
+
         this.store(allClasses, course);
         return newTopic;
-    }
+    },
+
+    newSection: function(course, classID, topicID, data){
+        let allClasses = this.allEntries(course);
+        let classTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let sectionID = this.newSectionID(course, classID, topicID);
+
+        let newSection = {
+            type: data ? data.type : "",
+            id: sectionID,
+            order: sectionID,
+            available: true,
+            stubs: 1,
+            info:[
+                {
+                    text: data ? data.text : "",
+                    context: data ? data.context : "",
+                }
+            ] 
+        };
+
+        topicSections.push(newSection);
+
+        for (const topic of classTopics){       
+            if (topic.topic == topicID){    
+                topic.topicData = topicSections;
+                topic.sections = topicSections.length; 
+            }     
+        }
+
+        for (const lesson of allClasses){
+            if (lesson.class == classID){
+                lesson.classData = classTopics;
+                lesson.topics = classTopics.length;
+            }
+        }
+
+        this.store(allClasses, course);
+        return newSection;
+    },
 }
 
 
