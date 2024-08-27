@@ -122,6 +122,15 @@ const pythonFunctions = {
         return newTopicID;
     },
 
+    newSectionID : function(course, classID, topicID){
+        let data = this.allEntries(course);
+        let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let lastSection = topicSections.pop();
+        let newSectionID = lastSection ? lastSection.id + 1 : 1;
+        return newSectionID;
+    },
+
     newCourse: function(data){
         let allCourses = this.allEntries("courses");
         let id = data.name.split(" ").join("").toLowerCase();
