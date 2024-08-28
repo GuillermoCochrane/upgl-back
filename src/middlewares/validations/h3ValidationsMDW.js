@@ -6,7 +6,7 @@ const h3ValidationsMDW = [
         .isLength({min:2}).withMessage("El titulo del tema debe tener al menos 2 caracteres").bail()
         .isLength({max:35}).withMessage("El titulo del tema debe tener como máximo 35 caracteres").bail(),
     body('type')
-        .notEmpty().withMessage('Debes Seleccionar el tipo de contenido').bail(),
+        .notEmpty().withMessage('Debes Seleccionar el tipo de sección').bail(),
     body('content')
         .notEmpty().withMessage('Debes Seleccionar el tipo de contenido').bail(),
 ]

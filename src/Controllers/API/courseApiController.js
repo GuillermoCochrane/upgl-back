@@ -211,19 +211,33 @@ const courseApiController = {
     },
 
     new_h3: function(req,res){
+        let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let h3Data = utilities.new_h3(req.body);
-        let data = utilities.newSection(courseID,classID,topicID,h3Data);
         let endpoint =  `api/newH3/${courseID}/${classID}/${topicID}`;
-        let info = {
-            meta: {
-                status : 201,
-                created: true,
-                url: endpoint,
-            },
-            data,
+        if (errors.isEmpty()){
+            let h3Data = utilities.new_h3(req.body);
+            let data = utilities.newSection(courseID,classID,topicID,h3Data);
+            let info = {
+                meta: {
+                    status : 201,
+                    created: true,
+                    url: endpoint,
+                },
+                data,
+            }
+            return res.json(info)
+        } else {
+            let info = {
+                meta: {
+                    status : 400,
+                    created: false,
+                    url: endpoint,
+                },
+                errors: errors.mapped(),
+                oldData: req.body,
+            }
+            return res.json(info)
         }
-        return res.json(info)
     },
 }
 module.exports = courseApiController
