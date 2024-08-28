@@ -214,13 +214,8 @@ const pythonFunctions = {
             id: sectionID,
             order: sectionID,
             available: true,
-            stubs: 1,
-            info:[
-                {
-                    text: data ? data.text : "",
-                    context: data ? data.context : "",
-                }
-            ] 
+            stubs: data ? data.info.length  : 0,
+            info:  data ? data.info : [],
         };
 
         topicSections.push(newSection);
