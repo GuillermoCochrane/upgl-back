@@ -209,5 +209,21 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    new_h3: function(req,res){
+        let { courseID, classID, topicID } = req.params;
+        let h3Data = utilities.new_h3(req.body);
+        let data = utilities.newSection(courseID,classID,topicID,h3Data);
+        let endpoint =  `api/newH3/${courseID}/${classID}/${topicID}`;
+        let info = {
+            meta: {
+                status : 201,
+                created: true,
+                url: endpoint,
+            },
+            data,
+        }
+        return res.json(info)
+    },
 }
 module.exports = courseApiController

@@ -16,6 +16,7 @@ router.get("/:courseID/class/:classID", controller.classData);
 router.get("/:courseID/class/:classID/topic/:topicID", controller.topicData);
 router.get("/:courseID/classIndex/:indexID", controller.classIndex);
 router.post("/newCourse", courseValidations ,controller.newCourse);
+router.post("/newH3/:courseID/:classID/:topicID",controller.new_h3);
 router.post("/:courseID/newClass", classValidations, controller.newClass);
 router.post("/:courseID/newTopic/:classID", topicValidations,controller.newTopic);
 
