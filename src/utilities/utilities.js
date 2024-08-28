@@ -237,6 +237,18 @@ const pythonFunctions = {
         this.store(allClasses, course);
         return newSection;
     },
+
+    new_h3 : function(data){
+        data = {};
+        data.type = data ? data.type : "h3";
+        data.info = [
+            {
+                text: data ? data.text : "",
+                content: data ? data.content : ""
+            }
+        ];
+        return data;
+    }
 }
 
 
