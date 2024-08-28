@@ -239,15 +239,15 @@ const pythonFunctions = {
     },
 
     new_h3 : function(data){
-        data = {};
-        data.type = data ? data.type : "h3";
-        data.info = [
+        let info = {};
+        info.type = data && data.type ? data.type : "h3";
+        info.info = [
             {
-                text: data ? data.text : "",
-                content: data ? data.content : ""
+                text: data && data.text ? data.text : "",
+                content: data && data.content ? data.content : "plain"
             }
         ];
-        return data;
+        return info;
     }
 }
 
