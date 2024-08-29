@@ -17,9 +17,9 @@ router.get("/:courseID/class/:classID", controller.classData);
 router.get("/:courseID/class/:classID/topic/:topicID", controller.topicData);
 router.get("/:courseID/classIndex/:indexID", controller.classIndex);
 router.post("/newCourse", courseValidations ,controller.newCourse);
+router.post("/newClass/:courseID", classValidations, controller.newClass);
+router.post("/newTopic/:courseID/:classID", topicValidations,controller.newTopic);
 router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH3);
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
-router.post("/newClass/:courseID", classValidations, controller.newClass);
-router.post("/:courseID/newTopic/:classID", topicValidations,controller.newTopic);
 
 module.exports = router;
