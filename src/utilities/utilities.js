@@ -238,9 +238,9 @@ const pythonFunctions = {
         return newSection;
     },
 
-    new_h3 : function(data){
+    newTitle : function(data){
         let info = {};
-        info.type = data && data.type ? data.type : "h3";
+        info.type = data && data.type ? data.type : " ";
         info.info = [
             {
                 text: data && data.text ? data.text : "",
