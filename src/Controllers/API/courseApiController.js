@@ -210,13 +210,43 @@ const courseApiController = {
         }
     },
 
-    new_h3: function(req,res){
+    newH3: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
         let endpoint =  `api/newH3/${courseID}/${classID}/${topicID}`;
         if (errors.isEmpty()){
-            let h3Data = utilities.new_h3(req.body);
-            let data = utilities.newSection(courseID,classID,topicID,h3Data);
+            let titleData = utilities.newTitle(req.body);
+            let data = utilities.newSection(courseID,classID,topicID,titleData);
+            let info = {
+                meta: {
+                    status : 201,
+                    created: true,
+                    url: endpoint,
+                },
+                data,
+            }
+            return res.json(info)
+        } else {
+            let info = {
+                meta: {
+                    status : 400,
+                    created: false,
+                    url: endpoint,
+                },
+                errors: errors.mapped(),
+                oldData: req.body,
+            }
+            return res.json(info)
+        }
+    },
+
+    newH4: function(req,res){
+        let errors = validationResult(req);
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newH4/${courseID}/${classID}/${topicID}`;
+        if (errors.isEmpty()){
+            let titleData = utilities.newTitle(req.body);
+            let data = utilities.newSection(courseID,classID,topicID,titleData);
             let info = {
                 meta: {
                     status : 201,
