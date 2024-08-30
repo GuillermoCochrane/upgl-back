@@ -159,6 +159,7 @@ const courseApiController = {
             info.meta.course = parseInt(req.params.courseID);
             info.meta.class = parseInt(req.params.classID);
             info.meta.topic = data.topic;
+            return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
