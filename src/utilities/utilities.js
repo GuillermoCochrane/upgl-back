@@ -250,6 +250,18 @@ const pythonFunctions = {
         return info;
     },
 
+    endpointSuccess: function(endpoint, data){
+        let info = {
+            meta: {
+                status : 201,
+                created: true,
+                url: endpoint,
+            },
+            data,
+        }
+        return info
+    },
+
     endpointError: function(endpoint, errors, oldData){
         let info = {
             meta: {
