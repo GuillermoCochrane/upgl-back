@@ -21,5 +21,6 @@ router.post("/newClass/:courseID", classValidations, controller.newClass);
 router.post("/newTopic/:courseID/:classID", topicValidations,controller.newTopic);
 router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH3);
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
+router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP);
 
 module.exports = router;
