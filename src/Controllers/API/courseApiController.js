@@ -3,6 +3,21 @@ const { validationResult } = require('express-validator');
 
 const courseApiController = {
 
+    courseCheck: function(req,res){
+        let request = req.params.course.split(" ").join("").toLowerCase();
+        let data = utilities.filterCourse(request, "id")[0];
+        let response = true;
+        data ? response = true : response = false;
+        let info = {
+            meta: {
+                status : 200,
+                url: 'api/courses/check',
+            },
+            inUse: response,
+        }
+        return res.json(info)
+    },
+
     index: function(req,res){
         let { courseID } = req.params;
         let data = utilities.fullIndex(courseID);
@@ -19,21 +34,6 @@ const courseApiController = {
         return res.json(info);
     },
 
-    courseCheck: function(req,res){
-        let request = req.params.course.split(" ").join("").toLowerCase();
-        let data = utilities.filterCourse(request, "id")[0];
-        let response = true;
-        data ? response = true : response = false;
-        let info = {
-            meta: {
-                status : 200,
-                url: 'api/courses/check',
-            },
-            inUse: response,
-        }
-        return res.json(info)
-    },
-
     coursesIndex: function(req,res){
         let data = utilities.allEntries("courses");
         let endpoint =  `api/courses/index`;
@@ -46,6 +46,21 @@ const courseApiController = {
             data
         }
         return res.json(info);
+    },
+
+    classIndex: function(req,res){
+        let { courseID, indexID } = req.params;
+        let data = utilities.classIndex(courseID,indexID);
+        let endpoint =  `api/course/${courseID}/classIndex/${indexID}`;
+        let info = {
+            meta: {
+                status : 200,
+                classIndex: indexID,
+                url: endpoint,
+            },
+            data,
+        }
+        return res.json(info)
     },
 
     allClassesData: function(req,res){
@@ -105,21 +120,6 @@ const courseApiController = {
         }
     },
 
-    classIndex: function(req,res){
-        let { courseID, indexID } = req.params;
-        let data = utilities.classIndex(courseID,indexID);
-        let endpoint =  `api/course/${courseID}/classIndex/${indexID}`;
-        let info = {
-            meta: {
-                status : 200,
-                classIndex: indexID,
-                url: endpoint,
-            },
-            data,
-        }
-        return res.json(info)
-    },
-
     newCourse : function(req,res){
         let errors = validationResult(req);
         let endpoint =  `api/newCourse`;
@@ -136,15 +136,7 @@ const courseApiController = {
             }
             return res.json(info)
         } else {
-            let info = {
-                meta: {
-                    status : 400,
-                    created: false,
-                    url: endpoint,
-                },
-                errors: errors.mapped(),
-                oldData: req.body,
-            }
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
     },
@@ -152,7 +144,7 @@ const courseApiController = {
     newClass: function(req,res){
         let errors = validationResult(req);
         let { courseID } = req.params;
-        let endpoint =  `api/${courseID}/newClass`;
+        let endpoint =  `api/newClass/:courseID`;
         if (errors.isEmpty()){
             let data = utilities.newClass(courseID,req.body);
             let info = {
@@ -166,15 +158,7 @@ const courseApiController = {
             }
             return res.json(info)
         } else {
-            let info = {
-                meta: {
-                    status : 400,
-                    created: false,
-                    url: endpoint,
-                },
-                errors: errors.mapped(),
-                oldData: req.body,
-            }
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
     },
@@ -182,7 +166,7 @@ const courseApiController = {
     newTopic: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID } = req.params;
-        let endpoint =  `api/${courseID}/newTopic/${classID}`;
+        let endpoint =  `api/newTopic/:courseID/:classID`;
         if (errors.isEmpty()){
             let data = utilities.newTopic(courseID,classID,req.body);
             let info = {
@@ -197,15 +181,7 @@ const courseApiController = {
             }
             return res.json(info)
         } else {
-            let info = {
-                meta: {
-                    status : 400,
-                    created: false,
-                    url: endpoint,
-                },
-                errors: errors.mapped(),
-                oldData: req.body,
-            }
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
     },
@@ -213,7 +189,7 @@ const courseApiController = {
     newH3: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newH3/${courseID}/${classID}/${topicID}`;
+        let endpoint =  `api/newH3/:courseID}/:classID}/:topicID`;
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
@@ -227,15 +203,7 @@ const courseApiController = {
             }
             return res.json(info)
         } else {
-            let info = {
-                meta: {
-                    status : 400,
-                    created: false,
-                    url: endpoint,
-                },
-                errors: errors.mapped(),
-                oldData: req.body,
-            }
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
     },
@@ -243,7 +211,7 @@ const courseApiController = {
     newH4: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newH4/${courseID}/${classID}/${topicID}`;
+        let endpoint =  `api/newH4/:courseID}/:classID}/:topicID`;
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
@@ -257,15 +225,7 @@ const courseApiController = {
             }
             return res.json(info)
         } else {
-            let info = {
-                meta: {
-                    status : 400,
-                    created: false,
-                    url: endpoint,
-                },
-                errors: errors.mapped(),
-                oldData: req.body,
-            }
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
     },
