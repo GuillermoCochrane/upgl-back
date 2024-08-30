@@ -125,15 +125,8 @@ const courseApiController = {
         let endpoint =  `api/newCourse`;
         if (errors.isEmpty()){
             let data = utilities.newCourse(req.body);
-            let info = {
-                meta: {
-                    status : 201,
-                    created: true,
-                    course: data.name,
-                    url: endpoint,
-                },
-                data,
-            }
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.course = data.name;
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -147,15 +140,8 @@ const courseApiController = {
         let endpoint =  `api/newClass/:courseID`;
         if (errors.isEmpty()){
             let data = utilities.newClass(courseID,req.body);
-            let info = {
-                meta: {
-                    status : 201,
-                    created: true,
-                    class: data.class,
-                    url: endpoint,
-                },
-                data,
-            }
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.class = data.class;
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -169,17 +155,10 @@ const courseApiController = {
         let endpoint =  `api/newTopic/:courseID/:classID`;
         if (errors.isEmpty()){
             let data = utilities.newTopic(courseID,classID,req.body);
-            let info = {
-                meta: {
-                    status : 201,
-                    created: true,
-                    class: parseInt(req.params.classID),
-                    topic: data.topic,
-                    url: endpoint,
-                },
-                data,
-            }
-            return res.json(info)
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.course = parseInt(req.params.courseID);
+            info.meta.class = parseInt(req.params.classID);
+            info.meta.topic = data.topic;
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
@@ -193,14 +172,11 @@ const courseApiController = {
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
-            let info = {
-                meta: {
-                    status : 201,
-                    created: true,
-                    url: endpoint,
-                },
-                data,
-            }
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.course = parseInt(req.params.courseID);
+            info.meta.class = parseInt(req.params.classID);
+            info.meta.topic = parseInt(req.params.topicID);
+            info.meta.section = data.id;
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -215,14 +191,11 @@ const courseApiController = {
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
-            let info = {
-                meta: {
-                    status : 201,
-                    created: true,
-                    url: endpoint,
-                },
-                data,
-            }
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.course = parseInt(req.params.courseID);
+            info.meta.class = parseInt(req.params.classID);
+            info.meta.topic = parseInt(req.params.topicID);
+            info.meta.section = data.id;
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
