@@ -248,6 +248,19 @@ const pythonFunctions = {
             }
         ];
         return info;
+    },
+
+    endpointError: function(endpoint, errors, oldData){
+        let info = {
+            meta: {
+                status : 400,
+                created: false,
+                url: endpoint,
+            },
+            errors,
+            oldData 
+        }
+        return info;
     }
 }
 
