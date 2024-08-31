@@ -169,7 +169,7 @@ const courseApiController = {
     newH3: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newH3/:courseID}/:classID}/:topicID`;
+        let endpoint =  `api/newH3/:courseID/:classID/:topicID`;
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
@@ -188,7 +188,7 @@ const courseApiController = {
     newH4: function(req,res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newH4/:courseID}/:classID}/:topicID`;
+        let endpoint =  `api/newH4/:courseID/:classID/:topicID`;
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
@@ -205,16 +205,23 @@ const courseApiController = {
     },
 
     newP: function(req, res){
+        let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newP/:courseID}/:classID}/:topicID`;
-        let pData = utilities.newTitle(req.body);
-        let data = utilities.newSection(courseID,classID,topicID,pData);
-        let info = utilities.endpointSuccess(endpoint, data);
-        info.meta.course = parseInt(req.params.courseID);
-        info.meta.class = parseInt(req.params.classID);
-        info.meta.topic = parseInt(req.params.topicID);
-        info.meta.section = data.id;
-        return res.json(info)
+        let endpoint =  `api/newP/:courseID/:classID/:topicID`;
+        if (errors.isEmpty()){
+            let pData = utilities.newTitle(req.body);
+            let data = utilities.newSection(courseID,classID,topicID,pData);
+            let info = utilities.endpointSuccess(endpoint, data);
+            info.meta.course = parseInt(req.params.courseID);
+            info.meta.class = parseInt(req.params.classID);
+            info.meta.topic = parseInt(req.params.topicID);
+            info.meta.section = data.id;
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info)
+        }
     },
 }
+
 module.exports = courseApiController
