@@ -222,6 +222,19 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newLink: function(req, res){
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newLink/:courseID/:classID/:topicID`;
+        let linkData = utilities.newLink(req.body);
+        let data = utilities.newSection(courseID,classID,topicID,linkData);
+        let info = utilities.endpointSuccess(endpoint, data);
+        info.meta.course = parseInt(req.params.courseID);
+        info.meta.class = parseInt(req.params.classID);
+        info.meta.topic = parseInt(req.params.topicID);
+        info.meta.section = data.id;
+        return res.json(info)
+    },
 }
 
 module.exports = courseApiController
