@@ -125,8 +125,7 @@ const courseApiController = {
         let endpoint =  `api/newCourse`;
         if (errors.isEmpty()){
             let data = utilities.newCourse(req.body);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.course = data.name;
+            let info = utilities.endpointSuccess(endpoint, data, data.id);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -140,8 +139,7 @@ const courseApiController = {
         let endpoint =  `api/newClass/:courseID`;
         if (errors.isEmpty()){
             let data = utilities.newClass(courseID,req.body);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.class = data.class;
+            let info = utilities.endpointSuccess(endpoint, data, courseID, data.class);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -155,10 +153,7 @@ const courseApiController = {
         let endpoint =  `api/newTopic/:courseID/:classID`;
         if (errors.isEmpty()){
             let data = utilities.newTopic(courseID,classID,req.body);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.course = req.params.courseID;
-            info.meta.class = parseInt(req.params.classID);
-            info.meta.topic = data.topic;
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, data.topic);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -173,11 +168,7 @@ const courseApiController = {
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.course = req.params.courseID;
-            info.meta.class = parseInt(req.params.classID);
-            info.meta.topic = parseInt(req.params.topicID);
-            info.meta.section = data.id;
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -192,11 +183,7 @@ const courseApiController = {
         if (errors.isEmpty()){
             let titleData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,titleData);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.course = req.params.courseID;
-            info.meta.class = parseInt(req.params.classID);
-            info.meta.topic = parseInt(req.params.topicID);
-            info.meta.section = data.id;
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
@@ -211,11 +198,7 @@ const courseApiController = {
         if (errors.isEmpty()){
             let pData = utilities.newTitle(req.body);
             let data = utilities.newSection(courseID,classID,topicID,pData);
-            let info = utilities.endpointSuccess(endpoint, data);
-            info.meta.course = req.params.courseID;
-            info.meta.class = parseInt(req.params.classID);
-            info.meta.topic = parseInt(req.params.topicID);
-            info.meta.section = data.id;
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
             return res.json(info)
         } else {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
