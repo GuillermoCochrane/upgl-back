@@ -109,6 +109,31 @@ const pythonFunctions = {
         return topicData;
     },
 
+    endpointSuccess: function(endpoint, data){
+        let info = {
+            meta: {
+                status : 201,
+                created: true,
+                url: endpoint,
+            },
+            data,
+        }
+        return info
+    },
+
+    endpointError: function(endpoint, errors, oldData){
+        let info = {
+            meta: {
+                status : 400,
+                created: false,
+                url: endpoint,
+            },
+            errors,
+            oldData 
+        }
+        return info;
+    },
+
     newClassID : function(course){
         let data = this.allEntries(course);
         let lastClass = data.filter(classes => typeof classes.class == "number").pop();
@@ -250,30 +275,19 @@ const pythonFunctions = {
         return info;
     },
 
-    endpointSuccess: function(endpoint, data){
-        let info = {
-            meta: {
-                status : 201,
-                created: true,
-                url: endpoint,
-            },
-            data,
-        }
-        return info
-    },
-
-    endpointError: function(endpoint, errors, oldData){
-        let info = {
-            meta: {
-                status : 400,
-                created: false,
-                url: endpoint,
-            },
-            errors,
-            oldData 
-        }
+    newLink: function(data){
+        let info = {};
+        info.type = data && data.type ? data.type : "";
+        info.info = [
+            {
+                text: data && data.text ? data.text : "",
+                link: data && data.link ? data.link : "",
+                content: data && data.content ? data.content : "plain"
+            }
+        ];
         return info;
     }
+
 }
 
 
