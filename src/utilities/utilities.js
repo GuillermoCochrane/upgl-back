@@ -109,15 +109,19 @@ const pythonFunctions = {
         return topicData;
     },
 
-    endpointSuccess: function(endpoint, data){
+    endpointSuccess: function(endpoint, data, courseID, classID, topicID, sectionID){
         let info = {
             meta: {
                 status : 201,
                 created: true,
                 url: endpoint,
+                course: courseID ? courseID : null,
             },
             data,
         }
+        classID ? info.meta.class = parseInt(classID) : null;
+        topicID ? info.meta.topic = parseInt(topicID) : null;
+        sectionID ? info.meta.section = parseInt(sectionID) : null;
         return info
     },
 
