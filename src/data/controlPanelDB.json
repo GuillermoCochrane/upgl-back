@@ -44,19 +44,15 @@
         },
         {
             "id": "download",
-            "title": "Descarga de Archivo"
+            "title": "Descarga de Archivo Externo" 
         },
         {
-            "id": "ul",
-            "title": "Lista"
+            "id": "localDownload",
+            "title": "Descarga de Archivo Local"
         },
-        {
-            "id": "ol",
-            "title": "Lista numerada"
-        },
-        {
-            "id": "table",
-            "title": "Tabla"
+        {   
+            "id": "youtube",
+            "title": "Video de Youtube"
         },
         {
             "id": "figure",
@@ -70,9 +66,17 @@
             "id": "trivia",
             "title": "Trivia"
         },
-        {   
-            "id": "youtube",
-            "title": "Video de Youtube"
+        {
+            "id": "ul",
+            "title": "Lista"
+        },
+        {
+            "id": "ol",
+            "title": "Lista numerada"
+        },
+        {
+            "id": "table",
+            "title": "Tabla"
         }
     ],
     "styles": [
@@ -95,6 +99,10 @@
         {
             "id": "mark",
             "title": "Resaltado"
+        },
+        {
+            "id": "link",
+            "title": "Enlace"
         }
     ]
 }
