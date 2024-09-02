@@ -8,6 +8,7 @@ const topicValidations = require("../../middlewares/validations/topicValidations
 const courseValidations = require("../../middlewares/validations/courseValidationsMDW");
 const h3Validations = require("../../middlewares/validations/h3ValidationsMDW");
 const linkValidations = require("../../middlewares/validations/linkValidationsMDW");
+const downloadValidations = require("../../middlewares/validations/downloadValidationsMDW");
 
 //Routes
 router.get("/index", controller.coursesIndex);
@@ -25,6 +26,6 @@ router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
 router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
-router.post("/newDownload/:courseID/:classID/:topicID", controller.newLink);
+router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
 
 module.exports = router;
