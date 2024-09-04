@@ -2,6 +2,7 @@ const { info } = require('console');
 const fs = require('fs');
 const { type } = require('os');
 const path = require('path');
+const { title } = require('process');
 
 const pythonFunctions = {
 
@@ -290,7 +291,21 @@ const pythonFunctions = {
             }
         ];
         return info;
-    }
+    },
+
+    newYoutube: function(data){
+        let info = {};
+        info.type = data && data.type ? data.type : "";
+        info.info = [
+            {
+                title: data && data.title ? data.title : "",
+                link: data && data.link ? data.link : "",
+                width: data && data.width ? data.width : "",
+                height: data && data.height ? data.height : "",
+            }
+        ];
+        return info;
+    },
 
 }
 
