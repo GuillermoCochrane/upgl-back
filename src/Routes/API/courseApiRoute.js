@@ -13,6 +13,9 @@ const linkValidations = require("../../middlewares/validations/linkValidationsMD
 const downloadValidations = require("../../middlewares/validations/downloadValidationsMDW");
 const youtubeValidations = require("../../middlewares/validations/youtubeValidationsMDW");
 
+//Multer
+const imageMulterMDW = require("../../middlewares/multer/imageMulterMDW");
+
 //Routes
 
 // Read
@@ -34,6 +37,6 @@ router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP)
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
-router.post("/newImage/:courseID/:classID/:topicID/", controller.newImage);
+router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), controller.newImage);
 
 module.exports = router;
