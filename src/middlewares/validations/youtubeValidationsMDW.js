@@ -3,7 +3,8 @@ const { body } = require('express-validator');
 const youtubeValidationsMDW = [
     body('title')
         .notEmpty().withMessage('Debes completar el título del video').bail()
-        .isLength({min:2}).withMessage("El título del video debe tener al menos 2 caracteres").bail(),
+        .isLength({min:2}).withMessage("El título del video debe tener al menos 2 caracteres").bail()
+        .isLength({max:35}).withMessage("El título del video debe tener como máximo 35 caracteres"),
     body('type')
         .notEmpty().withMessage('Debes Seleccionar el tipo de sección').bail(),
     body('link')
