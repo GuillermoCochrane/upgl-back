@@ -10,7 +10,7 @@ const linkValidationsMDW = [
         .notEmpty().withMessage('Debes Seleccionar el tipo de contenido').bail(),
     body('link')
         .notEmpty().withMessage('Debes completar el enlace').bail()
-        .isLength({min:2}).withMessage("El enlace debe tener al menos 2 caracteres").bail()
+        .isLength({min:9}).withMessage("El enlace debe tener al menos 9 caracteres").bail()
         .isURL().withMessage('Debes ingresar un enlace valido'),
 ]
 module.exports = linkValidationsMDW

@@ -10,7 +10,7 @@ const downloadValidationsMDW = [
         .notEmpty().withMessage('Debes Seleccionar el tipo de contenido').bail(),
     body('link')
         .notEmpty().withMessage('Debes completar el enlace de descarga').bail()
-        .isLength({min:2}).withMessage("El enlace de descarga debe tener al menos 2 caracteres").bail()
+        .isLength({min:9}).withMessage("El enlace de descarga debe tener al menos 9 caracteres").bail()
         .isURL().withMessage('Debes ingresar un enlace de descarga valido'),
 ]
 module.exports = downloadValidationsMDW
