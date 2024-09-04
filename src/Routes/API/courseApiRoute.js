@@ -27,5 +27,6 @@ router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH
 router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
+router.post("/newYoutube/:courseID/:classID/:topicID", controller.newYoutube);
 
 module.exports = router;
