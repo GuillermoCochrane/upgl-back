@@ -9,6 +9,7 @@ const courseValidations = require("../../middlewares/validations/courseValidatio
 const h3Validations = require("../../middlewares/validations/h3ValidationsMDW");
 const linkValidations = require("../../middlewares/validations/linkValidationsMDW");
 const downloadValidations = require("../../middlewares/validations/downloadValidationsMDW");
+const youtubeValidations = require("../../middlewares/validations/youtubeValidationsMDW");
 
 //Routes
 router.get("/index", controller.coursesIndex);
@@ -27,6 +28,6 @@ router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH
 router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
-router.post("/newYoutube/:courseID/:classID/:topicID", controller.newYoutube);
+router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 
 module.exports = router;
