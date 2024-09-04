@@ -250,6 +250,15 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newImage:  function(req, res){
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newImage/:courseID/:classID/:topicID`;
+        let linkData = utilities.newImage(req.body, req.file);
+        let data = utilities.newSection(courseID,classID,topicID,linkData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+        return res.json(info)
+    },
 }
 
 module.exports = courseApiController
