@@ -1,11 +1,15 @@
 //Middleware de configuración de multer para rutas de usuarios
 const path = require('path');
 const multer = require('multer');
+const fs = require('fs');
 
 const storage = multer.diskStorage({
     
     destination: function(req, file, cb){
-        cb(null, path.join(__dirname, "../../../public/images/"))
+        let {courseID, classID, topicID} = req.params;
+        let uploadPath = path.join(__dirname, "../../../public/images", courseID, classID, topicID);
+        fs.mkdirSync(uploadPath, { recursive: true });
+        cb(null, uploadPath)
     },
 
     filename: function(req,file, cb){
