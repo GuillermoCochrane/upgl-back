@@ -307,16 +307,15 @@ const pythonFunctions = {
         return info;
     },
 
-    newImage: function(data, file){
+    newImage: function(data, file, params){
         let info = {};
+        let {courseID, classID, topicID} = params;
         info.type = data && data.type ? data.type : "";
-        info.info = [
-            {
-                img : file ? `/images/${file.filename}`: "",
-                alt: data && data.alt ? data.alt : "",
-                title: data && data.title ? data.title : "",
-            }
-        ];
+        info.info = {
+            img : file ? `images/${courseID}/${classID}/${topicID}/${file.filename}`: "",
+            alt: data && data.alt ? data.alt : "",
+            title: data && data.title ? data.title : "",
+        };
         return info;
     },
 }
