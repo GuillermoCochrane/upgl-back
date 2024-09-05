@@ -252,12 +252,18 @@ const courseApiController = {
     },
 
     newImage:  function(req, res){
+        let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
         let endpoint =  `api/newImage/:courseID/:classID/:topicID`;
-        let linkData = utilities.newImage(req.body, req.file, req.params);
-        let data = utilities.newSection(courseID,classID,topicID,linkData);
-        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
-        return res.json(info)
+        if (errors.isEmpty()){
+            let linkData = utilities.newImage(req.body, req.file, req.params);
+            let data = utilities.newSection(courseID,classID,topicID,linkData);
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info)
+        }
     },
 }
 
