@@ -267,8 +267,13 @@ const courseApiController = {
     },
 
     newAnswer: function(req, res){
-        res.send("newAnswer");
-    },
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newAnswer/:courseID/:classID/:topicID`;
+        let linkData = utilities.newImage(req.body, req.file, req.params);
+        let data = utilities.newSection(courseID,classID,topicID,linkData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+        return res.json(info)
+},
 }
 
 module.exports = courseApiController
