@@ -9,6 +9,7 @@ const classValidations = require("../../middlewares/validations/classesValidatio
 const topicValidations = require("../../middlewares/validations/topicValidationsMDW");
 const courseValidations = require("../../middlewares/validations/courseValidationsMDW");
 const h3Validations = require("../../middlewares/validations/h3ValidationsMDW");
+const pValidations = require("../../middlewares/validations/pValidationsMDW");
 const linkValidations = require("../../middlewares/validations/linkValidationsMDW");
 const downloadValidations = require("../../middlewares/validations/downloadValidationsMDW");
 const youtubeValidations = require("../../middlewares/validations/youtubeValidationsMDW");
@@ -34,7 +35,7 @@ router.post("/newClass/:courseID", classValidations, controller.newClass);
 router.post("/newTopic/:courseID/:classID", topicValidations,controller.newTopic);
 router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH3);
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
-router.post("/newP/:courseID/:classID/:topicID", h3Validations, controller.newP);
+router.post("/newP/:courseID/:classID/:topicID", pValidations, controller.newP);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
