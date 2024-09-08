@@ -16,13 +16,66 @@
     "classData": [
       {
         "topic": 1,
-        "sections": 0,
+        "sections": 4,
         "available": true,
         "linkData": {
           "title": "Tema de prueba",
           "link": "/courses/Test/class/1/1"
         },
-        "topicData": []
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Título principal del tema nuevo",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Este es el primer tema ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Todo lo hecho hasta ahora, lo hicimos con el panel de control de la pagina. En el mismo podemos crear curso, clases, temas, y añadir secciones a ellos. Este es un ejemplo de un tema con 4 secciones. ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Como se puede ver, podemos hacer párrafos separados. Cada sección tiene un tipo de contenido y un título. Los títulos pueden tener estilos, como negrita, cursiva, etc. También podemos agregar enlaces, descargas, videos, imágenes y respuestas a preguntas. Todo esto se puede hacer desde el panel de control.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
