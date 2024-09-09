@@ -379,6 +379,18 @@ const pythonFunctions = {
         info.info = [];
         return info;
     },
+
+    newLi: function(data){
+        let info = {};
+        info.type = data && data.type ? data.type : "li";
+        info.info = [
+            {
+                text: data && data.text ? data.text : "",
+                content: data && data.content ? data.content : "plain"
+            }
+        ];
+        return info;
+    },
 }
 
 
