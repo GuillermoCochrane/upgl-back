@@ -3,6 +3,7 @@ const fs = require('fs');
 const { type } = require('os');
 const path = require('path');
 const { title } = require('process');
+const { newList } = require('../Controllers/API/courseApiController');
 
 const pythonFunctions = {
 
@@ -316,6 +317,13 @@ const pythonFunctions = {
             alt: data && data.alt ? data.alt : "",
             title: data && data.title ? data.title : "",
         };
+        return info;
+    },
+
+    newList: function(data){
+        let info = {};
+        info.type = data && data.type ? data.type : "";
+        info.info = [];
         return info;
     },
 }
