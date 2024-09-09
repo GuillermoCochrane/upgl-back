@@ -14,6 +14,7 @@ const linkValidations = require("../../middlewares/validations/linkValidationsMD
 const downloadValidations = require("../../middlewares/validations/downloadValidationsMDW");
 const youtubeValidations = require("../../middlewares/validations/youtubeValidationsMDW");
 const imageValidations = require("../../middlewares/validations/imageValidationsMDW");
+const listValidations = require("../../middlewares/validations/listValidationsMDW");
 
 //Multer
 const imageMulterMDW = require("../../middlewares/multer/imageMulterMDW");
@@ -41,7 +42,7 @@ router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, con
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
-router.post("/newList/:courseID/:classID/:topicID", controller.newList);
+router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.newList);
 router.post("/newLi/:courseID/:classID/:topicID/:sectionID", controller.newLi);
 
 module.exports = router;
