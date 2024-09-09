@@ -297,7 +297,12 @@ const courseApiController = {
     },
 
     newLi: function(req, res){
-        res.send("item de Lista");
+        let {courseID, classID, topicID, sectionID} = req.params;
+        let endpoint =  `api/newLi/:courseID/:classID/:topicID/:sectionID`;
+        let liData = utilities.newLi(req.body);
+        let data = utilities.addLi(courseID,classID,topicID,sectionID,liData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, liData.liID);
+        return res.json(info)
     },
 }
 
