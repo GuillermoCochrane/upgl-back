@@ -279,6 +279,49 @@ const pythonFunctions = {
         return newSection;
     },
 
+    addLi: function(course, classID, topicID, sectionID, data){
+        let allClasses = this.allEntries(course);
+        let classTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let sectionLis = topicSections.filter(section => section.id == sectionID)[0].info;
+        let newLiID = this.newLiID(course, classID, topicID, sectionID);
+
+        let newLi = {
+            type: data ? data.type : "li",
+            liID: newLiID,
+            order: newLiID,
+            available: true,
+            stubs: data ? data.info.length  : 0,
+            info:  data ? data.info : [],
+        };
+
+        sectionLis.push(newLi);
+
+        for (const section of topicSections){
+            if (section.id == sectionID){
+                section.info = sectionLis;
+                section.stubs = sectionLis.length;
+            }
+        }
+
+        for (const topic of classTopics){
+            if (topic.topic == topicID){
+                topic.topicData = topicSections;
+                topic.sections = topicSections.length;
+            }
+        }
+
+        for (const lesson of allClasses){
+            if (lesson.class == classID){
+                lesson.classData = classTopics;
+                lesson.topics = classTopics.length;
+            }
+        }
+        this.store(allClasses, course);
+
+        return newLi;
+    },
+
     newTitle : function(data){
         let info = {};
         info.type = data && data.type ? data.type : " ";
