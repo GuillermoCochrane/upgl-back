@@ -280,6 +280,10 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newList: function(req, res){
+        res.send("Lista");
+    },
 }
 
 module.exports = courseApiController

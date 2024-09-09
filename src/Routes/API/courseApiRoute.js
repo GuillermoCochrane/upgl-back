@@ -41,5 +41,6 @@ router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, con
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
+router.post("/newList/:courseID/:classID/:topicID", controller.newList);
 
 module.exports = router;
