@@ -284,6 +284,10 @@ const courseApiController = {
     newList: function(req, res){
         res.send("Lista");
     },
+
+    newLi: function(req, res){
+        res.send("item de Lista");
+    },
 }
 
 module.exports = courseApiController
