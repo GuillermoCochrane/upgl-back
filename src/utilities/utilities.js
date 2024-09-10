@@ -1,11 +1,7 @@
-const { info } = require('console');
 const fs = require('fs');
-const { type } = require('os');
 const path = require('path');
-const { title } = require('process');
-const { newList } = require('../Controllers/API/courseApiController');
 
-const pythonFunctions = {
+const utilities = {
 
     dBselector: function(course){
         let database = path.join(__dirname, `../data/${course}DB.json`);
@@ -395,4 +391,4 @@ const pythonFunctions = {
 }
 
 
-module.exports = pythonFunctions
+module.exports = utilities
