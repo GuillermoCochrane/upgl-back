@@ -111,7 +111,7 @@ const pythonFunctions = {
         return topicData;
     },
 
-    endpointSuccess: function(endpoint, data, courseID, classID, topicID, sectionID){
+    endpointSuccess: function(endpoint, data, courseID, classID, topicID, sectionID, liID){
         let info = {
             meta: {
                 status : 201,
@@ -124,6 +124,7 @@ const pythonFunctions = {
         classID ? info.meta.class = parseInt(classID) : null;
         topicID ? info.meta.topic = parseInt(topicID) : null;
         sectionID ? info.meta.section = parseInt(sectionID) : null;
+        liID ? info.meta.liID = parseInt(liID) : null;
         return info
     },
 
