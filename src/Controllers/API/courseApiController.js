@@ -297,12 +297,18 @@ const courseApiController = {
     },
 
     newLi: function(req, res){
+        let errors = validationResult(req);
         let {courseID, classID, topicID, sectionID} = req.params;
         let endpoint =  `api/newLi/:courseID/:classID/:topicID/:sectionID`;
-        let liData = utilities.newLi(req.body);
-        let data = utilities.addLi(courseID,classID,topicID,sectionID,liData);
-        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, liData.liID);
-        return res.json(info)
+        if (errors.isEmpty()){
+            let liData = utilities.newLi(req.body);
+            let data = utilities.addLi(courseID,classID,topicID,sectionID,liData);
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.liID);
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info)
+        }
     },
 }
 
