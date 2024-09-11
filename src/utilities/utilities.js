@@ -286,7 +286,7 @@ const utilities = {
         let newLi = {
             type: data ? data.type : "li",
             liID: newLiID,
-            order: newLiID,
+            order: data ? data.order : newLiID,
             available: true,
             stubs: data ? data.info.length  : 0,
             info:  data ? data.info : [],
@@ -383,7 +383,8 @@ const utilities = {
         info.info = [
             {
                 text: data && data.text ? data.text : "",
-                content: data && data.content ? data.content : "plain"
+                content: data && data.content ? data.content : "plain",
+                order: data && data.order ? data.order : 1
             }
         ];
         return info;
