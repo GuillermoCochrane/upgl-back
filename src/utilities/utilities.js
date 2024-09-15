@@ -380,11 +380,11 @@ const utilities = {
     newLi: function(data){
         let info = {};
         info.type = data && data.type ? data.type : "li";
+        info.order = data && data.order ? data.order : 1
         info.info = [
             {
                 text: data && data.text ? data.text : "",
                 content: data && data.content ? data.content : "plain",
-                order: data && data.order ? data.order : 1
             }
         ];
         return info;
