@@ -329,6 +329,48 @@ const utilities = {
         return newLi;
     },
 
+    addStub: function(course, classID, topicID, sectionID, data){
+        let allClasses = this.allEntries(course);
+        let classTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let sectionStubs = topicSections.filter(section => section.id == sectionID)[0].info;
+        let newStubID = this.newStubID(course, classID, topicID, sectionID);
+
+        let newStub = {
+            stubID: newStubID,
+            order: data ? data.order : newStubID,
+            available: true,
+            text: data ? data.info[0].text : "",
+            content: data ? data.info[0].content : "plain",
+        };
+
+        sectionStubs.push(newStub);
+
+        for (const section of topicSections){
+            if (section.id == sectionID){
+                section.info = sectionStubs;
+                section.stubs = sectionStubs.length;
+            }
+        }
+
+        for (const topic of classTopics){
+            if (topic.topic == topicID){
+                topic.topicData = topicSections;
+                topic.sections = topicSections.length;
+            }
+        }
+
+        for (const lesson of allClasses){
+            if (lesson.class == classID){
+                lesson.classData = classTopics;
+                lesson.topics = classTopics.length;
+            }
+        }
+        this.store(allClasses, course);
+
+        return newStub;
+    },
+
     newTitle : function(data){
         let info = {};
         info.type = data && data.type ? data.type : " ";
