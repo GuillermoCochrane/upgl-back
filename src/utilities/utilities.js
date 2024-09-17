@@ -171,6 +171,16 @@ const utilities = {
         return newLiID;
     },
 
+    newStubID : function(course, classID, topicID, sectionID){
+        let data = this.allEntries(course);
+        let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let section = topicSections.filter(section => section.id == sectionID)[0];
+        let lastStub = section.info.pop();
+        let newStub = lastStub ? lastStub.stubID + 1 : 1;
+        return newStub;
+    },
+
     newCourse: function(data){
         let allCourses = this.allEntries("courses");
         let id = data.name.split(" ").join("").toLowerCase();
