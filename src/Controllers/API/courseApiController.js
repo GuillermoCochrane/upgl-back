@@ -310,6 +310,10 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newStub: function(req, res){
+        res.send("funciona");
+    },
 }
 
 module.exports = courseApiController
