@@ -312,7 +312,13 @@ const courseApiController = {
     },
 
     newStub: function(req, res){
-        res.send("funciona");
+        let {courseID, classID, topicID, sectionID} = req.params;
+        let endpoint =  `api/newStub/:courseID/:classID/:topicID/:sectionID`;
+        let stubData = utilities.newLi(req.body);
+        let data = utilities.addStub(courseID,classID,topicID,sectionID,stubData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.stubID);
+        return res.json(info)
+        
     },
 }
 
