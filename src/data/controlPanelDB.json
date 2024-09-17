@@ -73,10 +73,6 @@
         {
             "id": "ol",
             "title": "Lista numerada"
-        },
-        {
-            "id": "table",
-            "title": "Tabla"
         }
     ],
     "styles": [
