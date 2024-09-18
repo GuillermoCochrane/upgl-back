@@ -191,21 +191,6 @@ const courseApiController = {
         }
     },
 
-    newP: function(req, res){
-        let errors = validationResult(req);
-        let { courseID, classID, topicID } = req.params;
-        let endpoint =  `api/newP/:courseID/:classID/:topicID`;
-        if (errors.isEmpty()){
-            let pData = utilities.newTitle(req.body);
-            let data = utilities.newSection(courseID,classID,topicID,pData);
-            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
-            return res.json(info)
-        } else {
-            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
-            return res.json(info)
-        }
-    },
-
     newLink: function(req, res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
@@ -273,6 +258,21 @@ const courseApiController = {
         if (errors.isEmpty()){
             let linkData = utilities.newImage(req.body, req.file, req.params);
             let data = utilities.newSection(courseID,classID,topicID,linkData);
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info)
+        }
+    },
+
+    newP: function(req, res){
+        let errors = validationResult(req);
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newP/:courseID/:classID/:topicID`;
+        if (errors.isEmpty()){
+            let pData = utilities.newList(req.body);
+            let data = utilities.newSection(courseID,classID,topicID,pData);
             let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
             return res.json(info)
         } else {
