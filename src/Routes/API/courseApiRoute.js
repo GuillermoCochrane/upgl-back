@@ -45,6 +45,6 @@ router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("ima
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
 router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.newList);
 router.post("/newLi/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newLi);
-router.post("/newStub/:courseID/:classID/:topicID/:sectionID", controller.newStub);
+router.post("/newStub/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newStub);
 
 module.exports = router;
