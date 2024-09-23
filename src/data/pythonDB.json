@@ -18806,5 +18806,186 @@
         ]
       }
     ]
+  },
+  {
+    "class": 12,
+    "available": true,
+    "topics": 7,
+    "summary": "Funciones en Python",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Funciones en Python (⚙)",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "sections": 5,
+        "linkData": {
+          "title": "Definición de funciones",
+          "link": "/courses/Python/class/12/1"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Definición de funciones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Las funciones en python son bloques de código reutilizables que se ejecutan cuando son llamadas. Ayudan a organizar el codigo, lo hacen mas legible y ¡permiten reutilizar código!",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Las Funciones tienen las siguientes ventajas: ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Reutilización de Código: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Las funciones permiten escribir una vez y se pueden usar en cualquier parte del codigo. Esto evita duplicación de código y facilita el mantenimiento.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Organizacion y Legibilidad: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Las funciones ayudan a organizar el código en bloques lógicos. Al dar nombres descriptivos a las funciones, el código se vuelve más legible y comprensible.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Abstracción: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Las funciones ocultan los detalles de implementación.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Modularidad: ",
+                    "content": "bold"
+                  },
+                  { 
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Divide un problema grande en problemas más pequeños.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En resumen, las funciones son una herramienta poderosa en Python. Usalas con moderación y de manera inteligente para aprovechar sus beneficios mientras evitas sus desventajas.",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
