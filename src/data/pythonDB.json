@@ -19476,6 +19476,154 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 4,
+        "available": true,
+        "sections": 2,
+        "linkData": {
+          "title": "Buenas prácticas con funciones",
+          "link": "/courses/Python/class/12/4"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Buenas Prácticas con Funciones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Nombres Descriptivos: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Recuerda elegir nombres que describan claramente lo que hace la función.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Documentación: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Usa documentos o comentarios para explicar que hace la función y que parámetros espera(te será de ayuda dias después de programar algo).",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Código limpio: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Manten las funciones enfocadas en una sola acción o propósito.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Las funciones son herramientas esenciales que te permiten escribir código más modular y mantenible.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 5,
+                "order": 5,
+                "available": true,
+                "stubs": 3,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Recorda que los nombres van en ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "snake_case:",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": " (ej: mi_función)",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
