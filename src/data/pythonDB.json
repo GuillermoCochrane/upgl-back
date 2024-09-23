@@ -19216,6 +19216,266 @@
             }
           }
         ]
+      },
+      {
+        "topic": 3,
+        "available": true,
+        "sections": 10,
+        "linkData": {
+          "title": "Decoradores de funciones",
+          "link": "/courses/Python/class/12/3"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Decoradores de Funciones",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Dentro de las funciones podemos ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "decorarla",
+                "content": "italic"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " para ayudarnos en un futuro a recordar que hace, declarando los datos que espera y la salida que pensamos darle, esto es simplemente visual ya que Python no es fuertemente tipado, por lo que dentro de la función tendremos que hacer la logica para que por ejemplo de un str obtengamos en el return un int.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 7,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Estos decoradores van en los parámetros donde después del nombre de la variable colocamos ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": ":",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " y el tipo de dato esperado y al final de la declaración con ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": ":",
+                "content": "bold"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": " podemos colocar la salida esperada, en este caso texto esperamos que sea un str y ",
+                "content": "plain"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "valor_de_retorno",
+                "content": "italic"
+              },
+              {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
+                "text": " un int.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/decoradores.png",
+              "alt": "Decoradores de Funciones",
+              "title": "Decoradores de Funciones"
+            }
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Pero no solo eso, tambien podemos agregarle un atributo extra en los parámetros para poner por defecto en caso de que el usuario no coloque nada y sean si o si necesarios para la lógica de la función, usando la siguiente expresión: ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " | None = (valor por defecto).",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/decoradores2.png",
+              "alt": "Decoradores de Funciones",
+              "title": "Decoradores de Funciones"
+            }
+          },
+          {
+            "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En este caso, cuando le pasamos un parametro a nuestra función ",
+                "content": "plain"
+              },
+              {
+                "text": "numero()",
+                "content": "italic"
+              },
+              {
+                "text": " tomará lo que tiene dentro de los parentesis como parametro para imprimir el primer mensaje.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/decoradores3.png",
+              "alt": "Decoradores de Funciones",
+              "title": "Decoradores de Funciones"
+            }
+          },
+          {
+            "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "En este otro ejemplo realizamos una función que se encargue de hacer bucles y buscar el mayor entre X cantidad de números, en caso de no especificárselo dentro de los parentesis nos dará dos como predeterminado.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "calcular(): ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Da dos Intentos.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "calcular(5): ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Da cinco Intentos.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
