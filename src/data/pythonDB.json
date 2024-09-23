@@ -19624,6 +19624,260 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 5,
+        "available": true,
+        "sections": 10,
+        "linkData": {
+          "title": "Funciones lambda",
+          "link": "/courses/Python/class/12/5"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Funciones Lambda",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Las funciones lambda son una forma de crear funciones anónimas en una sola línea. Son utiles cuando necesitas una función por corto periodo de tiempo y no queres definirla con ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "def.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Su Sintaxis es:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/funciones_lambda.png",
+              "alt": "Funciones Lambda",
+              "title": "Funciones Lambda"
+            }
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Para ver la diferencia con una función normal, volveremos a usar la que ya vimos ",
+                "content": "plain"
+              },
+              { 
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "sumar.",
+                "content": "italic"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " Con lambda se veria asi:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/funciones_lambda2.png",
+              "alt": "Funciones Lambda",
+              "title": "Funciones Lambda"
+            }
+          },
+          {
+            "type": "h4",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ventajas de las funciones Lambda",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Son útiles para funciones simples y temporales.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Se pueden usar en expresiones como argumentos de otras funciones.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Reducen la necesidad de declarar funciones completas.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Desventajas de las funciones Lambda",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Son limitadas en funciónalidad(solo una expresión)",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "No son tan legibles como las funciones regulares.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 1,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "No tienen nombres descriptivos.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
