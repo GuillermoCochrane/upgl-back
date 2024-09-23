@@ -19878,6 +19878,639 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 6,
+        "available": true,
+        "sections": 2,
+        "linkData": {
+          "title": "Actividades",
+          "link": "/courses/Python/class/12/6"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Actividades 💬",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 1:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Crea una función que nos salude por consola.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_1.png",
+                "alt": "Solución Ejercicio 1",
+                "title": "Solución Ejercicio 1"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 2:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Crea una función para calcular el área de un cuadrado.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_2.png",
+                "alt": "Solución Ejercicio 2",
+                "title": "Solución Ejercicio 2"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 8,
+            "order": 8,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 3:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 9,
+            "order": 9,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Crea una función para ordenar una lista de palabras.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 10,
+            "order": 10,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_3.png",
+                "alt": "Solución Ejercicio 3",
+                "title": "Solución Ejercicio 3"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 11,
+            "order": 11,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 4:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 12,
+            "order": 12,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Función Verificar si un número es par o impar.",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 13,
+            "order": 13,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_4.png",
+                "alt": "Solución Ejercicio 4",
+                "title": "Solución Ejercicio 4"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 14,
+            "order": 14,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 5:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 15,
+            "order": 15,
+            "available": true,
+            "stubs": 10,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Función de conversión de Temperatura. (Facil): ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Escribe una función que convierta la temperatura de Celsius a Fahrenheit y viceversa. ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": "La función debe aceptar dos argumentos: ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "el valor de la temperatura",
+                "content": "italic"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": " y ",
+                "content": "plain"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "una cadena",
+                "content": "italic"
+              },
+              {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
+                "text": " que indique si se está convirtiendo a ",
+                "content": "plain"
+              },
+              {
+                "stubID": 8,
+                "order": 8,
+                "available": true,
+                "text": "Celsius('C') ",
+                "content": "bold"
+              },
+              {
+                "stubID": 9,
+                "order": 9,
+                "available": true,
+                "text": "o a ",
+                "content": "plain"
+              },
+              {
+                "stubID": 10,
+                "order": 10,
+                "available": true,
+                "text": "Fahrenheit('F').",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 16,
+            "order": 16,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Una ayuda practica ¡se necesita usar if, elif y else!",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 17,
+            "order": 17,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Fórmula celsius: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": " (temperatura - 32) * 5/9",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 18,
+            "order": 18,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Fórmula Fahrenheit: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "temperatura * 9/5 + 32",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 19,
+            "order": 19,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_5.png",
+                "alt": "Solución Ejercicio 5",
+                "title": "Solución Ejercicio 5"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 20,
+            "order": 20,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 6:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 21,
+            "order": 21,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Función de Calculo Factorial. (Facil): ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Escribe una función que calcule el factorial de un numero dado. El factorial de un número entero positivo se define como el producto de todos los enteros positivos menores o iguales al número. ",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 22,
+            "order": 22,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Ejemplo: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Factorial de 4 = 24(4 x 3 x 2 x 1)",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 23,
+            "order": 23,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_6.png",
+                "alt": "Solución Ejercicio 6",
+                "title": "Solución Ejercicio 6"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 24,
+            "order": 24,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 7:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 25,
+            "order": 25,
+            "available": true,
+            "stubs": 7,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Función de Secuencia Fibonacci (Medio): ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Desarrolla una función que genere una lista con los primeros ",
+                "content": "plain"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " 'n' ",
+                "content": "bold"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "números de la secuencia de Fibonacci, donde cada número es la suma de los dos anteriores comenzando con ",
+                "content": "plain"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": "0 ",
+                "content": "bold"
+              },
+              {
+                "stubID": 6,
+                "order": 6,
+                "available": true,
+                "text": "y ",
+                "content": "plain"
+              },
+              {
+                "stubID": 7,
+                "order": 7,
+                "available": true,
+                "text": "1. ",
+                "content": "bold"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 26,
+            "order": 26,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Ejemplo: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "el décimo número de la secuencia es: 34",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 27,
+            "order": 27,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_7.png",
+                "alt": "Solución Ejercicio 7",
+                "title": "Solución Ejercicio 7"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 28,
+            "order": 28,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 8:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 29,
+            "order": 29,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Función de encontrar el maximo entre 3 numeros: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Cree una función que permita ingresar 3 números y nos muestre cual es el mayor",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 30,
+            "order": 30,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_8.png",
+                "alt": "Solución Ejercicio 8",
+                "title": "Solución Ejercicio 8"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 31,
+            "order": 31,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejercicio 9:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 32,
+            "order": 32,
+            "available": true,
+            "stubs": 2,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Generar una lista de números aleatorios: ",
+                "content": "bold"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "Generar un programa que permita el ingreso de la cantidad de numeros aleatorios a generar y los muestre.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "answer",
+            "id": 33,
+            "order": 33,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "img": "/images/Python/class12/ejercicio_9.png",
+                "alt": "Solución Ejercicio 9",
+                "title": "Solución Ejercicio 9"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
