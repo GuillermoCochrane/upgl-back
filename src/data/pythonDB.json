@@ -18985,6 +18985,237 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "sections": 6,
+        "linkData": {
+          "title": "Sintaxis de una función",
+          "link": "/courses/Python/class/12/2"
+        },
+        "topicData": [
+          { 
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Sintaxis de una Función",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/funciones_sintaxis.png",
+              "alt": "Sintaxis de una Función",
+              "title": "Sintaxis de una Función"
+            }
+          },
+          {
+            "type": "ul",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 4,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "def: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "es la ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "palabra clave",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " que indica la definicion de una función.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 6,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "nombre_de_la_función: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "es el identificador ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "único",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " que usamos para llamar a la función.",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
+                    "text": "En Python, la convención para nombrar funciones es usar letras minúsculas con palabras separadas por guiones bajos. Esto se conoce como ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 6,
+                    "order": 6,
+                    "available": true,
+                    "text": "snake_case.",
+                    "content": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 2,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "parametros: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "son variables opcionales que pasamos a la función.",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 4,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "return: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "es la ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "palabra clave",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " que devuelve valor desde la función al llamador.",
+                    "content": "plain"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejemplos de Uso",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Una simple función que suma dos números:",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class12/funciones_sumar.png",
+              "alt": "Función que suma 2 números",
+              "title": "Función que suma 2 números"
+            }
+          }
+        ]
       }
     ]
   }
