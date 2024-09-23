@@ -20537,5 +20537,295 @@
         ]
       }
     ]
+  },
+  {
+    "class": 13,
+    "available": true,
+    "topics": 6,
+    "summary": "Programación Orientada a Objetos",
+    "title": {
+      "type": "h2",
+      "info": [
+        {
+          "text": "Programación Orientada a Objetos (POO) 🧩",
+          "content": "plain"
+        }
+      ]
+    },
+    "classData": [
+      {
+        "topic": 1,
+        "available": true,
+        "sections": 4,
+        "linkData": {
+          "title": "Programación Orientada a Objetos",
+          "link": "/courses/Python/class/13/1"
+        },
+        "topicData": [
+          { 
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Programación Orientada a Objetos (POO)",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "La Programación Orientada a Objetos (POO) es una manera de pensar y organizar el código que resulta muy útil cuando se quiere crear software complejo. En lugar de escribir todo en un solo bloque de código, la POO permite dividir el programa en pequeñas \"cajas\" llamadas ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "objetos ",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " que contienen tanto datos como funciones para manipular esos datos.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Conceptos Básicos de POO",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 4,
+            "info": [
+              {
+                "type": "li",
+                "liID": 1,
+                "order": 1,
+                "available": true,
+                "stubs": 5,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Objetos: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Un ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "objeto",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " es algo que representa una cosa en tu programa, y puede hacer cosas (métodos) o tener datos (atributos). Los objetos son creados a partir de ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
+                    "text": "clases.",
+                    "content": "italic"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 2,
+                "order": 2,
+                "available": true,
+                "stubs": 4,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Clases: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Una ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "clase",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " es un plano o plantilla para crear objetos. Es como una receta que te dice qué ingredientes necesitas (atributos) y cómo prepararlos (métodos).",
+                    "content": "plain"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 3,
+                "order": 3,
+                "available": true,
+                "stubs": 9,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Atributos: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Los ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "atributos",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " son como las variables que pertenecen a un objeto. Por ejemplo, un objeto ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
+                    "text": "'Coche'",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 6,
+                    "order": 6,
+                    "available": true,
+                    "text": " podría tener atributos como ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 7,
+                    "order": 7,
+                    "available": true,
+                    "text": "'color', 'marca' ",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 8,
+                    "order": 8,
+                    "available": true,
+                    "text": " y ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 9,
+                    "order": 9,
+                    "available": true,
+                    "text": "'modelo'.",
+                    "content": "italic"
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "liID": 4,
+                "order": 4,
+                "available": true,
+                "stubs": 5,
+                "info": [
+                  {
+                    "stubID": 1,
+                    "order": 1,
+                    "available": true,
+                    "text": "Métodos: ",
+                    "content": "bold"
+                  },
+                  {
+                    "stubID": 2,
+                    "order": 2,
+                    "available": true,
+                    "text": "Los ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 3,
+                    "order": 3,
+                    "available": true,
+                    "text": "métodos",
+                    "content": "italic"
+                  },
+                  {
+                    "stubID": 4,
+                    "order": 4,
+                    "available": true,
+                    "text": " son funciones que pertenecen a un objeto. Estos métodos pueden hacer cosas, como encender un coche o acelerar. Los métodos se llaman usando la notación de punto: ",
+                    "content": "plain"
+                  },
+                  {
+                    "stubID": 5,
+                    "order": 5,
+                    "available": true,
+                    "text": "miObjeto.miMetodo().",
+                    "content": "bold"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
