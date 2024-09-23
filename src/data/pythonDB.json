@@ -19882,7 +19882,7 @@
       {
         "topic": 6,
         "available": true,
-        "sections": 2,
+        "sections": 33,
         "linkData": {
           "title": "Actividades",
           "link": "/courses/Python/class/12/6"
@@ -20507,6 +20507,30 @@
                 "img": "/images/Python/class12/ejercicio_9.png",
                 "alt": "Solución Ejercicio 9",
                 "title": "Solución Ejercicio 9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "topic": 7,
+        "available": true,
+        "sections": 1,
+        "linkData": {
+          "title": "Bonus track",
+          "link": "/courses/Python/class/12/7"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Bonus Track: ",
+                "content": "plain"
               }
             ]
           }
