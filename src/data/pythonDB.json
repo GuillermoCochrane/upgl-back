@@ -21368,6 +21368,80 @@
             ]
           }   
         ]
+      },
+      {
+        "topic": 4,
+        "available": true,
+        "sections": 5,
+        "linkData": {
+          "title": "Ejemplos Prácticos",
+          "link": "/courses/Python/class/13/4"
+        },
+        "topicData": [  
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Ejemplos Prácticos",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Creando una Clase de Vehículo",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class13/vehiculo.png",
+              "alt": "Definimos el objeto de vehículo",
+              "title": "Definimos el objeto de vehículo"
+            }
+          },
+          {
+            "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Creando una Clase de Persona",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 1,
+            "info": {
+              "img": "/images/Python/class13/persona.png",
+              "alt": "Definimos la clase de persona",
+              "title": "Definimos la clase de persona"
+            }
+          }
+        ]
       }
     ]
   }
