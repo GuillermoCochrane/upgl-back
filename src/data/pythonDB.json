@@ -20825,6 +20825,173 @@
             ]
           }
         ]
+      },
+      {
+        "topic": 2,
+        "available": true,
+        "sections": 7,
+        "linkData": {
+          "title": "Creación y Uso de Objetos",
+          "link": "/courses/Python/class/13/2"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Creación y Uso de Objetos",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 2,
+            "order": 2,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Creando Instancias",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 3,
+            "order": 3,
+            "available": true,
+            "stubs": 5,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Para crear un objeto a partir de una clase, se utiliza la palabra clave ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "__init__",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": " (constructor) que se llama automáticamente cuando se crea un objeto. En Python, no se utiliza ",
+                "content": "plain"
+              },
+              {
+                "stubID": 4,
+                "order": 4,
+                "available": true,
+                "text": "new",
+                "content": "bold"
+              },
+              {
+                "stubID": 5,
+                "order": 5,
+                "available": true,
+                "text": ", simplemente se llama a la clase. Cada objeto creado es una instancia única de la clase.",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 4,
+            "order": 4,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Accediendo a Atributos",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Se acceden a los atributos de un objeto utilizando la notación de punto. Por ejemplo, ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "objeto.atributo",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ".",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "h4",
+            "id": 6,
+            "order": 6,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Invocando Métodos",
+                "content": "plain"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "id": 7,
+            "order": 7,
+            "available": true,
+            "stubs": 3,
+            "info": [
+              {
+                "stubID": 1,
+                "order": 1,
+                "available": true,
+                "text": "Se invocan métodos de un objeto utilizando la notación de punto seguida del nombre del método y argumentos entre paréntesis. Por ejemplo, ",
+                "content": "plain"
+              },
+              {
+                "stubID": 2,
+                "order": 2,
+                "available": true,
+                "text": "objeto.metodo(argumento1, argumento2)",
+                "content": "bold"
+              },
+              {
+                "stubID": 3,
+                "order": 3,
+                "available": true,
+                "text": ".",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
