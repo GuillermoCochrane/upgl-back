@@ -21626,7 +21626,31 @@
             ]
           }
         ]
-      }
+      },
+      {
+        "topic": 6,
+        "available": true,
+        "sections": 1,
+        "linkData": {
+          "title": "Bonus track",
+          "link": "/courses/Python/class/13/6"
+        },
+        "topicData": [
+          {
+            "type": "h3",
+            "id": 1,
+            "order": 1,
+            "available": true,
+            "stubs": 1,
+            "info": [
+              {
+                "text": "Bonus Track: ",
+                "content": "plain"
+              }
+            ]
+          }
+        ]
+      } 
     ]
   }
 ]
