@@ -221,6 +221,10 @@ const courseApiController = {
         }
     },
 
+    newLocalDownload: function(req, res){
+        return res.send("Nueva descarga local")
+    },
+
     newYoutube: function(req, res){
         errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;

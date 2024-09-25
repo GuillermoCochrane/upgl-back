@@ -39,8 +39,9 @@ router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
-router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
+router.post("/newLocalDownload/:courseID/:classID/:topicID", controller.newLocalDownload);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
+router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
 router.post("/newP/:courseID/:classID/:topicID", pValidations, controller.newP);
 router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.newList);
