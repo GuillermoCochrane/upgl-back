@@ -422,6 +422,19 @@ const utilities = {
         return info;
     },
 
+    newFile: function(data, file, params){
+        let info = {};
+        let {courseID, classID, topicID} = params;
+        info.type = data && data.type ? data.type : "";
+        info.info = {
+            file : file ? `docs/${courseID}/${classID}/${topicID}/${file.filename}`: "",
+            filename: file && file.filename ? file.filename : "",
+            text: data && data.text ? data.text : "",
+            content: data && data.content ? data.content : "plain"
+        };
+        return info;
+    },
+
     newList: function(data){
         let info = {};
         info.type = data && data.type ? data.type : "";
