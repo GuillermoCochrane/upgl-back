@@ -7,7 +7,7 @@ const storage = multer.diskStorage({
     
     destination: function(req, file, cb){
         let {courseID, classID, topicID} = req.params;
-        let uploadPath = path.join(__dirname, "../../../public/images", courseID, classID, topicID);
+        let uploadPath = path.join(__dirname, "../../../public/docs", courseID, classID, topicID);
         fs.mkdirSync(uploadPath, { recursive: true });
         cb(null, uploadPath)
     },
