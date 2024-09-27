@@ -13,9 +13,13 @@ const storage = multer.diskStorage({
     },
 
     filename: function(req,file, cb){
-        let {title} = req.body;
-        title = title.split(' ').join('_');
-        let newFileName =  `${title}_${Date.now()}${path.extname(file.originalname)}`
+        let {text} = req.body;
+        let textArray = text.split(' ');
+        if (textArray.length > 1) {
+            textArray.shift();
+        }
+        text = textArray.join('_');
+        let newFileName =  `${text}_${Date.now()}${path.extname(file.originalname)}`
         cb(null, newFileName)
     }
 })
