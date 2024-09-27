@@ -224,7 +224,7 @@ const courseApiController = {
     newLocalDownload: function(req, res){
         let { courseID, classID, topicID } = req.params;
         let endpoint =  `api/newLocalDownload/:courseID/:classID/:topicID`;
-        let linkData = utilities.newFile(req.body,null,req.params);
+        let linkData = utilities.newFile(req.body,req.file,req.params);
         let data = utilities.newSection(courseID,classID,topicID,linkData);
         let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
         return res.json(info)
