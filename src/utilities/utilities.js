@@ -429,7 +429,7 @@ const utilities = {
         info.info = {
             file : file ? `docs/${courseID}/${classID}/${topicID}/${file.filename}`: "",
             filename: file && file.filename ? file.filename : "",
-            text: data && data.title ? data.title : "",
+            text: data && data.text ? data.text : "",
             content: data && data.content ? data.content : "plain"
         };
         return info;
