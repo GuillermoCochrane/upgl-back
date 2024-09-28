@@ -16,6 +16,7 @@ const youtubeValidations = require("../../middlewares/validations/youtubeValidat
 const imageValidations = require("../../middlewares/validations/imageValidationsMDW");
 const listValidations = require("../../middlewares/validations/listValidationsMDW");
 const liValidations = require("../../middlewares/validations/liValidationsMDW");
+const localFilesValidations = require("../../middlewares/validations/localFilesValidationsMDW");
 
 //Multer
 const imageMulterMDW = require("../../middlewares/multer/imageMulterMDW");
@@ -39,7 +40,7 @@ router.post("/newH3/:courseID/:classID/:topicID", h3Validations, controller.newH
 router.post("/newH4/:courseID/:classID/:topicID", h3Validations, controller.newH4);
 router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.newLink);
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
-router.post("/newLocalDownload/:courseID/:classID/:topicID", fileMulterMDW.single("file"), controller.newLocalDownload);
+router.post("/newLocalDownload/:courseID/:classID/:topicID", fileMulterMDW.single("file"), localFilesValidations, controller.newLocalDownload);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
