@@ -1,7 +1,7 @@
 const path = require('path');
 const { body } = require('express-validator');
 
-const localFliesValidationsMDW = [
+const localFilesValidationsMDW = [
     body('text')
         .notEmpty().withMessage('Debes completar el texto del enlace de descarga').bail()
         .isLength({min:2}).withMessage("El texto del enlace de descarga debe tener al menos 2 caracteres").bail(),
@@ -21,4 +21,4 @@ const localFliesValidationsMDW = [
         return true
     }) 
 ]
-module.exports = localFliesValidationsMDW
+module.exports = localFilesValidationsMDW
