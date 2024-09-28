@@ -11,7 +11,7 @@ const localFilesValidationsMDW = [
         let file = req.file;
         let acceptedExt = [".zip", ".rar", ".pdf", ".txt", ".md", ".docx", ".xlsx", ".pptx",];
         if(!file){
-            throw new Error("Debes incluir la imagen");
+            throw new Error("Debes incluir el archivo");
         } else {
             let ext = path.extname(file.originalname)
             if(!acceptedExt.includes(ext)){
