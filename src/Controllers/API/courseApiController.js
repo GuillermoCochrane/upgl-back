@@ -222,12 +222,18 @@ const courseApiController = {
     },
 
     newLocalDownload: function(req, res){
+        errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;
         let endpoint =  `api/newLocalDownload/:courseID/:classID/:topicID`;
-        let linkData = utilities.newFile(req.body,req.file,req.params);
-        let data = utilities.newSection(courseID,classID,topicID,linkData);
-        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
-        return res.json(info)
+        if (errors.isEmpty()){
+            let linkData = utilities.newFile(req.body,req.file,req.params);
+            let data = utilities.newSection(courseID,classID,topicID,linkData);
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info)
+        }
     },
 
     newYoutube: function(req, res){
