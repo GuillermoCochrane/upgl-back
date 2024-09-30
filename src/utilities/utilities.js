@@ -426,11 +426,13 @@ const utilities = {
         let info = {};
         let {courseID, classID, topicID} = params;
         info.type = data && data.type ? data.type : "";
-        info.info = {
-            file : file ? `docs/${courseID}/${classID}/${topicID}/${file.filename}`: "",
-            filename: file && file.filename ? file.filename : "",
-            text: data && data.text ? data.text : "",
-        };
+        info.info = [
+            {
+                file : file ? `docs/${courseID}/${classID}/${topicID}/${file.filename}`: "",
+                filename: file && file.filename ? file.filename : "",
+                text: data && data.text ? data.text : "",
+            }
+        ];
         return info;
     },
 
