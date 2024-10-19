@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { newVideo } = require('../Controllers/API/courseApiController');
 
 const utilities = {
 
@@ -433,6 +434,18 @@ const utilities = {
                 text: data && data.text ? data.text : "",
             }
         ];
+        return info;
+    },
+
+    newVideo: function(data, file, params){
+        let info = {};
+        let {courseID, classID, topicID} = params;
+        info.type = data && data.type ? data.type : "";
+        info.info = {
+            video : file ? `videos/${courseID}/${classID}/${topicID}/${file.filename}`: "",
+            alt: data && data.alt ? data.alt : "",
+            title: data && data.title ? data.title : "",
+        };
         return info;
     },
 
