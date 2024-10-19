@@ -266,8 +266,13 @@ const courseApiController = {
         }
     },
 
-    newvideo: function(req, res){
-        return res.send("Nuevo Video")
+    newVideo: function(req, res){
+        let { courseID, classID, topicID } = req.params;
+        let endpoint =  `api/newVideo/:courseID/:classID/:topicID`;
+        let linkData = utilities.newVideo(req.body, req.file, req.params);
+        let data = utilities.newSection(courseID,classID,topicID,linkData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, data.id);
+        return res.json(info)
     },
 
     newAnswer: function(req, res){
