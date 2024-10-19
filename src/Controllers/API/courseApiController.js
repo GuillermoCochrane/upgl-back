@@ -266,6 +266,10 @@ const courseApiController = {
         }
     },
 
+    newvideo: function(req, res){
+        return res.send("Nuevo Video")
+    },
+
     newAnswer: function(req, res){
         let errors = validationResult(req);
         let { courseID, classID, topicID } = req.params;

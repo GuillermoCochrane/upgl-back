@@ -42,6 +42,7 @@ router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
 router.post("/newLocalDownload/:courseID/:classID/:topicID", fileMulterMDW.single("file"), localFilesValidations, controller.newLocalDownload);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
+router.post("/newVideo/:courseID/:classID/:topicID/", controller.newvideo);
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
 router.post("/newP/:courseID/:classID/:topicID", pValidations, controller.newP);
