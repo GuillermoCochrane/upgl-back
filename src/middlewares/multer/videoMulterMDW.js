@@ -13,8 +13,8 @@ const storage = multer.diskStorage({
     },
 
     filename: function(req,file, cb){
-        let {text} = req.body;
-        let textArray = text.split(' ');
+        let {title} = req.body;
+        let textArray = title.split(' ');
         if (textArray.length > 1) {
             textArray.shift();
         }
