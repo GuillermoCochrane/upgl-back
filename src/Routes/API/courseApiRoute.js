@@ -21,6 +21,7 @@ const localFilesValidations = require("../../middlewares/validations/localFilesV
 //Multer
 const imageMulterMDW = require("../../middlewares/multer/imageMulterMDW");
 const fileMulterMDW = require("../../middlewares/multer/fileMulterMDW");
+const videoMulterMDW = require("../../middlewares/multer/videoMulterMDW");
 //Routes
 
 // Read
@@ -42,7 +43,7 @@ router.post("/newLink/:courseID/:classID/:topicID", linkValidations, controller.
 router.post("/newDownload/:courseID/:classID/:topicID", downloadValidations, controller.newDownload);
 router.post("/newLocalDownload/:courseID/:classID/:topicID", fileMulterMDW.single("file"), localFilesValidations, controller.newLocalDownload);
 router.post("/newImage/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newImage);
-router.post("/newVideo/:courseID/:classID/:topicID/", controller.newVideo);
+router.post("/newVideo/:courseID/:classID/:topicID/", videoMulterMDW.single("video"), controller.newVideo);
 router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, controller.newYoutube);
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
 router.post("/newP/:courseID/:classID/:topicID", pValidations, controller.newP);
