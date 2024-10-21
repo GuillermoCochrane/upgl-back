@@ -6,7 +6,7 @@ const videoValidationsMDW = [
     body('title')
             .notEmpty().withMessage("Debes incluir un título").bail()
             .isLength({ min: 3 }).withMessage("El título debe tener al menos 3 caracteres").bail()
-            .isLength({ max: 30 }).withMessage("El título no puede tener más de 30 caracteres"),
+            .isLength({ max: 40 }).withMessage("El título no puede tener más de 40 caracteres"),
     body('type')
         .notEmpty().withMessage('Debes seleccionar el tipo de contenido').bail(),
     body('video').custom((value, {req}) => {
