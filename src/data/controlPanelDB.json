@@ -55,6 +55,10 @@
             "title": "Video de Youtube"
         },
         {
+            "id": "video",
+            "title": "Video"
+        },
+        {
             "id": "figure",
             "title": "Imagen"
         },
