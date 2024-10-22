@@ -16,7 +16,7 @@
     "classData": [
       {
         "topic": 1,
-        "sections": 4,
+        "sections": 5,
         "available": true,
         "linkData": {
           "title": "Tema de prueba",
@@ -74,6 +74,19 @@
                 "content": "plain"
               }
             ]
+          },
+          {
+            "type": "video",
+            "id": 5,
+            "order": 5,
+            "available": true,
+            "info": {
+              "video": "videos/test/1/1/de_prueba_1729575519448.mp4",
+              "title": "Video de prueba",
+              "autoPlay": false,
+              "loop": false,
+              "muted": true
+            }
           }
         ]
       }
