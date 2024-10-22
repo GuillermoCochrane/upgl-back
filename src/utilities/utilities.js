@@ -443,8 +443,10 @@ const utilities = {
         info.type = data && data.type ? data.type : "";
         info.info = {
             video : file ? `videos/${courseID}/${classID}/${topicID}/${file.filename}`: "",
-            alt: data && data.alt ? data.alt : "",
             title: data && data.title ? data.title : "",
+            autoPlay: data && data.autoPlay ? data.autoPlay : false,
+            loop: data && data.loop ? data.loop : false,
+            muted: data && data.muted ? data.muted : false,
         };
         return info;
     },
