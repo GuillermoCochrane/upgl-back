@@ -1,28 +1,64 @@
 {
     "links": [
         {
-            "title": "Nuevo Curso",
-            "link": "/controlPanel/newCourse",
-            "topicID": "newCourse",
-            "icon": "fa-graduation-cap"
+            "summary": "Crear",
+            "icon": "fa-plus",
+            "links": [
+                {
+                    "title": "Nuevo Curso",
+                    "link": "/controlPanel/newCourse",
+                    "topicID": "newCourse",
+                    "icon": "fa-graduation-cap"
+                },
+                {
+                    "title": "Nueva Clase",
+                    "link": "/controlPanel/newClass",
+                    "topicID": "newClass",
+                    "icon": "fa-book-bookmark"
+                },
+                {
+                    "title": "Nuevo Tema",
+                    "link": "/controlPanel/newTopic",
+                    "topicID": "newTopic",
+                    "icon": "fa-file-lines"
+                },
+                {
+                    "title": "Nueva Sección",
+                    "link": "/controlPanel/newSection",
+                    "topicID": "newSection",
+                    "icon": "fa-paperclip"
+                }
+            ]
         },
         {
-            "title": "Nueva Clase",
-            "link": "/controlPanel/newClass",
-            "topicID": "newClass",
-            "icon": "fa-book-bookmark"
-        },
-        {
-            "title": "Nuevo Tema",
-            "link": "/controlPanel/newTopic",
-            "topicID": "newTopic",
-            "icon": "fa-file-lines"
-        },
-        {
-            "title": "Nueva Sección",
-            "link": "/controlPanel/newSection",
-            "topicID": "newSection",
-            "icon": "fa-paperclip"
+            "summary": "Modificar",
+            "icon": "fa-edit",
+            "links": [
+                {
+                    "title": "Editar Curso",
+                    "link": "/controlPanel/editCourse",
+                    "topicID": "editCourse",
+                    "icon": "fa-graduation-cap"
+                },
+                {
+                    "title": "Editar Clase",
+                    "link": "/controlPanel/editClass",
+                    "topicID": "editClass",
+                    "icon": "fa-book-bookmark"
+                },
+                {
+                    "title": "Editar Tema",
+                    "link": "/controlPanel/editTopic",
+                    "topicID": "editTopic",
+                    "icon": "fa-file-lines"
+                },
+                {
+                    "title": "Editar Sección",
+                    "link": "/controlPanel/editSection",
+                    "topicID": "editSection",
+                    "icon": "fa-paperclip"
+                }
+            ]
         }
     ],
     "sections": [
