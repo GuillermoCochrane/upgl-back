@@ -444,9 +444,9 @@ const utilities = {
         info.info = {
             video : file ? `videos/${courseID}/${classID}/${topicID}/${file.filename}`: "",
             title: data && data.title ? data.title : "",
-            autoPlay: data && data.autoPlay ? data.autoPlay : false,
-            loop: data && data.loop ? data.loop : false,
-            muted: data && data.muted ? data.muted : false,
+            autoPlay: data && data.autoPlay ? JSON.parse(data.autoPlay) : false,
+            loop: data && data.loop ? JSON.parse(data.loop) : false,
+            muted: data && data.muted ? JSON.parse(data.muted) : false,
         };
         return info;
     },
