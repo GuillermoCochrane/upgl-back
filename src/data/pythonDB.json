@@ -8028,10 +8028,6 @@
             "order": 5,
             "available": true,
             "stubs": 2,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: \"hola mundo hermosa mañana verdad?hermosa mañana verdad?\""
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -8084,7 +8080,6 @@
             ]
           },
           {
-            
             "type": "figure",
             "id": 8,
             "order": 8,
@@ -8102,10 +8097,6 @@
             "order": 9,
             "available": true,
             "stubs": 2,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -11326,10 +11317,6 @@
             "order": 5,
             "available": true,
             "stubs": 4,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -11409,10 +11396,6 @@
             "order": 8,
             "available": true,
             "stubs": 6,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -11514,10 +11497,6 @@
             "order": 11,
             "available": true,
             "stubs": 7,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -11642,10 +11621,6 @@
             "order": 15,
             "available": true,
             "stubs": 7,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -12955,10 +12930,6 @@
             "order": 5,
             "available": true,
             "stubs": 2,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -13028,10 +12999,6 @@
             "order": 5,
             "available": true,
             "stubs": 2,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
@@ -13089,10 +13056,6 @@
             "order": 8,
             "available": true,
             "stubs": 3,
-            "answer": {
-              "correct": "La respuesta es correcta",
-              "incorrect": "La respuesta es incorrecta"
-            },
             "info": [
               {
                 "triviaID": 1,
