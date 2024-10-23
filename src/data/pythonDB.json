@@ -8041,7 +8041,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta, porque  si bien los procesos están bien pero lo mostrado en pantalla es: \"hola mundo hermosa mañana verdad?hermosa mañana verdad?\""
               },
               {
                 "triviaID": 2,
@@ -8051,7 +8052,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": true,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es correcta"
               }
             ]
           },
@@ -8113,7 +8115,8 @@
                 "content": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta, porque el tipo de dato ingresado es string. Por lo tanto, lo que nos muestra en consola es 1050, la concatenación de las 2 entradas"
               },
               {
                 "triviaID": 2,
@@ -8123,7 +8126,8 @@
                 "content": "plain",
                 "name": "trivia2",
                 "correct": true,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es correcta"
               }
             ]
           },
@@ -11335,7 +11339,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 2,
@@ -11345,7 +11350,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 3,
@@ -11355,7 +11361,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": true,
-                "value": "3"
+                "value": "3",
+                "answer": "La respuesta es correcta"
               },
               {
                 "triviaID": 4,
@@ -11365,7 +11372,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": false,
-                "value": "4"
+                "value": "4",
+                "answer": "La respuesta es incorrecta"
               }
             ]
           },
@@ -11414,7 +11422,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 2,
@@ -11424,7 +11433,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 3,
@@ -11434,7 +11444,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": true,
-                "value": "3"
+                "value": "3",
+                "answer": "La respuesta es correcta"
               },
               {
                 "triviaID": 4,
@@ -11444,7 +11455,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "4"
+                "value": "4",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 5,
@@ -11454,7 +11466,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "5"
+                "value": "5",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 6,
@@ -11464,7 +11477,8 @@
                 "context": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "6"
+                "value": "6",
+                "answer": "La respuesta es incorrecta"
               }
             ]
           },
@@ -11513,7 +11527,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 2,
@@ -11523,7 +11538,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 3,
@@ -11533,7 +11549,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "3"
+                "value": "3",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 4,
@@ -11543,7 +11560,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "4"
+                "value": "4",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 5,
@@ -11553,7 +11571,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "5"
+                "value": "5",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 6,
@@ -11563,7 +11582,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": true,
-                "value": "6"
+                "value": "6",
+                "answer": "La respuesta es correcta"
               },
               {
                 "triviaID": 7,
@@ -11573,7 +11593,8 @@
                 "context": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "7"
+                "value": "7",
+                "answer": "La respuesta es incorrecta"
               }
             ]
           },
@@ -11634,7 +11655,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 2,
@@ -11644,7 +11666,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 3,
@@ -11654,7 +11677,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "3"
+                "value": "3",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 4,
@@ -11664,7 +11688,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "4"
+                "value": "4",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 5,
@@ -11674,7 +11699,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "5"
+                "value": "5",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 6,
@@ -11684,7 +11710,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": false,
-                "value": "6"
+                "value": "6",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 7,
@@ -11694,7 +11721,8 @@
                 "content": "plain",
                 "name": "trivia4",
                 "correct": true,
-                "value": "7"
+                "value": "7",
+                "answer": "La respuesta es correcta"
               }
             ]
           }
@@ -12940,7 +12968,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": true,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es correcta"
               },
               {
                 "triviaID": 2,
@@ -12950,7 +12979,8 @@
                 "content": "plain",
                 "name": "trivia1",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               }
             ]
           },
@@ -13011,7 +13041,8 @@
                 "content": "plain",
                 "name": "trivia2",
                 "correct": true,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es correcta"
               },
               {
                 "triviaID": 2,
@@ -13021,7 +13052,8 @@
                 "content": "plain",
                 "name": "trivia2",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               }
             ]
           },
@@ -13070,7 +13102,8 @@
                 "content": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "1"
+                "value": "1",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 2,
@@ -13080,7 +13113,8 @@
                 "content": "plain",
                 "name": "trivia3",
                 "correct": false,
-                "value": "2"
+                "value": "2",
+                "answer": "La respuesta es incorrecta"
               },
               {
                 "triviaID": 3,
@@ -13090,7 +13124,8 @@
                 "content": "plain",
                 "name": "trivia3",
                 "correct": true,
-                "value": "3"
+                "value": "3",
+                "answer": "La respuesta es correcta"
               }
             ]
           },
