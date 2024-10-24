@@ -355,6 +355,10 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newTrivia: function(req, res){
+        return res.send("trivia nueva");
+    },
 }
 
 module.exports = courseApiController

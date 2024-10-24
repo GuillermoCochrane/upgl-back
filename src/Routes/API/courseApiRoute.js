@@ -49,6 +49,7 @@ router.post("/newYoutube/:courseID/:classID/:topicID", youtubeValidations, contr
 router.post("/newAnswer/:courseID/:classID/:topicID/", imageMulterMDW.single("image"), imageValidations, controller.newAnswer);
 router.post("/newP/:courseID/:classID/:topicID", pValidations, controller.newP);
 router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.newList);
+router.post("/newTrivia/:courseID/:classID/:topicID/", controller.newTrivia);
 router.post("/newLi/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newLi);
 router.post("/newStub/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newStub);
 
