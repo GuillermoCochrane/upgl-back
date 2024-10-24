@@ -326,6 +326,15 @@ const courseApiController = {
         }
     },
 
+    newTrivia: function(req, res){
+      let {courseID, classID, topicID} = req.params;
+      let endpoint =  `api/newTrivia/:courseID/:classID/:topicID`;
+      let data = utilities.newList(req.body);
+      let triviaData = utilities.newSection(courseID,classID,topicID,data);
+      let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, triviaData.id);
+      return res.json(info)
+    },
+
     newLi: function(req, res){
         let errors = validationResult(req);
         let {courseID, classID, topicID, sectionID} = req.params;
@@ -354,10 +363,6 @@ const courseApiController = {
             let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
             return res.json(info)
         }
-    },
-
-    newTrivia: function(req, res){
-        return res.send("trivia nueva");
     },
 }
 
