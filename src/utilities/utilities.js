@@ -182,6 +182,12 @@ const utilities = {
         return newStub;
     },
 
+    newTriviaID : function(course, classID, topicID, sectionID){
+        let lastTrivia = this.getLastSection(course, classID, topicID, sectionID);
+        let newTrivia = lastTrivia ? lastTrivia.triviaID + 1 : 1;
+        return newTrivia;
+    },
+
     newCourse: function(data){
         let allCourses = this.allEntries("courses");
         let id = data.name.split(" ").join("").toLowerCase();
