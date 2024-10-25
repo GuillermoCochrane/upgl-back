@@ -162,6 +162,15 @@ const utilities = {
         return newSectionID;
     },
 
+    getLastSection: function(course, classID, topicID, sectionID){
+        let data = this.allEntries(course);
+        let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
+        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+        let section = topicSections.filter(section => section.id == sectionID)[0];
+        let lastSection = section.info.pop();
+        return lastSection;
+    },
+
     newLiID : function(course, classID, topicID, sectionID){
         let data = this.allEntries(course);
         let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
