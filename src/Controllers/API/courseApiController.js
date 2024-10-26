@@ -370,6 +370,10 @@ const courseApiController = {
             return res.json(info)
         }
     },
+
+    newAnswer: function(req, res){
+        res.send("newAnswer");
+    },
 }
 
 module.exports = courseApiController
