@@ -293,6 +293,37 @@ const utilities = {
         return newSection;
     },
 
+    storeSubSection: function(course, classID, topicID, sectionID, newData){
+      let allClasses = this.allEntries(course);
+      let classTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
+      let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
+      let subSections = topicSections.filter(section => section.id == sectionID)[0].info;
+      subSections.push(newData);
+
+      for (const section of topicSections){
+        if (section.id == sectionID){
+            section.info = subSections;
+            section.stubs = subSections.length;
+        }
+      }
+
+      for (const topic of classTopics){
+        if (topic.topic == topicID){
+            topic.topicData = topicSections;
+            topic.sections = topicSections.length;
+        }
+      }
+
+      for (const lesson of allClasses){
+          if (lesson.class == classID){
+              lesson.classData = classTopics;
+              lesson.topics = classTopics.length;
+          }
+      }
+      this.store(allClasses, course);
+      return newData;
+    },
+
     addLi: function(course, classID, topicID, sectionID, data){
         let allClasses = this.allEntries(course);
         let classTopics = allClasses.filter(lesson => lesson.class == classID)[0].classData;
