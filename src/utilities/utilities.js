@@ -439,9 +439,9 @@ const utilities = {
         return info;
     },
 
-    newLi: function(data){
+    newSubSection: function(data){
         let info = {};
-        info.type = data && data.type ? data.type : "li";
+        info.type = data && data.type ? data.type : "";
         info.order = data && data.order ? data.order : 1
         info.info = [
             {

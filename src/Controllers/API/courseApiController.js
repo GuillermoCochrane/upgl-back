@@ -346,7 +346,7 @@ const courseApiController = {
         let {courseID, classID, topicID, sectionID} = req.params;
         let endpoint =  `api/newLi/:courseID/:classID/:topicID/:sectionID`;
         if (errors.isEmpty()){
-            let liData = utilities.newLi(req.body);
+            let liData = utilities.newSubSection(req.body);
             let data = utilities.addLi(courseID,classID,topicID,sectionID,liData);
             let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.liID);
             return res.json(info)
@@ -361,7 +361,7 @@ const courseApiController = {
         let {courseID, classID, topicID, sectionID} = req.params;
         let endpoint =  `api/newStub/:courseID/:classID/:topicID/:sectionID`;
         if (errors.isEmpty()){
-            let stubData = utilities.newLi(req.body);
+            let stubData = utilities.newSubSection(req.body);
             let data = utilities.addStub(courseID,classID,topicID,sectionID,stubData);
             let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.stubID);
             return res.json(info)
