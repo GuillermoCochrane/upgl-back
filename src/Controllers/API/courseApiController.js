@@ -372,7 +372,12 @@ const courseApiController = {
     },
 
     newAnswer: function(req, res){
-        res.send("newAnswer");
+        let { courseID, classID, topicID, sectionID } = req.params;
+        let endpoint =  `api/newAnswer/:courseID/:classID/:topicID/:sectionID`;
+        let answerData = utilities.newSubSection(req.body);
+        let data = utilities.addAnswer(courseID,classID,topicID,sectionID,answerData);
+        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.answerID);
+        return res.json(info)
     },
 }
 
