@@ -369,7 +369,7 @@ const utilities = {
             content: data ? data.info[0].content : "plain",
             name: data ? formData.name : "",
             correct: data ? formData.correct : false,
-            value: data ? formData.value : "",
+            value: newOptionID,
             answer: data ? formData.answer : "",
         };
         return this.storeSubSection(course, classID, topicID, sectionID, newOption);
