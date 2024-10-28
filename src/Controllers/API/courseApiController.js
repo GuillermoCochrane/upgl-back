@@ -377,7 +377,7 @@ const courseApiController = {
         let endpoint =  `api/newOption/:courseID/:classID/:topicID/:sectionID`;
         if (errors.isEmpty()){
             let answerData = utilities.newSubSection(req.body);
-            let data = utilities.addOption(courseID,classID,topicID,sectionID,answerData);
+            let data = utilities.addOption(courseID,classID,topicID,sectionID,answerData, req.body);
             let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.answerID);
             return res.json(info)
         } else {

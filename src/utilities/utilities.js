@@ -359,7 +359,7 @@ const utilities = {
       return this.storeSubSection(course, classID, topicID, sectionID, newStub);
     },
 
-    addOption: function(course, classID, topicID, sectionID, data){
+    addOption: function(course, classID, topicID, sectionID, data, formData ){
         let newOptionID = this.newOptionID(course, classID, topicID, sectionID);
         let newOption = {
             triviaID: newOptionID,
@@ -367,10 +367,10 @@ const utilities = {
             available: true,
             text: data ? data.info[0].text : "",
             content: data ? data.info[0].content : "plain",
-            name: data ? data.info[0].name : "",
-            correct: data ? data.info[0].correct : false,
-            value: data ? data.info[0].value : "",
-            answer: data ? data.info[0].answer : "",
+            name: data ? formData.name : "",
+            correct: data ? formData.correct : false,
+            value: data ? formData.value : "",
+            answer: data ? formData.answer : "",
         };
         return this.storeSubSection(course, classID, topicID, sectionID, newOption);
     },
