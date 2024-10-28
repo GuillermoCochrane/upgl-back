@@ -372,12 +372,18 @@ const courseApiController = {
     },
 
     newOption: function(req, res){
+        let errors = validationResult(req);
         let { courseID, classID, topicID, sectionID } = req.params;
         let endpoint =  `api/newOption/:courseID/:classID/:topicID/:sectionID`;
-        let answerData = utilities.newSubSection(req.body);
-        let data = utilities.addOption(courseID,classID,topicID,sectionID,answerData);
-        let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.answerID);
-        return res.json(info)
+        if (errors.isEmpty()){
+            let answerData = utilities.newSubSection(req.body);
+            let data = utilities.addOption(courseID,classID,topicID,sectionID,answerData);
+            let info = utilities.endpointSuccess(endpoint, data, courseID, classID, topicID, sectionID, data.answerID);
+            return res.json(info)
+        } else {
+            let info = utilities.endpointError(endpoint, errors.mapped(), req.body);
+            return res.json(info);
+        }
     },
 }
 

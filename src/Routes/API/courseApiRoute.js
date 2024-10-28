@@ -19,6 +19,7 @@ const listValidations = require("../../middlewares/validations/listValidationsMD
 const liValidations = require("../../middlewares/validations/liValidationsMDW");
 const localFilesValidations = require("../../middlewares/validations/localFilesValidationsMDW");
 const triviaValidations = require("../../middlewares/validations/triviaValidationsMDW");
+const optionValidations = require("../../middlewares/validations/optionValidationsMDW");
 
 //Multer
 const imageMulterMDW = require("../../middlewares/multer/imageMulterMDW");
@@ -53,6 +54,6 @@ router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.
 router.post("/newTrivia/:courseID/:classID/:topicID/", triviaValidations, controller.newTrivia);
 router.post("/newLi/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newLi);
 router.post("/newStub/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newStub);
-router.post("/newOption/:courseID/:classID/:topicID/:sectionID",  controller.newOption);
+router.post("/newOption/:courseID/:classID/:topicID/:sectionID", optionValidations, controller.newOption);
 
 module.exports = router;
