@@ -353,6 +353,22 @@ const utilities = {
       return this.storeSubSection(course, classID, topicID, sectionID, newStub);
     },
 
+    addOption: function(course, classID, topicID, sectionID, data){
+        let newOptionID = this.newOptionID(course, classID, topicID, sectionID);
+        let newOption = {
+            triviaID: newOptionID,
+            order: data ? data.order : newOptionID,
+            available: true,
+            text: data ? data.info[0].text : "",
+            content: data ? data.info[0].content : "plain",
+            name: data ? data.info[0].name : "",
+            correct: data ? data.info[0].correct : false,
+            value: data ? data.info[0].value : "",
+            answer: data ? data.info[0].answer : "",
+        };
+        return this.storeSubSection(course, classID, topicID, sectionID, newOption);
+    },
+
     newTitle : function(data){
         let info = {};
         info.type = data && data.type ? data.type : " ";
