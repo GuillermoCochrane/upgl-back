@@ -53,6 +53,6 @@ router.post("/newList/:courseID/:classID/:topicID", listValidations, controller.
 router.post("/newTrivia/:courseID/:classID/:topicID/", triviaValidations, controller.newTrivia);
 router.post("/newLi/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newLi);
 router.post("/newStub/:courseID/:classID/:topicID/:sectionID", liValidations, controller.newStub);
-router.post("/newAnswer/:courseID/:classID/:topicID/:sectionID",  controller.newAnswer);
+router.post("/newOption/:courseID/:classID/:topicID/:sectionID",  controller.newOption);
 
 module.exports = router;
