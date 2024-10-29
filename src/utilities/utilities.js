@@ -161,15 +161,6 @@ const utilities = {
         return newSectionID;
     },
 
-    getLastSection: function(course, classID, topicID, sectionID){
-        let data = this.allEntries(course);
-        let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
-        let topicSections = classTopics.filter(topic => topic.topic == topicID)[0].topicData;
-        let section = topicSections.filter(section => section.id == sectionID)[0];
-        let lastSection = section.info.pop();
-        return lastSection;
-    },
-
     newSubSectionID: function(course, classID, topicID, sectionID, subSection){
         let data = this.allEntries(course);
         let classTopics = data.filter(lesson => lesson.class == classID)[0].classData;
@@ -178,30 +169,6 @@ const utilities = {
         let lastSection = section.info.pop();
         let newSubSectionID = lastSection ? lastSection[subSection] + 1 : 1;
         return newSubSectionID;
-    },
-
-    newLiID : function(course, classID, topicID, sectionID){
-        let lastLi = this.getLastSection(course, classID, topicID, sectionID);
-        let newLiID = lastLi ? lastLi.liID + 1 : 1;
-        return newLiID;
-    },
-
-    newStubID : function(course, classID, topicID, sectionID){
-        let lastStub = this.getLastSection(course, classID, topicID, sectionID);
-        let newStub = lastStub ? lastStub.stubID + 1 : 1;
-        return newStub;
-    },
-
-    newOptionID : function(course, classID, topicID, sectionID){
-        let lastOption = this.getLastSection(course, classID, topicID, sectionID);
-        let newOption = lastOption ? lastOption.triviaID + 1 : 1;
-        return newOption;
-    },
-
-    newTriviaID : function(course, classID, topicID, sectionID){
-        let lastTrivia = this.getLastSection(course, classID, topicID, sectionID);
-        let newTrivia = lastTrivia ? lastTrivia.triviaID + 1 : 1;
-        return newTrivia;
     },
 
     newCourse: function(data){
