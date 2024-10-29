@@ -341,7 +341,6 @@ const utilities = {
     },
 
     addLi: function(course, classID, topicID, sectionID, data){
-      //let newLiID = this.newLiID(course, classID, topicID, sectionID);
       let newLiID = this.newSubSectionID(course, classID, topicID, sectionID, "liID");
       let newLi = {
           type: data && data.type ? data.type : "li",
@@ -356,17 +355,16 @@ const utilities = {
     },
 
     addStub: function(course, classID, topicID, sectionID, data){
-      let newStubID = this.newStubID(course, classID, topicID, sectionID);
+        let newStubID = this.newSubSectionID(course, classID, topicID, sectionID, "stubID");
+        let newStub = {
+            stubID: newStubID,
+            order: data && data.order ? data.order : newStubID,
+            available: true,
+            text: data && data.info[0].text ? data.info[0].text : "",
+            content: data && data.info[0].content ? data.info[0].content : "plain",
+        };
 
-      let newStub = {
-        stubID: newStubID,
-        order: data ? data.order : newStubID,
-        available: true,
-        text: data ? data.info[0].text : "",
-        content: data ? data.info[0].content : "plain",
-      };
-
-      return this.storeSubSection(course, classID, topicID, sectionID, newStub);
+        return this.storeSubSection(course, classID, topicID, sectionID, newStub);
     },
 
     addOption: function(course, classID, topicID, sectionID, data, formData ){
