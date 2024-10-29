@@ -341,15 +341,15 @@ const utilities = {
     },
 
     addLi: function(course, classID, topicID, sectionID, data){
-      let newLiID = this.newLiID(course, classID, topicID, sectionID);
-
+      //let newLiID = this.newLiID(course, classID, topicID, sectionID);
+      let newLiID = this.newSubSectionID(course, classID, topicID, sectionID, "liID");
       let newLi = {
-          type: data ? data.type : "li",
+          type: data && data.type ? data.type : "li",
           liID: newLiID,
-          order: data ? data.order : newLiID,
+          order: data && data.order ? data.order : newLiID,
           available: true,
-          stubs: data ? data.info.length  : 0,
-          info:  data ? data.info : [],
+          stubs: data && data.info.length  ? data.info.length : 0,
+          info:  data && data.info ? data.info : [],
       };
 
       return this.storeSubSection(course, classID, topicID, sectionID, newLi);
