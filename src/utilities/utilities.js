@@ -370,17 +370,17 @@ const utilities = {
     },
 
     addOption: function(course, classID, topicID, sectionID, data, formData ){
-        let newOptionID = this.newOptionID(course, classID, topicID, sectionID);
+        let newOptionID = this.newSubSectionID(course, classID, topicID, sectionID, "triviaID");
         let newOption = {
             triviaID: newOptionID,
-            order: data ? data.order : newOptionID,
+            order: data && data.order ? data.order : newOptionID,
             available: true,
-            text: data ? data.info[0].text : "",
-            content: data ? data.info[0].content : "plain",
-            name: data ? formData.name : "",
-            correct: data ? formData.correct : false,
+            text: data && data.info[0].text ? data.info[0].text : "",
+            content: data && data.info[0].content ? data.info[0].content : "plain",
+            name: data && formData.name ? formData.name : "",
+            correct: data && formData.correct ? formData.correct : false,
             value: newOptionID,
-            answer: data ? formData.answer : "",
+            answer: formData.answer,
         };
         return this.storeSubSection(course, classID, topicID, sectionID, newOption);
     },
@@ -474,7 +474,7 @@ const utilities = {
     newSubSection: function(data){
         let info = {};
         info.type = data && data.type ? data.type : "";
-        info.order = data && data.order ? data.order : 1
+        info.order = data && data.order ? data.order : undefined;
         info.info = [
             {
                 text: data && data.text ? data.text : "",
